@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:background="resourceId:0x106000d" android:layout_width="-1" android:layout_height="-1">
+	<LinearLayout android:orientation="1" android:background="res/drawable-xhdpi-v4/header_bg.png" android:fitsSystemWindows="false" android:clipToPadding="true" android:layout_width="-1" android:layout_height="75dp">
+		<View android:layout_width="-2" android:layout_height="20dp" />
+		<FrameLayout android:id="false" android:layout_width="-1" android:layout_height="48dp">
+			<RelativeLayout android:id="false" android:padding="10dp" android:layout_width="44dp" android:layout_height="44dp">
+				<ImageView android:background="res/drawable-xhdpi-v4/base_setting_left_angle.png" android:layout_width="24dp" android:layout_height="24dp" />
+			</RelativeLayout>
+			<TextView android:textSize="15sp" android:textColor="ffffff" android:ellipsize="4" android:gravity="0x11" android:layout_gravity="0x11" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="-2" android:layout_height="-2" android:text="Shake" android:singleLine="true" />
+			<com.coship.fullcolorprogram.view.ProgressButton android:textSize="14sp" android:textColor="resourceId:0x106000c" android:layout_gravity="0x800015" android:id="false" android:visibility="2" android:layout_width="40dp" android:layout_height="20dp" android:layout_marginEnd="15dp" />
+			<ImageView android:layout_gravity="0x15" android:id="false" android:layout_width="-2" android:layout_height="-2" android:src="res/drawable-xhdpi-v4/model_selection_more.png" android:layout_marginEnd="15dp" />
+		</FrameLayout>
+	</LinearLayout>
+	<View android:background="ffc0c0c0" android:layout_width="-1" android:layout_height="1px" />
+	<cn.huidu.view.CustomViewPager android:orientation="1" android:id="false" android:paddingLeft="2dp" android:paddingTop="2dp" android:paddingRight="2dp" android:layout_width="-1" android:layout_height="0dp" android:layout_weight="{4:1065353216}" />
+	<LinearLayout android:orientation="1" android:id="false" android:background="fcfcfc" android:layout_width="-1" android:layout_height="50dp">
+		<View android:background="dddddd" android:layout_width="-1" android:layout_height="4194304unknown unit:0x31" />
+		<LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="-1">
+			<LinearLayout android:gravity="0x15" android:layout_width="0dp" android:layout_height="-1" android:layout_weight="{4:1065353216}" android:layout_marginEnd="15dp">
+				<FrameLayout android:id="false" android:layout_width="-2" android:layout_height="-2">
+					<ImageView android:layout_gravity="0x31" android:id="false" android:layout_width="6dp" android:layout_height="6dp" android:src="res/drawable/oval_bg_find_wifi_blue.xml" />
+					<TextView android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="10dp" android:text="Image" style="resourceId:0x7f120305" />
+				</FrameLayout>
+			</LinearLayout>
+			<LinearLayout android:gravity="0x800013" android:layout_width="0dp" android:layout_height="-1" android:layout_weight="{4:1065353216}" android:layout_marginStart="15dp">
+				<FrameLayout android:id="false" android:layout_width="-2" android:layout_height="-2">
+					<ImageView android:layout_gravity="0x31" android:id="false" android:layout_width="6dp" android:layout_height="6dp" android:src="res/drawable/oval_bg_find_wifi_other.xml" />
+					<TextView android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="10dp" android:text="Video" style="resourceId:0x7f120305" />
+				</FrameLayout>
+			</LinearLayout>
+		</LinearLayout>
+	</LinearLayout>
+</LinearLayout>

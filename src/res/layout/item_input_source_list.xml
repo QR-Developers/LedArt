@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="ffffff" android:layout_width="80dp" android:layout_height="80dp">
+	<LinearLayout android:gravity="0x11" android:orientation="1" android:id="false" android:background="res/drawable/bg_rectangle_ff_stroke_e4.xml" android:layout_width="-1" android:layout_height="-1" android:layout_marginLeft="10dp" android:layout_marginBottom="10dp">
+		<ImageView android:id="false" android:layout_width="-2" android:layout_height="-2" android:src="res/drawable-xxhdpi-v4/input_type_dvi.png" />
+		<TextView android:textSize="12sp" android:textColor="333333" android:id="false" android:layout_width="-2" android:layout_height="-2" />
+	</LinearLayout>
+</FrameLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="ffffff" android:layout_width="-1" android:layout_height="150dp">
+	<View android:background="d7d7d7" android:layout_width="-1" android:layout_height="1px" />
+	<TextView android:textSize="16sp" android:textColor="3399ff" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="25dp" android:text="100%" android:layout_centerHorizontal="true" />
+	<SeekBar android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="20dp" android:layout_marginRight="20dp" android:max="99" android:progress="99" android:indeterminate="false" android:layout_centerInParent="true" />
+	<View android:background="d7d7d7" android:layout_width="-1" android:layout_height="1px" android:layout_alignParentBottom="true" />
+</RelativeLayout>

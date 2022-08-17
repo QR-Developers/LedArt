@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="0000" android:layout_width="-1" android:layout_height="-1">
+	<LinearLayout android:layout_gravity="0x11" android:orientation="1" android:background="res/drawable/bg_round_10_rectangle_f2_79.xml" android:layout_width="240dp" android:layout_height="200dp">
+		<FrameLayout android:layout_width="-1" android:layout_height="40dp">
+			<TextView android:textSize="14sp" android:textColor="333333" android:ellipsize="3" android:gravity="0x11" android:layout_gravity="0x11" android:id="false" android:layout_width="160dp" android:layout_height="-2" android:text="Connect to WLAN" />
+			<View android:layout_gravity="0x50" android:background="d7d7d7" android:layout_width="-1" android:layout_height="1px" />
+		</FrameLayout>
+		<FrameLayout android:layout_width="-1" android:layout_height="-1">
+			<RelativeLayout android:id="false" android:visibility="0" android:layout_width="-1" android:layout_height="-1">
+				<TextView android:textSize="14sp" android:textColor="3366ff" android:ellipsize="3" android:gravity="0x13" android:id="false" android:layout_width="150dp" android:layout_height="40dp" android:layout_marginLeft="40dp" android:layout_marginTop="5dp" android:text="SSID" />
+				<EditText android:textSize="14sp" android:id="false" android:background="res/drawable/shape_rect_with_corner_stroke_d7.xml" android:paddingLeft="10dp" android:paddingRight="10dp" android:layout_width="-1" android:layout_height="40dp" android:layout_marginLeft="30dp" android:layout_marginRight="30dp" android:hint="Please enter password" android:layout_below="false" android:inputType="0x1" />
+				<Button android:textSize="14sp" android:textColor="ffffff" android:gravity="0x11" android:id="false" android:background="res/drawable/shape_rect_with_corner_solid_3399ff.xml" android:layout_width="120dp" android:layout_height="32dp" android:layout_marginBottom="20dp" android:text="OK" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+			</RelativeLayout>
+			<FrameLayout android:id="false" android:visibility="2" android:layout_width="-1" android:layout_height="-1">
+				<LinearLayout android:layout_gravity="0x11" android:orientation="1" android:layout_width="-2" android:layout_height="-2">
+					<cn.huidu.view.RotateImageView android:layout_gravity="0x11" android:id="false" android:layout_width="-2" android:layout_height="-2" android:src="res/drawable-xxhdpi-v4/activity_find_wificonnect_progress.png" />
+					<TextView android:textSize="14sp" android:textColor="333333" android:ellipsize="3" android:gravity="0x11" android:layout_gravity="0x11" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="15dp" android:text="Connecting…" android:singleLine="true" />
+				</LinearLayout>
+			</FrameLayout>
+			<RelativeLayout android:id="false" android:visibility="2" android:layout_width="-1" android:layout_height="-1">
+				<TextView android:textSize="15sp" android:textColor="333333" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="20dp" android:layout_marginTop="20dp" android:layout_marginRight="20dp" android:text="Connect failed, Please try again later!" />
+				<Button android:textSize="14sp" android:textColor="ffffff" android:gravity="0x11" android:id="false" android:background="res/drawable/shape_rect_with_corner_solid_3399ff.xml" android:layout_width="120dp" android:layout_height="32dp" android:layout_marginBottom="20dp" android:text="OK" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+			</RelativeLayout>
+		</FrameLayout>
+	</LinearLayout>
+</FrameLayout>

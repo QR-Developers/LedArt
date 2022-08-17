@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:clipChildren="false" android:layout_width="-1" android:layout_height="-1">
+	<View android:id="false" android:background="cc000" android:layout_width="-1" android:layout_height="-1" />
+	<LinearLayout android:orientation="1" android:clipChildren="false" android:layout_width="-1" android:layout_height="-2" android:layout_centerInParent="true">
+		<TextView android:textSize="14sp" android:textColor="ffffff" android:layout_gravity="0x31" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="Please select the partition mode" android:alpha="{4:1058642330}" />
+		<RelativeLayout android:id="false" android:layout_width="-1" android:layout_height="140dp" android:layout_marginTop="20dp">
+			<cn.huidu.view.RectSplitView android:orientation="0" android:id="false" android:focusable="true" android:clickable="true" android:layout_width="60dp" android:layout_height="40dp" android:layout_marginLeft="50dp" android:layout_centerVertical="true" />
+			<cn.huidu.view.RectSplitView android:orientation="1" android:id="false" android:focusable="true" android:clickable="true" android:layout_width="60dp" android:layout_height="40dp" android:layout_centerInParent="true" />
+			<FrameLayout android:id="false" android:background="res/drawable/shape_rect_no_corner_stroke_797979.xml" android:focusable="true" android:clickable="true" android:layout_width="60dp" android:layout_height="40dp" android:layout_marginRight="50dp" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+				<TextView android:textSize="14sp" android:textColor="ffffff" android:layout_gravity="0x11" android:layout_width="-2" android:layout_height="-2" android:text="Custom" android:alpha="{4:1058642330}" />
+			</FrameLayout>
+			<cn.huidu.view.RectSplitView android:id="false" android:visibility="1" android:layout_width="180dp" android:layout_height="120dp" android:layout_centerInParent="true" />
+		</RelativeLayout>
+		<TextView android:textSize="14sp" android:textColor="ffffff" android:layout_gravity="0x31" android:id="false" android:visibility="1" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="50dp" android:text="Drag the following plug-in to the corresponding area" android:alpha="{4:1058642330}" />
+		<cn.huidu.view.DraggableLayout android:id="false" android:visibility="1" android:layout_width="-1" android:layout_height="50dp" android:layout_marginTop="20dp">
+			<LinearLayout android:gravity="0x11" android:orientation="0" android:id="false" android:layout_width="-1" android:layout_height="-1">
+				<ImageView android:id="false" android:layout_width="50dp" android:layout_height="50dp" android:src="res/drawable-xxhdpi-v4/clock_area.png" android:contentDescription="resourceId:0x0" />
+				<ImageView android:id="false" android:layout_width="50dp" android:layout_height="50dp" android:layout_marginLeft="35dp" android:src="res/drawable-xxhdpi-v4/text_area.png" android:contentDescription="resourceId:0x0" />
+				<ImageView android:id="false" android:layout_width="50dp" android:layout_height="50dp" android:layout_marginLeft="35dp" android:src="res/drawable-xxhdpi-v4/image_area.png" android:contentDescription="resourceId:0x0" />
+			</LinearLayout>
+		</cn.huidu.view.DraggableLayout>
+	</LinearLayout>
+	<Button android:textSize="14sp" android:textColor="ffffff" android:id="false" android:background="res/drawable/shape_rect_with_corner_solid_339900.xml" android:layout_width="200dp" android:layout_height="40dp" android:layout_marginBottom="30dp" android:text="OK" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+</RelativeLayout>

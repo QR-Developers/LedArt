@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:background="eeeeee" android:layout_width="-1" android:layout_height="-1" android:splitMotionEvents="false">
+	<RelativeLayout android:paddingLeft="15dp" android:paddingTop="15dp" android:paddingRight="15dp" android:layout_width="-1" android:layout_height="0dp" android:layout_weight="{4:1065353216}" android:splitMotionEvents="false">
+		<LinearLayout android:orientation="0" android:id="false" android:layout_width="-1" android:layout_height="92dp">
+			<LinearLayout android:gravity="0x11" android:layout_width="0dp" android:layout_height="-1" android:layout_weight="{4:1065353216}">
+				<LinearLayout android:gravity="0x11" android:id="false" android:background="res/drawable/shape_white_corners_button.xml" android:clickable="true" android:layout_width="46dp" android:layout_height="46dp">
+					<ImageView android:id="false" android:layout_width="24dp" android:layout_height="24dp" android:src="res/drawable-xhdpi-v4/remote_off.png" />
+				</LinearLayout>
+			</LinearLayout>
+			<LinearLayout android:gravity="0x11" android:layout_width="0dp" android:layout_height="-1" android:layout_weight="{4:1065353216}">
+				<LinearLayout android:gravity="0x11" android:id="false" android:background="res/drawable/shape_white_corners_button.xml" android:clickable="true" android:layout_width="46dp" android:layout_height="46dp">
+					<ImageView android:layout_width="24dp" android:layout_height="24dp" android:src="res/drawable-xxhdpi-v4/single_cycle_play.png" />
+				</LinearLayout>
+			</LinearLayout>
+			<LinearLayout android:gravity="0x11" android:layout_width="0dp" android:layout_height="-1" android:layout_weight="{4:1065353216}">
+				<LinearLayout android:gravity="0x11" android:id="false" android:background="res/drawable/shape_white_corners_button.xml" android:clickable="true" android:layout_width="46dp" android:layout_height="46dp">
+					<ImageView android:layout_width="24dp" android:layout_height="24dp" android:src="res/drawable-xxhdpi-v4/cycle_play.png" />
+				</LinearLayout>
+			</LinearLayout>
+		</LinearLayout>
+		<RelativeLayout android:background="res/drawable/remote_tool_button.xml" android:layout_width="160dp" android:layout_height="160dp" android:layout_below="false" android:layout_centerInParent="true" android:splitMotionEvents="false">
+			<ImageView android:layout_width="40dp" android:layout_height="40dp" android:src="res/drawable/oval_empty_ccc.xml" android:layout_centerInParent="true" />
+			<LinearLayout android:gravity="0x11" android:layout_width="60dp" android:layout_height="60dp" android:layout_alignParentLeft="true" android:layout_centerInParent="true">
+				<LinearLayout android:gravity="0x11" android:id="false" android:background="res/drawable/remote_selector.xml" android:clickable="true" android:layout_width="40dp" android:layout_height="40dp">
+					<ImageView android:layout_width="24dp" android:layout_height="24dp" android:src="res/drawable-xhdpi-v4/remote_bright_subtract.png" android:alpha="{4:1053609165}" />
+				</LinearLayout>
+			</LinearLayout>
+			<LinearLayout android:gravity="0x11" android:layout_width="60dp" android:layout_height="60dp" android:layout_alignParentRight="true" android:layout_centerInParent="true">
+				<LinearLayout android:gravity="0x11" android:id="false" android:background="res/drawable/remote_selector.xml" android:clickable="true" android:layout_width="40dp" android:layout_height="40dp">
+					<ImageView android:layout_width="24dp" android:layout_height="24dp" android:src="res/drawable-xhdpi-v4/remote_bright_add.png" />
+				</LinearLayout>
+			</LinearLayout>
+			<LinearLayout android:gravity="0x11" android:layout_width="60dp" android:layout_height="60dp" android:layout_alignParentTop="true" android:layout_centerInParent="true">
+				<LinearLayout android:gravity="0x11" android:id="false" android:background="res/drawable/remote_selector.xml" android:clickable="true" android:layout_width="40dp" android:layout_height="40dp">
+					<ImageView android:layout_width="24dp" android:layout_height="24dp" android:src="res/drawable-xhdpi-v4/remote_preview.png" android:alpha="{4:1053609165}" />
+				</LinearLayout>
+			</LinearLayout>
+			<LinearLayout android:gravity="0x11" android:layout_width="60dp" android:layout_height="60dp" android:layout_alignParentBottom="true" android:layout_centerInParent="true">
+				<LinearLayout android:gravity="0x11" android:id="false" android:background="res/drawable/remote_selector.xml" android:clickable="true" android:layout_width="40dp" android:layout_height="40dp">
+					<ImageView android:layout_width="24dp" android:layout_height="24dp" android:src="resourceId:0x7f080358" android:alpha="{4:1053609165}" />
+				</LinearLayout>
+			</LinearLayout>
+		</RelativeLayout>
+		<LinearLayout android:gravity="0x15" android:layout_width="-1" android:layout_height="30dp" android:layout_alignParentBottom="true">
+			<TextView android:id="false" android:visibility="2" android:layout_width="-2" android:layout_height="-2" style="resourceId:0x7f12031a" />
+		</LinearLayout>
+	</RelativeLayout>
+	<View android:background="dddddd" android:layout_width="-1" android:layout_height="1px" />
+	<LinearLayout android:layout_width="-1" android:layout_height="0dp" android:layout_weight="{4:1065353216}">
+		<cn.huidu.view.CustomViewPager android:id="false" android:layout_width="-1" android:layout_height="-1" />
+	</LinearLayout>
+	<LinearLayout android:gravity="0x31" android:id="false" android:background="f8f8f8" android:visibility="0" android:layout_width="-1" android:layout_height="25dp">
+		<ImageView android:layout_width="6dp" android:layout_height="6dp" android:layout_marginRight="15dp" android:src="res/drawable/oval_666.xml" />
+		<ImageView android:layout_width="6dp" android:layout_height="6dp" android:layout_marginRight="15dp" android:src="res/drawable/oval_bg_find_wifi_other.xml" />
+		<ImageView android:layout_width="6dp" android:layout_height="6dp" android:src="res/drawable/oval_bg_find_wifi_other.xml" />
+	</LinearLayout>
+</LinearLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="0x10" android:orientation="0" android:background="res/drawable/cloud_bg_rectangle_only_bottom_ff_stroke_e4.xml" android:layout_width="-1" android:layout_height="-2">
+	<ImageView android:id="false" android:paddingLeft="10dp" android:paddingTop="10dp" android:paddingRight="10dp" android:paddingBottom="10dp" android:layout_width="40dp" android:layout_height="40dp" android:src="res/drawable-xxhdpi-v4/checkbox_unchecked.png" />
+	<LinearLayout android:layout_gravity="0x10" android:orientation="1" android:layout_width="0dp" android:layout_height="-2" android:layout_weight="{4:1065353216}">
+		<LinearLayout android:gravity="0x10" android:orientation="0" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="8dp">
+			<TextView android:textSize="14sp" android:textColor="333333" android:id="false" android:layout_width="-2" android:layout_height="-2" />
+		</LinearLayout>
+		<LinearLayout android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="5dp" android:layout_marginBottom="8dp">
+			<TextView android:textSize="12sp" android:textColor="666666" android:id="false" android:layout_width="-2" android:layout_height="-2" />
+			<TextView android:textSize="12sp" android:textColor="666666" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="10dp" />
+		</LinearLayout>
+	</LinearLayout>
+</LinearLayout>

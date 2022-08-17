@@ -1,0 +1,50 @@
+[
+  {
+    "font_name": "DEFAULT",
+    "font_path": "DEFAULT",
+    "local": true,
+    "manage": false
+  },
+  {
+    "font_name": "SANS_SERIF",
+    "font_path": "SANS_SERIF",
+    "local": true,
+    "manage": false
+  },
+  {
+    "font_name": "MONOSPACE",
+    "font_path": "MONOSPACE",
+    "local": true,
+    "manage": false
+  },
+  {
+    "font_name": "SERIF",
+    "font_path": "SERIF",
+    "local": true,
+    "manage": false
+  },
+  {
+    "font_name": "仿宋",
+    "font_path": "simfang.ttf",
+    "local": true,
+    "manage": false
+  },
+  {
+    "font_name": "宋体",
+    "font_path": "simsun.ttc",
+    "local": true,
+    "manage": false
+  },
+  {
+    "font_name": "Arial",
+    "font_path": "ARIAL.TTF",
+    "local": true,
+    "manage": false
+  },
+  {
+    "font_name": "Arial Unicode MS",
+    "font_path": "ArialUnicodeMS.ttf",
+    "local": true,
+    "manage": false
+  }
+]

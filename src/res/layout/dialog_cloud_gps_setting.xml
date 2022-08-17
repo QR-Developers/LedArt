@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:layout_width="-1" android:layout_height="-2">
+	<LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="40dp" android:layout_marginTop="20dp" android:layout_marginBottom="20dp">
+		<TextView android:textSize="14sp" android:textColor="333333" android:layout_gravity="0x10" android:layout_width="0dp" android:layout_height="-2" android:layout_marginLeft="20dp" android:text="Report GPS location in real time" android:layout_weight="{4:1065353216}" />
+		<cn.huidu.view.CustomSwitch android:layout_gravity="0x10" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="20dp" />
+	</LinearLayout>
+	<LinearLayout android:orientation="0" android:visibility="2" android:layout_width="-1" android:layout_height="40dp" android:layout_marginTop="15dp">
+		<TextView android:textSize="14sp" android:textColor="333333" android:layout_gravity="0x10" android:layout_width="0dp" android:layout_height="-2" android:layout_marginLeft="20dp" android:text="上报周期" android:layout_weight="{4:1065353216}" />
+		<cn.huidu.view.inputview.AddAndSubtractInputView android:layout_gravity="0x10" android:id="false" android:layout_width="-2" android:layout_height="-2" />
+		<TextView android:textSize="15sp" android:textColor="333333" android:layout_gravity="0x10" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="5dp" android:layout_marginRight="20dp" android:text="s" />
+	</LinearLayout>
+	<LinearLayout android:orientation="0" android:visibility="2" android:layout_width="-1" android:layout_height="40dp" android:layout_marginTop="15dp" android:layout_marginBottom="20dp">
+		<TextView android:textSize="14sp" android:textColor="333333" android:layout_gravity="0x10" android:layout_width="0dp" android:layout_height="-2" android:layout_marginLeft="20dp" android:text="采集周期" android:layout_weight="{4:1065353216}" />
+		<cn.huidu.view.inputview.AddAndSubtractInputView android:layout_gravity="0x10" android:id="false" android:layout_width="-2" android:layout_height="-2" />
+		<TextView android:textSize="15sp" android:textColor="333333" android:layout_gravity="0x10" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="5dp" android:layout_marginRight="20dp" android:text="s" />
+	</LinearLayout>
+</LinearLayout>

@@ -1,0 +1,2673 @@
+[
+  {
+    "id": -1,
+    "name": "?",
+    "pixels": 1048576,
+    "max": {
+      "width": 8192,
+      "height": 512
+    },
+    "communication": [],
+    "hub": [],
+    "MaxGray": 1,
+    "DefaultGray": 1,
+    "smart_setting": false,
+    "regions": 20,
+    "bufsize": 0,
+    "SupportFlag": 0,
+    "DefaultFlash": 8
+  },
+  {
+    "id": 45,
+    "name": "S62",
+    "pixels": 65536,
+    "max": {
+      "width": 1536,
+      "height": 64
+    },
+    "Swidth": 1536,
+    "Sheight": 64,
+    "Spixels": 65536,
+    "communication": [
+      "COM",
+      "USB"
+    ],
+    "hub": [
+      {
+        "type": "08",
+        "count": 2
+      },
+      {
+        "type": "12",
+        "count": 4
+      }
+    ],
+    "MaxGray": 7,
+    "DefaultGray": 1,
+    "smart_setting": false,
+    "regions": 20,
+    "bufsize": 53,
+    "SupportFlag": 3,
+    "DefaultFlash": 8
+  },
+  {
+    "id": 46,
+    "name": "U63",
+    "pixels": 65536,
+    "max": {
+      "width": 2048,
+      "height": 128
+    },
+    "Swidth": 2048,
+    "Sheight": 128,
+    "Spixels": 65536,
+    "communication": [
+      "USB"
+    ],
+    "hub": [
+      {
+        "type": "08",
+        "count": 4
+      },
+      {
+        "type": "12",
+        "count": 8
+      }
+    ],
+    "MaxGray": 7,
+    "DefaultGray": 1,
+    "smart_setting": false,
+    "regions": 20,
+    "bufsize": 52,
+    "SupportFlag": 3,
+    "DefaultFlash": 8
+  },
+  {
+    "id": 47,
+    "name": "E63",
+    "pixels": 131072,
+    "max": {
+      "width": 3072,
+      "height": 128
+    },
+    "Swidth": 3072,
+    "Sheight": 128,
+    "Spixels": 131072,
+    "communication": [
+      "USB",
+      "NET"
+    ],
+    "hub": [
+      {
+        "type": "08",
+        "count": 4
+      },
+      {
+        "type": "12",
+        "count": 8
+      }
+    ],
+    "MaxGray": 7,
+    "DefaultGray": 1,
+    "smart_setting": false,
+    "regions": 20,
+    "bufsize": 89,
+    "SupportFlag": 3,
+    "DefaultFlash": 8
+  },
+  {
+    "id": 48,
+    "name": "U6A",
+    "pixels": 10240,
+    "max": {
+      "width": 320,
+      "height": 32
+    },
+    "Swidth": 320,
+    "Sheight": 32,
+    "Spixels": 10240,
+    "communication": [
+      "USB"
+    ],
+    "hub": [
+      {
+        "type": "12",
+        "count": 2
+      }
+    ],
+    "MaxGray": 1,
+    "DefaultGray": 1,
+    "smart_setting": false,
+    "regions": 4,
+    "bufsize": 20,
+    "SupportFlag": 0,
+    "DefaultFlash": 1
+  },
+  {
+    "id": 49,
+    "name": "W62",
+    "pixels": 65536,
+    "max": {
+      "width": 2048,
+      "height": 64
+    },
+    "Swidth": 2048,
+    "Sheight": 64,
+    "Spixels": 65536,
+    "communication": [
+      "USB",
+      "WIFI"
+    ],
+    "hub": [
+      {
+        "type": "08",
+        "count": 2
+      },
+      {
+        "type": "12",
+        "count": 4
+      }
+    ],
+    "MaxGray": 7,
+    "DefaultGray": 1,
+    "smart_setting": false,
+    "regions": 20,
+    "bufsize": 53,
+    "SupportFlag": 3,
+    "DefaultFlash": 8
+  },
+  {
+    "id": 50,
+    "name": "E64",
+    "pixels": 262144,
+    "max": {
+      "width": 4096,
+      "height": 256
+    },
+    "Swidth": 2048,
+    "Sheight": 256,
+    "Spixels": 262144,
+    "communication": [
+      "USB",
+      "NET"
+    ],
+    "hub": [
+      {
+        "type": "50s",
+        "count": 1
+      }
+    ],
+    "MaxGray": 7,
+    "DefaultGray": 1,
+    "smart_setting": false,
+    "regions": 20,
+    "bufsize": 255,
+    "SupportFlag": 3,
+    "DefaultFlash": 8
+  },
+  {
+    "id": 51,
+    "name": "S63",
+    "pixels": 131072,
+    "max": {
+      "width": 2048,
+      "height": 128
+    },
+    "Swidth": 2048,
+    "Sheight": 128,
+    "Spixels": 131072,
+    "communication": [
+      "COM",
+      "USB"
+    ],
+    "hub": [
+      {
+        "type": "08",
+        "count": 4
+      },
+      {
+        "type": "12",
+        "count": 8
+      }
+    ],
+    "MaxGray": 7,
+    "DefaultGray": 1,
+    "smart_setting": false,
+    "regions": 20,
+    "bufsize": 79,
+    "SupportFlag": 3,
+    "DefaultFlash": 8
+  },
+  {
+    "id": 52,
+    "name": "U61",
+    "pixels": 32768,
+    "max": {
+      "width": 1024,
+      "height": 32
+    },
+    "Swidth": 1024,
+    "Sheight": 32,
+    "Spixels": 32768,
+    "communication": [
+      "USB"
+    ],
+    "hub": [
+      {
+        "type": "08",
+        "count": 1
+      },
+      {
+        "type": "12",
+        "count": 2
+      }
+    ],
+    "MaxGray": 7,
+    "DefaultGray": 1,
+    "smart_setting": false,
+    "regions": 20,
+    "bufsize": 50,
+    "SupportFlag": 3,
+    "DefaultFlash": 8
+  },
+  {
+    "id": 53,
+    "name": "U62",
+    "pixels": 49152,
+    "max": {
+      "width": 1536,
+      "height": 64
+    },
+    "Swidth": 1536,
+    "Sheight": 64,
+    "Spixels": 49152,
+    "communication": [
+      "USB"
+    ],
+    "hub": [
+      {
+        "type": "08",
+        "count": 2
+      },
+      {
+        "type": "12",
+        "count": 4
+      }
+    ],
+    "MaxGray": 7,
+    "DefaultGray": 1,
+    "smart_setting": false,
+    "regions": 20,
+    "bufsize": 50,
+    "SupportFlag": 3,
+    "DefaultFlash": 8
+  },
+  {
+    "id": 54,
+    "name": "S64",
+    "pixels": 262144,
+    "max": {
+      "width": 4096,
+      "height": 256
+    },
+    "Swidth": 4096,
+    "Sheight": 256,
+    "Spixels": 262144,
+    "communication": [
+      "COM",
+      "USB"
+    ],
+    "hub": [
+      {
+        "type": "50s",
+        "count": 1
+      }
+    ],
+    "MaxGray": 7,
+    "DefaultGray": 1,
+    "smart_setting": false,
+    "regions": 20,
+    "bufsize": 200,
+    "SupportFlag": 3,
+    "DefaultFlash": 8
+  },
+  {
+    "id": 55,
+    "name": "W64",
+    "pixels": 262144,
+    "max": {
+      "width": 4096,
+      "height": 256
+    },
+    "Swidth": 3072,
+    "Sheight": 256,
+    "Spixels": 262144,
+    "communication": [
+      "USB",
+      "WIFI"
+    ],
+    "hub": [
+      {
+        "type": "50s",
+        "count": 1
+      }
+    ],
+    "MaxGray": 7,
+    "DefaultGray": 1,
+    "smart_setting": false,
+    "regions": 20,
+    "bufsize": 200,
+    "SupportFlag": 3,
+    "DefaultFlash": 8
+  },
+  {
+    "id": 56,
+    "name": "W61",
+    "pixels": 32768,
+    "max": {
+      "width": 1024,
+      "height": 32
+    },
+    "Swidth": 1024,
+    "Sheight": 32,
+    "Spixels": 32768,
+    "communication": [
+      "USB",
+      "WIFI"
+    ],
+    "hub": [
+      {
+        "type": "08",
+        "count": 1
+      },
+      {
+        "type": "12",
+        "count": 2
+      }
+    ],
+    "MaxGray": 7,
+    "DefaultGray": 1,
+    "smart_setting": false,
+    "regions": 20,
+    "bufsize": 49,
+    "SupportFlag": 3,
+    "DefaultFlash": 8
+  },
+  {
+    "id": 57,
+    "name": "E65",
+    "pixels": 524288,
+    "max": {
+      "width": 4096,
+      "height": 512
+    },
+    "Swidth": 4096,
+    "Sheight": 512,
+    "Spixels": 524288,
+    "communication": [
+      "COM",
+      "USB",
+      "NET"
+    ],
+    "hub": [
+      {
+        "type": "50d",
+        "count": 1
+      }
+    ],
+    "MaxGray": 7,
+    "DefaultGray": 1,
+    "smart_setting": false,
+    "regions": 20,
+    "bufsize": 192,
+    "SupportFlag": 3,
+    "DefaultFlash": 8
+  },
+  {
+    "id": 58,
+    "name": "E62",
+    "pixels": 65536,
+    "max": {
+      "width": 2048,
+      "height": 64
+    },
+    "Swidth": 2048,
+    "Sheight": 64,
+    "Spixels": 65536,
+    "communication": [
+      "USB",
+      "NET"
+    ],
+    "hub": [
+      {
+        "type": "08",
+        "count": 2
+      },
+      {
+        "type": "12",
+        "count": 4
+      }
+    ],
+    "MaxGray": 7,
+    "DefaultGray": 1,
+    "smart_setting": false,
+    "regions": 20,
+    "bufsize": 51,
+    "SupportFlag": 3,
+    "DefaultFlash": 8
+  },
+  {
+    "id": 59,
+    "name": "W63",
+    "pixels": 131072,
+    "max": {
+      "width": 3072,
+      "height": 128
+    },
+    "Swidth": 2048,
+    "Sheight": 128,
+    "Spixels": 131072,
+    "communication": [
+      "USB",
+      "WIFI"
+    ],
+    "hub": [
+      {
+        "type": "08",
+        "count": 4
+      },
+      {
+        "type": "12",
+        "count": 8
+      }
+    ],
+    "MaxGray": 7,
+    "DefaultGray": 1,
+    "smart_setting": false,
+    "regions": 20,
+    "bufsize": 82,
+    "SupportFlag": 3,
+    "DefaultFlash": 8
+  },
+  {
+    "id": 60,
+    "name": "U6B",
+    "pixels": 49152,
+    "max": {
+      "width": 1024,
+      "height": 48
+    },
+    "Swidth": 1024,
+    "Sheight": 48,
+    "Spixels": 49152,
+    "communication": [
+      "USB"
+    ],
+    "hub": [
+      {
+        "type": "08",
+        "count": 1
+      },
+      {
+        "type": "12",
+        "count": 3
+      }
+    ],
+    "MaxGray": 7,
+    "DefaultGray": 1,
+    "smart_setting": false,
+    "regions": 20,
+    "bufsize": 50,
+    "SupportFlag": 3,
+    "DefaultFlash": 8
+  },
+  {
+    "id": 61,
+    "name": "S65",
+    "pixels": 524288,
+    "max": {
+      "width": 4096,
+      "height": 512
+    },
+    "Swidth": 4096,
+    "Sheight": 512,
+    "Spixels": 524288,
+    "communication": [
+      "COM",
+      "USB"
+    ],
+    "hub": [
+      {
+        "type": "50d",
+        "count": 1
+      }
+    ],
+    "MaxGray": 7,
+    "DefaultGray": 1,
+    "smart_setting": false,
+    "regions": 20,
+    "bufsize": 192,
+    "SupportFlag": 3,
+    "DefaultFlash": 2
+  },
+  {
+    "id": 62,
+    "name": "U60",
+    "pixels": 16384,
+    "max": {
+      "width": 1024,
+      "height": 32
+    },
+    "Swidth": 1024,
+    "Sheight": 32,
+    "Spixels": 16384,
+    "communication": [
+      "USB"
+    ],
+    "hub": [
+      {
+        "type": "08",
+        "count": 1
+      },
+      {
+        "type": "12",
+        "count": 2
+      }
+    ],
+    "MaxGray": 7,
+    "DefaultGray": 1,
+    "smart_setting": false,
+    "regions": 20,
+    "bufsize": 46,
+    "SupportFlag": 3,
+    "DefaultFlash": 2
+  },
+  {
+    "id": 63,
+    "name": "U64",
+    "pixels": 131072,
+    "max": {
+      "width": 3072,
+      "height": 256
+    },
+    "Swidth": 2048,
+    "Sheight": 256,
+    "Spixels": 131072,
+    "communication": [
+      "USB"
+    ],
+    "hub": [
+      {
+        "type": "50s",
+        "count": 1
+      }
+    ],
+    "MaxGray": 7,
+    "DefaultGray": 1,
+    "smart_setting": false,
+    "regions": 20,
+    "bufsize": 112,
+    "SupportFlag": 3,
+    "DefaultFlash": 8
+  },
+  {
+    "id": 64,
+    "name": "S61",
+    "pixels": 32768,
+    "max": {
+      "width": 1024,
+      "height": 32
+    },
+    "Swidth": 1024,
+    "Sheight": 32,
+    "Spixels": 32768,
+    "communication": [
+      "COM",
+      "USB"
+    ],
+    "hub": [
+      {
+        "type": "08",
+        "count": 1
+      },
+      {
+        "type": "12",
+        "count": 2
+      }
+    ],
+    "MaxGray": 7,
+    "DefaultGray": 1,
+    "smart_setting": false,
+    "regions": 20,
+    "bufsize": 50,
+    "SupportFlag": 3,
+    "DefaultFlash": 8
+  },
+  {
+    "id": 65,
+    "name": "E61",
+    "pixels": 32768,
+    "max": {
+      "width": 1024,
+      "height": 32
+    },
+    "Swidth": 1024,
+    "Sheight": 32,
+    "Spixels": 32768,
+    "communication": [
+      "USB",
+      "NET"
+    ],
+    "hub": [
+      {
+        "type": "08",
+        "count": 1
+      },
+      {
+        "type": "12",
+        "count": 2
+      }
+    ],
+    "MaxGray": 7,
+    "DefaultGray": 1,
+    "smart_setting": false,
+    "regions": 20,
+    "bufsize": 32,
+    "SupportFlag": 3,
+    "DefaultFlash": 8
+  },
+  {
+    "id": 66,
+    "name": "E66",
+    "pixels": 1048576,
+    "max": {
+      "width": 8192,
+      "height": 512
+    },
+    "Swidth": 8192,
+    "Sheight": 512,
+    "Spixels": 1048576,
+    "communication": [
+      "COM",
+      "USB",
+      "NET"
+    ],
+    "hub": [
+      {
+        "type": "50d",
+        "count": 1
+      }
+    ],
+    "MaxGray": 31,
+    "DefaultGray": 1,
+    "smart_setting": true,
+    "regions": 20,
+    "bufsize": 512,
+    "SupportFlag": 3,
+    "DefaultFlash": 8
+  },
+  {
+    "id": 67,
+    "name": "W60",
+    "pixels": 32768,
+    "max": {
+      "width": 1536,
+      "height": 32
+    },
+    "Swidth": 512,
+    "Sheight": 32,
+    "Spixels": 16384,
+    "communication": [
+      "USB",
+      "WIFI"
+    ],
+    "hub": [
+      {
+        "type": "08",
+        "count": 1
+      },
+      {
+        "type": "12",
+        "count": 2
+      }
+    ],
+    "MaxGray": 7,
+    "DefaultGray": 1,
+    "smart_setting": false,
+    "regions": 20,
+    "bufsize": 20,
+    "SupportFlag": 3,
+    "DefaultFlash": 8
+  },
+  {
+    "id": 68,
+    "name": "E66A",
+    "pixels": 1048576,
+    "max": {
+      "width": 8192,
+      "height": 512
+    },
+    "Swidth": 8192,
+    "Sheight": 512,
+    "Spixels": 1048576,
+    "communication": [
+      "COM",
+      "USB",
+      "NET"
+    ],
+    "hub": [
+      {
+        "type": "50d",
+        "count": 1
+      }
+    ],
+    "MaxGray": 31,
+    "DefaultGray": 1,
+    "smart_setting": true,
+    "regions": 20,
+    "bufsize": 512,
+    "SupportFlag": 2,
+    "DefaultFlash": 8
+  },
+  {
+    "id": 69,
+    "name": "S66A",
+    "pixels": 1048576,
+    "max": {
+      "width": 8192,
+      "height": 512
+    },
+    "Swidth": 8192,
+    "Sheight": 512,
+    "Spixels": 1048576,
+    "communication": [
+      "COM",
+      "USB"
+    ],
+    "hub": [
+      {
+        "type": "50d",
+        "count": 1
+      }
+    ],
+    "MaxGray": 31,
+    "DefaultGray": 1,
+    "smart_setting": true,
+    "regions": 20,
+    "bufsize": 512,
+    "SupportFlag": 2,
+    "DefaultFlash": 8
+  },
+  {
+    "id": 70,
+    "name": "S66",
+    "pixels": 1048576,
+    "max": {
+      "width": 8192,
+      "height": 512
+    },
+    "Swidth": 8192,
+    "Sheight": 512,
+    "Spixels": 1048576,
+    "communication": [
+      "COM",
+      "USB"
+    ],
+    "hub": [
+      {
+        "type": "50d",
+        "count": 1
+      }
+    ],
+    "MaxGray": 31,
+    "DefaultGray": 1,
+    "smart_setting": true,
+    "regions": 20,
+    "bufsize": 512,
+    "SupportFlag": 3,
+    "DefaultFlash": 8
+  },
+  {
+    "id": 71,
+    "name": "E64",
+    "pixels": 262144,
+    "max": {
+      "width": 4096,
+      "height": 256
+    },
+    "Swidth": 2048,
+    "Sheight": 256,
+    "Spixels": 262144,
+    "communication": [
+      "USB",
+      "NET"
+    ],
+    "hub": [
+      {
+        "type": "50s",
+        "count": 1
+      }
+    ],
+    "MaxGray": 7,
+    "DefaultGray": 1,
+    "smart_setting": false,
+    "regions": 20,
+    "bufsize": 255,
+    "SupportFlag": 11,
+    "DefaultFlash": 8
+  },
+  {
+    "id": 72,
+    "name": "W64",
+    "pixels": 262144,
+    "max": {
+      "width": 4096,
+      "height": 256
+    },
+    "Swidth": 3072,
+    "Sheight": 256,
+    "Spixels": 262144,
+    "communication": [
+      "USB",
+      "WIFI"
+    ],
+    "hub": [
+      {
+        "type": "50s",
+        "count": 1
+      }
+    ],
+    "MaxGray": 7,
+    "DefaultGray": 1,
+    "smart_setting": false,
+    "regions": 20,
+    "bufsize": 225,
+    "SupportFlag": 11,
+    "DefaultFlash": 8
+  },
+  {
+    "id": 73,
+    "name": "S64",
+    "pixels": 262144,
+    "max": {
+      "width": 4096,
+      "height": 256
+    },
+    "Swidth": 4096,
+    "Sheight": 256,
+    "Spixels": 262144,
+    "communication": [
+      "COM",
+      "USB"
+    ],
+    "hub": [
+      {
+        "type": "50s",
+        "count": 1
+      }
+    ],
+    "MaxGray": 7,
+    "DefaultGray": 1,
+    "smart_setting": false,
+    "regions": 20,
+    "bufsize": 225,
+    "SupportFlag": 11,
+    "DefaultFlash": 8
+  },
+  {
+    "id": 74,
+    "name": "U6A",
+    "pixels": 10240,
+    "max": {
+      "width": 320,
+      "height": 32
+    },
+    "Swidth": 320,
+    "Sheight": 32,
+    "Spixels": 10240,
+    "communication": [
+      "USB"
+    ],
+    "hub": [
+      {
+        "type": "12",
+        "count": 2
+      }
+    ],
+    "MaxGray": 1,
+    "DefaultGray": 1,
+    "smart_setting": false,
+    "regions": 4,
+    "bufsize": 20,
+    "SupportFlag": 8,
+    "DefaultFlash": 1
+  },
+  {
+    "id": 76,
+    "name": "U60PLUS",
+    "pixels": 131072,
+    "max": {
+      "width": 4096,
+      "height": 32
+    },
+    "Swidth": 512,
+    "Sheight": 32,
+    "Spixels": 16384,
+    "communication": [
+      "USB"
+    ],
+    "hub": [
+      {
+        "type": "08",
+        "count": 1
+      },
+      {
+        "type": "12",
+        "count": 2
+      }
+    ],
+    "MaxGray": 255,
+    "DefaultGray": 8,
+    "smart_setting": false,
+    "regions": 20,
+    "bufsize": 115,
+    "SupportFlag": 3,
+    "DefaultFlash": 32
+  },
+  {
+    "id": 77,
+    "name": "U62PLUS",
+    "pixels": 262144,
+    "max": {
+      "width": 4096,
+      "height": 64
+    },
+    "Swidth": 512,
+    "Sheight": 64,
+    "Spixels": 32768,
+    "communication": [
+      "USB"
+    ],
+    "hub": [
+      {
+        "type": "08",
+        "count": 2
+      },
+      {
+        "type": "12",
+        "count": 4
+      }
+    ],
+    "MaxGray": 255,
+    "DefaultGray": 8,
+    "smart_setting": false,
+    "regions": 20,
+    "bufsize": 200,
+    "SupportFlag": 3,
+    "DefaultFlash": 32
+  },
+  {
+    "id": 80,
+    "name": "E62PLUS",
+    "pixels": 262144,
+    "max": {
+      "width": 4096,
+      "height": 64
+    },
+    "Swidth": 512,
+    "Sheight": 64,
+    "Spixels": 32768,
+    "communication": [
+      "USB",
+      "NET"
+    ],
+    "hub": [
+      {
+        "type": "08",
+        "count": 2
+      },
+      {
+        "type": "12",
+        "count": 4
+      }
+    ],
+    "MaxGray": 255,
+    "DefaultGray": 8,
+    "smart_setting": false,
+    "regions": 20,
+    "bufsize": 200,
+    "SupportFlag": 3,
+    "DefaultFlash": 32
+  },
+  {
+    "id": 81,
+    "name": "U60",
+    "pixels": 16384,
+    "max": {
+      "width": 512,
+      "height": 32
+    },
+    "Swidth": 1024,
+    "Sheight": 32,
+    "Spixels": 16384,
+    "communication": [
+      "USB"
+    ],
+    "hub": [
+      {
+        "type": "08",
+        "count": 1
+      },
+      {
+        "type": "12",
+        "count": 2
+      }
+    ],
+    "MaxGray": 7,
+    "DefaultGray": 1,
+    "smart_setting": false,
+    "regions": 20,
+    "bufsize": 46,
+    "SupportFlag": 11,
+    "DefaultFlash": 2
+  },
+  {
+    "id": 82,
+    "name": "W60",
+    "pixels": 32768,
+    "max": {
+      "width": 1536,
+      "height": 32
+    },
+    "Swidth": 512,
+    "Sheight": 32,
+    "Spixels": 16384,
+    "communication": [
+      "USB",
+      "WIFI"
+    ],
+    "hub": [
+      {
+        "type": "08",
+        "count": 1
+      },
+      {
+        "type": "12",
+        "count": 2
+      }
+    ],
+    "MaxGray": 7,
+    "DefaultGray": 1,
+    "smart_setting": false,
+    "regions": 20,
+    "bufsize": 35,
+    "SupportFlag": 11,
+    "DefaultFlash": 2
+  },
+  {
+    "id": 83,
+    "name": "U61",
+    "pixels": 32768,
+    "max": {
+      "width": 1024,
+      "height": 32
+    },
+    "Swidth": 1024,
+    "Sheight": 32,
+    "Spixels": 32768,
+    "communication": [
+      "USB"
+    ],
+    "hub": [
+      {
+        "type": "08",
+        "count": 1
+      },
+      {
+        "type": "12",
+        "count": 2
+      }
+    ],
+    "MaxGray": 7,
+    "DefaultGray": 1,
+    "smart_setting": false,
+    "regions": 20,
+    "bufsize": 50,
+    "SupportFlag": 11,
+    "DefaultFlash": 8
+  },
+  {
+    "id": 84,
+    "name": "U62",
+    "pixels": 49152,
+    "max": {
+      "width": 1536,
+      "height": 64
+    },
+    "Swidth": 1536,
+    "Sheight": 64,
+    "Spixels": 49152,
+    "communication": [
+      "USB"
+    ],
+    "hub": [
+      {
+        "type": "08",
+        "count": 2
+      },
+      {
+        "type": "12",
+        "count": 4
+      }
+    ],
+    "MaxGray": 7,
+    "DefaultGray": 1,
+    "smart_setting": false,
+    "regions": 20,
+    "bufsize": 50,
+    "SupportFlag": 11,
+    "DefaultFlash": 8
+  },
+  {
+    "id": 85,
+    "name": "U6B",
+    "pixels": 49152,
+    "max": {
+      "width": 1024,
+      "height": 48
+    },
+    "Swidth": 1024,
+    "Sheight": 48,
+    "Spixels": 49152,
+    "communication": [
+      "USB"
+    ],
+    "hub": [
+      {
+        "type": "08",
+        "count": 1
+      },
+      {
+        "type": "12",
+        "count": 3
+      }
+    ],
+    "MaxGray": 7,
+    "DefaultGray": 1,
+    "smart_setting": false,
+    "regions": 20,
+    "bufsize": 37,
+    "SupportFlag": 11,
+    "DefaultFlash": 8
+  },
+  {
+    "id": 86,
+    "name": "U60-75",
+    "pixels": 122880,
+    "max": {
+      "width": 1280,
+      "height": 128
+    },
+    "Swidth": 640,
+    "Sheight": 64,
+    "Spixels": 40960,
+    "communication": [
+      "USB"
+    ],
+    "hub": [
+      {
+        "type": "75",
+        "count": 2
+      }
+    ],
+    "MaxGray": 255,
+    "DefaultGray": 8,
+    "smart_setting": false,
+    "regions": 20,
+    "bufsize": 80,
+    "SupportFlag": 3,
+    "DefaultFlash": 8
+  },
+  {
+    "id": 87,
+    "name": "E63",
+    "pixels": 131072,
+    "max": {
+      "width": 3072,
+      "height": 128
+    },
+    "Swidth": 3072,
+    "Sheight": 128,
+    "Spixels": 131072,
+    "communication": [
+      "USB",
+      "NET"
+    ],
+    "hub": [
+      {
+        "type": "08",
+        "count": 4
+      },
+      {
+        "type": "12",
+        "count": 8
+      }
+    ],
+    "MaxGray": 7,
+    "DefaultGray": 1,
+    "smart_setting": false,
+    "regions": 20,
+    "bufsize": 89,
+    "SupportFlag": 11,
+    "DefaultFlash": 8
+  },
+  {
+    "id": 88,
+    "name": "E62",
+    "pixels": 65536,
+    "max": {
+      "width": 2048,
+      "height": 64
+    },
+    "Swidth": 2048,
+    "Sheight": 64,
+    "Spixels": 65536,
+    "communication": [
+      "USB",
+      "NET"
+    ],
+    "hub": [
+      {
+        "type": "08",
+        "count": 2
+      },
+      {
+        "type": "12",
+        "count": 4
+      }
+    ],
+    "MaxGray": 7,
+    "DefaultGray": 1,
+    "smart_setting": false,
+    "regions": 20,
+    "bufsize": 51,
+    "SupportFlag": 11,
+    "DefaultFlash": 8
+  },
+  {
+    "id": 89,
+    "name": "W60-75",
+    "pixels": 122880,
+    "max": {
+      "width": 1280,
+      "height": 128
+    },
+    "Swidth": 640,
+    "Sheight": 64,
+    "Spixels": 122880,
+    "communication": [
+      "USB",
+      "WIFI"
+    ],
+    "hub": [
+      {
+        "type": "75",
+        "count": 2
+      }
+    ],
+    "MaxGray": 255,
+    "DefaultGray": 8,
+    "smart_setting": false,
+    "regions": 20,
+    "bufsize": 80,
+    "SupportFlag": 3,
+    "DefaultFlash": 8
+  },
+  {
+    "id": 90,
+    "name": "U6A",
+    "pixels": 10240,
+    "max": {
+      "width": 320,
+      "height": 32
+    },
+    "Swidth": 320,
+    "Sheight": 32,
+    "Spixels": 10240,
+    "communication": [
+      "USB"
+    ],
+    "hub": [
+      {
+        "type": "12",
+        "count": 2
+      }
+    ],
+    "MaxGray": 1,
+    "DefaultGray": 1,
+    "smart_setting": false,
+    "regions": 4,
+    "bufsize": 20,
+    "SupportFlag": 8,
+    "DefaultFlash": 1
+  },
+  {
+    "id": 92,
+    "name": "W61",
+    "pixels": 32768,
+    "max": {
+      "width": 1024,
+      "height": 32
+    },
+    "Swidth": 1024,
+    "Sheight": 32,
+    "Spixels": 32768,
+    "communication": [
+      "USB",
+      "WIFI"
+    ],
+    "hub": [
+      {
+        "type": "08",
+        "count": 1
+      },
+      {
+        "type": "12",
+        "count": 2
+      }
+    ],
+    "MaxGray": 7,
+    "DefaultGray": 1,
+    "smart_setting": false,
+    "regions": 20,
+    "bufsize": 35,
+    "SupportFlag": 11,
+    "DefaultFlash": 8
+  },
+  {
+    "id": 93,
+    "name": "E63",
+    "pixels": 131072,
+    "max": {
+      "width": 3072,
+      "height": 128
+    },
+    "Swidth": 3072,
+    "Sheight": 128,
+    "Spixels": 131072,
+    "communication": [
+      "USB",
+      "NET"
+    ],
+    "hub": [
+      {
+        "type": "08",
+        "count": 4
+      },
+      {
+        "type": "12",
+        "count": 8
+      }
+    ],
+    "MaxGray": 7,
+    "DefaultGray": 1,
+    "smart_setting": false,
+    "regions": 20,
+    "bufsize": 153,
+    "SupportFlag": 11,
+    "DefaultFlash": 8
+  },
+  {
+    "id": 94,
+    "name": "E62PLUS",
+    "pixels": 262144,
+    "max": {
+      "width": 4096,
+      "height": 64
+    },
+    "Swidth": 512,
+    "Sheight": 64,
+    "Spixels": 32768,
+    "communication": [
+      "USB",
+      "NET"
+    ],
+    "hub": [
+      {
+        "type": "08",
+        "count": 2
+      },
+      {
+        "type": "12",
+        "count": 4
+      }
+    ],
+    "MaxGray": 255,
+    "DefaultGray": 8,
+    "smart_setting": false,
+    "regions": 20,
+    "bufsize": 153,
+    "SupportFlag": 11,
+    "DefaultFlash": 32
+  },
+  {
+    "id": 95,
+    "name": "G62",
+    "pixels": 65536,
+    "max": {
+      "width": 1536,
+      "height": 64
+    },
+    "Swidth": 1024,
+    "Sheight": 64,
+    "Spixels": 65536,
+    "communication": [
+      "GPRS"
+    ],
+    "hub": [
+      {
+        "type": "08",
+        "count": 2
+      },
+      {
+        "type": "12",
+        "count": 4
+      }
+    ],
+    "MaxGray": 7,
+    "DefaultGray": 1,
+    "smart_setting": false,
+    "regions": 20,
+    "bufsize": 49,
+    "SupportFlag": 3,
+    "DefaultFlash": 8
+  },
+  {
+    "id": 96,
+    "name": "E66",
+    "pixels": 1048576,
+    "max": {
+      "width": 8192,
+      "height": 512
+    },
+    "Swidth": 8192,
+    "Sheight": 512,
+    "Spixels": 1048576,
+    "communication": [
+      "COM",
+      "USB",
+      "NET"
+    ],
+    "hub": [
+      {
+        "type": "50d",
+        "count": 1
+      }
+    ],
+    "MaxGray": 31,
+    "DefaultGray": 1,
+    "smart_setting": true,
+    "regions": 20,
+    "bufsize": 512,
+    "SupportFlag": 11,
+    "DefaultFlash": 8
+  },
+  {
+    "id": 97,
+    "name": "W6B",
+    "pixels": 49152,
+    "max": {
+      "width": 1536,
+      "height": 48
+    },
+    "Swidth": 1280,
+    "Sheight": 48,
+    "Spixels": 49152,
+    "communication": [
+      "USB",
+      "WIFI"
+    ],
+    "hub": [
+      {
+        "type": "08",
+        "count": 1
+      },
+      {
+        "type": "12",
+        "count": 3
+      }
+    ],
+    "MaxGray": 7,
+    "DefaultGray": 1,
+    "smart_setting": false,
+    "regions": 20,
+    "bufsize": 37,
+    "SupportFlag": 3,
+    "DefaultFlash": 2
+  },
+  {
+    "id": 98,
+    "name": "W62-75",
+    "pixels": 307200,
+    "max": {
+      "width": 1280,
+      "height": 320
+    },
+    "Swidth": 1280,
+    "Sheight": 160,
+    "Spixels": 307200,
+    "communication": [
+      "USB",
+      "WIFI"
+    ],
+    "hub": [
+      {
+        "type": "75",
+        "count": 5
+      }
+    ],
+    "MaxGray": 255,
+    "DefaultGray": 8,
+    "smart_setting": false,
+    "regions": 20,
+    "bufsize": 238,
+    "SupportFlag": 3,
+    "DefaultFlash": 32
+  },
+  {
+    "id": 99,
+    "name": "W66",
+    "pixels": 1048576,
+    "max": {
+      "width": 8192,
+      "height": 512
+    },
+    "Swidth": 8192,
+    "Sheight": 512,
+    "Spixels": 1048576,
+    "communication": [
+      "COM",
+      "USB",
+      "NET",
+      "WIFI"
+    ],
+    "hub": [
+      {
+        "type": "50d",
+        "count": 1
+      }
+    ],
+    "MaxGray": 31,
+    "DefaultGray": 1,
+    "smart_setting": true,
+    "regions": 20,
+    "bufsize": 512,
+    "SupportFlag": 3,
+    "DefaultFlash": 8
+  },
+  {
+    "id": 101,
+    "name": "W00",
+    "pixels": 10240,
+    "max": {
+      "width": 640,
+      "height": 32
+    },
+    "Swidth": 640,
+    "Sheight": 32,
+    "Spixels": 10240,
+    "communication": [
+      "WIFI"
+    ],
+    "hub": [
+      {
+        "type": "12",
+        "count": 2
+      }
+    ],
+    "MaxGray": 1,
+    "DefaultGray": 1,
+    "smart_setting": false,
+    "regions": 20,
+    "bufsize": 35,
+    "SupportFlag": 3,
+    "DefaultFlash": 2
+  },
+  {
+    "id": 102,
+    "name": "W02",
+    "pixels": 16384,
+    "max": {
+      "width": 1024,
+      "height": 32
+    },
+    "Swidth": 1024,
+    "Sheight": 32,
+    "Spixels": 16384,
+    "communication": [
+      "WIFI"
+    ],
+    "hub": [
+      {
+        "type": "12",
+        "count": 2
+      }
+    ],
+    "MaxGray": 1,
+    "DefaultGray": 1,
+    "smart_setting": false,
+    "regions": 20,
+    "bufsize": 35,
+    "SupportFlag": 3,
+    "DefaultFlash": 2
+  },
+  {
+    "id": 103,
+    "name": "W03",
+    "pixels": 24576,
+    "max": {
+      "width": 1280,
+      "height": 48
+    },
+    "Swidth": 1280,
+    "Sheight": 48,
+    "Spixels": 24576,
+    "communication": [
+      "WIFI"
+    ],
+    "hub": [
+      {
+        "type": "12",
+        "count": 3
+      }
+    ],
+    "MaxGray": 1,
+    "DefaultGray": 1,
+    "smart_setting": false,
+    "regions": 20,
+    "bufsize": 37,
+    "SupportFlag": 3,
+    "DefaultFlash": 2
+  },
+  {
+    "id": 104,
+    "name": "W04",
+    "pixels": 32768,
+    "max": {
+      "width": 1536,
+      "height": 64
+    },
+    "Swidth": 1536,
+    "Sheight": 64,
+    "Spixels": 32768,
+    "communication": [
+      "WIFI"
+    ],
+    "hub": [
+      {
+        "type": "12",
+        "count": 4
+      }
+    ],
+    "MaxGray": 1,
+    "DefaultGray": 1,
+    "smart_setting": false,
+    "regions": 20,
+    "bufsize": 53,
+    "SupportFlag": 3,
+    "DefaultFlash": 2
+  },
+  {
+    "id": 105,
+    "name": "W62",
+    "pixels": 65536,
+    "max": {
+      "width": 2048,
+      "height": 64
+    },
+    "Swidth": 2048,
+    "Sheight": 64,
+    "Spixels": 65536,
+    "communication": [
+      "USB",
+      "WIFI"
+    ],
+    "hub": [
+      {
+        "type": "08",
+        "count": 2
+      },
+      {
+        "type": "12",
+        "count": 4
+      }
+    ],
+    "MaxGray": 7,
+    "DefaultGray": 1,
+    "smart_setting": false,
+    "regions": 20,
+    "bufsize": 53,
+    "SupportFlag": 11,
+    "DefaultFlash": 8
+  },
+  {
+    "id": 106,
+    "name": "U63",
+    "pixels": 65536,
+    "max": {
+      "width": 2048,
+      "height": 128
+    },
+    "Swidth": 2048,
+    "Sheight": 128,
+    "Spixels": 65536,
+    "communication": [
+      "USB"
+    ],
+    "hub": [
+      {
+        "type": "08",
+        "count": 4
+      },
+      {
+        "type": "12",
+        "count": 8
+      }
+    ],
+    "MaxGray": 7,
+    "DefaultGray": 1,
+    "smart_setting": false,
+    "regions": 20,
+    "bufsize": 52,
+    "SupportFlag": 11,
+    "DefaultFlash": 8
+  },
+  {
+    "id": 107,
+    "name": "W60",
+    "pixels": 32768,
+    "max": {
+      "width": 1536,
+      "height": 32
+    },
+    "Swidth": 512,
+    "Sheight": 32,
+    "Spixels": 16384,
+    "communication": [
+      "USB",
+      "WIFI"
+    ],
+    "hub": [
+      {
+        "type": "08",
+        "count": 1
+      },
+      {
+        "type": "12",
+        "count": 2
+      }
+    ],
+    "MaxGray": 7,
+    "DefaultGray": 1,
+    "smart_setting": false,
+    "regions": 20,
+    "bufsize": 35,
+    "SupportFlag": 11,
+    "DefaultFlash": 2
+  },
+  {
+    "id": 108,
+    "name": "W00",
+    "pixels": 10240,
+    "max": {
+      "width": 640,
+      "height": 32
+    },
+    "Swidth": 640,
+    "Sheight": 32,
+    "Spixels": 10240,
+    "communication": [
+      "WIFI"
+    ],
+    "hub": [
+      {
+        "type": "12",
+        "count": 2
+      }
+    ],
+    "MaxGray": 1,
+    "DefaultGray": 1,
+    "smart_setting": false,
+    "regions": 20,
+    "bufsize": 35,
+    "SupportFlag": 11,
+    "DefaultFlash": 2,
+    "XR809": true
+  },
+  {
+    "id": 109,
+    "name": "W02",
+    "pixels": 16384,
+    "max": {
+      "width": 1024,
+      "height": 32
+    },
+    "Swidth": 1024,
+    "Sheight": 32,
+    "Spixels": 16384,
+    "communication": [
+      "WIFI"
+    ],
+    "hub": [
+      {
+        "type": "12",
+        "count": 2
+      }
+    ],
+    "MaxGray": 1,
+    "DefaultGray": 1,
+    "smart_setting": false,
+    "regions": 20,
+    "bufsize": 35,
+    "SupportFlag": 11,
+    "DefaultFlash": 2,
+    "XR809": true
+  },
+  {
+    "id": 110,
+    "name": "W03",
+    "pixels": 24576,
+    "max": {
+      "width": 1280,
+      "height": 48
+    },
+    "Swidth": 1280,
+    "Sheight": 48,
+    "Spixels": 24576,
+    "communication": [
+      "WIFI"
+    ],
+    "hub": [
+      {
+        "type": "12",
+        "count": 3
+      }
+    ],
+    "MaxGray": 1,
+    "DefaultGray": 1,
+    "smart_setting": false,
+    "regions": 20,
+    "bufsize": 37,
+    "SupportFlag": 11,
+    "DefaultFlash": 2,
+    "XR809": true
+  },
+  {
+    "id": 111,
+    "name": "W04",
+    "pixels": 49152,
+    "max": {
+      "width": 1536,
+      "height": 64
+    },
+    "Swidth": 1536,
+    "Sheight": 64,
+    "Spixels": 32768,
+    "communication": [
+      "WIFI"
+    ],
+    "hub": [
+      {
+        "type": "12",
+        "count": 4
+      }
+    ],
+    "MaxGray": 1,
+    "DefaultGray": 1,
+    "smart_setting": false,
+    "regions": 20,
+    "bufsize": 100,
+    "SupportFlag": 11,
+    "DefaultFlash": 2,
+    "XR809": true
+  },
+  {
+    "id": 120,
+    "name": "WF1",
+    "pixels": 73728,
+    "max": {
+      "width": 640,
+      "height": 128
+    },
+    "Swidth": 320,
+    "Sheight": 64,
+    "Spixels": 73728,
+    "communication": [
+      "WIFI"
+    ],
+    "hub": [
+      {
+        "type": "75",
+        "count": 1
+      }
+    ],
+    "MaxGray": 7,
+    "DefaultGray": 1,
+    "smart_setting": false,
+    "regions": 20,
+    "bufsize": 130,
+    "SupportFlag": 3,
+    "DefaultFlash": 4,
+    "XR809": false
+  },
+  {
+    "id": 113,
+    "name": "W60",
+    "pixels": 32768,
+    "max": {
+      "width": 1536,
+      "height": 32
+    },
+    "Swidth": 512,
+    "Sheight": 32,
+    "Spixels": 16384,
+    "communication": [
+      "USB",
+      "WIFI"
+    ],
+    "hub": [
+      {
+        "type": "08",
+        "count": 1
+      },
+      {
+        "type": "12",
+        "count": 2
+      }
+    ],
+    "MaxGray": 7,
+    "DefaultGray": 1,
+    "smart_setting": false,
+    "regions": 20,
+    "bufsize": 35,
+    "SupportFlag": 11,
+    "DefaultFlash": 4
+  },
+  {
+    "id": 114,
+    "name": "W6B",
+    "pixels": 49152,
+    "max": {
+      "width": 1536,
+      "height": 48
+    },
+    "Swidth": 1280,
+    "Sheight": 48,
+    "Spixels": 49152,
+    "communication": [
+      "USB",
+      "WIFI"
+    ],
+    "hub": [
+      {
+        "type": "08",
+        "count": 1
+      },
+      {
+        "type": "12",
+        "count": 3
+      }
+    ],
+    "MaxGray": 7,
+    "DefaultGray": 1,
+    "smart_setting": false,
+    "regions": 20,
+    "bufsize": 37,
+    "SupportFlag": 3,
+    "DefaultFlash": 4
+  },
+  {
+    "id": 115,
+    "name": "W62",
+    "pixels": 65536,
+    "max": {
+      "width": 2048,
+      "height": 64
+    },
+    "Swidth": 2048,
+    "Sheight": 64,
+    "Spixels": 65536,
+    "communication": [
+      "USB",
+      "WIFI"
+    ],
+    "hub": [
+      {
+        "type": "08",
+        "count": 2
+      },
+      {
+        "type": "12",
+        "count": 4
+      }
+    ],
+    "MaxGray": 7,
+    "DefaultGray": 1,
+    "smart_setting": false,
+    "regions": 20,
+    "bufsize": 53,
+    "SupportFlag": 3,
+    "DefaultFlash": 4
+  },
+  {
+    "id": 116,
+    "name": "WF2",
+    "pixels": 147456,
+    "max": {
+      "width": 1280,
+      "height": 256
+    },
+    "Swidth": 768,
+    "Sheight": 64,
+    "Spixels": 147456,
+    "communication": [
+      "USB",
+      "WIFI"
+    ],
+    "hub": [
+      {
+        "type": "75",
+        "count": 2
+      }
+    ],
+    "MaxGray": 7,
+    "DefaultGray": 1,
+    "smart_setting": false,
+    "regions": 20,
+    "bufsize": 131,
+    "SupportFlag": 3,
+    "DefaultFlash": 8
+  },
+  {
+    "id": 121,
+    "name": "WF4",
+    "pixels": 294912,
+    "max": {
+      "width": 1280,
+      "height": 512
+    },
+    "Swidth": 768,
+    "Sheight": 128,
+    "Spixels": 294912,
+    "communication": [
+      "USB",
+      "WIFI"
+    ],
+    "hub": [
+      {
+        "type": "75",
+        "count": 4
+      }
+    ],
+    "MaxGray": 7,
+    "DefaultGray": 1,
+    "smart_setting": false,
+    "regions": 20,
+    "bufsize": 131,
+    "SupportFlag": 3,
+    "DefaultFlash": 8
+  },
+  {
+    "id": 122,
+    "name": "W00",
+    "pixels": 10240,
+    "max": {
+      "width": 640,
+      "height": 32
+    },
+    "Swidth": 640,
+    "Sheight": 32,
+    "Spixels": 10240,
+    "communication": [
+      "WIFI"
+    ],
+    "hub": [
+      {
+        "type": "12",
+        "count": 2
+      }
+    ],
+    "MaxGray": 1,
+    "DefaultGray": 1,
+    "smart_setting": false,
+    "regions": 20,
+    "bufsize": 35,
+    "SupportFlag": 11,
+    "DefaultFlash": 2,
+    "XR809": true
+  },
+  {
+    "id": 123,
+    "name": "W02",
+    "pixels": 16384,
+    "max": {
+      "width": 1024,
+      "height": 32
+    },
+    "Swidth": 1024,
+    "Sheight": 32,
+    "Spixels": 16384,
+    "communication": [
+      "WIFI"
+    ],
+    "hub": [
+      {
+        "type": "12",
+        "count": 2
+      }
+    ],
+    "MaxGray": 1,
+    "DefaultGray": 1,
+    "smart_setting": false,
+    "regions": 20,
+    "bufsize": 35,
+    "SupportFlag": 11,
+    "DefaultFlash": 2,
+    "XR809": true
+  },
+  {
+    "id": 124,
+    "name": "W03",
+    "pixels": 49152,
+    "max": {
+      "width": 1280,
+      "height": 48
+    },
+    "Swidth": 1280,
+    "Sheight": 48,
+    "Spixels": 49152,
+    "communication": [
+      "WIFI"
+    ],
+    "hub": [
+      {
+        "type": "12",
+        "count": 3
+      }
+    ],
+    "MaxGray": 1,
+    "DefaultGray": 1,
+    "smart_setting": false,
+    "regions": 20,
+    "bufsize": 37,
+    "SupportFlag": 11,
+    "DefaultFlash": 2,
+    "XR809": false
+  },
+  {
+    "id": 118,
+    "name": "W63",
+    "pixels": 131072,
+    "max": {
+      "width": 3072,
+      "height": 128
+    },
+    "Swidth": 2048,
+    "Sheight": 128,
+    "Spixels": 131072,
+    "communication": [
+      "USB",
+      "WIFI"
+    ],
+    "hub": [
+      {
+        "type": "08",
+        "count": 4
+      },
+      {
+        "type": "12",
+        "count": 8
+      }
+    ],
+    "MaxGray": 7,
+    "DefaultGray": 1,
+    "smart_setting": false,
+    "regions": 20,
+    "bufsize": 82,
+    "SupportFlag": 3,
+    "DefaultFlash": 8
+  },
+  {
+    "id": 127,
+    "name": "WF2",
+    "pixels": 147456,
+    "max": {
+      "width": 1280,
+      "height": 256
+    },
+    "Swidth": 640,
+    "Sheight": 64,
+    "Spixels": 122880,
+    "communication": [
+      "USB",
+      "WIFI"
+    ],
+    "hub": [
+      {
+        "type": "75",
+        "count": 2
+      }
+    ],
+    "MaxGray": 7,
+    "DefaultGray": 8,
+    "smart_setting": false,
+    "regions": 20,
+    "bufsize": 131,
+    "SupportFlag": 3,
+    "DefaultFlash": 2
+  },
+  {
+    "id": 125,
+    "name": "W64A",
+    "pixels": 262144,
+    "max": {
+      "width": 4096,
+      "height": 256
+    },
+    "Swidth": 3072,
+    "Sheight": 256,
+    "Spixels": 262144,
+    "communication": [
+      "USB",
+      "WIFI"
+    ],
+    "hub": [
+      {
+        "type": "50s",
+        "count": 1
+      }
+    ],
+    "MaxGray": 7,
+    "DefaultGray": 1,
+    "smart_setting": false,
+    "regions": 20,
+    "bufsize": 200,
+    "SupportFlag": 3,
+    "DefaultFlash": 256
+  },
+  {
+    "id": 128,
+    "name": "E63",
+    "pixels": 131072,
+    "max": {
+      "width": 3072,
+      "height": 128
+    },
+    "Swidth": 3072,
+    "Sheight": 128,
+    "Spixels": 131072,
+    "communication": [
+      "USB",
+      "NET"
+    ],
+    "hub": [
+      {
+        "type": "08",
+        "count": 4
+      },
+      {
+        "type": "12",
+        "count": 8
+      }
+    ],
+    "MaxGray": 7,
+    "DefaultGray": 1,
+    "smart_setting": false,
+    "regions": 20,
+    "bufsize": 153,
+    "SupportFlag": 11,
+    "DefaultFlash": 8
+  },
+  {
+    "id": 130,
+    "name": "W66",
+    "pixels": 1048576,
+    "max": {
+      "width": 8192,
+      "height": 512
+    },
+    "Swidth": 8192,
+    "Sheight": 512,
+    "Spixels": 1048576,
+    "communication": [
+      "COM",
+      "USB",
+      "NET",
+      "WIFI"
+    ],
+    "hub": [
+      {
+        "type": "50d",
+        "count": 1
+      }
+    ],
+    "MaxGray": 31,
+    "DefaultGray": 1,
+    "smart_setting": true,
+    "regions": 20,
+    "bufsize": 512,
+    "SupportFlag": 3,
+    "DefaultFlash": 8
+  },
+  {
+    "id": 131,
+    "name": "E62",
+    "pixels": 65536,
+    "max": {
+      "width": 2048,
+      "height": 64
+    },
+    "Swidth": 2048,
+    "Sheight": 64,
+    "Spixels": 65536,
+    "communication": [
+      "USB",
+      "NET"
+    ],
+    "hub": [
+      {
+        "type": "08",
+        "count": 2
+      },
+      {
+        "type": "12",
+        "count": 4
+      }
+    ],
+    "MaxGray": 7,
+    "DefaultGray": 1,
+    "smart_setting": false,
+    "regions": 20,
+    "bufsize": 51,
+    "SupportFlag": 3,
+    "DefaultFlash": 8
+  },
+  {
+    "id": 132,
+    "name": "W03",
+    "pixels": 49152,
+    "max": {
+      "width": 1280,
+      "height": 48
+    },
+    "Swidth": 1280,
+    "Sheight": 48,
+    "Spixels": 49152,
+    "communication": [
+      "WIFI"
+    ],
+    "hub": [
+      {
+        "type": "12",
+        "count": 3
+      }
+    ],
+    "MaxGray": 1,
+    "DefaultGray": 1,
+    "smart_setting": false,
+    "regions": 20,
+    "bufsize": 37,
+    "SupportFlag": 11,
+    "DefaultFlash": 2,
+    "XR809": false
+  },
+  {
+    "id": 133,
+    "name": "W00",
+    "pixels": 10240,
+    "max": {
+      "width": 640,
+      "height": 32
+    },
+    "Swidth": 640,
+    "Sheight": 32,
+    "Spixels": 10240,
+    "communication": [
+      "WIFI"
+    ],
+    "hub": [
+      {
+        "type": "12",
+        "count": 2
+      }
+    ],
+    "MaxGray": 1,
+    "DefaultGray": 1,
+    "smart_setting": false,
+    "regions": 20,
+    "bufsize": 35,
+    "SupportFlag": 3,
+    "DefaultFlash": 2
+  },
+  {
+    "id": 134,
+    "name": "W02",
+    "pixels": 16384,
+    "max": {
+      "width": 1024,
+      "height": 32
+    },
+    "Swidth": 1024,
+    "Sheight": 32,
+    "Spixels": 16384,
+    "communication": [
+      "WIFI"
+    ],
+    "hub": [
+      {
+        "type": "12",
+        "count": 2
+      }
+    ],
+    "MaxGray": 1,
+    "DefaultGray": 1,
+    "smart_setting": false,
+    "regions": 20,
+    "bufsize": 35,
+    "SupportFlag": 11,
+    "DefaultFlash": 2,
+    "XR809": false
+  },
+  {
+    "id": 135,
+    "name": "W04",
+    "pixels": 49152,
+    "max": {
+      "width": 1536,
+      "height": 64
+    },
+    "Swidth": 1536,
+    "Sheight": 64,
+    "Spixels": 32768,
+    "communication": [
+      "WIFI"
+    ],
+    "hub": [
+      {
+        "type": "12",
+        "count": 4
+      }
+    ],
+    "MaxGray": 1,
+    "DefaultGray": 1,
+    "smart_setting": false,
+    "regions": 20,
+    "bufsize": 100,
+    "SupportFlag": 11,
+    "DefaultFlash": 2,
+    "XR809": false
+  },
+  {
+    "id": 136,
+    "name": "W60",
+    "pixels": 32768,
+    "max": {
+      "width": 1536,
+      "height": 32
+    },
+    "Swidth": 512,
+    "Sheight": 32,
+    "Spixels": 16384,
+    "communication": [
+      "USB",
+      "WIFI"
+    ],
+    "hub": [
+      {
+        "type": "08",
+        "count": 1
+      },
+      {
+        "type": "12",
+        "count": 2
+      }
+    ],
+    "MaxGray": 7,
+    "DefaultGray": 1,
+    "smart_setting": false,
+    "regions": 20,
+    "bufsize": 35,
+    "SupportFlag": 11,
+    "DefaultFlash": 4
+  },
+  {
+    "id": 137,
+    "name": "G62",
+    "pixels": 131072,
+    "max": {
+      "width": 3072,
+      "height": 128
+    },
+    "Swidth": 2048,
+    "Sheight": 128,
+    "Spixels": 131072,
+    "communication": [
+      "USB",
+      "WIFI"
+    ],
+    "hub": [
+      {
+        "type": "08",
+        "count": 2
+      },
+      {
+        "type": "12",
+        "count": 4
+      },
+      {
+        "type": "75",
+        "count": 2
+      }
+    ],
+    "MaxGray": 7,
+    "DefaultGray": 1,
+    "smart_setting": false,
+    "regions": 20,
+    "bufsize": 82,
+    "SupportFlag": 3,
+    "DefaultFlash": 8
+  },
+  {
+    "id": 129,
+    "name": "G66",
+    "pixels": 1048576,
+    "max": {
+      "width": 8192,
+      "height": 512
+    },
+    "Swidth": 8192,
+    "Sheight": 512,
+    "Spixels": 1048576,
+    "communication": [
+      "COM",
+      "USB",
+      "NET",
+      "WIFI"
+    ],
+    "hub": [
+      {
+        "type": "50d",
+        "count": 1
+      }
+    ],
+    "MaxGray": 31,
+    "DefaultGray": 1,
+    "smart_setting": true,
+    "regions": 20,
+    "bufsize": 512,
+    "SupportFlag": 3,
+    "DefaultFlash": 8
+  },
+  {
+    "id": 138,
+    "name": "W62",
+    "pixels": 65536,
+    "max": {
+      "width": 2048,
+      "height": 64
+    },
+    "Swidth": 2048,
+    "Sheight": 64,
+    "Spixels": 65536,
+    "communication": [
+      "USB",
+      "WIFI"
+    ],
+    "hub": [
+      {
+        "type": "08",
+        "count": 2
+      },
+      {
+        "type": "12",
+        "count": 4
+      }
+    ],
+    "MaxGray": 7,
+    "DefaultGray": 1,
+    "smart_setting": false,
+    "regions": 20,
+    "bufsize": 53,
+    "SupportFlag": 11,
+    "DefaultFlash": 8
+  },
+  {
+    "id": 139,
+    "name": "WF1",
+    "pixels": 73728,
+    "max": {
+      "width": 640,
+      "height": 128
+    },
+    "Swidth": 320,
+    "Sheight": 64,
+    "Spixels": 73728,
+    "communication": [
+      "WIFI"
+    ],
+    "hub": [
+      {
+        "type": "75",
+        "count": 1
+      }
+    ],
+    "MaxGray": 7,
+    "DefaultGray": 1,
+    "smart_setting": false,
+    "regions": 20,
+    "bufsize": 130,
+    "SupportFlag": 3,
+    "DefaultFlash": 4,
+    "XR809": false
+  }
+]

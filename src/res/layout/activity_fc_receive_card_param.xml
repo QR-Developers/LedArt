@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:background="f2f2f2" android:layout_width="-1" android:layout_height="-1">
+	<androidx.core.widget.NestedScrollView android:id="false" android:layout_width="-1" android:layout_height="-1" android:fillViewport="true">
+		<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2">
+			<RelativeLayout android:id="false" android:background="ffcc0" android:visibility="2" android:layout_width="-1" android:layout_height="30dp">
+				<TextView android:textSize="13sp" android:textColor="ff00" android:ellipsize="2" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="15dp" android:text="" android:singleLine="true" android:layout_centerVertical="true" />
+				<ImageView android:id="false" android:background="res/drawable-xhdpi-v4/red_close.png" android:padding="7dp" android:layout_width="30dp" android:layout_height="30dp" android:layout_marginRight="8dp" android:layout_alignParentRight="true" />
+			</RelativeLayout>
+			<RelativeLayout android:layout_width="-1" android:layout_height="40dp">
+				<TextView android:textSize="14sp" android:textColor="999999" android:layout_gravity="0x50" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="15dp" android:layout_marginBottom="5dp" android:text="Basic parameters" android:lines="1" android:layout_alignParentBottom="true" />
+			</RelativeLayout>
+			<LinearLayout android:gravity="0x10" android:orientation="0" android:id="false" android:background="res/drawable/bg_rectangle_top_bottom_ff_stroke_e4.xml" android:paddingLeft="15dp" android:paddingRight="15dp" android:layout_width="-1" android:layout_height="50dp">
+				<TextView android:textSize="14sp" android:textColor="333333" android:layout_width="0dp" android:layout_height="-2" android:text="Refresh rate" android:lines="1" android:layout_weight="{4:1065353216}" />
+				<TextView android:textSize="14sp" android:textColor="666666" android:layout_gravity="0x11" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="5dp" android:layout_marginRight="10dp" android:lines="1" />
+				<ImageView android:layout_gravity="0x11" android:layout_width="16dp" android:layout_height="16dp" android:src="res/drawable-xhdpi-v4/angle_right.png" android:alpha="{4:1058642330}" />
+			</LinearLayout>
+			<LinearLayout android:gravity="0x10" android:orientation="0" android:id="false" android:background="res/drawable/bg_rectangle_only_bottom_ff_stroke_e4.xml" android:paddingLeft="15dp" android:paddingRight="15dp" android:layout_width="-1" android:layout_height="50dp">
+				<TextView android:textSize="14sp" android:textColor="333333" android:layout_width="0dp" android:layout_height="-2" android:text="Refresh rate acceleration" android:lines="1" android:layout_weight="{4:1065353216}" />
+				<TextView android:textSize="14sp" android:textColor="666666" android:layout_gravity="0x11" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="5dp" android:layout_marginRight="10dp" android:lines="1" />
+				<ImageView android:layout_gravity="0x11" android:layout_width="16dp" android:layout_height="16dp" android:src="res/drawable-xhdpi-v4/angle_right.png" android:alpha="{4:1058642330}" />
+			</LinearLayout>
+			<LinearLayout android:gravity="0x10" android:orientation="0" android:id="false" android:background="res/drawable/bg_rectangle_only_bottom_ff_stroke_e4.xml" android:paddingLeft="15dp" android:paddingRight="15dp" android:layout_width="-1" android:layout_height="50dp">
+				<TextView android:textSize="14sp" android:textColor="333333" android:layout_width="0dp" android:layout_height="-2" android:text="Gray level" android:lines="1" android:layout_weight="{4:1065353216}" />
+				<TextView android:textSize="14sp" android:textColor="666666" android:layout_gravity="0x11" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="5dp" android:layout_marginRight="10dp" android:lines="1" />
+				<ImageView android:layout_gravity="0x11" android:layout_width="16dp" android:layout_height="16dp" android:src="res/drawable-xhdpi-v4/angle_right.png" android:alpha="{4:1058642330}" />
+			</LinearLayout>
+			<LinearLayout android:gravity="0x10" android:orientation="0" android:id="false" android:background="res/drawable/bg_rectangle_top_bottom_ff_stroke_e4.xml" android:paddingLeft="15dp" android:paddingRight="15dp" android:layout_width="-1" android:layout_height="50dp">
+				<TextView android:textSize="14sp" android:textColor="333333" android:layout_width="0dp" android:layout_height="-2" android:text="Brightness level" android:lines="1" android:layout_weight="{4:1065353216}" />
+				<TextView android:textSize="14sp" android:textColor="666666" android:layout_gravity="0x11" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="5dp" android:layout_marginRight="10dp" android:lines="1" />
+				<ImageView android:layout_gravity="0x11" android:layout_width="16dp" android:layout_height="16dp" android:src="res/drawable-xhdpi-v4/angle_right.png" android:alpha="{4:1058642330}" />
+			</LinearLayout>
+			<LinearLayout android:gravity="0x10" android:orientation="0" android:id="false" android:background="res/drawable/bg_rectangle_only_bottom_ff_stroke_e4.xml" android:paddingLeft="15dp" android:paddingRight="15dp" android:layout_width="-1" android:layout_height="50dp">
+				<TextView android:textSize="14sp" android:textColor="333333" android:layout_width="0dp" android:layout_height="-2" android:text="Clock frequency" android:lines="1" android:layout_weight="{4:1065353216}" />
+				<TextView android:textSize="14sp" android:textColor="666666" android:layout_gravity="0x11" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="5dp" android:layout_marginRight="10dp" android:lines="1" />
+				<ImageView android:layout_gravity="0x11" android:layout_width="16dp" android:layout_height="16dp" android:src="res/drawable-xhdpi-v4/angle_right.png" android:alpha="{4:1058642330}" />
+			</LinearLayout>
+			<LinearLayout android:gravity="0x10" android:orientation="0" android:id="false" android:background="res/drawable/bg_rectangle_only_bottom_ff_stroke_e4.xml" android:paddingLeft="15dp" android:paddingRight="15dp" android:layout_width="-1" android:layout_height="50dp">
+				<TextView android:textSize="14sp" android:textColor="333333" android:layout_width="0dp" android:layout_height="-2" android:text="Priority mode" android:lines="1" android:layout_weight="{4:1065353216}" />
+				<TextView android:textSize="14sp" android:textColor="666666" android:layout_gravity="0x11" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="5dp" android:layout_marginRight="10dp" android:lines="1" />
+				<ImageView android:layout_gravity="0x11" android:layout_width="16dp" android:layout_height="16dp" android:src="res/drawable-xhdpi-v4/angle_right.png" android:alpha="{4:1058642330}" />
+			</LinearLayout>
+			<LinearLayout android:gravity="0x10" android:orientation="0" android:id="false" android:background="res/drawable/bg_rectangle_only_bottom_ff_stroke_e4.xml" android:paddingLeft="15dp" android:paddingRight="15dp" android:layout_width="-1" android:layout_height="50dp">
+				<TextView android:textSize="14sp" android:textColor="333333" android:layout_width="0dp" android:layout_height="-2" android:text="GCLK" android:lines="1" android:layout_weight="{4:1065353216}" />
+				<TextView android:textSize="14sp" android:textColor="666666" android:layout_gravity="0x11" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="5dp" android:layout_marginRight="10dp" android:lines="1" />
+				<ImageView android:layout_gravity="0x11" android:layout_width="16dp" android:layout_height="16dp" android:src="res/drawable-xhdpi-v4/angle_right.png" android:alpha="{4:1058642330}" />
+			</LinearLayout>
+			<RelativeLayout android:layout_width="-1" android:layout_height="40dp">
+				<TextView android:textSize="14sp" android:textColor="999999" android:layout_gravity="0x50" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="15dp" android:layout_marginBottom="5dp" android:text="HUB settings" android:lines="1" android:layout_alignParentBottom="true" />
+			</RelativeLayout>
+			<LinearLayout android:background="res/drawable/cloud_bg_rectangle_top_bottom_ff_stroke_e4.xml" android:layout_width="-1" android:layout_height="-2">
+				<androidx.recyclerview.widget.RecyclerView android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="10dp" android:layout_marginRight="10dp" />
+			</LinearLayout>
+			<RelativeLayout android:layout_width="-1" android:layout_height="40dp">
+				<TextView android:textSize="14sp" android:textColor="999999" android:layout_gravity="0x50" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="15dp" android:layout_marginBottom="5dp" android:text="Other" android:lines="1" android:layout_alignParentBottom="true" />
+			</RelativeLayout>
+			<LinearLayout android:gravity="0x10" android:orientation="0" android:id="false" android:background="res/drawable/bg_rectangle_top_bottom_ff_stroke_e4.xml" android:paddingLeft="15dp" android:paddingRight="15dp" android:layout_width="-1" android:layout_height="50dp">
+				<TextView android:textSize="14sp" android:textColor="333333" android:layout_width="0dp" android:layout_height="-2" android:text="Universal module" android:lines="1" android:layout_weight="{4:1065353216}" />
+				<ImageView android:layout_gravity="0x11" android:layout_width="16dp" android:layout_height="16dp" android:src="res/drawable-xhdpi-v4/angle_right.png" android:alpha="{4:1058642330}" />
+			</LinearLayout>
+			<LinearLayout android:gravity="0x10" android:orientation="0" android:id="false" android:background="res/drawable/bg_rectangle_only_bottom_ff_stroke_e4.xml" android:paddingLeft="15dp" android:paddingRight="15dp" android:layout_width="-1" android:layout_height="50dp">
+				<TextView android:textSize="14sp" android:textColor="333333" android:layout_width="0dp" android:layout_height="-2" android:text="Smart settings" android:lines="1" android:layout_weight="{4:1065353216}" />
+				<ImageView android:layout_gravity="0x11" android:layout_width="16dp" android:layout_height="16dp" android:src="res/drawable-xhdpi-v4/angle_right.png" android:alpha="{4:1058642330}" />
+			</LinearLayout>
+			<LinearLayout android:gravity="0x10" android:orientation="0" android:id="false" android:background="res/drawable/bg_rectangle_only_bottom_ff_stroke_e4.xml" android:paddingLeft="15dp" android:paddingRight="15dp" android:visibility="0" android:layout_width="-1" android:layout_height="50dp">
+				<TextView android:textSize="14sp" android:textColor="333333" android:layout_width="0dp" android:layout_height="-2" android:text="Advanced settings" android:lines="1" android:layout_weight="{4:1065353216}" />
+				<ImageView android:layout_gravity="0x11" android:layout_width="16dp" android:layout_height="16dp" android:src="res/drawable-xhdpi-v4/angle_right.png" android:alpha="{4:1058642330}" />
+			</LinearLayout>
+			<LinearLayout android:gravity="0x10" android:orientation="0" android:id="false" android:background="res/drawable/bg_rectangle_only_bottom_ff_stroke_e4.xml" android:paddingLeft="15dp" android:paddingRight="15dp" android:visibility="0" android:layout_width="-1" android:layout_height="50dp">
+				<TextView android:textSize="14sp" android:textColor="333333" android:layout_width="0dp" android:layout_height="-2" android:text="Data group exchange" android:lines="1" android:layout_weight="{4:1065353216}" />
+				<ImageView android:layout_gravity="0x11" android:layout_width="16dp" android:layout_height="16dp" android:src="res/drawable-xhdpi-v4/angle_right.png" android:alpha="{4:1058642330}" />
+			</LinearLayout>
+			<LinearLayout android:gravity="0x10" android:orientation="0" android:id="false" android:background="res/drawable/bg_rectangle_only_bottom_ff_stroke_e4.xml" android:paddingLeft="15dp" android:paddingRight="15dp" android:layout_width="-1" android:layout_height="50dp">
+				<TextView android:textSize="14sp" android:textColor="333333" android:layout_width="0dp" android:layout_height="-2" android:text="Color channel" android:lines="1" android:layout_weight="{4:1065353216}" />
+				<ImageView android:layout_gravity="0x11" android:layout_width="16dp" android:layout_height="16dp" android:src="res/drawable-xhdpi-v4/angle_right.png" android:alpha="{4:1058642330}" />
+			</LinearLayout>
+			<LinearLayout android:gravity="0x10" android:orientation="0" android:id="false" android:background="res/drawable/bg_rectangle_only_bottom_ff_stroke_e4.xml" android:paddingLeft="15dp" android:paddingRight="15dp" android:layout_width="-1" android:layout_height="50dp">
+				<TextView android:textSize="14sp" android:textColor="333333" android:layout_width="0dp" android:layout_height="-2" android:text="Data group offset" android:lines="1" android:layout_weight="{4:1065353216}" />
+				<ImageView android:layout_gravity="0x11" android:layout_width="16dp" android:layout_height="16dp" android:src="res/drawable-xhdpi-v4/angle_right.png" android:alpha="{4:1058642330}" />
+			</LinearLayout>
+			<LinearLayout android:gravity="0x10" android:orientation="0" android:id="false" android:background="res/drawable/bg_rectangle_only_bottom_ff_stroke_e4.xml" android:paddingLeft="15dp" android:paddingRight="15dp" android:visibility="2" android:layout_width="-1" android:layout_height="50dp">
+				<TextView android:textSize="14sp" android:textColor="333333" android:layout_width="0dp" android:layout_height="-2" android:text="Extended attributes" android:lines="1" android:layout_weight="{4:1065353216}" />
+				<ImageView android:layout_gravity="0x11" android:layout_width="16dp" android:layout_height="16dp" android:src="res/drawable-xhdpi-v4/angle_right.png" android:alpha="{4:1058642330}" />
+			</LinearLayout>
+		</LinearLayout>
+	</androidx.core.widget.NestedScrollView>
+</LinearLayout>

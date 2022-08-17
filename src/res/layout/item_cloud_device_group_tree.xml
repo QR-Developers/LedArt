@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:background="res/drawable/cloud_bg_rectangle_only_bottom_ff_stroke_e4.xml" android:layout_width="-1" android:layout_height="-2">
+	<androidx.constraintlayout.widget.ConstraintLayout android:gravity="0x10" android:layout_width="-1" android:layout_height="46dp">
+		<ImageView android:id="false" android:paddingLeft="10dp" android:paddingTop="10dp" android:paddingBottom="10dp" android:layout_width="-2" android:layout_height="-1" android:src="res/drawable-xxhdpi-v4/checkbox_half_checked.png" app:layout_constraintStart_toStartOf="0" />
+		<TextView android:textSize="14sp" android:textColor="333333" android:ellipsize="3" android:id="false" android:layout_width="-2" android:layout_height="-2" android:maxWidth="200dp" android:singleLine="true" android:layout_marginStart="10dp" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintStart_toEndOf="false" app:layout_constraintTop_toTopOf="0" />
+		<TextView android:textSize="11sp" android:textColor="666666" android:gravity="0x11" android:id="false" android:background="res/drawable/cloud_bg_stroke_corner_33ccff.xml" android:layout_width="30dp" android:layout_height="-2" android:layout_marginStart="15dp" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintStart_toEndOf="false" app:layout_constraintTop_toTopOf="0" />
+		<ImageView android:id="false" android:padding="10dp" android:visibility="0" android:layout_width="40dp" android:layout_height="40dp" android:src="res/drawable-xxhdpi-v4/down_gray.png" android:alpha="{4:1060320051}" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintEnd_toEndOf="0" app:layout_constraintTop_toTopOf="0" />
+	</androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cn.huidu.view.recycleview.swipe.SwipeMenuLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:swipe="http://schemas.android.com/apk/res-auto" android:clickable="true" android:layout_width="-1" android:layout_height="-2" swipe:contentViewId="false" swipe:leftViewId="false" swipe:rightViewId="false">
+	<cn.huidu.view.recycleview.swipe.SwipeMenuView android:id="false" android:layout_width="-2" android:layout_height="-1" />
+	<FrameLayout android:id="false" android:layout_width="-1" android:layout_height="-2" />
+	<cn.huidu.view.recycleview.swipe.SwipeMenuView android:id="false" android:layout_width="-2" android:layout_height="-1" />
+</cn.huidu.view.recycleview.swipe.SwipeMenuLayout>

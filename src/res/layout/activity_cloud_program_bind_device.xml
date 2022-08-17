@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="-1" android:layout_height="-1">
+	<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+		<FrameLayout android:id="false" android:background="3399ff" android:fitsSystemWindows="true" android:layout_width="-1" android:layout_height="75dp">
+			<ImageView android:layout_gravity="0x10" android:id="false" android:padding="10dp" android:layout_width="44dp" android:layout_height="44dp" android:src="res/drawable/cloud_base_setting_left_angle.png" />
+			<TextView android:textSize="15sp" android:textColor="ffffff" android:ellipsize="4" android:gravity="0x11" android:layout_gravity="0x10" android:id="false" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="70dp" android:layout_marginRight="70dp" android:text="Bound device" android:singleLine="true" />
+			<TextView android:textSize="13sp" android:textColor="ffffff" android:gravity="0x10" android:layout_gravity="0x15" android:id="false" android:paddingLeft="4dp" android:paddingRight="10dp" android:layout_width="-2" android:layout_height="44dp" android:maxWidth="80dp" android:text="Add to" />
+		</FrameLayout>
+		<cn.huidu.view.KeywordSearchView android:id="false" android:background="res/drawable/cloud_bg_rectangle_top_bottom_ff_stroke_e4.xml" android:layout_width="-1" android:layout_height="46dp" app:hint_txt="" />
+		<FrameLayout android:layout_width="-1" android:layout_height="-1">
+			<LinearLayout android:orientation="1" android:id="false" android:layout_width="-1" android:layout_height="-1">
+				<com.scwang.smart.refresh.layout.SmartRefreshLayout android:id="false" android:layout_width="-1" android:layout_height="0dp" android:layout_weight="{4:1065353216}">
+					<androidx.recyclerview.widget.RecyclerView android:id="false" android:layout_width="-1" android:layout_height="-1" />
+				</com.scwang.smart.refresh.layout.SmartRefreshLayout>
+				<Button android:textSize="14sp" android:textColor="ffffff" android:layout_gravity="0x1" android:id="false" android:background="res/drawable/bg_round_20_rectangle_solid_3399ff.xml" android:layout_width="180dp" android:layout_height="40dp" android:layout_marginTop="20dp" android:layout_marginBottom="20dp" android:text="Delete" />
+			</LinearLayout>
+			<LinearLayout android:gravity="0x11" android:orientation="1" android:id="false" android:visibility="2" android:layout_width="-1" android:layout_height="-1">
+				<TextView android:textSize="16sp" android:textColor="999999" android:layout_width="-2" android:layout_height="-2" android:text="No data" />
+			</LinearLayout>
+		</FrameLayout>
+	</LinearLayout>
+</FrameLayout>

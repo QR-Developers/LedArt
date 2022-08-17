@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="false" android:background="000" android:layout_width="-1" android:layout_height="-1">
+	<cn.huidu.view.SViewPager android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_below="false" android:layout_centerVertical="true" />
+	<FrameLayout android:id="false" android:background="4d000" android:layout_width="-1" android:layout_height="48dp" android:layout_alignParentTop="true">
+		<LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="-1">
+			<RelativeLayout android:gravity="0x11" android:id="false" android:layout_width="48dp" android:layout_height="-1">
+				<ImageView android:layout_width="20dp" android:layout_height="20dp" android:src="res/drawable-hdpi-v4/angle_left_white.png" android:scaleType="7" android:alpha="{4:1050253722}" />
+			</RelativeLayout>
+			<LinearLayout android:layout_width="0dp" android:layout_height="-1" android:layout_weight="{4:1065353216}">
+				<TextView android:textColor="ffffff" android:gravity="0x11" android:id="false" android:layout_width="-1" android:layout_height="-1" />
+			</LinearLayout>
+			<com.coship.fullcolorprogram.view.ProgressButton android:textSize="14sp" android:textColor="ffffff" android:layout_gravity="0x800015" android:id="false" android:layout_width="40dp" android:layout_height="20dp" android:layout_marginEnd="15dp" />
+		</LinearLayout>
+	</FrameLayout>
+	<RelativeLayout android:layout_gravity="0x11" android:id="false" android:visibility="2" android:clickable="true" android:layout_width="-1" android:layout_height="-1">
+		<ImageView android:id="false" android:layout_width="-2" android:layout_height="-2" android:src="res/drawable-xhdpi-v4/rocket.png" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+	</RelativeLayout>
+	<ImageView android:layout_gravity="0x11" android:id="false" android:visibility="2" android:layout_width="-1" android:layout_height="250dp" />
+</FrameLayout>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="-1" android:layout_height="-1">
+	<androidx.core.widget.NestedScrollView android:layout_width="-1" android:layout_height="-1">
+		<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2">
+			<LinearLayout android:orientation="0" android:id="false" android:background="res/drawable/bg_rectangle_top_bottom_ff_stroke_e4.xml" android:paddingLeft="10dp" android:paddingRight="10dp" android:layout_width="-1" android:layout_height="70dp">
+				<androidx.recyclerview.widget.RecyclerView android:id="false" android:layout_width="-2" android:layout_height="-1" android:splitMotionEvents="false" />
+			</LinearLayout>
+			<LinearLayout android:orientation="0" android:id="false" android:background="res/drawable/bg_rectangle_top_bottom_ff_stroke_e4.xml" android:layout_width="-1" android:layout_height="40dp" android:layout_marginTop="10dp">
+				<TextView android:textSize="13sp" android:textColor="333333" android:layout_gravity="0x10" android:layout_width="0dp" android:layout_height="-2" android:layout_marginLeft="15dp" android:text="Display time" android:lines="1" android:layout_weight="{4:1065353216}" />
+				<LinearLayout android:layout_gravity="0x10" android:layout_width="-2" android:layout_height="28dp" android:layout_marginLeft="0dp" android:layout_marginRight="15dp">
+					<ImageButton android:id="false" android:background="f2f2f2" android:layout_width="28dp" android:layout_height="-1" android:layout_marginRight="3dp" android:src="res/drawable-xxhdpi-v4/remote_count_subtract.png" android:scaleType="7" />
+					<LinearLayout android:gravity="0x11" android:layout_gravity="0x11" android:orientation="0" android:id="false" android:background="f2f2f2" android:layout_width="55dp" android:layout_height="-1">
+						<TextView android:textSize="13sp" android:textColor="333333" android:gravity="0x11" android:id="false" android:layout_width="-2" android:layout_height="-1" android:maxWidth="55dp" android:text="S" android:lines="1" android:alpha="{4:1063675494}" />
+					</LinearLayout>
+					<ImageButton android:id="false" android:background="f2f2f2" android:layout_width="28dp" android:layout_height="-1" android:layout_marginLeft="3dp" android:src="res/drawable-xxhdpi-v4/remote_count_add.png" android:scaleType="7" />
+				</LinearLayout>
+			</LinearLayout>
+			<LinearLayout android:orientation="0" android:id="false" android:background="res/drawable/bg_rectangle_only_bottom_ff_stroke_e4.xml" android:layout_width="-1" android:layout_height="40dp">
+				<TextView android:textSize="13sp" android:textColor="333333" android:layout_gravity="0x10" android:layout_width="0dp" android:layout_height="-2" android:layout_marginLeft="15dp" android:text="Animation effects" android:lines="1" android:layout_weight="{4:1065353216}" />
+				<TextView android:textSize="13sp" android:textColor="066ff" android:layout_gravity="0x10" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="5dp" android:layout_marginRight="10dp" android:text="Display static" android:lines="1" />
+				<ImageView android:layout_gravity="0x10" android:layout_width="12dp" android:layout_height="6dp" android:layout_marginRight="15dp" android:src="res/drawable-xxhdpi-v4/font_arrow.png" android:rotation="{4:1127481344}" />
+			</LinearLayout>
+			<LinearLayout android:orientation="0" android:id="false" android:background="res/drawable/bg_rectangle_only_bottom_ff_stroke_e4.xml" android:layout_width="-1" android:layout_height="40dp">
+				<TextView android:textSize="13sp" android:textColor="333333" android:layout_gravity="0x10" android:layout_width="0dp" android:layout_height="-2" android:layout_marginLeft="15dp" android:text="Admission time" android:lines="1" android:layout_weight="{4:1065353216}" />
+				<TextView android:textSize="13sp" android:textColor="333333" android:layout_gravity="0x10" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="5dp" android:layout_marginRight="10dp" android:text="S" android:lines="1" />
+				<ImageView android:layout_gravity="0x10" android:layout_width="12dp" android:layout_height="6dp" android:layout_marginRight="15dp" android:src="res/drawable-xxhdpi-v4/font_arrow.png" android:rotation="{4:1127481344}" />
+			</LinearLayout>
+			<RelativeLayout android:id="false" android:background="res/drawable/bg_rectangle_only_bottom_ff_stroke_e4.xml" android:layout_width="-1" android:layout_height="40dp">
+				<TextView android:textSize="14sp" android:textColor="333333" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="15dp" android:text="Clear immediately" android:layout_centerVertical="true" />
+				<cn.huidu.view.CustomSwitch android:id="false" android:layout_width="36dp" android:layout_height="20dp" android:layout_marginRight="15dp" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+			</RelativeLayout>
+			<LinearLayout android:orientation="0" android:background="res/drawable/bg_rectangle_top_bottom_ff_stroke_e4.xml" android:layout_width="-1" android:layout_height="40dp" android:layout_marginTop="10dp">
+				<TextView android:textSize="13sp" android:textColor="333333" android:layout_gravity="0x10" android:layout_width="0dp" android:layout_height="-2" android:layout_marginLeft="15dp" android:text="Resolution" android:layout_weight="{4:1065353216}" android:layout_marginStart="15dp" />
+				<TextView android:textSize="13sp" android:textColor="666666" android:layout_gravity="0x10" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="15dp" android:text="1920*1080" />
+			</LinearLayout>
+			<RelativeLayout android:background="res/drawable/bg_rectangle_only_bottom_ff_stroke_e4.xml" android:layout_width="-1" android:layout_height="40dp">
+				<TextView android:textSize="14sp" android:textColor="333333" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="15dp" android:text="Keep aspect ratio" android:layout_centerVertical="true" />
+				<cn.huidu.view.CustomSwitch android:id="false" android:layout_width="36dp" android:layout_height="20dp" android:layout_marginRight="15dp" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+			</RelativeLayout>
+			<RelativeLayout android:id="false" android:background="res/drawable/bg_rectangle_only_bottom_ff_stroke_e4.xml" android:layout_width="-1" android:layout_height="40dp">
+				<TextView android:textSize="14sp" android:textColor="333333" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="15dp" android:text="Use Carousel" android:layout_centerVertical="true" />
+				<cn.huidu.view.CustomSwitch android:id="false" android:layout_width="36dp" android:layout_height="20dp" android:layout_marginRight="15dp" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+			</RelativeLayout>
+			<RelativeLayout android:id="false" android:background="res/drawable/bg_rectangle_only_bottom_ff_stroke_e4.xml" android:layout_width="-1" android:layout_height="40dp">
+				<TextView android:textSize="14sp" android:textColor="333333" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="15dp" android:text="Swipe to switch pictures" android:layout_centerVertical="true" />
+				<cn.huidu.view.CustomSwitch android:id="false" android:layout_width="36dp" android:layout_height="20dp" android:layout_marginRight="15dp" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+			</RelativeLayout>
+			<View android:layout_width="-1" android:layout_height="20dp" />
+		</LinearLayout>
+	</androidx.core.widget.NestedScrollView>
+</FrameLayout>

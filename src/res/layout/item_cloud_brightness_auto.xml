@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" style="resourceId:0x7f1202e0">
+	<ImageView android:id="false" android:background="res/drawable-xxhdpi-v4/brightness_pass.png" android:layout_width="15dp" android:layout_height="15dp" android:alpha="{4:1053609165}" />
+	<TextView android:id="false" android:layout_marginLeft="20dp" android:text="00:00:00" style="resourceId:0x7f1202e2" />
+	<TextView android:layout_marginLeft="10dp" android:text="~" style="resourceId:0x7f1202e2" />
+	<TextView android:id="false" android:layout_marginLeft="10dp" android:text="01:00:00" style="resourceId:0x7f1202e2" />
+	<View android:background="e4e4e4" android:layout_width="1px" android:layout_height="-1" android:layout_marginLeft="15dp" android:layout_marginTop="10dp" android:layout_marginRight="15dp" android:layout_marginBottom="10dp" />
+	<TextView android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="100" style="resourceId:0x7f1202e3" />
+	<TextView android:layout_width="-2" android:layout_height="-2" android:text="%" android:layout_weight="{4:1073741824}" style="resourceId:0x7f1202e3" />
+	<cn.huidu.view.CustomSwitch android:layout_gravity="0x15" android:id="false" android:layout_width="-1" android:layout_height="-2" />
+</LinearLayout>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="0000" android:layout_width="-1" android:layout_height="-1">
+	<LinearLayout android:layout_gravity="0x11" android:orientation="1" android:background="res/drawable/bg_round_10_rectangle_f2_79.xml" android:layout_width="280dp" android:layout_height="-2" android:minHeight="200dp">
+		<FrameLayout android:paddingLeft="10dp" android:paddingRight="10dp" android:layout_width="-1" android:layout_height="50dp">
+			<TextView android:textSize="13sp" android:textStyle="0x1" android:textColor="333333" android:gravity="0x11" android:layout_gravity="0x11" android:id="false" android:layout_width="-2" android:layout_height="-2" android:lines="1" />
+		</FrameLayout>
+		<FrameLayout android:layout_width="-1" android:layout_height="-2">
+			<LinearLayout android:orientation="1" android:id="false" android:layout_width="-1" android:layout_height="-2">
+				<FrameLayout android:background="ffffffff" android:paddingLeft="20dp" android:paddingRight="20dp" android:layout_width="-1" android:layout_height="130dp">
+					<TextView android:textSize="13sp" android:textColor="333333" android:layout_gravity="0x11" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="The firmware upgrade is not complete, please continue to upgrade" />
+				</FrameLayout>
+				<LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="50dp">
+					<Button android:textSize="13sp" android:textColor="333333" android:id="false" android:background="0000" android:layout_width="0dp" android:layout_height="-1" android:text="Cancel" android:layout_weight="{4:1065353216}" android:textAllCaps="false" />
+					<View android:id="false" android:background="d7d7d7" android:layout_width="1px" android:layout_height="-1" />
+					<Button android:textSize="13sp" android:textColor="3399ff" android:id="false" android:background="0000" android:layout_width="0dp" android:layout_height="-1" android:text="OK" android:layout_weight="{4:1065353216}" android:textAllCaps="false" />
+				</LinearLayout>
+			</LinearLayout>
+			<LinearLayout android:gravity="0x11" android:orientation="1" android:id="false" android:background="ffffffff" android:visibility="2" android:layout_width="-1" android:layout_height="174dp" android:layout_marginBottom="6dp">
+				<ProgressBar android:layout_width="50dp" android:layout_height="50dp" />
+				<TextView android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="5dp" />
+			</LinearLayout>
+		</FrameLayout>
+	</LinearLayout>
+</FrameLayout>

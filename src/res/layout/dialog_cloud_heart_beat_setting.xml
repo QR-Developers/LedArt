@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="0" android:layout_width="-1" android:layout_height="120dp">
+	<TextView android:textSize="14sp" android:textColor="333333" android:layout_gravity="0x10" android:layout_width="0dp" android:layout_height="-2" android:layout_marginLeft="20dp" android:text="Heartbeat package settings" android:layout_weight="{4:1065353216}" />
+	<cn.huidu.view.inputview.AddAndSubtractInputView android:layout_gravity="0x10" android:id="false" android:layout_width="-2" android:layout_height="-2" />
+	<TextView android:textSize="15sp" android:textColor="333333" android:layout_gravity="0x10" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="5dp" android:layout_marginRight="20dp" android:text="s" />
+</LinearLayout>

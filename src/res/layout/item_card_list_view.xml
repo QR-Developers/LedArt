@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="0x10" android:orientation="0" android:background="res/drawable/round_rectangle_home.xml" android:layout_width="-1" android:layout_height="60dp" android:layout_marginLeft="10dp" android:layout_marginTop="1dp" android:layout_marginRight="10dp">
+	<View android:id="false" android:background="res/drawable/oval_img_device_run_state_green.xml" android:layout_width="16dp" android:layout_height="16dp" android:layout_marginLeft="15dp" android:layout_marginRight="15dp" />
+	<TextView android:textSize="16sp" android:textStyle="0x1" android:textColor="ffffff" android:ellipsize="3" android:id="false" android:layout_width="-2" android:layout_height="-2" android:maxWidth="70dp" android:text="W64+" android:lines="1" android:alpha="{4:1058642330}" />
+	<LinearLayout android:gravity="0x10" android:orientation="1" android:layout_width="0dp" android:layout_height="-1" android:layout_marginLeft="15dp" android:layout_weight="{4:1065353216}">
+		<LinearLayout android:gravity="0x50" android:paddingBottom="2dp" android:layout_width="-1" android:layout_height="0dp" android:layout_weight="{4:1065353216}">
+			<TextView android:textSize="15sp" android:textColor="ffffff" android:ellipsize="3" android:id="false" android:layout_width="-2" android:layout_height="-2" android:maxWidth="150dp" android:text="灰度测试设备灰度" android:singleLine="true" />
+			<ImageView android:id="false" android:paddingLeft="5dp" android:paddingTop="5dp" android:paddingRight="5dp" android:layout_width="26dp" android:layout_height="21dp" android:layout_marginBottom="3dp" android:src="res/drawable-xxhdpi-v4/edit_card_name.png" android:scaleType="1" />
+		</LinearLayout>
+		<LinearLayout android:gravity="0x30" android:orientation="0" android:layout_width="-1" android:layout_height="0dp" android:layout_weight="{4:1065353216}">
+			<TextView android:textSize="12sp" android:textColor="ffffff" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="8dp" android:text="A603-1777-A1234" android:alpha="{4:1058642330}" />
+			<TextView android:textSize="12sp" android:textColor="ffffff" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="1920 * 1080" android:alpha="{4:1058642330}" />
+			<TextView android:textSize="12sp" android:textColor="ffffff" android:id="false" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="8dp" android:text="三基色" android:singleLine="true" android:alpha="{4:1058642330}" />
+			<TextView android:textSize="12sp" android:textColor="ffffff" android:id="false" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="8dp" android:text="256级灰度" android:singleLine="true" android:alpha="{4:1058642330}" />
+		</LinearLayout>
+	</LinearLayout>
+	<FrameLayout android:id="false" android:layout_width="50dp" android:layout_height="-1">
+		<ImageView android:layout_gravity="0x11" android:id="false" android:layout_width="20dp" android:layout_height="20dp" android:src="res/drawable-xxhdpi-v4/device_list_checked.png" android:contentDescription="resourceId:0x0" />
+	</FrameLayout>
+</LinearLayout>

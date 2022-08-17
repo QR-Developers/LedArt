@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="65dp" android:layout_height="50dp">
+	<LinearLayout android:layout_gravity="0x10" android:orientation="0" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="4dp">
+		<FrameLayout android:layout_gravity="0x10" android:layout_width="14dp" android:layout_height="13dp">
+			<TextView android:textSize="10sp" android:textColor="ccffffff" android:layout_gravity="0x11" android:id="false" android:visibility="1" android:layout_width="-2" android:layout_height="-2" android:text="99" />
+			<ImageView android:layout_gravity="0x11" android:id="false" android:visibility="0" android:layout_width="12dp" android:layout_height="8dp" android:src="res/drawable-xxhdpi-v4/left_mark_icon.png" />
+		</FrameLayout>
+		<ImageView android:layout_gravity="0x10" android:id="false" android:layout_width="32dp" android:layout_height="32dp" android:src="res/drawable-xxhdpi-v4/video_area.png" android:scaleType="1" />
+	</LinearLayout>
+	<ImageView android:layout_gravity="0x35" android:id="false" android:layout_width="18dp" android:layout_height="18dp" android:layout_marginRight="5dp" android:src="res/drawable-xxhdpi-v4/close_gray.png" />
+</FrameLayout>

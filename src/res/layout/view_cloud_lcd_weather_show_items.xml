@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+	<RelativeLayout android:background="res/drawable/bg_rectangle_only_bottom_ff_stroke_e4.xml" android:layout_width="-1" android:layout_height="40dp">
+		<TextView android:textSize="13sp" android:textColor="333333" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="15dp" android:layout_marginRight="15dp" android:text="City" android:lines="1" android:layout_centerVertical="true" />
+		<cn.huidu.view.CustomSwitch android:id="false" android:layout_width="36dp" android:layout_height="20dp" android:layout_marginRight="15dp" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+	</RelativeLayout>
+	<RelativeLayout android:background="res/drawable/bg_rectangle_only_bottom_ff_stroke_e4.xml" android:layout_width="-1" android:layout_height="40dp">
+		<TextView android:textSize="13sp" android:textColor="333333" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="15dp" android:layout_marginRight="15dp" android:text="Temperature" android:lines="1" android:layout_centerVertical="true" />
+		<cn.huidu.view.CustomSwitch android:id="false" android:layout_width="36dp" android:layout_height="20dp" android:layout_marginRight="15dp" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+	</RelativeLayout>
+	<RelativeLayout android:background="res/drawable/bg_rectangle_only_bottom_ff_stroke_e4.xml" android:layout_width="-1" android:layout_height="40dp">
+		<TextView android:textSize="13sp" android:textColor="333333" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="15dp" android:layout_marginRight="15dp" android:text="Date" android:lines="1" android:layout_centerVertical="true" />
+		<cn.huidu.view.CustomSwitch android:id="false" android:layout_width="36dp" android:layout_height="20dp" android:layout_marginRight="15dp" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+	</RelativeLayout>
+	<RelativeLayout android:background="res/drawable/bg_rectangle_only_bottom_ff_stroke_e4.xml" android:layout_width="-1" android:layout_height="40dp">
+		<TextView android:textSize="13sp" android:textColor="333333" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="15dp" android:layout_marginRight="15dp" android:text="Air quality" android:lines="1" android:layout_centerVertical="true" />
+		<cn.huidu.view.CustomSwitch android:id="false" android:layout_width="36dp" android:layout_height="20dp" android:layout_marginRight="15dp" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+	</RelativeLayout>
+	<RelativeLayout android:background="res/drawable/bg_rectangle_only_bottom_ff_stroke_e4.xml" android:layout_width="-1" android:layout_height="40dp">
+		<TextView android:textSize="13sp" android:textColor="333333" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="15dp" android:layout_marginRight="15dp" android:text="Wind speed and direction" android:lines="1" android:layout_centerVertical="true" />
+		<cn.huidu.view.CustomSwitch android:id="false" android:layout_width="36dp" android:layout_height="20dp" android:layout_marginRight="15dp" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+	</RelativeLayout>
+	<RelativeLayout android:background="res/drawable/bg_rectangle_only_bottom_ff_stroke_e4.xml" android:layout_width="-1" android:layout_height="40dp">
+		<TextView android:textSize="13sp" android:textColor="333333" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="15dp" android:layout_marginRight="15dp" android:text="Weather" android:lines="1" android:layout_centerVertical="true" />
+		<cn.huidu.view.CustomSwitch android:id="false" android:layout_width="36dp" android:layout_height="20dp" android:layout_marginRight="15dp" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+	</RelativeLayout>
+	<RelativeLayout android:background="res/drawable/bg_rectangle_only_bottom_ff_stroke_e4.xml" android:layout_width="-1" android:layout_height="40dp">
+		<TextView android:textSize="13sp" android:textColor="333333" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="15dp" android:layout_marginRight="15dp" android:text="Humidity" android:lines="1" android:layout_centerVertical="true" />
+		<cn.huidu.view.CustomSwitch android:id="false" android:layout_width="36dp" android:layout_height="20dp" android:layout_marginRight="15dp" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+	</RelativeLayout>
+</LinearLayout>

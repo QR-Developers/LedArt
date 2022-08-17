@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="0x53" android:layout_width="-1" android:layout_height="35dp" android:layout_marginLeft="15dp" android:layout_marginRight="15dp">
+	<TextView android:textSize="12sp" android:textColor="999999" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="15dp" android:layout_marginTop="3dp" android:layout_marginRight="15dp" android:text="" android:lines="1" />
+</LinearLayout>

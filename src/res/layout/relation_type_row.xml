@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:layout_width="-1" android:layout_height="-2">
+	<LinearLayout android:orientation="0" android:layout_width="-2" android:layout_height="-2">
+		<FrameLayout android:id="false" android:background="0000" android:layout_width="80dp" android:layout_height="80dp">
+			<ImageView android:layout_gravity="0x11" android:layout_width="50dp" android:layout_height="50dp" android:src="res/drawable/connection_one.png" />
+		</FrameLayout>
+		<FrameLayout android:id="false" android:background="0000" android:layout_width="80dp" android:layout_height="80dp">
+			<ImageView android:layout_gravity="0x11" android:layout_width="50dp" android:layout_height="50dp" android:src="res/drawable/connection_six.png" />
+		</FrameLayout>
+		<FrameLayout android:id="false" android:background="0000" android:layout_width="80dp" android:layout_height="80dp">
+			<ImageView android:layout_gravity="0x11" android:layout_width="50dp" android:layout_height="50dp" android:src="res/drawable/connection_eight.png" />
+		</FrameLayout>
+		<FrameLayout android:id="false" android:background="0000" android:layout_width="80dp" android:layout_height="80dp">
+			<ImageView android:layout_gravity="0x11" android:layout_width="50dp" android:layout_height="50dp" android:src="res/drawable/connection_two.png" />
+		</FrameLayout>
+	</LinearLayout>
+	<LinearLayout android:orientation="0" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="10dp">
+		<FrameLayout android:id="false" android:background="0000" android:layout_width="80dp" android:layout_height="80dp">
+			<ImageView android:layout_gravity="0x11" android:layout_width="50dp" android:layout_height="50dp" android:src="res/drawable/connection_five.png" />
+		</FrameLayout>
+		<FrameLayout android:id="false" android:background="0000" android:layout_width="80dp" android:layout_height="80dp">
+			<ImageView android:layout_gravity="0x11" android:layout_width="50dp" android:layout_height="50dp" android:src="res/drawable/connection_three.png" />
+		</FrameLayout>
+		<FrameLayout android:id="false" android:background="0000" android:layout_width="80dp" android:layout_height="80dp">
+			<ImageView android:layout_gravity="0x11" android:layout_width="50dp" android:layout_height="50dp" android:src="res/drawable/connection_four.png" />
+		</FrameLayout>
+		<FrameLayout android:id="false" android:background="0000" android:layout_width="80dp" android:layout_height="80dp">
+			<ImageView android:layout_gravity="0x11" android:layout_width="50dp" android:layout_height="50dp" android:src="res/drawable/connection_seven.png" />
+		</FrameLayout>
+	</LinearLayout>
+</LinearLayout>

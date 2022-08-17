@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="1" android:id="false" android:fitsSystemWindows="true" android:layout_width="-1" android:layout_height="-1">
+	<cn.huidu.view.richeditor.RichEditToolBar android:id="false" android:background="ffffff" android:layout_width="-1" android:layout_height="-2" app:lineCount="1" />
+	<LinearLayout android:orientation="0" android:id="false" android:background="000" android:layout_width="-1" android:layout_height="-1">
+		<cn.huidu.view.richeditor.RichEditText android:gravity="0x30" android:id="false" android:background="000" android:paddingLeft="5dp" android:paddingRight="5dp" android:layout_width="0dp" android:layout_height="-1" android:singleLine="false" android:layout_weight="{4:1065353216}" android:imeOptions="0x10000006" />
+		<LinearLayout android:gravity="0x31" android:orientation="1" android:id="false" android:background="444444" android:paddingLeft="15dp" android:paddingRight="15dp" android:layout_width="80dp" android:layout_height="-1">
+			<FrameLayout android:id="false" android:background="res/drawable/text_edit_confirm.xml" android:layout_width="50dp" android:layout_height="50dp" android:layout_marginTop="15dp">
+				<ImageView android:layout_gravity="0x11" android:layout_width="-2" android:layout_height="-2" android:src="res/drawable-xxhdpi-v4/editor_ok.png" android:alpha="{4:1061997773}" />
+			</FrameLayout>
+			<FrameLayout android:id="false" android:background="res/drawable/text_edit_cancel.xml" android:layout_width="50dp" android:layout_height="50dp" android:layout_marginTop="15dp">
+				<ImageView android:layout_gravity="0x11" android:layout_width="-2" android:layout_height="-2" android:src="res/drawable-xxhdpi-v4/editor_cancel.png" android:alpha="{4:1056964608}" />
+			</FrameLayout>
+		</LinearLayout>
+	</LinearLayout>
+</LinearLayout>

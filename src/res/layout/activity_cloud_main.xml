@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="-1" android:layout_height="-1" android:splitMotionEvents="false">
+	<FrameLayout android:id="false" android:background="f2f2f2" android:layout_width="-1" android:layout_height="50dp" android:layout_alignParentBottom="true">
+		<LinearLayout android:layout_gravity="0x10" android:orientation="0" android:id="false" android:layout_width="-1" android:layout_height="-2" android:baselineAligned="false">
+			<RelativeLayout android:id="false" android:paddingTop="8dp" android:paddingBottom="8dp" android:layout_width="0dp" android:layout_height="-1" android:layout_weight="{4:1065353216}">
+				<ImageView android:id="false" android:layout_width="20dp" android:layout_height="20dp" android:src="res/drawable-xxhdpi-v4/device_active.png" android:layout_centerHorizontal="true" />
+				<TextView android:textSize="11sp" android:textColor="066ff" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_below="false" android:layout_centerHorizontal="true" />
+			</RelativeLayout>
+			<RelativeLayout android:id="false" android:paddingTop="8dp" android:paddingBottom="8dp" android:layout_width="0dp" android:layout_height="-1" android:layout_weight="{4:1065353216}">
+				<ImageView android:id="false" android:layout_width="20dp" android:layout_height="20dp" android:src="res/drawable-xxhdpi-v4/program_deactive.png" android:layout_centerHorizontal="true" />
+				<TextView android:textSize="11sp" android:textColor="666666" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_below="false" android:layout_centerHorizontal="true" />
+			</RelativeLayout>
+			<RelativeLayout android:id="false" android:paddingTop="8dp" android:paddingBottom="8dp" android:layout_width="0dp" android:layout_height="-1" android:layout_weight="{4:1065353216}">
+				<ImageView android:id="false" android:layout_width="20dp" android:layout_height="20dp" android:src="res/drawable-xxhdpi-v4/resource_deactive.png" android:layout_centerHorizontal="true" />
+				<TextView android:textSize="11sp" android:textColor="666666" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_below="false" android:layout_centerHorizontal="true" />
+			</RelativeLayout>
+			<RelativeLayout android:id="false" android:paddingTop="8dp" android:paddingBottom="8dp" android:layout_width="0dp" android:layout_height="-1" android:layout_weight="{4:1065353216}">
+				<ImageView android:id="false" android:layout_width="20dp" android:layout_height="20dp" android:src="res/drawable-xxhdpi-v4/task_deactive.png" android:layout_centerHorizontal="true" />
+				<TextView android:textSize="11sp" android:textColor="666666" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_below="false" android:layout_centerHorizontal="true" />
+			</RelativeLayout>
+			<RelativeLayout android:id="false" android:paddingTop="8dp" android:paddingBottom="8dp" android:layout_width="0dp" android:layout_height="-1" android:layout_weight="{4:1065353216}">
+				<ImageView android:id="false" android:layout_width="20dp" android:layout_height="20dp" android:src="res/drawable-xxhdpi-v4/setting_deactive.png" android:layout_centerHorizontal="true" />
+				<TextView android:textSize="11sp" android:textColor="666666" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_below="false" android:layout_centerHorizontal="true" />
+			</RelativeLayout>
+		</LinearLayout>
+		<View android:background="cccccc" android:layout_width="-1" android:layout_height="1px" />
+	</FrameLayout>
+	<androidx.viewpager.widget.ViewPager android:id="false" android:layout_width="-1" android:layout_height="-1" android:layout_above="false" />
+</RelativeLayout>

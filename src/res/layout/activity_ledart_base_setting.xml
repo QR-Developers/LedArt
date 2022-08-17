@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:custom="http://schemas.android.com/apk/res-auto" android:layout_width="-1" android:layout_height="-1">
+	<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+		<FrameLayout android:id="false" android:background="res/drawable-xhdpi-v4/header_bg.png" android:fitsSystemWindows="true" android:layout_width="-1" android:layout_height="75dp">
+			<ImageView android:layout_gravity="0x10" android:id="false" android:padding="10dp" android:layout_width="44dp" android:layout_height="44dp" android:src="res/drawable-xhdpi-v4/base_setting_left_angle.png" />
+			<TextView android:textSize="15sp" android:textColor="ffffff" android:ellipsize="4" android:gravity="0x11" android:layout_gravity="0x10" android:id="false" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="70dp" android:layout_marginRight="70dp" android:text="" android:singleLine="true" />
+			<TextView android:textSize="14sp" android:textColor="ffffff" android:ellipsize="3" android:gravity="0x11" android:layout_gravity="0x15" android:id="false" android:background="res/drawable/bg_round_20_rectangle_solid_transparent.xml" android:visibility="2" android:layout_width="-2" android:layout_height="20dp" android:layout_marginRight="20dp" android:maxWidth="80dp" android:minWidth="40dp" android:text="Download" android:lines="1" />
+			<View android:id="false" android:background="99ffffff" android:visibility="2" android:layout_width="-1" android:layout_height="-1" />
+		</FrameLayout>
+		<LinearLayout android:orientation="1" android:id="false" android:layout_width="-1" android:layout_height="-1">
+			<RelativeLayout android:id="false" android:background="333399ff" android:layout_width="-1" android:layout_height="30dp">
+				<LinearLayout android:gravity="0x11" android:orientation="0" android:layout_width="-1" android:layout_height="-1" android:layout_marginLeft="46dp" android:layout_marginRight="46dp">
+					<TextView android:textSize="13sp" android:textColor="666666" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="Get" />
+					<TextView android:textSize="13sp" android:textColor="3399ff" android:ellipsize="2" android:id="false" android:layout_width="-2" android:layout_height="-2" android:maxWidth="150dp" android:text="" android:singleLine="true" />
+					<TextView android:textSize="13sp" android:textColor="666666" android:ellipsize="2" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="Parameter success" android:singleLine="true" />
+				</LinearLayout>
+				<FrameLayout android:id="false" android:layout_width="36dp" android:layout_height="-1" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+					<ImageView android:layout_gravity="0x11" android:background="res/drawable-xhdpi-v4/bg_black_cancel.png" android:layout_width="16dp" android:layout_height="16dp" />
+				</FrameLayout>
+			</RelativeLayout>
+			<FrameLayout android:id="false" android:layout_width="-1" android:layout_height="0dp" android:layout_weight="{4:1065353216}" />
+			<ViewFlipper android:id="false" android:padding="20dp" android:layout_width="-1" android:layout_height="80dp">
+				<cn.huidu.view.ButtonGroup android:id="false" android:layout_width="-1" android:layout_height="-2" custom:height="40dp" custom:ischangebackgroud="false" custom:names="Cancel,OK" custom:type="0" />
+				<cn.huidu.view.ButtonGroup android:layout_width="-1" android:layout_height="-2" custom:disable="true" custom:height="40dp" custom:ischangebackgroud="false" custom:names="Setting …" custom:type="0" />
+			</ViewFlipper>
+		</LinearLayout>
+	</LinearLayout>
+	<LinearLayout android:gravity="0x11" android:orientation="1" android:id="false" android:visibility="2" android:layout_width="-1" android:layout_height="-1">
+		<ProgressBar android:layout_width="-2" android:layout_height="-2" android:layout_marginBottom="10dp" android:indeterminateDrawable="res/drawable/progressbar.xml" />
+		<TextView android:textSize="18sp" android:textColor="c0000" android:id="false" android:paddingTop="15dp" android:layout_width="-2" android:layout_height="-2" android:text="Loading…" />
+	</LinearLayout>
+	<FrameLayout android:id="false" android:background="0000" android:layout_width="-1" android:layout_height="-1" />
+</FrameLayout>

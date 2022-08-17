@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="0x10" android:orientation="0" android:background="ffffff" android:paddingLeft="20dp" android:paddingRight="20dp" android:layout_width="-1" android:layout_height="46dp">
+	<TextView android:textSize="13sp" android:textColor="333333" android:ellipsize="3" android:gravity="0x10" android:id="false" android:layout_width="0dp" android:layout_height="-2" android:text="" android:lines="2" android:layout_weight="{4:1065353216}" />
+	<TextView android:textSize="12sp" android:textColor="ff660" android:ellipsize="3" android:gravity="0x11" android:id="false" android:background="res/drawable/bg_round_3_rectangle_stroke_ff6600.xml" android:paddingLeft="8dp" android:paddingRight="8dp" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="5dp" android:layout_marginRight="10dp" android:text="P10" android:lines="1" />
+	<ImageView android:id="false" android:layout_width="16dp" android:layout_height="16dp" android:src="res/drawable-xxhdpi-v4/circle_radio_unchecked.png" />
+</LinearLayout>

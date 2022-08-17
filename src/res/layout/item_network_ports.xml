@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:layout_width="-1" android:layout_height="-2">
+	<LinearLayout android:orientation="0" android:id="false" android:background="res/drawable/bg_rectangle_only_bottom_f2_stroke_ff.xml" android:layout_width="-1" android:layout_height="40dp">
+		<TextView android:textSize="14sp" android:textColor="333333" android:layout_gravity="0x10" android:id="false" android:layout_width="0dp" android:layout_height="-2" android:layout_marginLeft="20dp" android:text="Receiving card information" android:layout_weight="{4:1065353216}" />
+		<ImageView android:layout_gravity="0x10" android:id="false" android:layout_width="18dp" android:layout_height="9dp" android:layout_marginRight="20dp" android:src="res/drawable-xxhdpi-v4/font_arrow.png" android:rotation="{4:1127481344}" />
+	</LinearLayout>
+	<LinearLayout android:orientation="1" android:id="false" android:layout_width="-1" android:layout_height="-2">
+		<LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="45dp">
+			<TextView android:textSize="14sp" android:textColor="333333" android:layout_gravity="0x10" android:layout_width="0dp" android:layout_height="-2" android:layout_marginLeft="20dp" android:text="Width" android:layout_weight="{4:1065353216}" />
+			<TextView android:textSize="14sp" android:textColor="333333" android:layout_gravity="0x10" android:id="false" android:padding="10dp" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="20dp" android:text="128" android:alpha="{4:1056964608}" />
+		</LinearLayout>
+		<LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="45dp">
+			<TextView android:textSize="14sp" android:textColor="333333" android:layout_gravity="0x10" android:layout_width="0dp" android:layout_height="-2" android:layout_marginLeft="20dp" android:text="Height" android:layout_weight="{4:1065353216}" />
+			<TextView android:textSize="14sp" android:textColor="333333" android:layout_gravity="0x10" android:id="false" android:padding="10dp" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="20dp" android:text="128" android:alpha="{4:1056964608}" />
+		</LinearLayout>
+	</LinearLayout>
+</LinearLayout>

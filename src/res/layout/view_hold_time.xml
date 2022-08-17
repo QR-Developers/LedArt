@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:id="false" android:layout_width="-1" android:layout_height="-1">
+	<LinearLayout android:gravity="0x13" android:orientation="1" android:paddingLeft="15dp" android:paddingRight="15dp" android:layout_width="-1" android:layout_height="-2">
+		<LinearLayout android:orientation="0" android:background="res/drawable/list_bottom_line.xml" android:layout_width="-1" android:layout_height="50dp">
+			<LinearLayout android:gravity="0x13" android:orientation="0" android:layout_width="0dp" android:layout_height="-1" android:layout_weight="{4:1056964608}">
+				<ImageView android:layout_width="-2" android:layout_height="-2" android:src="res/drawable-xxhdpi-v4/hold.png" />
+				<TextView android:textColor="333333" android:id="false" android:paddingLeft="15dp" android:layout_width="-2" android:layout_height="-2" android:text="Hold:" />
+				<TextView android:textColor="099ff" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="10" />
+				<TextView android:textColor="333333" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="5dp" android:text="S" />
+			</LinearLayout>
+			<LinearLayout android:gravity="0x15" android:orientation="0" android:layout_width="0dp" android:layout_height="-1" android:layout_weight="{4:1056964608}">
+				<ImageView android:id="false" android:layout_width="50dp" android:layout_height="50dp" android:layout_marginRight="10dp" android:src="res/drawable-xxhdpi-v4/left_b.png" android:scaleType="5" />
+				<ImageView android:id="false" android:layout_width="50dp" android:layout_height="50dp" android:layout_marginLeft="10dp" android:src="res/drawable-xxhdpi-v4/right_b.png" android:scaleType="5" />
+			</LinearLayout>
+		</LinearLayout>
+		<LinearLayout android:gravity="0x13" android:orientation="0" android:background="res/drawable/list_bottom_line.xml" android:layout_width="-1" android:layout_height="50dp">
+			<SeekBar android:id="false" android:layout_width="-1" android:layout_height="-2" android:maxHeight="7dp" android:max="1000" android:progress="0" android:progressDrawable="res/drawable/seek_bar_blue.xml" android:minHeight="7dp" android:thumb="res/drawable/progress_bar_circle.xml" android:thumbOffset="0dp" />
+		</LinearLayout>
+	</LinearLayout>
+</LinearLayout>

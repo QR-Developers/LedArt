@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="0" android:background="res/drawable/cloud_bg_rectangle_only_bottom_ff_stroke_e4.xml" android:layout_width="-1" android:layout_height="60dp">
+	<TextView android:textSize="11dp" android:textColor="ffffff" android:ellipsize="3" android:gravity="0x11" android:layout_gravity="0x10" android:id="false" android:background="res/drawable/bg_round_20_rectangle_solid_3399ff.xml" android:layout_width="32dp" android:layout_height="32dp" android:layout_marginLeft="10dp" android:lines="2" />
+	<LinearLayout android:layout_gravity="0x10" android:orientation="1" android:layout_width="0dp" android:layout_height="-2" android:layout_marginLeft="10dp" android:layout_weight="{4:1065353216}">
+		<LinearLayout android:layout_width="-2" android:layout_height="-2">
+			<TextView android:textSize="15sp" android:textColor="333333" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="设置参数" />
+		</LinearLayout>
+		<LinearLayout android:orientation="0" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="5dp">
+			<TextView android:textSize="13sp" android:textColor="999999" android:id="false" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:text="huidu" />
+			<TextView android:textSize="13sp" android:textColor="999999" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="0dp" android:text="2020/03/13 18:48:12" />
+		</LinearLayout>
+	</LinearLayout>
+	<TextView android:textSize="12sp" android:textColor="3399ff" android:gravity="0x11" android:layout_gravity="0x10" android:id="false" android:background="res/drawable/cloud_bg_stroke_corner_3399ff.xml" android:layout_width="50dp" android:layout_height="20dp" android:layout_marginLeft="15dp" android:text="5/3" />
+	<ImageView android:layout_gravity="0x10" android:layout_width="23dp" android:layout_height="23dp" android:layout_marginRight="10dp" android:src="res/drawable-xxhdpi-v4/down_gray.png" android:alpha="{4:1060320051}" android:rotation="{4:1132920832}" />
+</LinearLayout>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="f2f2f2" android:layout_width="-1" android:layout_height="-1">
+	<LinearLayout android:gravity="0x11" android:orientation="1" android:id="false" android:visibility="0" android:layout_width="-1" android:layout_height="-1">
+		<ImageView android:layout_width="-2" android:layout_height="-2" android:src="res/drawable-xxhdpi-v4/null_program.png" />
+		<TextView android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="20dp" android:text="No downloadable file list" />
+		<TextView android:layout_width="-2" android:layout_height="-2" android:text="Click Retry" />
+	</LinearLayout>
+	<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+		<RelativeLayout android:id="false" android:background="ffffff" android:layout_width="-1" android:layout_height="45dp" android:layout_marginTop="10dp">
+			<View android:background="e8e8e8" android:layout_width="-1" android:layout_height="1px" />
+			<TextView android:textSize="15sp" android:textColor="333333" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="15dp" android:text="Choose a model" android:layout_centerVertical="true" />
+			<ImageView android:layout_width="10dp" android:layout_height="18dp" android:layout_marginRight="15dp" android:src="res/drawable-xxhdpi-v4/angle_right_black.png" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:contentDescription="resourceId:0x0" android:alpha="{4:1058642330}" />
+			<TextView android:textSize="14sp" android:textColor="666666" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="30dp" android:text="M10" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+			<View android:background="e8e8e8" android:layout_width="-1" android:layout_height="1px" android:layout_alignParentBottom="true" />
+		</RelativeLayout>
+		<androidx.recyclerview.widget.RecyclerView android:id="false" android:layout_width="-1" android:layout_height="-1" />
+	</LinearLayout>
+</FrameLayout>

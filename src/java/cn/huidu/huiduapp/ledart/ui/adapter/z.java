@@ -1,0 +1,28 @@
+/*
+ * Decompiled with CFR 0.0.
+ * 
+ * Could not load the following classes:
+ *  android.view.View
+ *  android.view.View$OnClickListener
+ *  cn.huidu.huiduapp.ledart.ui.adapter.ReceiveCardRelationAdapter
+ *  cn.huidu.huiduapp.ledart.ui.adapter.ReceiveCardRelationAdapter$b
+ *  java.lang.Object
+ */
+package cn.huidu.huiduapp.ledart.ui.adapter;
+
+import android.view.View;
+import cn.huidu.huiduapp.ledart.ui.adapter.ReceiveCardRelationAdapter;
+
+public final class z
+implements View.OnClickListener {
+    public final /* synthetic */ ReceiveCardRelationAdapter.b a;
+
+    public /* synthetic */ z(ReceiveCardRelationAdapter.b b2) {
+        this.a = b2;
+    }
+
+    public final void onClick(View view) {
+        ReceiveCardRelationAdapter.b.b((ReceiveCardRelationAdapter.b)this.a, (View)view);
+    }
+}
+

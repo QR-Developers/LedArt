@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="3399ff" android:layout_width="-1" android:layout_height="-1">
+	<ImageView android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="80dp" android:src="res/drawable-xxhdpi-v4/wifi_white_big.png" android:layout_centerHorizontal="true" />
+	<FrameLayout android:id="false" android:layout_width="-1" android:layout_height="-1" android:layout_marginTop="18dp" android:layout_below="false">
+		<RelativeLayout android:id="false" android:layout_width="-1" android:layout_height="-1">
+			<TextView android:textSize="20sp" android:textColor="ffffff" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="Wi-Fi password setting is successful!" android:layout_centerHorizontal="true" />
+			<LinearLayout android:orientation="1" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginBottom="10dp" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true">
+				<Button android:textSize="16sp" android:textColor="ffffff" android:id="false" android:background="res/drawable/shape_circle_e17a38.xml" android:layout_width="240dp" android:layout_height="40dp" android:text="Find device" />
+				<Button android:textSize="16sp" android:textColor="ffffff" android:id="false" android:background="res/drawable/shape_circle_black_alpha20.xml" android:layout_width="240dp" android:layout_height="40dp" android:layout_marginTop="10dp" android:text="Return" />
+			</LinearLayout>
+			<ScrollView android:id="false" android:layout_width="280dp" android:layout_height="-1" android:layout_marginTop="10dp" android:layout_marginBottom="20dp" android:layout_above="false" android:layout_below="false" android:layout_centerHorizontal="true" />
+		</RelativeLayout>
+	</FrameLayout>
+</RelativeLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+	<FrameLayout android:id="false" android:background="res/drawable-xhdpi-v4/header_bg.png" android:fitsSystemWindows="true" android:layout_width="-1" android:layout_height="75dp">
+		<ImageView android:layout_gravity="0x10" android:id="false" android:padding="10dp" android:layout_width="44dp" android:layout_height="44dp" android:src="res/drawable-xhdpi-v4/base_setting_left_angle.png" />
+		<TextView android:textSize="16sp" android:textColor="ffffff" android:ellipsize="4" android:gravity="0x11" android:layout_gravity="0x10" android:id="false" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="70dp" android:layout_marginRight="70dp" android:text="Download" android:singleLine="true" />
+		<TextView android:textSize="14sp" android:textColor="ffffff" android:gravity="0x15" android:autoLink="0xf" android:layout_gravity="0x15" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="20dp" android:maxWidth="120dp" android:text="Download all" android:lines="1" />
+	</FrameLayout>
+	<FrameLayout android:background="f2f2f2" android:layout_width="-1" android:layout_height="-1">
+		<androidx.recyclerview.widget.RecyclerView android:id="false" android:scrollbars="0x200" android:layout_width="-1" android:layout_height="-1" android:layout_marginLeft="4dp" android:layout_marginTop="4dp" android:layout_marginRight="2dp" />
+		<ProgressBar android:layout_gravity="0x11" android:id="false" android:visibility="2" android:layout_width="50dp" android:layout_height="50dp" />
+		<FrameLayout android:id="false" android:visibility="2" android:layout_width="-1" android:layout_height="-1">
+			<LinearLayout android:layout_gravity="0x11" android:orientation="1" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="20dp" android:layout_marginRight="20dp">
+				<ImageView android:layout_gravity="0x11" android:layout_width="-2" android:layout_height="-2" android:src="res/drawable-xxhdpi-v4/null_program.png" />
+				<TextView android:gravity="0x11" android:layout_gravity="0x11" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="20dp" android:text="Failed to get" />
+				<TextView android:layout_gravity="0x10" android:layout_width="-2" android:layout_height="-2" android:text="Click on the screen to reload" android:lines="2" />
+			</LinearLayout>
+		</FrameLayout>
+	</FrameLayout>
+</LinearLayout>

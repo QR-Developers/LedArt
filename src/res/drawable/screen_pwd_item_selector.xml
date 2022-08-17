@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+	<item android:state_pressed="false" android:drawable="res/drawable/oval_bg_ffffff_stroke_cccccc.xml" />
+	<item android:state_pressed="true" android:drawable="res/drawable/oval_bg_cccccc_stroke_cccccc.xml" />
+</selector>

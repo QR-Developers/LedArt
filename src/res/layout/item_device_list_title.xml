@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:paddingTop="10dp" android:layout_width="-1" android:layout_height="60dp">
+	<TextView android:textSize="15sp" android:textColor="b2ffffff" android:layout_gravity="0x11" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="Hello World!" />
+	<FrameLayout android:layout_gravity="0x5" android:id="false" android:layout_width="50dp" android:layout_height="-1">
+		<cn.huidu.view.RotateImageView android:layout_gravity="0x15" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="10dp" android:src="res/drawable-xxhdpi-v4/refresh_white.png" android:contentDescription="resourceId:0x0" android:alpha="{4:1053609165}" />
+	</FrameLayout>
+</FrameLayout>

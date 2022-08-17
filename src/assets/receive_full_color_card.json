@@ -1,0 +1,17 @@
+[
+  {
+    "name":"R500",
+    "interface":"08,50s",
+    "count":2
+  },
+  {
+    "name":"R501",
+    "interface":"75",
+    "count":12
+  },
+  {
+    "name":"R5018",
+    "interface":"75",
+    "count":8
+  }
+]

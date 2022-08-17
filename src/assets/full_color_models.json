@@ -1,0 +1,1221 @@
+[
+  {
+    "id": 12,
+    "name": "D10",
+    "pixels": 24576,
+    "max": {
+      "width": 512,
+      "height": 128
+    },
+    "Swidth": 384,
+    "Sheight": 64,
+    "video_support": [
+      1
+    ],
+    "rgba": false,
+    "video_compress": true,
+    "audio": false,
+    "area_opacity": false,
+    "communication": [
+      "USB",
+      "NET",
+      "3G/4G",
+      "WIFI",
+      "GPRS"
+    ],
+    "hub": [
+      {
+        "type": "75",
+        "count": 4
+      }
+    ],
+    "cascade": false,
+    "dual_mode": false,
+    "sync_mode": false,
+    "screen_param_support": true
+  },
+  {
+    "id": 14,
+    "name": "D20",
+    "pixels": 24576,
+    "max": {
+      "width": 512,
+      "height": 128
+    },
+    "Swidth": 384,
+    "Sheight": 64,
+    "video_support": [
+      0
+    ],
+    "rgba": false,
+    "video_compress": true,
+    "audio": false,
+    "area_opacity": false,
+    "communication": [
+      "USB",
+      "NET",
+      "3G/4G",
+      "WIFI",
+      "GPRS"
+    ],
+    "hub": [
+      {
+        "type": "08",
+        "count": 6
+      }
+    ],
+    "cascade": false,
+    "dual_mode": false,
+    "sync_mode": false,
+    "screen_param_support": true
+  },
+  {
+    "id": 11,
+    "name": "D30",
+    "pixels": 65536,
+    "max": {
+      "width": 1024,
+      "height": 128
+    },
+    "Swidth": 1024,
+    "Sheight": 64,
+    "video_support": [
+      1
+    ],
+    "rgba": false,
+    "video_compress": true,
+    "audio": false,
+    "area_opacity": false,
+    "communication": [
+      "USB",
+      "NET",
+      "3G/4G",
+      "WIFI",
+      "GPRS"
+    ],
+    "hub": [
+      {
+        "type": "50s",
+        "count": 1
+      }
+    ],
+    "cascade": false,
+    "dual_mode": false,
+    "sync_mode": false,
+    "screen_param_support": true
+  },
+  {
+    "id": 13,
+    "name": "C10",
+    "pixels": 122880,
+    "max": {
+      "width": 1024,
+      "height": 512
+    },
+    "Swidth": 384,
+    "Sheight": 320,
+    "video_support": [
+      17
+    ],
+    "rgba": false,
+    "video_compress": true,
+    "audio": true,
+    "area_opacity": false,
+    "communication": [
+      "USB",
+      "NET",
+      "3G/4G",
+      "WIFI",
+      "GPRS"
+    ],
+    "hub": [
+      {
+        "type": "net",
+        "count": 1
+      },
+      {
+        "type": "50d",
+        "count": 2
+      }
+    ],
+    "cascade": true,
+    "dual_mode": false,
+    "sync_mode": false,
+    "screen_param_support": true
+  },
+  {
+    "id": 1013,
+    "name": "C10C",
+    "pixels": 122880,
+    "max": {
+      "width": 1024,
+      "height": 512
+    },
+    "Swidth": 384,
+    "Sheight": 320,
+    "video_support": [
+      17
+    ],
+    "rgba": false,
+    "video_compress": true,
+    "audio": true,
+    "area_opacity": false,
+    "communication": [
+      "USB",
+      "NET",
+      "3G/4G",
+      "WIFI",
+      "GPRS"
+    ],
+    "hub": [
+      {
+        "type": "net",
+        "count": 1
+      },
+      {
+        "type": "75",
+        "count": 10
+      }
+    ],
+    "cascade": true,
+    "dual_mode": false,
+    "sync_mode": false,
+    "screen_param_support": true
+  },
+  {
+    "id": 7,
+    "name": "C30",
+    "pixels": 307200,
+    "max": {
+      "width": 1024,
+      "height": 512
+    },
+    "Swidth": 640,
+    "Sheight": 480,
+    "video_support": [
+      17
+    ],
+    "rgba": false,
+    "video_compress": true,
+    "audio": true,
+    "area_opacity": false,
+    "communication": [
+      "USB",
+      "NET",
+      "3G/4G",
+      "WIFI",
+      "GPRS"
+    ],
+    "hub": [
+      {
+        "type": "net",
+        "count": 1
+      },
+      {
+        "type": "50d",
+        "count": 2
+      }
+    ],
+    "cascade": true,
+    "dual_mode": false,
+    "sync_mode": false,
+    "screen_param_support": true
+  },
+  {
+    "id": 8,
+    "name": "A30",
+    "pixels": 524288,
+    "max": {
+      "width": 1024,
+      "height": 1024
+    },
+    "Swidth": 1024,
+    "Sheight": 512,
+    "video_support": [
+      4,
+      19,
+      34,
+      49,
+      64
+    ],
+    "rgba": true,
+    "video_compress": false,
+    "audio": true,
+    "area_opacity": true,
+    "communication": [
+      "USB",
+      "NET",
+      "3G/4G",
+      "WIFI",
+      "GPRS"
+    ],
+    "hub": [
+      {
+        "type": "net",
+        "count": 1
+      },
+      {
+        "type": "50d",
+        "count": 2
+      }
+    ],
+    "cascade": true,
+    "dual_mode": false,
+    "sync_mode": false,
+    "screen_param_support": true
+  },
+  {
+    "id": 10,
+    "name": "A30+",
+    "pixels": 524288,
+    "max": {
+      "width": 3840,
+      "height": 2048
+    },
+    "Swidth": 1024,
+    "Sheight": 512,
+    "video_support": [
+      4,
+      19,
+      34,
+      49,
+      64
+    ],
+    "rgba": true,
+    "video_compress": false,
+    "audio": true,
+    "area_opacity": true,
+    "communication": [
+      "USB",
+      "NET",
+      "3G/4G",
+      "WIFI",
+      "GPRS"
+    ],
+    "hub": [
+      {
+        "type": "net",
+        "count": 1
+      }
+    ],
+    "cascade": true,
+    "dual_mode": false,
+    "sync_mode": false,
+    "screen_param_support": true
+  },
+  {
+    "id": 0,
+    "name": "A601",
+    "pixels": 480000,
+    "max": {
+      "width": 3840,
+      "height": 2048
+    },
+    "Swidth": 800,
+    "Sheight": 600,
+    "video_support": [
+      4,
+      19,
+      34,
+      49,
+      64
+    ],
+    "rgba": true,
+    "video_compress": false,
+    "audio": true,
+    "area_opacity": true,
+    "communication": [
+      "USB",
+      "NET",
+      "3G/4G",
+      "WIFI",
+      "GPRS"
+    ],
+    "hub": [
+      {
+        "type": "net",
+        "count": 2
+      }
+    ],
+    "cascade": true,
+    "dual_mode": true,
+    "sync_mode": false,
+    "screen_param_support": true
+  },
+  {
+    "id": 1,
+    "name": "A602",
+    "pixels": 921600,
+    "max": {
+      "width": 3840,
+      "height": 2048
+    },
+    "Swidth": 1280,
+    "Sheight": 720,
+    "video_support": [
+      4,
+      19,
+      34,
+      49,
+      64
+    ],
+    "rgba": true,
+    "video_compress": false,
+    "audio": true,
+    "area_opacity": true,
+    "communication": [
+      "USB",
+      "NET",
+      "3G/4G",
+      "WIFI",
+      "GPRS"
+    ],
+    "hub": [
+      {
+        "type": "net",
+        "count": 2
+      }
+    ],
+    "cascade": true,
+    "dual_mode": true,
+    "sync_mode": false,
+    "screen_param_support": true
+  },
+  {
+    "id": 2,
+    "name": "A603",
+    "pixels": 2073600,
+    "max": {
+      "width": 3840,
+      "height": 2048
+    },
+    "Swidth": 1920,
+    "Sheight": 1080,
+    "video_support": [
+      4,
+      19,
+      34,
+      49,
+      64
+    ],
+    "rgba": true,
+    "video_compress": false,
+    "audio": true,
+    "area_opacity": false,
+    "communication": [
+      "USB",
+      "NET",
+      "3G/4G",
+      "WIFI",
+      "GPRS"
+    ],
+    "hub": [
+      {
+        "type": "net",
+        "count": 2
+      }
+    ],
+    "cascade": true,
+    "dual_mode": true,
+    "sync_mode": false,
+    "screen_param_support": true
+  },
+  {
+    "id": 17,
+    "name": "V10",
+    "pixels": 24576,
+    "max": {
+      "width": 512,
+      "height": 128
+    },
+    "Swidth": 384,
+    "Sheight": 64,
+    "video_support": [
+      1
+    ],
+    "rgba": false,
+    "video_compress": true,
+    "audio": false,
+    "area_opacity": false,
+    "communication": [
+      "USB",
+      "NET",
+      "3G/4G",
+      "WIFI",
+      "GPRS"
+    ],
+    "hub": [
+      {
+        "type": "75",
+        "count": 4
+      }
+    ],
+    "cascade": false,
+    "dual_mode": false,
+    "sync_mode": false,
+    "screen_param_support": true
+  },
+  {
+    "id": 18,
+    "name": "A3",
+    "pixels": 655360,
+    "max": {
+      "width": 4096,
+      "height": 2048
+    },
+    "Swidth": 1280,
+    "Sheight": 512,
+    "video_support": [
+      17
+    ],
+    "rgba": true,
+    "video_compress": false,
+    "audio": true,
+    "area_opacity": true,
+    "communication": [
+      "USB",
+      "NET",
+      "3G/4G",
+      "WIFI",
+      "GPRS"
+    ],
+    "hub": [
+      {
+        "type": "net",
+        "count": 1
+      }
+    ],
+    "cascade": false,
+    "dual_mode": false,
+    "sync_mode": false,
+    "screen_param_support": true
+  },
+  {
+    "id": 21,
+    "name": "A6",
+    "pixels": 2304000,
+    "max": {
+      "width": 16384,
+      "height": 4096
+    },
+    "Swidth": 1920,
+    "Sheight": 1200,
+    "video_support": [
+      2,
+      17,
+      32
+    ],
+    "rgba": true,
+    "video_compress": false,
+    "audio": true,
+    "area_opacity": true,
+    "communication": [
+      "USB",
+      "NET",
+      "3G/4G",
+      "WIFI",
+      "GPRS"
+    ],
+    "hub": [
+      {
+        "type": "net",
+        "count": 4
+      }
+    ],
+    "cascade": false,
+    "dual_mode": true,
+    "sync_mode": false,
+    "screen_param_support": true
+  },
+  {
+    "id": 36,
+    "name": "A4",
+    "pixels": 655360,
+    "max": {
+      "width": 16384,
+      "height": 2048
+    },
+    "Swidth": 1280,
+    "Sheight": 512,
+    "video_support": [
+      2,
+      17,
+      32
+    ],
+    "rgba": true,
+    "video_compress": false,
+    "audio": true,
+    "area_opacity": true,
+    "communication": [
+      "USB",
+      "NET",
+      "3G/4G",
+      "WIFI",
+      "GPRS"
+    ],
+    "hub": [
+      {
+        "type": "net",
+        "count": 2
+      }
+    ],
+    "cascade": false,
+    "dual_mode": true,
+    "sync_mode": false,
+    "screen_param_support": true
+  },
+  {
+    "id": 37,
+    "name": "A5",
+    "pixels": 1310720,
+    "max": {
+      "width": 16384,
+      "height": 2048
+    },
+    "Swidth": 1280,
+    "Sheight": 1024,
+    "video_support": [
+      2,
+      17,
+      34
+    ],
+    "rgba": true,
+    "video_compress": false,
+    "audio": true,
+    "area_opacity": true,
+    "communication": [
+      "USB",
+      "NET",
+      "3G/4G",
+      "WIFI",
+      "GPRS"
+    ],
+    "hub": [
+      {
+        "type": "net",
+        "count": 2
+      }
+    ],
+    "cascade": false,
+    "dual_mode": true,
+    "sync_mode": false,
+    "screen_param_support": true
+  },
+  {
+    "id": 30,
+    "name": "D15",
+    "pixels": 40960,
+    "max": {
+      "width": 640,
+      "height": 128
+    },
+    "Swidth": 640,
+    "Sheight": 64,
+    "video_support": [
+      1,
+      16
+    ],
+    "rgba": true,
+    "video_compress": true,
+    "audio": false,
+    "area_opacity": true,
+    "communication": [
+      "USB",
+      "NET",
+      "3G/4G",
+      "WIFI",
+      "GPRS"
+    ],
+    "hub": [
+      {
+        "type": "75",
+        "count": 4
+      }
+    ],
+    "cascade": false,
+    "dual_mode": false,
+    "sync_mode": false,
+    "screen_param_support": true
+  },
+  {
+    "id": 31,
+    "name": "D35",
+    "pixels": 65536,
+    "max": {
+      "width": 1024,
+      "height": 128
+    },
+    "Swidth": 1024,
+    "Sheight": 64,
+    "video_support": [
+      1,
+      16
+    ],
+    "rgba": true,
+    "video_compress": true,
+    "audio": false,
+    "area_opacity": true,
+    "communication": [
+      "USB",
+      "NET",
+      "3G/4G",
+      "WIFI",
+      "GPRS"
+    ],
+    "hub": [
+      {
+        "type": "50s",
+        "count": 1
+      }
+    ],
+    "cascade": false,
+    "dual_mode": false,
+    "sync_mode": false,
+    "screen_param_support": true
+  },
+  {
+    "id": 32,
+    "name": "C15",
+    "pixels": 122880,
+    "max": {
+      "width": 1024,
+      "height": 512
+    },
+    "Swidth": 384,
+    "Sheight": 320,
+    "video_support": [
+      17
+    ],
+    "rgba": true,
+    "video_compress": true,
+    "audio": true,
+    "area_opacity": true,
+    "communication": [
+      "USB",
+      "NET",
+      "3G/4G",
+      "WIFI",
+      "GPRS"
+    ],
+    "hub": [
+      {
+        "type": "net",
+        "count": 1
+      },
+      {
+        "type": "50d",
+        "count": 2
+      }
+    ],
+    "cascade": false,
+    "dual_mode": false,
+    "sync_mode": false,
+    "screen_param_support": true
+  },
+  {
+    "id": 1032,
+    "name": "C15C",
+    "pixels": 122880,
+    "max": {
+      "width": 1024,
+      "height": 512
+    },
+    "Swidth": 384,
+    "Sheight": 320,
+    "video_support": [
+      17
+    ],
+    "rgba": true,
+    "video_compress": true,
+    "audio": true,
+    "area_opacity": true,
+    "communication": [
+      "USB",
+      "NET",
+      "3G/4G",
+      "WIFI",
+      "GPRS"
+    ],
+    "hub": [
+      {
+        "type": "net",
+        "count": 1
+      },
+      {
+        "type": "75",
+        "count": 10
+      }
+    ],
+    "cascade": false,
+    "dual_mode": false,
+    "sync_mode": false,
+    "screen_param_support": true
+  },
+  {
+    "id": 33,
+    "name": "C35",
+    "pixels": 524288,
+    "max": {
+      "width": 1024,
+      "height": 1024
+    },
+    "Swidth": 1024,
+    "Sheight": 512,
+    "video_support": [
+      17
+    ],
+    "rgba": true,
+    "video_compress": true,
+    "audio": true,
+    "area_opacity": true,
+    "communication": [
+      "USB",
+      "NET",
+      "3G/4G",
+      "WIFI",
+      "GPRS"
+    ],
+    "hub": [
+      {
+        "type": "net",
+        "count": 1
+      },
+      {
+        "type": "50d",
+        "count": 2
+      }
+    ],
+    "cascade": false,
+    "dual_mode": false,
+    "sync_mode": false,
+    "screen_param_support": true
+  },
+  {
+    "id": 1033,
+    "name": "C35C",
+    "pixels": 524288,
+    "max": {
+      "width": 1024,
+      "height": 1024
+    },
+    "Swidth": 1024,
+    "Sheight": 512,
+    "video_support": [
+      0
+    ],
+    "rgba": true,
+    "video_compress": true,
+    "audio": true,
+    "area_opacity": true,
+    "communication": [
+      "USB",
+      "NET",
+      "3G/4G",
+      "WIFI",
+      "GPRS"
+    ],
+    "hub": [
+      {
+        "type": "net",
+        "count": 1
+      },
+      {
+        "type": "75",
+        "count": 10
+      }
+    ],
+    "cascade": false,
+    "dual_mode": false,
+    "sync_mode": false,
+    "screen_param_support": true
+  },
+  {
+    "id": 40,
+    "name": "D05",
+    "pixels": 40960,
+    "max": {
+      "width": 640,
+      "height": 128
+    },
+    "Swidth": 640,
+    "Sheight": 64,
+    "video_support": [
+      0
+    ],
+    "rgba": false,
+    "video_compress": true,
+    "audio": false,
+    "area_opacity": false,
+    "communication": [
+      "USB",
+      "WIFI"
+    ],
+    "hub": [
+      {
+        "type": "75",
+        "count": 4
+      }
+    ],
+    "cascade": false,
+    "dual_mode": false,
+    "sync_mode": false,
+    "screen_param_support": true
+  },
+  {
+    "id": 41,
+    "name": "D06",
+    "pixels": 65536,
+    "max": {
+      "width": 1024,
+      "height": 128
+    },
+    "Swidth": 1024,
+    "Sheight": 64,
+    "video_support": [
+      0
+    ],
+    "rgba": false,
+    "video_compress": true,
+    "audio": false,
+    "area_opacity": true,
+    "communication": [
+      "USB",
+      "NET",
+      "3G/4G",
+      "WIFI",
+      "GPRS"
+    ],
+    "hub": [
+      {
+        "type": "75",
+        "count": 4
+      }
+    ],
+    "cascade": false,
+    "dual_mode": false,
+    "sync_mode": false,
+    "screen_param_support": true
+  },
+  {
+    "id": 42,
+    "name": "B6",
+    "pixels": 2304000,
+    "max": {
+      "width": 3840,
+      "height": 4096
+    },
+    "Swidth": 1920,
+    "Sheight": 1080,
+    "video_support": [
+      2,
+      17,
+      34
+    ],
+    "rgba": true,
+    "video_compress": false,
+    "audio": true,
+    "area_opacity": true,
+    "communication": [
+      "USB",
+      "NET",
+      "3G/4G",
+      "WIFI",
+      "GPRS"
+    ],
+    "hub": [
+      {
+        "type": "net",
+        "count": 2
+      }
+    ],
+    "cascade": false,
+    "dual_mode": true,
+    "sync_mode": false,
+    "screen_param_support": true
+  },
+  {
+    "id": 50,
+    "name": "QF4",
+    "pixels": 40960,
+    "max": {
+      "width": 1024,
+      "height": 128
+    },
+    "Swidth": 640,
+    "Sheight": 64,
+    "video_support": [
+      0
+    ],
+    "rgba": false,
+    "video_compress": true,
+    "audio": false,
+    "area_opacity": false,
+    "communication": [
+      "USB",
+      "WIFI"
+    ],
+    "hub": [
+      {
+        "type": "75",
+        "count": 4
+      }
+    ],
+    "cascade": false,
+    "dual_mode": false,
+    "sync_mode": false,
+    "screen_param_support": true
+  },
+  {
+    "id": 46,
+    "name": "C16",
+    "pixels": 122880,
+    "max": {
+      "width": 8192,
+      "height": 512
+    },
+    "Swidth": 384,
+    "Sheight": 320,
+    "video_support": [
+      17
+    ],
+    "rgba": true,
+    "video_compress": true,
+    "audio": true,
+    "area_opacity": true,
+    "communication": [
+      "USB",
+      "NET",
+      "3G/4G",
+      "WIFI"
+    ],
+    "hub": [],
+    "cascade": false,
+    "dual_mode": false,
+    "sync_mode": false,
+    "screen_param_support": true
+  },
+  {
+    "id": 47,
+    "name": "C36",
+    "pixels": 524288,
+    "max": {
+      "width": 8192,
+      "height": 1024
+    },
+    "Swidth": 1024,
+    "Sheight": 512,
+    "video_support": [
+      17
+    ],
+    "rgba": true,
+    "video_compress": true,
+    "audio": true,
+    "area_opacity": true,
+    "communication": [
+      "USB",
+      "NET",
+      "3G/4G",
+      "WIFI"
+    ],
+    "hub": [],
+    "cascade": false,
+    "dual_mode": false,
+    "sync_mode": false,
+    "screen_param_support": true
+  },
+  {
+    "id": 48,
+    "name": "D16",
+    "pixels": 40960,
+    "max": {
+      "width": 640,
+      "height": 128
+    },
+    "Swidth": 640,
+    "Sheight": 64,
+    "video_support": [
+      1,
+      16
+    ],
+    "rgba": true,
+    "video_compress": true,
+    "audio": false,
+    "area_opacity": true,
+    "communication": [
+      "USB",
+      "NET",
+      "3G/4G",
+      "WIFI"
+    ],
+    "hub": [],
+    "cascade": false,
+    "dual_mode": false,
+    "sync_mode": false,
+    "screen_param_support": true
+  },
+  {
+    "id": 49,
+    "name": "D36",
+    "pixels": 65536,
+    "max": {
+      "width": 1024,
+      "height": 128
+    },
+    "Swidth": 1024,
+    "Sheight": 64,
+    "video_support": [
+      1,
+      16
+    ],
+    "rgba": true,
+    "video_compress": true,
+    "audio": false,
+    "area_opacity": true,
+    "communication": [
+      "USB",
+      "NET",
+      "3G/4G",
+      "WIFI"
+    ],
+    "hub": [],
+    "cascade": false,
+    "dual_mode": false,
+    "sync_mode": false,
+    "screen_param_support": true
+  },
+  {
+    "id": 60,
+    "name": "A8",
+    "pixels": 8294400,
+    "max": {
+      "width": 15360,
+      "height": 2160
+    },
+    "video_support": [
+      4,
+      19,
+      34,
+      49,
+      64
+    ],
+    "rgba": true,
+    "video_compress": false,
+    "audio": true,
+    "area_opacity": true,
+    "screen_param_support": true,
+    "lcd_serials": true,
+    "is_led_android": true
+  },
+  {
+    "id": 61,
+    "name": "A7",
+    "pixels": 8294400,
+    "max": {
+      "width": 15360,
+      "height": 2160
+    },
+    "video_support": [
+      4,
+      19,
+      34,
+      49,
+      64
+    ],
+    "rgba": true,
+    "video_compress": false,
+    "audio": true,
+    "area_opacity": true,
+    "screen_param_support": true,
+    "lcd_serials": true,
+    "is_led_android": true
+  },
+
+  {
+    "id": 38,
+    "name": "M10",
+    "pixels": 2073600,
+    "max": {
+      "width": 3840,
+      "height": 4096
+    },
+    "video_support": [
+      4,
+      19,
+      34,
+      49,
+      64
+    ],
+    "rgba": true,
+    "video_compress": false,
+    "audio": true,
+    "area_opacity": true,
+    "screen_param_support": true,
+    "lcd_serials": true
+  },
+  {
+    "id": 39,
+    "name": "M20",
+    "pixels": 8847360,
+    "max": {
+      "width": 4096,
+      "height": 4096
+    },
+    "video_support": [
+      4,
+      19,
+      34,
+      49,
+      64
+    ],
+    "rgba": true,
+    "video_compress": false,
+    "audio": true,
+    "area_opacity": true,
+    "screen_param_support": true,
+    "lcd_serials": true
+  },
+  {
+    "id": 101,
+    "name": "M30",
+    "pixels": 8847360,
+    "max": {
+      "width": 4096,
+      "height": 4096
+    },
+    "video_support": [
+      4,
+      19,
+      34,
+      49,
+      64
+    ],
+    "rgba": true,
+    "video_compress": false,
+    "audio": true,
+    "area_opacity": true,
+    "screen_param_support": true,
+    "lcd_serials": true
+  },
+  {
+    "id": 102,
+    "name": "40S",
+    "pixels": 2073600,
+    "max": {
+      "width": 3840,
+      "height": 4096
+    },
+    "video_support": [
+      4,
+      19,
+      34,
+      49,
+      64
+    ],
+    "rgba": true,
+    "video_compress": false,
+    "audio": true,
+    "area_opacity": true,
+    "screen_param_support": true,
+    "lcd_serials": true
+  }
+]

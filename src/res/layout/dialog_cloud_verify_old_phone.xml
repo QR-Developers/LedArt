@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="0000" android:layout_width="-1" android:layout_height="-1">
+	<LinearLayout android:layout_gravity="0x11" android:orientation="1" android:background="res/drawable/bg_round_10_rectangle_f2_79.xml" android:layout_width="300dp" android:layout_height="-2" android:minHeight="200dp">
+		<FrameLayout android:paddingLeft="10dp" android:paddingRight="10dp" android:layout_width="-1" android:layout_height="50dp">
+			<TextView android:textSize="14sp" android:textColor="333333" android:gravity="0x11" android:layout_gravity="0x11" android:layout_width="-2" android:layout_height="-2" android:text="Verify old phone" android:lines="1" />
+		</FrameLayout>
+		<View android:background="d7d7d7" android:layout_width="-1" android:layout_height="1px" />
+		<FrameLayout android:background="ffffff" android:layout_width="-1" android:layout_height="0dp" android:layout_weight="{4:1065353216}">
+			<LinearLayout android:orientation="1" android:id="false" android:layout_width="-1" android:layout_height="-2">
+				<TextView android:textSize="13sp" android:textColor="999999" android:gravity="0x10" android:id="false" android:background="res/drawable/bg_round_5_rectangle_f2f2f2_stroke_d7d7d7.xml" android:paddingLeft="10dp" android:layout_width="-1" android:layout_height="30dp" android:layout_marginLeft="30dp" android:layout_marginTop="20dp" android:layout_marginRight="30dp" />
+				<LinearLayout android:orientation="0" android:id="false" android:layout_width="-1" android:layout_height="30dp" android:layout_marginLeft="30dp" android:layout_marginTop="20dp" android:layout_marginRight="30dp">
+					<EditText android:textSize="13sp" android:textColor="333333" android:textColorHint="999999" android:id="false" android:background="res/drawable/bg_round_5_rectangle_stroke_d7d7d7.xml" android:paddingLeft="10dp" android:layout_width="0dp" android:layout_height="-1" android:hint="Captcha" android:layout_weight="{4:1065353216}" android:inputType="0x2" />
+					<FrameLayout android:layout_gravity="0x10" android:layout_width="90dp" android:layout_height="30dp" android:layout_marginLeft="10dp">
+						<TextView android:textSize="12sp" android:textColor="666666" android:ellipsize="3" android:gravity="0x11" android:layout_width="-1" android:layout_height="-1" android:text="Click refresh" android:lines="1" />
+						<ImageView android:id="false" android:layout_width="-1" android:layout_height="-1" android:scaleType="1" />
+					</FrameLayout>
+				</LinearLayout>
+				<LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="30dp" android:layout_marginLeft="30dp" android:layout_marginTop="20dp" android:layout_marginRight="30dp" android:layout_marginBottom="20dp">
+					<EditText android:textSize="13sp" android:textColor="333333" android:textColorHint="999999" android:id="false" android:background="res/drawable/bg_round_5_rectangle_stroke_d7d7d7.xml" android:paddingLeft="10dp" android:layout_width="0dp" android:layout_height="-1" android:hint="SMS verification code" android:layout_weight="{4:1065353216}" android:inputType="0x2" />
+					<TextView android:textSize="13sp" android:textColor="ffffff" android:gravity="0x11" android:id="false" android:background="res/drawable/bg_round_5_rectangle_3399ff.xml" android:layout_width="90dp" android:layout_height="-1" android:layout_marginLeft="10dp" android:text="Get" />
+				</LinearLayout>
+			</LinearLayout>
+			<LinearLayout android:gravity="0x11" android:orientation="1" android:id="false" android:visibility="1" android:layout_width="-1" android:layout_height="-1">
+				<ProgressBar android:layout_gravity="0x11" android:layout_width="50dp" android:layout_height="50dp" />
+				<TextView android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="10dp" android:text="Setting up..." />
+			</LinearLayout>
+		</FrameLayout>
+		<View android:background="d7d7d7" android:layout_width="-1" android:layout_height="1px" />
+		<LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="50dp">
+			<View android:background="d7d7d7" android:visibility="1" android:layout_width="0dp" android:layout_height="-1" android:layout_weight="{4:1065353216}" />
+			<Button android:textSize="14sp" android:textColor="666666" android:layout_gravity="0x10" android:id="false" android:background="0000" android:visibility="0" android:layout_width="54dp" android:layout_height="28dp" android:text="Cancel" android:singleLine="true" android:textAllCaps="false" />
+			<Button android:textSize="14sp" android:textColor="ffffff" android:layout_gravity="0x10" android:id="false" android:background="res/drawable/bg_round_5_rectangle_3399ff.xml" android:layout_width="60dp" android:layout_height="28dp" android:layout_marginRight="10dp" android:text="Next" android:singleLine="true" android:textAllCaps="false" />
+		</LinearLayout>
+	</LinearLayout>
+</FrameLayout>

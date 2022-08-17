@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="-1" android:layout_height="-1">
+	<FrameLayout android:id="false" android:visibility="1" android:layout_width="-1" android:layout_height="-1">
+		<LinearLayout android:orientation="1" android:id="false" android:layout_width="-1" android:layout_height="-1">
+			<FrameLayout android:id="false" android:layout_width="-1" android:layout_height="-1">
+				<cn.huidu.view.dateview.MaterialCalendarView android:id="false" android:layout_width="-1" android:layout_height="-1" android:layout_marginBottom="20dp" app:mcv_selectionColor="3399ff" app:mcv_showOtherDates="0x1" app:mcv_tileWidth="0dp" app:mcv_top_bar_visible="false" />
+			</FrameLayout>
+			<LinearLayout android:gravity="0x11" android:orientation="0" android:id="false" android:paddingLeft="45dp" android:paddingTop="25dp" android:paddingRight="45dp" android:paddingBottom="25dp" android:layout_width="-1" android:layout_height="-1">
+				<cn.huidu.view.dateview.PickerView android:id="false" android:layout_width="0dp" android:layout_height="-1" android:layout_weight="{4:1084227584}" />
+				<TextView android:textSize="28sp" android:textColor="3366ff" android:gravity="0x11" android:layout_width="0dp" android:layout_height="-1" android:text=":" android:layout_weight="{4:1073741824}" />
+				<cn.huidu.view.dateview.PickerView android:id="false" android:layout_width="0dp" android:layout_height="-1" android:layout_weight="{4:1084227584}" />
+				<TextView android:textSize="28sp" android:textColor="3366ff" android:gravity="0x11" android:layout_width="0dp" android:layout_height="-1" android:text=":" android:layout_weight="{4:1073741824}" />
+				<cn.huidu.view.dateview.PickerView android:id="false" android:layout_width="0dp" android:layout_height="-1" android:layout_weight="{4:1084227584}" />
+			</LinearLayout>
+		</LinearLayout>
+		<LinearLayout android:orientation="0" android:id="false" android:background="ffffff" android:visibility="2" android:layout_width="-1" android:layout_height="-1">
+			<include android:id="false" layout="res/layout/view_detail_setting_left_menu.xml" />
+			<include layout="res/layout/view_detail_setting_right_menu.xml" />
+		</LinearLayout>
+	</FrameLayout>
+	<LinearLayout android:orientation="0" android:id="false" android:layout_width="-1" android:layout_height="-1">
+		<androidx.recyclerview.widget.RecyclerView android:id="false" android:layout_width="-1" android:layout_height="-1" />
+	</LinearLayout>
+</FrameLayout>

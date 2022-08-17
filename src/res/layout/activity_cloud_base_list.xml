@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:background="f2f2f2" android:layout_width="-1" android:layout_height="-1">
+	<FrameLayout android:id="false" android:background="3399ff" android:fitsSystemWindows="true" android:layout_width="-1" android:layout_height="75dp">
+		<ImageView android:layout_gravity="0x10" android:id="false" android:padding="10dp" android:layout_width="44dp" android:layout_height="44dp" android:src="res/drawable/cloud_base_setting_left_angle.png" />
+		<TextView android:textSize="15sp" android:textColor="ffffff" android:ellipsize="4" android:gravity="0x11" android:layout_gravity="0x10" android:id="false" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="70dp" android:layout_marginRight="70dp" android:text="" android:singleLine="true" />
+		<ImageView android:layout_gravity="0x15" android:id="false" android:padding="10dp" android:visibility="2" android:layout_width="44dp" android:layout_height="44dp" android:src="res/drawable-xxhdpi-v4/setting.png" />
+	</FrameLayout>
+	<FrameLayout android:layout_width="-1" android:layout_height="-1">
+		<com.scwang.smart.refresh.layout.SmartRefreshLayout android:id="false" android:layout_width="-1" android:layout_height="-1">
+			<androidx.recyclerview.widget.RecyclerView android:id="false" android:layout_width="-1" android:layout_height="-1" android:overScrollMode="2" />
+		</com.scwang.smart.refresh.layout.SmartRefreshLayout>
+		<LinearLayout android:layout_gravity="0x11" android:orientation="1" android:id="false" android:visibility="2" android:layout_width="-2" android:layout_height="-2">
+			<TextView android:textSize="15sp" android:textColor="999999" android:layout_width="-2" android:layout_height="-2" android:text="暂无数据" />
+		</LinearLayout>
+	</FrameLayout>
+</LinearLayout>

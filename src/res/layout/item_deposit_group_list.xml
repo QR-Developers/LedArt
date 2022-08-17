@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:layout_width="-1" android:layout_height="-2">
+	<RelativeLayout android:background="res/drawable/bg_rectangle_only_bottom_f2_stroke_e4.xml" android:layout_width="-1" android:layout_height="40dp">
+		<TextView android:textSize="14sp" android:textColor="999999" android:layout_gravity="0x50" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="15dp" android:layout_marginBottom="5dp" android:lines="1" android:layout_alignParentBottom="true" />
+	</RelativeLayout>
+	<LinearLayout android:gravity="0x10" android:orientation="0" android:id="false" android:background="res/drawable/bg_rectangle_only_bottom_ff_stroke_e4.xml" android:paddingLeft="15dp" android:paddingRight="15dp" android:layout_width="-1" android:layout_height="40dp">
+		<TextView android:textSize="14sp" android:textColor="333333" android:layout_width="0dp" android:layout_height="-2" android:text="Red chip" android:lines="1" android:layout_weight="{4:1065353216}" />
+		<TextView android:textSize="14sp" android:textColor="666666" android:layout_gravity="0x11" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="5dp" android:layout_marginRight="10dp" android:lines="1" />
+		<ImageView android:layout_gravity="0x11" android:layout_width="16dp" android:layout_height="16dp" android:src="res/drawable-xhdpi-v4/angle_right.png" android:alpha="{4:1058642330}" />
+	</LinearLayout>
+	<LinearLayout android:gravity="0x10" android:orientation="0" android:id="false" android:background="res/drawable/bg_rectangle_only_bottom_ff_stroke_e4.xml" android:paddingLeft="15dp" android:paddingRight="15dp" android:layout_width="-1" android:layout_height="40dp">
+		<TextView android:textSize="14sp" android:textColor="333333" android:layout_width="0dp" android:layout_height="-2" android:text="Green chip" android:lines="1" android:layout_weight="{4:1065353216}" />
+		<TextView android:textSize="14sp" android:textColor="666666" android:layout_gravity="0x11" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="5dp" android:layout_marginRight="10dp" android:lines="1" />
+		<ImageView android:layout_gravity="0x11" android:layout_width="16dp" android:layout_height="16dp" android:src="res/drawable-xhdpi-v4/angle_right.png" android:alpha="{4:1058642330}" />
+	</LinearLayout>
+	<LinearLayout android:gravity="0x10" android:orientation="0" android:id="false" android:background="res/drawable/bg_rectangle_only_bottom_ff_stroke_e4.xml" android:paddingLeft="15dp" android:paddingRight="15dp" android:layout_width="-1" android:layout_height="40dp">
+		<TextView android:textSize="14sp" android:textColor="333333" android:layout_width="0dp" android:layout_height="-2" android:text="Blue chip" android:lines="1" android:layout_weight="{4:1065353216}" />
+		<TextView android:textSize="14sp" android:textColor="666666" android:layout_gravity="0x11" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="5dp" android:layout_marginRight="10dp" android:lines="1" />
+		<ImageView android:layout_gravity="0x11" android:layout_width="16dp" android:layout_height="16dp" android:src="res/drawable-xhdpi-v4/angle_right.png" android:alpha="{4:1058642330}" />
+	</LinearLayout>
+</LinearLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="ffffff" android:layout_width="-1" android:layout_height="-2">
+	<RelativeLayout android:layout_width="-1" android:layout_height="150dp">
+		<View android:background="d7d7d7" android:layout_width="-1" android:layout_height="1px" />
+		<LinearLayout android:orientation="0" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="25dp" android:layout_centerHorizontal="true">
+			<TextView android:textSize="16sp" android:textColor="3399ff" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="100" />
+			<TextView android:textSize="16sp" android:textColor="3399ff" android:layout_width="-2" android:layout_height="-2" android:text="%" style="resourceId:0x7f1202df" />
+		</LinearLayout>
+		<SeekBar android:id="false" android:paddingTop="10dp" android:paddingBottom="10dp" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="20dp" android:layout_marginRight="20dp" android:max="50" android:progress="50" android:layout_centerInParent="true" />
+		<View android:background="d7d7d7" android:layout_width="-1" android:layout_height="1px" android:layout_alignParentBottom="true" />
+	</RelativeLayout>
+</FrameLayout>

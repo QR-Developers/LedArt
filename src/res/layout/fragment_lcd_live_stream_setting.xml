@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+	<TextView android:textSize="13sp" android:textColor="666666" android:layout_gravity="0x10" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="15dp" android:layout_marginTop="10dp" android:text="Address" />
+	<FrameLayout android:background="res/drawable/bg_rectangle_only_bottom_ff_stroke_e4.xml" android:layout_width="-1" android:layout_height="80dp" android:layout_marginTop="3dp">
+		<TextView android:textSize="13sp" android:textColor="333333" android:layout_gravity="0x10" android:id="false" android:background="res/drawable/bg_round_3_rectangle_stroke_d7_ffffff.xml" android:padding="5dp" android:layout_width="-1" android:layout_height="-1" android:layout_margin="10dp" android:hint="Please enter the streaming address" android:singleLine="true" />
+	</FrameLayout>
+</LinearLayout>

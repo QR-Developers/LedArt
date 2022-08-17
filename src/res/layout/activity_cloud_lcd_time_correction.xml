@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:layout_width="-1" android:layout_height="-2">
+	<LinearLayout android:orientation="0" android:id="false" android:background="res/drawable/cloud_bg_rectangle_only_bottom_ff_stroke_e4.xml" android:layout_width="-1" android:layout_height="50dp">
+		<TextView android:textSize="14sp" android:textColor="666666" android:layout_gravity="0x10" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="15dp" android:text="System timezone" android:lines="1" />
+		<TextView android:textSize="14sp" android:textColor="333333" android:ellipsize="3" android:gravity="0x5" android:layout_gravity="0x10" android:id="false" android:layout_width="0dp" android:layout_height="-2" android:text="北京,乌鲁木齐" android:lines="1" android:layout_weight="{4:1065353216}" />
+		<ImageView android:layout_gravity="0x10" android:layout_width="23dp" android:layout_height="23dp" android:layout_marginRight="10dp" android:src="res/drawable-xxhdpi-v4/down_gray.png" android:rotation="{4:1132920832}" />
+	</LinearLayout>
+	<LinearLayout android:orientation="0" android:background="res/drawable/cloud_bg_rectangle_only_bottom_ff_stroke_e4.xml" android:layout_width="-1" android:layout_height="50dp">
+		<TextView android:textSize="14sp" android:textColor="666666" android:layout_gravity="0x10" android:layout_width="0dp" android:layout_height="-2" android:layout_marginLeft="15dp" android:text="Auto sync" android:lines="1" android:layout_weight="{4:1065353216}" />
+		<cn.huidu.view.CustomSwitch android:layout_gravity="0x800015" android:id="false" android:layout_width="50dp" android:layout_height="25dp" android:layout_marginRight="15dp" android:checked="false" />
+	</LinearLayout>
+	<LinearLayout android:orientation="0" android:id="false" android:background="res/drawable/cloud_bg_rectangle_only_bottom_ff_stroke_e4.xml" android:layout_width="-1" android:layout_height="50dp">
+		<TextView android:textSize="14sp" android:textColor="666666" android:layout_gravity="0x10" android:layout_width="0dp" android:layout_height="-2" android:layout_marginLeft="15dp" android:text="Time server address" android:lines="1" android:layout_weight="{4:1065353216}" />
+		<EditText android:textSize="14sp" android:textColor="333333" android:gravity="0x15" android:layout_gravity="0x10" android:id="false" android:background="res/drawable/bg_round_5_rectangle_stroke_d7d7d7.xml" android:paddingLeft="10dp" android:paddingRight="10dp" android:layout_width="150dp" android:layout_height="25dp" android:layout_marginRight="15dp" android:text="ntp.huidu.cn" android:lines="1" />
+	</LinearLayout>
+</LinearLayout>

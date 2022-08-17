@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:focusable="true" android:clickable="true" android:layout_width="-1" android:layout_height="-1">
+	<View android:id="false" android:layout_width="-1" android:layout_height="-1" />
+	<LinearLayout android:gravity="0x31" android:orientation="1" android:id="false" android:layout_width="-1" android:layout_height="-1">
+		<TextView android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="40dp" android:text="Program sending" style="resourceId:0x7f120314" />
+		<FrameLayout android:layout_width="400dp" android:layout_height="-1" android:layout_marginTop="15dp" android:layout_marginBottom="40dp">
+			<View android:background="33ffffff" android:layout_width="-1" android:layout_height="1px" />
+			<FrameLayout android:id="false" android:visibility="2" android:layout_width="-1" android:layout_height="50dp">
+				<TextView android:textSize="14sp" android:textColor="c0ffffff" android:layout_gravity="0x11" android:layout_width="-2" android:layout_height="-2" android:text="Device not matching" />
+				<View android:layout_gravity="0x50" android:background="33ffffff" android:layout_width="-1" android:layout_height="1px" />
+			</FrameLayout>
+			<androidx.swiperefreshlayout.widget.SwipeRefreshLayout android:id="false" android:layout_width="-1" android:layout_height="-1">
+				<androidx.recyclerview.widget.RecyclerView android:id="false" android:layout_width="-1" android:layout_height="-1" />
+			</androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+		</FrameLayout>
+	</LinearLayout>
+	<FrameLayout android:id="false" android:visibility="2" android:layout_width="-1" android:layout_height="-1">
+		<LinearLayout android:gravity="0x11" android:layout_gravity="0x11" android:orientation="1" android:layout_width="-2" android:layout_height="-2">
+			<cn.huidu.view.RotateImageView android:id="false" android:layout_width="-2" android:layout_height="-2" android:src="res/drawable-xxhdpi-v4/loading_white.png" />
+			<TextView android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="15dp" style="resourceId:0x7f120314" />
+		</LinearLayout>
+	</FrameLayout>
+</RelativeLayout>

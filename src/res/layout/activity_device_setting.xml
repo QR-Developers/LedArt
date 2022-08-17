@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+	<FrameLayout android:background="3399ff" android:fitsSystemWindows="true" android:layout_width="-1" android:layout_height="75dp">
+		<ImageView android:layout_gravity="0x10" android:id="false" android:padding="10dp" android:layout_width="44dp" android:layout_height="44dp" android:src="res/drawable-xhdpi-v4/base_setting_left_angle.png" />
+		<TextView android:textSize="16sp" android:textColor="ffffff" android:ellipsize="4" android:gravity="0x11" android:layout_gravity="0x10" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="70dp" android:layout_marginRight="70dp" android:text="Settings" android:singleLine="true" />
+	</FrameLayout>
+	<androidx.core.widget.NestedScrollView android:layout_width="-1" android:layout_height="-1" android:fillViewport="true">
+		<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2">
+			<RelativeLayout android:layout_width="-1" android:layout_height="40dp">
+				<TextView android:textSize="14sp" android:textColor="999999" android:layout_gravity="0x50" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="15dp" android:layout_marginBottom="5dp" android:text="Advanced settings" android:lines="1" android:layout_alignParentBottom="true" />
+			</RelativeLayout>
+			<LinearLayout android:gravity="0x10" android:orientation="0" android:id="false" android:background="res/drawable/bg_rectangle_top_bottom_ff_stroke_e4.xml" android:paddingLeft="15dp" android:paddingRight="15dp" android:layout_width="-1" android:layout_height="50dp">
+				<TextView android:textSize="14sp" android:textColor="333333" android:layout_width="0dp" android:layout_height="-2" android:text="Input resolution" android:lines="1" android:layout_weight="{4:1065353216}" />
+				<ImageView android:layout_gravity="0x11" android:layout_width="16dp" android:layout_height="16dp" android:src="res/drawable-xhdpi-v4/angle_right.png" android:alpha="{4:1058642330}" />
+			</LinearLayout>
+			<LinearLayout android:gravity="0x10" android:orientation="0" android:id="false" android:background="res/drawable/bg_rectangle_only_bottom_ff_stroke_e4.xml" android:paddingLeft="15dp" android:paddingRight="15dp" android:layout_width="-1" android:layout_height="50dp">
+				<TextView android:textSize="14sp" android:textColor="333333" android:layout_width="0dp" android:layout_height="-2" android:text="VGA settings" android:lines="1" android:layout_weight="{4:1065353216}" />
+				<ImageView android:layout_gravity="0x11" android:layout_width="16dp" android:layout_height="16dp" android:src="res/drawable-xhdpi-v4/angle_right.png" android:alpha="{4:1058642330}" />
+			</LinearLayout>
+			<LinearLayout android:gravity="0x10" android:orientation="0" android:id="false" android:background="res/drawable/bg_rectangle_only_bottom_ff_stroke_e4.xml" android:paddingLeft="15dp" android:paddingRight="15dp" android:layout_width="-1" android:layout_height="50dp">
+				<TextView android:textSize="14sp" android:textColor="333333" android:layout_width="0dp" android:layout_height="-2" android:text="Image rotation" android:lines="1" android:layout_weight="{4:1065353216}" />
+				<ImageView android:layout_gravity="0x11" android:layout_width="16dp" android:layout_height="16dp" android:src="res/drawable-xhdpi-v4/angle_right.png" android:alpha="{4:1058642330}" />
+			</LinearLayout>
+			<LinearLayout android:gravity="0x10" android:orientation="0" android:id="false" android:background="res/drawable/bg_rectangle_only_bottom_ff_stroke_e4.xml" android:paddingLeft="15dp" android:paddingRight="15dp" android:visibility="2" android:layout_width="-1" android:layout_height="50dp">
+				<TextView android:textSize="14sp" android:textColor="333333" android:layout_width="0dp" android:layout_height="-2" android:text="Sound settings" android:lines="1" android:layout_weight="{4:1065353216}" />
+				<ImageView android:layout_gravity="0x11" android:layout_width="16dp" android:layout_height="16dp" android:src="res/drawable-xhdpi-v4/angle_right.png" android:alpha="{4:1058642330}" />
+			</LinearLayout>
+			<LinearLayout android:orientation="0" android:id="false" android:background="res/drawable/bg_rectangle_only_bottom_ff_stroke_e4.xml" android:layout_width="-1" android:layout_height="45dp">
+				<TextView android:textSize="14sp" android:textColor="333333" android:ellipsize="3" android:gravity="0x10" android:layout_gravity="0x10" android:layout_width="0dp" android:layout_height="-2" android:layout_marginLeft="15dp" android:text="Test chart" android:lines="1" android:layout_weight="{4:1065353216}" />
+				<TextView android:textSize="14sp" android:textColor="666666" android:ellipsize="3" android:gravity="0x5" android:layout_gravity="0x10" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="10dp" android:maxWidth="200dp" android:text="Shut down" android:lines="1" />
+				<ImageView android:layout_gravity="0x10" android:layout_width="12dp" android:layout_height="6dp" android:layout_marginRight="15dp" android:src="res/drawable-xxhdpi-v4/font_arrow.png" android:rotation="{4:1127481344}" />
+			</LinearLayout>
+			<LinearLayout android:gravity="0x10" android:orientation="0" android:id="false" android:background="res/drawable/bg_rectangle_only_bottom_ff_stroke_e4.xml" android:paddingLeft="15dp" android:paddingRight="15dp" android:layout_width="-1" android:layout_height="50dp">
+				<TextView android:textSize="14sp" android:textColor="333333" android:layout_width="0dp" android:layout_height="-2" android:text="Time" android:lines="1" android:layout_weight="{4:1065353216}" />
+				<ImageView android:layout_gravity="0x11" android:visibility="0" android:layout_width="16dp" android:layout_height="16dp" android:src="res/drawable-xhdpi-v4/angle_right.png" android:alpha="{4:1058642330}" />
+			</LinearLayout>
+			<LinearLayout android:gravity="0x10" android:orientation="0" android:id="false" android:background="res/drawable/bg_rectangle_only_bottom_ff_stroke_e4.xml" android:paddingLeft="15dp" android:paddingRight="15dp" android:layout_width="-1" android:layout_height="50dp">
+				<TextView android:textSize="14sp" android:textColor="333333" android:layout_width="0dp" android:layout_height="-2" android:text="Firmware version" android:lines="1" android:layout_weight="{4:1065353216}" />
+				<TextView android:textSize="14sp" android:textColor="666666" android:gravity="0x5" android:layout_gravity="0x10" android:id="false" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="0dp" android:lines="1" />
+				<ImageView android:layout_gravity="0x11" android:visibility="0" android:layout_width="16dp" android:layout_height="16dp" android:src="res/drawable-xhdpi-v4/angle_right.png" android:alpha="{4:1058642330}" />
+			</LinearLayout>
+			<LinearLayout android:gravity="0x10" android:orientation="0" android:id="false" android:background="res/drawable/bg_rectangle_only_bottom_ff_stroke_e4.xml" android:paddingLeft="15dp" android:paddingRight="15dp" android:layout_width="-1" android:layout_height="50dp">
+				<TextView android:textSize="14sp" android:textColor="333333" android:layout_width="0dp" android:layout_height="-2" android:text="U Disk Settings" android:lines="1" android:layout_weight="{4:1065353216}" />
+				<ImageView android:layout_gravity="0x11" android:visibility="0" android:layout_width="16dp" android:layout_height="16dp" android:src="res/drawable-xhdpi-v4/angle_right.png" android:alpha="{4:1058642330}" />
+			</LinearLayout>
+			<RelativeLayout android:layout_width="-1" android:layout_height="40dp">
+				<TextView android:textSize="14sp" android:textColor="999999" android:layout_gravity="0x50" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="15dp" android:layout_marginBottom="5dp" android:text="Picture quality setting" android:lines="1" android:layout_alignParentBottom="true" />
+			</RelativeLayout>
+			<LinearLayout android:gravity="0x10" android:orientation="0" android:id="false" android:background="res/drawable/bg_rectangle_top_bottom_ff_stroke_e4.xml" android:paddingLeft="15dp" android:paddingRight="15dp" android:visibility="0" android:layout_width="-1" android:layout_height="50dp">
+				<TextView android:textSize="14sp" android:textColor="333333" android:layout_width="0dp" android:layout_height="-2" android:text="Image effect" android:lines="1" android:layout_weight="{4:1065353216}" />
+				<ImageView android:layout_gravity="0x11" android:layout_width="16dp" android:layout_height="16dp" android:src="res/drawable-xhdpi-v4/angle_right.png" android:alpha="{4:1058642330}" />
+			</LinearLayout>
+			<RelativeLayout android:layout_width="-1" android:layout_height="40dp">
+				<TextView android:textSize="14sp" android:textColor="999999" android:layout_gravity="0x50" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="15dp" android:layout_marginBottom="5dp" android:text="Other" android:lines="1" android:layout_alignParentBottom="true" />
+			</RelativeLayout>
+			<LinearLayout android:gravity="0x10" android:orientation="0" android:id="false" android:background="res/drawable/bg_rectangle_top_bottom_ff_stroke_e4.xml" android:paddingLeft="15dp" android:paddingRight="15dp" android:layout_width="-1" android:layout_height="50dp">
+				<TextView android:textSize="14sp" android:textColor="333333" android:layout_width="0dp" android:layout_height="-2" android:text="Language" android:lines="1" android:layout_weight="{4:1065353216}" />
+				<TextView android:textSize="14sp" android:textColor="666666" android:ellipsize="3" android:gravity="0x5" android:layout_gravity="0x10" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="10dp" android:maxWidth="200dp" android:text="中文" android:lines="1" />
+				<ImageView android:layout_gravity="0x11" android:layout_width="16dp" android:layout_height="16dp" android:src="res/drawable-xhdpi-v4/angle_right.png" android:alpha="{4:1058642330}" />
+			</LinearLayout>
+			<LinearLayout android:gravity="0x10" android:orientation="0" android:background="res/drawable/bg_rectangle_only_bottom_ff_stroke_e4.xml" android:paddingLeft="15dp" android:paddingRight="15dp" android:layout_width="-1" android:layout_height="50dp">
+				<TextView android:textSize="14sp" android:textColor="333333" android:layout_width="0dp" android:layout_height="-2" android:text="Version" android:lines="1" android:layout_weight="{4:1065353216}" />
+				<TextView android:textSize="14sp" android:textColor="666666" android:layout_gravity="0x10" android:id="false" android:layout_width="-2" android:layout_height="-2" android:lines="1" />
+			</LinearLayout>
+			<LinearLayout android:gravity="0x10" android:orientation="0" android:id="false" android:background="res/drawable/bg_rectangle_only_bottom_ff_stroke_e4.xml" android:paddingLeft="15dp" android:paddingRight="15dp" android:visibility="0" android:layout_width="-1" android:layout_height="50dp">
+				<TextView android:textSize="14sp" android:textColor="333333" android:layout_width="0dp" android:layout_height="-2" android:text="Switch stand-alone version" android:lines="1" android:layout_weight="{4:1065353216}" />
+				<ImageView android:layout_gravity="0x11" android:layout_width="16dp" android:layout_height="16dp" android:src="res/drawable-xhdpi-v4/angle_right.png" android:alpha="{4:1058642330}" />
+			</LinearLayout>
+		</LinearLayout>
+	</androidx.core.widget.NestedScrollView>
+</LinearLayout>

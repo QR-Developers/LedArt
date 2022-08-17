@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="ffffff" android:layout_width="-1" android:layout_height="-2">
+	<RelativeLayout android:layout_width="-1" android:layout_height="150dp">
+		<View android:background="d7d7d7" android:layout_width="-1" android:layout_height="1px" />
+		<TextView android:textSize="14sp" android:textColor="333333" android:layout_width="-2" android:layout_height="-2" android:text="This function requires an external brightness sensor, please confirm whether it is connected!" android:layout_centerInParent="true" />
+		<View android:background="d7d7d7" android:layout_width="-1" android:layout_height="1px" android:layout_alignParentBottom="true" />
+	</RelativeLayout>
+</FrameLayout>

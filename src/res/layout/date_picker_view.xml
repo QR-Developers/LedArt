@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="-1" android:layout_height="250dp">
+	<LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="-1">
+		<cn.huidu.view.datepicker.CustomListView android:id="false" android:scrollbars="0x0" android:layout_width="0dp" android:layout_height="-1" android:listSelector="0000" android:divider="0000" android:dividerHeight="0dp" android:layout_weight="{4:1065353216}" android:fastScrollEnabled="false" />
+		<TextView android:textSize="16sp" android:textColor="333333" android:gravity="0x11" android:layout_gravity="0x11" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text=":" />
+		<cn.huidu.view.datepicker.CustomListView android:id="false" android:scrollbars="0x0" android:layout_width="0dp" android:layout_height="-1" android:listSelector="0000" android:divider="0000" android:dividerHeight="0dp" android:layout_weight="{4:1065353216}" android:fastScrollEnabled="false" />
+		<TextView android:textSize="16sp" android:textColor="333333" android:gravity="0x11" android:layout_gravity="0x11" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text=":" />
+		<cn.huidu.view.datepicker.CustomListView android:id="false" android:scrollbars="0x0" android:layout_width="0dp" android:layout_height="-1" android:listSelector="0000" android:divider="0000" android:dividerHeight="0dp" android:layout_weight="{4:1065353216}" android:fastScrollEnabled="false" />
+	</LinearLayout>
+	<RelativeLayout android:id="false" android:layout_width="-1" android:layout_height="50dp" android:layout_centerInParent="true">
+		<View android:background="999999" android:layout_width="-1" android:layout_height="1px" />
+		<View android:background="999999" android:layout_width="-1" android:layout_height="1px" android:layout_alignParentBottom="true" />
+	</RelativeLayout>
+</RelativeLayout>

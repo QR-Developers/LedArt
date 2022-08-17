@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:background="0000" android:layout_width="-1" android:layout_height="300dp">
+	<LinearLayout android:layout_gravity="0x11" android:orientation="1" android:background="res/drawable/bg_round_10_rectangle_f2_79.xml" android:layout_width="-1" android:layout_height="-1" android:layout_marginLeft="10dp" android:layout_marginRight="10dp">
+		<FrameLayout android:paddingLeft="10dp" android:paddingRight="10dp" android:layout_width="-1" android:layout_height="50dp">
+			<TextView android:textSize="13sp" android:textStyle="0x1" android:textColor="333333" android:gravity="0x11" android:layout_gravity="0x11" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="Set time" android:lines="1" />
+		</FrameLayout>
+		<View android:background="d7d7d7" android:layout_width="-1" android:layout_height="1px" />
+		<FrameLayout android:layout_width="-1" android:layout_height="200dp">
+			<FrameLayout android:id="false" android:background="ffffffff" android:layout_width="-1" android:layout_height="-1">
+				<cn.huidu.view.dateview.MaterialCalendarView android:id="false" android:layout_width="-1" android:layout_height="-1" app:mcv_selectionColor="3399ff" app:mcv_showOtherDates="0x1" app:mcv_tileWidth="0dp" app:mcv_top_bar_visible="false" />
+			</FrameLayout>
+			<LinearLayout android:gravity="0x11" android:orientation="0" android:id="false" android:background="ffffffff" android:paddingLeft="45dp" android:paddingRight="45dp" android:visibility="1" android:layout_width="-1" android:layout_height="-1">
+				<cn.huidu.view.dateview.PickerView android:id="false" android:layout_width="0dp" android:layout_height="-1" android:layout_weight="{4:1084227584}" />
+				<TextView android:textSize="28sp" android:textColor="3366ff" android:gravity="0x11" android:layout_width="0dp" android:layout_height="-1" android:text=":" android:layout_weight="{4:1073741824}" />
+				<cn.huidu.view.dateview.PickerView android:id="false" android:layout_width="0dp" android:layout_height="-1" android:layout_weight="{4:1084227584}" />
+				<TextView android:textSize="28sp" android:textColor="3366ff" android:gravity="0x11" android:layout_width="0dp" android:layout_height="-1" android:text=":" android:layout_weight="{4:1073741824}" />
+				<cn.huidu.view.dateview.PickerView android:id="false" android:layout_width="0dp" android:layout_height="-1" android:layout_weight="{4:1084227584}" />
+			</LinearLayout>
+		</FrameLayout>
+		<View android:background="d7d7d7" android:layout_width="-1" android:layout_height="1px" />
+		<LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="50dp">
+			<Button android:textSize="13sp" android:textColor="333333" android:id="false" android:background="0000" android:layout_width="0dp" android:layout_height="-1" android:text="Cancel" android:layout_weight="{4:1065353216}" android:textAllCaps="false" />
+			<View android:background="d7d7d7" android:layout_width="1px" android:layout_height="-1" />
+			<Button android:textSize="13sp" android:textColor="3399ff" android:id="false" android:background="0000" android:layout_width="0dp" android:layout_height="-1" android:text="OK" android:layout_weight="{4:1065353216}" android:textAllCaps="false" />
+		</LinearLayout>
+	</LinearLayout>
+</FrameLayout>

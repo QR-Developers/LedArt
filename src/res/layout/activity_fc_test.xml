@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:custom="http://schemas.android.com/apk/res-auto" android:layout_width="-1" android:layout_height="-1">
+	<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+		<FrameLayout android:id="false" android:background="res/drawable-xhdpi-v4/header_bg.png" android:fitsSystemWindows="true" android:layout_width="-1" android:layout_height="75dp">
+			<ImageView android:layout_gravity="0x10" android:id="false" android:padding="10dp" android:layout_width="44dp" android:layout_height="44dp" android:src="res/drawable-xhdpi-v4/base_setting_left_angle.png" />
+			<TextView android:textSize="15sp" android:textColor="ffffff" android:ellipsize="4" android:gravity="0x11" android:layout_gravity="0x10" android:id="false" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="70dp" android:layout_marginRight="70dp" android:text="" android:singleLine="true" />
+			<TextView android:textSize="14sp" android:textColor="ffffff" android:gravity="0x11" android:layout_gravity="0x15" android:id="false" android:background="res/drawable/bg_round_20_rectangle_solid_transparent.xml" android:visibility="2" android:layout_width="40dp" android:layout_height="20dp" android:layout_marginRight="20dp" android:lines="1" />
+		</FrameLayout>
+		<LinearLayout android:orientation="1" android:id="false" android:layout_width="-1" android:layout_height="-1">
+			<LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="15dp" android:layout_marginTop="5dp" android:layout_marginRight="15dp">
+				<Button android:textSize="12sp" android:id="false" android:layout_width="0dp" android:layout_height="40dp" android:text="按钮1" android:layout_weight="{4:1065353216}" />
+				<Button android:textSize="12sp" android:id="false" android:layout_width="0dp" android:layout_height="40dp" android:layout_marginLeft="10dp" android:text="按钮2" android:layout_weight="{4:1065353216}" />
+				<Button android:textSize="12sp" android:id="false" android:layout_width="0dp" android:layout_height="40dp" android:layout_marginLeft="10dp" android:text="按钮3" android:layout_weight="{4:1065353216}" />
+			</LinearLayout>
+			<LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="15dp" android:layout_marginRight="15dp">
+				<Button android:textSize="12sp" android:id="false" android:layout_width="0dp" android:layout_height="40dp" android:text="按钮4" android:layout_weight="{4:1065353216}" />
+				<Button android:textSize="12sp" android:id="false" android:layout_width="0dp" android:layout_height="40dp" android:layout_marginLeft="10dp" android:text="按钮5" android:layout_weight="{4:1065353216}" />
+				<Button android:textSize="12sp" android:id="false" android:layout_width="0dp" android:layout_height="40dp" android:layout_marginLeft="10dp" android:text="按钮6" android:layout_weight="{4:1065353216}" />
+			</LinearLayout>
+			<LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="15dp" android:layout_marginRight="15dp">
+				<Button android:textSize="12sp" android:id="false" android:layout_width="0dp" android:layout_height="40dp" android:text="按钮7" android:layout_weight="{4:1065353216}" />
+				<Button android:textSize="12sp" android:id="false" android:layout_width="0dp" android:layout_height="40dp" android:layout_marginLeft="10dp" android:text="按钮8" android:layout_weight="{4:1065353216}" />
+				<Button android:textSize="12sp" android:id="false" android:layout_width="0dp" android:layout_height="40dp" android:layout_marginLeft="10dp" android:text="按钮9" android:layout_weight="{4:1065353216}" />
+			</LinearLayout>
+			<LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="15dp" android:layout_marginRight="15dp">
+				<Button android:textSize="12sp" android:id="false" android:layout_width="0dp" android:layout_height="40dp" android:text="按钮10" android:layout_weight="{4:1065353216}" />
+				<Button android:textSize="12sp" android:id="false" android:layout_width="0dp" android:layout_height="40dp" android:layout_marginLeft="10dp" android:text="按钮11" android:layout_weight="{4:1065353216}" />
+				<Button android:textSize="12sp" android:id="false" android:layout_width="0dp" android:layout_height="40dp" android:layout_marginLeft="10dp" android:text="按钮12" android:layout_weight="{4:1065353216}" />
+			</LinearLayout>
+			<LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="15dp" android:layout_marginRight="15dp">
+				<Button android:textSize="12sp" android:id="false" android:layout_width="0dp" android:layout_height="40dp" android:text="按钮13" android:layout_weight="{4:1065353216}" />
+				<Button android:textSize="12sp" android:id="false" android:layout_width="0dp" android:layout_height="40dp" android:layout_marginLeft="10dp" android:text="按钮14" android:layout_weight="{4:1065353216}" />
+				<Button android:textSize="12sp" android:id="false" android:layout_width="0dp" android:layout_height="40dp" android:layout_marginLeft="10dp" android:text="按钮15" android:layout_weight="{4:1065353216}" />
+			</LinearLayout>
+			<LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="15dp" android:layout_marginRight="15dp">
+				<Button android:textSize="12sp" android:id="false" android:layout_width="0dp" android:layout_height="40dp" android:text="按钮16" android:layout_weight="{4:1065353216}" />
+				<Button android:textSize="12sp" android:id="false" android:layout_width="0dp" android:layout_height="40dp" android:layout_marginLeft="10dp" android:text="按钮17" android:layout_weight="{4:1065353216}" />
+				<Button android:textSize="12sp" android:id="false" android:layout_width="0dp" android:layout_height="40dp" android:layout_marginLeft="10dp" android:text="按钮18" android:layout_weight="{4:1065353216}" />
+			</LinearLayout>
+		</LinearLayout>
+	</LinearLayout>
+	<LinearLayout android:gravity="0x11" android:orientation="1" android:id="false" android:background="80000" android:visibility="2" android:layout_width="-1" android:layout_height="-1">
+		<ProgressBar android:layout_width="-2" android:layout_height="-2" android:layout_marginBottom="10dp" android:indeterminateDrawable="res/drawable/progressbar.xml" />
+		<TextView android:textSize="18sp" android:textColor="999999" android:id="false" android:paddingTop="15dp" android:layout_width="-2" android:layout_height="-2" android:text="Loading…" />
+	</LinearLayout>
+</FrameLayout>

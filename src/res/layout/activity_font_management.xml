@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+	<RelativeLayout android:id="false" android:background="res/drawable-xhdpi-v4/header_bg.png" android:layout_width="-1" android:layout_height="75dp">
+		<FrameLayout android:id="false" android:focusable="true" android:clickable="true" android:layout_width="50dp" android:layout_height="50dp" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true">
+			<ImageView android:layout_gravity="0x11" android:background="res/drawable-xhdpi-v4/base_setting_left_angle.png" android:layout_width="24dp" android:layout_height="24dp" android:contentDescription="resourceId:0x0" />
+		</FrameLayout>
+		<TextView android:textSize="16sp" android:textColor="ffffff" android:gravity="0x11" android:layout_width="200dp" android:layout_height="50dp" android:text="Fonts management" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+	</RelativeLayout>
+	<FrameLayout android:layout_width="-1" android:layout_height="-1">
+		<androidx.recyclerview.widget.RecyclerView android:id="false" android:layout_width="-1" android:layout_height="-1" android:layout_margin="8dp" />
+		<ProgressBar android:layout_gravity="0x11" android:id="false" android:visibility="2" android:layout_width="50dp" android:layout_height="50dp" />
+		<FrameLayout android:id="false" android:visibility="2" android:layout_width="-1" android:layout_height="-1">
+			<LinearLayout android:layout_gravity="0x11" android:orientation="1" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="20dp" android:layout_marginRight="20dp">
+				<ImageView android:layout_gravity="0x11" android:layout_width="-2" android:layout_height="-2" android:src="res/drawable-xxhdpi-v4/null_program.png" />
+				<TextView android:gravity="0x11" android:layout_gravity="0x11" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="20dp" android:text="Failed to get" />
+				<TextView android:layout_gravity="0x10" android:layout_width="-2" android:layout_height="-2" android:text="Click on the screen to reload" android:lines="2" />
+			</LinearLayout>
+		</FrameLayout>
+	</FrameLayout>
+</LinearLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="-1" android:layout_height="-1">
+	<FrameLayout android:background="ffffff" android:layout_width="-1" android:layout_height="-1" android:layout_margin="4dp">
+		<ImageView android:layout_gravity="0x11" android:id="false" android:layout_width="-2" android:layout_height="-2" android:src="res/drawable-xhdpi-v4/empty_photo.png" android:scaleType="6" android:maxWidth="75dp" android:maxHeight="75dp" android:minWidth="36dp" android:minHeight="36dp" android:layout_marginStart="1dp" android:layout_marginEnd="1dp" />
+		<ImageView android:layout_gravity="0x35" android:id="false" android:layout_width="18dp" android:layout_height="18dp" android:layout_margin="2dp" android:src="res/drawable-xxhdpi-v4/font_download_iv_normal_2.png" android:scaleType="1" />
+		<RelativeLayout android:id="false" android:background="80000" android:visibility="0" android:layout_width="-1" android:layout_height="-1">
+			<ProgressBar android:layout_width="20dp" android:layout_height="20dp" android:layout_centerInParent="true" />
+		</RelativeLayout>
+	</FrameLayout>
+</FrameLayout>

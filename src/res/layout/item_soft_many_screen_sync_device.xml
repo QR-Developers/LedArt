@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="-1" android:layout_height="80dp">
+	<ImageView android:id="false" android:layout_width="22dp" android:layout_height="22dp" android:src="resourceId:0x7f080429" android:layout_centerVertical="true" android:layout_marginStart="18dp" />
+	<LinearLayout android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="20dp" android:layout_toEndOf="false">
+		<TextView android:textSize="14sp" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="MagicPlayer" android:layout_marginStart="10dp" />
+		<TextView android:textSize="10sp" android:textColor="409eff" android:ellipsize="3" android:gravity="0x11" android:layout_gravity="0x11" android:id="false" android:background="res/drawable/bg_rectangle_stroke_409eff.xml" android:paddingLeft="3dp" android:paddingRight="3dp" android:layout_width="-2" android:layout_height="14dp" android:layout_marginLeft="10dp" android:maxWidth="130dp" android:text="automatic" android:lines="1" />
+		<ImageView android:gravity="0x11" android:id="false" android:padding="5dp" android:visibility="2" android:layout_width="25dp" android:layout_height="25dp" android:src="resourceId:0x7f080429" android:layout_marginStart="10dp" />
+	</LinearLayout>
+	<TextView android:textSize="12sp" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="2dp" android:text="M20-00-A6547" android:layout_below="false" android:layout_marginStart="10dp" android:layout_toEndOf="false" />
+	<FrameLayout android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_centerVertical="true" android:layout_marginEnd="16dp" android:layout_alignParentEnd="true">
+		<TextView android:textSize="12sp" android:textColor="33cc33" android:ellipsize="3" android:layout_gravity="0x11" android:id="false" android:layout_width="-2" android:layout_height="-2" android:maxWidth="130dp" android:text="Turned on" />
+		<ImageView android:layout_gravity="0x11" android:id="false" android:padding="10dp" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:src="res/drawable-xhdpi-v4/unlink_single.png" android:contentDescription="resourceId:0x0" android:alpha="{4:1050253722}" />
+		<ImageView android:layout_gravity="0x11" android:id="false" android:padding="10dp" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:src="res/drawable-xhdpi-v4/program_send_waring.png" android:contentDescription="resourceId:0x0" />
+	</FrameLayout>
+</RelativeLayout>

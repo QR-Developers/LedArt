@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:background="ffffff" android:layout_width="-1" android:layout_height="-1">
+	<LinearLayout android:orientation="0" android:background="res/drawable/cloud_bg_rectangle_only_bottom_ff_stroke_e4.xml" android:layout_width="-1" android:layout_height="40dp">
+		<TextView android:textSize="14sp" android:textColor="666666" android:layout_gravity="0x10" android:layout_width="0dp" android:layout_height="-2" android:layout_marginLeft="15dp" android:text="Account ID" android:lines="1" android:layout_weight="{4:1065353216}" />
+		<TextView android:textSize="14sp" android:textColor="333333" android:layout_gravity="0x10" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="15dp" android:text="14" android:lines="1" />
+	</LinearLayout>
+	<LinearLayout android:orientation="0" android:background="res/drawable/cloud_bg_rectangle_only_bottom_ff_stroke_e4.xml" android:layout_width="-1" android:layout_height="40dp">
+		<TextView android:textSize="14sp" android:textColor="666666" android:layout_gravity="0x10" android:layout_width="0dp" android:layout_height="-2" android:layout_marginLeft="15dp" android:text="User name" android:lines="1" android:layout_weight="{4:1065353216}" />
+		<TextView android:textSize="14sp" android:textColor="333333" android:layout_gravity="0x10" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="15dp" android:text="huidu" android:lines="1" />
+	</LinearLayout>
+	<LinearLayout android:orientation="0" android:background="res/drawable/cloud_bg_rectangle_only_bottom_ff_stroke_e4.xml" android:layout_width="-1" android:layout_height="40dp">
+		<TextView android:textSize="14sp" android:textColor="666666" android:layout_gravity="0x10" android:layout_width="0dp" android:layout_height="-2" android:layout_marginLeft="15dp" android:text="Company Name" android:lines="1" android:layout_weight="{4:1065353216}" />
+		<TextView android:textSize="14sp" android:textColor="333333" android:layout_gravity="0x10" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="15dp" android:text="huidu" android:lines="1" />
+	</LinearLayout>
+	<LinearLayout android:orientation="0" android:id="false" android:background="res/drawable/cloud_bg_rectangle_only_bottom_ff_stroke_e4.xml" android:layout_width="-1" android:layout_height="40dp">
+		<TextView android:textSize="14sp" android:textColor="666666" android:layout_gravity="0x10" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="15dp" android:text="Mobile phone number" android:lines="1" />
+		<TextView android:textSize="14sp" android:textColor="333333" android:gravity="0x5" android:layout_gravity="0x10" android:id="false" android:layout_width="0dp" android:layout_height="-2" android:text="17688888888" android:lines="1" android:layout_weight="{4:1065353216}" />
+		<ImageView android:layout_gravity="0x10" android:layout_width="23dp" android:layout_height="23dp" android:layout_marginRight="10dp" android:src="res/drawable-xxhdpi-v4/down_gray.png" android:rotation="{4:1132920832}" />
+	</LinearLayout>
+	<LinearLayout android:orientation="0" android:id="false" android:background="res/drawable/cloud_bg_rectangle_only_bottom_ff_stroke_e4.xml" android:layout_width="-1" android:layout_height="40dp">
+		<TextView android:textSize="14sp" android:textColor="666666" android:layout_gravity="0x10" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="15dp" android:text="Mailbox" android:lines="1" />
+		<TextView android:textSize="14sp" android:textColor="333333" android:gravity="0x5" android:layout_gravity="0x10" android:id="false" android:layout_width="0dp" android:layout_height="-2" android:text="huidu@huidu.cn" android:lines="1" android:layout_weight="{4:1065353216}" />
+		<ImageView android:layout_gravity="0x10" android:layout_width="23dp" android:layout_height="23dp" android:layout_marginRight="10dp" android:src="res/drawable-xxhdpi-v4/down_gray.png" android:rotation="{4:1132920832}" />
+	</LinearLayout>
+	<LinearLayout android:orientation="0" android:id="false" android:background="res/drawable/cloud_bg_rectangle_only_bottom_ff_stroke_e4.xml" android:layout_width="-1" android:layout_height="40dp">
+		<TextView android:textSize="14sp" android:textColor="666666" android:layout_gravity="0x10" android:layout_width="0dp" android:layout_height="-2" android:layout_marginLeft="15dp" android:text="Two-factor authentication" android:lines="1" android:layout_weight="{4:1065353216}" />
+		<TextView android:textSize="14sp" android:textColor="333333" android:gravity="0x11" android:layout_gravity="0x10" android:id="false" android:visibility="2" android:layout_width="-2" android:layout_height="-1" android:text="禁用" android:lines="1" />
+		<TextView android:textSize="14sp" android:textColor="3399ff" android:gravity="0x11" android:layout_gravity="0x10" android:id="false" android:paddingRight="15dp" android:visibility="2" android:layout_width="-2" android:layout_height="-1" android:layout_marginLeft="15dp" android:text="启用" android:lines="1" />
+		<cn.huidu.view.CustomSwitch android:layout_gravity="0x10" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="15dp" />
+	</LinearLayout>
+	<LinearLayout android:orientation="0" android:background="res/drawable/cloud_bg_rectangle_only_bottom_ff_stroke_e4.xml" android:layout_width="-1" android:layout_height="40dp">
+		<TextView android:textSize="14sp" android:textColor="666666" android:layout_gravity="0x10" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="15dp" android:text="Character" android:lines="1" />
+		<TextView android:textSize="14sp" android:textColor="333333" android:ellipsize="3" android:gravity="0x5" android:layout_gravity="0x10" android:id="false" android:layout_width="0dp" android:layout_height="-2" android:layout_marginRight="15dp" android:text="" android:lines="1" android:layout_weight="{4:1065353216}" />
+	</LinearLayout>
+	<LinearLayout android:orientation="0" android:background="res/drawable/cloud_bg_rectangle_only_bottom_ff_stroke_e4.xml" android:layout_width="-1" android:layout_height="40dp">
+		<TextView android:textSize="14sp" android:textColor="666666" android:layout_gravity="0x10" android:layout_width="0dp" android:layout_height="-2" android:layout_marginLeft="15dp" android:text="Last login" android:lines="1" android:layout_weight="{4:1065353216}" />
+		<TextView android:textSize="14sp" android:textColor="333333" android:layout_gravity="0x10" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="15dp" android:text="2020/03/21 11:11:25" android:lines="1" />
+	</LinearLayout>
+	<LinearLayout android:orientation="0" android:background="res/drawable/cloud_bg_rectangle_only_bottom_ff_stroke_e4.xml" android:layout_width="-1" android:layout_height="40dp">
+		<TextView android:textSize="14sp" android:textColor="666666" android:layout_gravity="0x10" android:layout_width="0dp" android:layout_height="-2" android:layout_marginLeft="15dp" android:text="Last login IP" android:lines="1" android:layout_weight="{4:1065353216}" />
+		<TextView android:textSize="14sp" android:textColor="333333" android:layout_gravity="0x10" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="15dp" android:text="100.121.83.25" android:lines="1" />
+	</LinearLayout>
+	<LinearLayout android:orientation="0" android:id="false" android:background="res/drawable/cloud_bg_rectangle_only_bottom_ff_stroke_e4.xml" android:layout_width="-1" android:layout_height="40dp">
+		<TextView android:textSize="14sp" android:textColor="666666" android:layout_gravity="0x10" android:layout_width="0dp" android:layout_height="-2" android:layout_marginLeft="15dp" android:text="Change Password" android:lines="1" android:layout_weight="{4:1065353216}" />
+		<ImageView android:layout_gravity="0x10" android:layout_width="23dp" android:layout_height="23dp" android:layout_marginRight="10dp" android:src="res/drawable-xxhdpi-v4/down_gray.png" android:rotation="{4:1132920832}" />
+	</LinearLayout>
+	<View android:layout_width="-1" android:layout_height="0dp" android:layout_weight="{4:1065353216}" />
+	<TextView android:textSize="14sp" android:textColor="ffffff" android:gravity="0x11" android:id="false" android:background="res/drawable/bg_round_5_rectangle_ff0000.xml" android:layout_width="-1" android:layout_height="40dp" android:layout_marginLeft="20dp" android:layout_marginRight="20dp" android:layout_marginBottom="20dp" android:text="Sign out" />
+</LinearLayout>

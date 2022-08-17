@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:background="f8f8f8" android:layout_width="-1" android:layout_height="-1">
+	<RelativeLayout android:background="res/drawable-xhdpi-v4/header_bg.png" android:layout_width="-1" android:layout_height="70dp">
+		<ImageView android:id="false" android:padding="15dp" android:visibility="2" android:layout_width="50dp" android:layout_height="50dp" android:src="res/drawable-xxhdpi-v4/delete_light_keg.png" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true" android:alpha="{4:1061997773}" />
+		<TextView android:textSize="15sp" android:textColor="ffffff" android:layout_width="-2" android:layout_height="-2" android:layout_marginBottom="15dp" android:text="Program list" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+		<ImageView android:id="false" android:padding="15dp" android:layout_width="50dp" android:layout_height="50dp" android:src="res/drawable-xxhdpi-v4/white_add.png" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" android:alpha="{4:1061997773}" />
+	</RelativeLayout>
+	<RelativeLayout android:layout_width="-1" android:layout_height="-1">
+		<LinearLayout android:orientation="0" android:id="false" android:visibility="1" android:layout_width="-2" android:layout_height="65dp" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true">
+			<Button android:textSize="15sp" android:textColor="ffffff" android:id="false" android:background="res/drawable/shape_round_rect_corner_25_solid_ff9900.xml" android:visibility="2" android:layout_width="110dp" android:layout_height="40dp" android:layout_marginTop="10dp" android:layout_marginRight="30dp" android:text="Sync" />
+			<Button android:textSize="15sp" android:textColor="ffffff" android:id="false" android:background="res/drawable-xxhdpi-v4/shape_round_rect_corner_25_solid_3399ff.xml" android:layout_width="110dp" android:layout_height="40dp" android:layout_marginTop="10dp" android:text="Send" />
+		</LinearLayout>
+		<androidx.recyclerview.widget.RecyclerView android:id="false" android:layout_width="-1" android:layout_height="-1" android:minHeight="800dp" android:layout_above="false" />
+		<LinearLayout android:gravity="0x1" android:orientation="1" android:id="false" android:visibility="2" android:layout_width="200dp" android:layout_height="-2" android:layout_centerInParent="true">
+			<LinearLayout android:gravity="0x1" android:orientation="1" android:background="res/drawable/shape_rect_stroke_gray.xml" android:layout_width="-1" android:layout_height="150dp">
+				<ImageView android:layout_width="48dp" android:layout_height="48dp" android:layout_marginTop="34dp" android:src="res/drawable-xxhdpi-v4/null_program.png" />
+				<TextView android:textColor="999999" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="20dp" android:text="No screen" />
+			</LinearLayout>
+			<Button android:textSize="15sp" android:textColor="ffffff" android:layout_gravity="0x1" android:id="false" android:background="res/drawable/shape_btn_circle_0099ff.xml" android:layout_width="150dp" android:layout_height="40dp" android:layout_marginTop="28dp" android:text="New display" />
+		</LinearLayout>
+	</RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="1" android:id="false" android:paddingLeft="20dp" android:paddingRight="20dp" android:layout_width="-1" android:layout_height="-1">
+	<cn.huidu.view.SettingRow android:layout_width="-1" android:layout_height="-2" app:major_title="Enable" app:show_angle_right="false">
+		<cn.huidu.view.CustomSwitch android:layout_gravity="0x800015" android:id="false" android:layout_width="-2" android:layout_height="-2" />
+	</cn.huidu.view.SettingRow>
+	<ListView android:id="false" android:layout_width="-1" android:layout_height="-1" android:divider="d7d7d7" android:dividerHeight="1px" />
+</LinearLayout>

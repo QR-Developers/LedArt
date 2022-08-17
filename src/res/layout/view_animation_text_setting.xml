@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+	<FrameLayout android:background="ffffff" android:layout_width="-1" android:layout_height="0dp" android:layout_weight="{4:1065353216}">
+		<cn.huidu.view.richeditor.RichEditTextLite android:textSize="24sp" android:textColor="ff00" android:textColorHint="f2f2f2" android:gravity="0x30" android:id="false" android:background="000" android:scrollbars="0x200" android:layout_width="-1" android:layout_height="-1" android:layout_margin="1dp" android:hint="Click on the input" android:singleLine="false" android:maxLength="1000" android:imeOptions="0x6" />
+	</FrameLayout>
+	<cn.huidu.view.richeditor.AnimationTextEditToolBar android:id="false" android:layout_width="-1" android:layout_height="-2" />
+</LinearLayout>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="-1" android:layout_height="-1">
+	<com.scwang.smart.refresh.layout.SmartRefreshLayout android:id="false" android:layout_width="-1" android:layout_height="-1">
+		<ScrollView android:layout_width="-1" android:layout_height="-1">
+			<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2">
+				<LinearLayout android:orientation="0" android:background="res/drawable/cloud_bg_rectangle_only_bottom_ff_stroke_e4.xml" android:layout_width="-1" android:layout_height="40dp">
+					<TextView android:textSize="14sp" android:textColor="666666" android:layout_gravity="0x10" android:layout_width="0dp" android:layout_height="-2" android:layout_marginLeft="15dp" android:text="设备ID" android:lines="1" android:layout_weight="{4:1065353216}" />
+					<TextView android:textSize="14sp" android:textColor="333333" android:layout_gravity="0x10" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="15dp" android:text="D10-00-A0112" android:lines="1" />
+				</LinearLayout>
+				<LinearLayout android:orientation="0" android:background="res/drawable/cloud_bg_rectangle_only_bottom_ff_stroke_e4.xml" android:layout_width="-1" android:layout_height="40dp">
+					<TextView android:textSize="14sp" android:textColor="666666" android:layout_gravity="0x10" android:layout_width="0dp" android:layout_height="-2" android:layout_marginLeft="15dp" android:text="设备名称" android:lines="1" android:layout_weight="{4:1065353216}" />
+					<TextView android:textSize="14sp" android:textColor="333333" android:layout_gravity="0x10" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="15dp" android:text="大流量" android:lines="1" />
+				</LinearLayout>
+				<LinearLayout android:orientation="0" android:background="res/drawable/cloud_bg_rectangle_only_bottom_ff_stroke_e4.xml" android:layout_width="-1" android:layout_height="40dp">
+					<TextView android:textSize="14sp" android:textColor="666666" android:layout_gravity="0x10" android:layout_width="0dp" android:layout_height="-2" android:layout_marginLeft="15dp" android:text="在线状态" android:lines="1" android:layout_weight="{4:1065353216}" />
+					<TextView android:textSize="14sp" android:textColor="333333" android:layout_gravity="0x10" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="15dp" android:text="在线" android:lines="1" />
+				</LinearLayout>
+				<LinearLayout android:orientation="0" android:background="res/drawable/cloud_bg_rectangle_only_bottom_ff_stroke_e4.xml" android:layout_width="-1" android:layout_height="40dp">
+					<TextView android:textSize="14sp" android:textColor="666666" android:layout_gravity="0x10" android:layout_width="0dp" android:layout_height="-2" android:layout_marginLeft="15dp" android:text="固件版本" android:lines="1" android:layout_weight="{4:1065353216}" />
+					<TextView android:textSize="14sp" android:textColor="333333" android:layout_gravity="0x10" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="15dp" android:text="7.2.15.0" android:lines="1" />
+				</LinearLayout>
+				<LinearLayout android:orientation="0" android:background="res/drawable/cloud_bg_rectangle_only_bottom_ff_stroke_e4.xml" android:layout_width="-1" android:layout_height="40dp">
+					<TextView android:textSize="14sp" android:textColor="666666" android:layout_gravity="0x10" android:layout_width="0dp" android:layout_height="-2" android:layout_marginLeft="15dp" android:text="FPGA版本" android:lines="1" android:layout_weight="{4:1065353216}" />
+					<TextView android:textSize="14sp" android:textColor="333333" android:layout_gravity="0x10" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="15dp" android:text="3.72.60.0" android:lines="1" />
+				</LinearLayout>
+				<LinearLayout android:orientation="0" android:background="res/drawable/cloud_bg_rectangle_only_bottom_ff_stroke_e4.xml" android:layout_width="-1" android:layout_height="40dp">
+					<TextView android:textSize="14sp" android:textColor="666666" android:layout_gravity="0x10" android:layout_width="0dp" android:layout_height="-2" android:layout_marginLeft="15dp" android:text="剩余空间" android:lines="1" android:layout_weight="{4:1065353216}" />
+					<TextView android:textSize="14sp" android:textColor="333333" android:layout_gravity="0x10" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="15dp" android:text="2.7GB" android:lines="1" />
+				</LinearLayout>
+				<LinearLayout android:orientation="0" android:background="res/drawable/cloud_bg_rectangle_only_bottom_ff_stroke_e4.xml" android:layout_width="-1" android:layout_height="40dp">
+					<TextView android:textSize="14sp" android:textColor="666666" android:layout_gravity="0x10" android:layout_width="0dp" android:layout_height="-2" android:layout_marginLeft="15dp" android:text="播放模式" android:lines="1" android:layout_weight="{4:1065353216}" />
+					<TextView android:textSize="14sp" android:textColor="333333" android:layout_gravity="0x10" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="15dp" android:text="顺序播放" android:lines="1" />
+				</LinearLayout>
+				<LinearLayout android:orientation="0" android:id="false" android:background="res/drawable/cloud_bg_rectangle_only_bottom_ff_stroke_e4.xml" android:layout_width="-1" android:layout_height="40dp">
+					<TextView android:textSize="14sp" android:textColor="666666" android:layout_gravity="0x10" android:layout_width="0dp" android:layout_height="-2" android:layout_marginLeft="15dp" android:text="发布记录" android:lines="1" android:layout_weight="{4:1065353216}" />
+					<ImageView android:layout_gravity="0x10" android:layout_width="23dp" android:layout_height="23dp" android:layout_marginRight="10dp" android:src="res/drawable-xxhdpi-v4/down_gray.png" android:rotation="{4:1132920832}" />
+				</LinearLayout>
+				<LinearLayout android:orientation="0" android:id="false" android:background="res/drawable/cloud_bg_rectangle_only_bottom_ff_stroke_e4.xml" android:layout_width="-1" android:layout_height="40dp">
+					<TextView android:textSize="14sp" android:textColor="666666" android:layout_gravity="0x10" android:layout_width="0dp" android:layout_height="-2" android:layout_marginLeft="15dp" android:text="节目信息" android:lines="1" android:layout_weight="{4:1065353216}" />
+					<ImageView android:layout_gravity="0x10" android:layout_width="23dp" android:layout_height="23dp" android:layout_marginRight="10dp" android:src="res/drawable-xxhdpi-v4/down_gray.png" android:rotation="{4:1132920832}" />
+				</LinearLayout>
+				<LinearLayout android:orientation="0" android:id="false" android:background="res/drawable/cloud_bg_rectangle_only_bottom_ff_stroke_e4.xml" android:layout_width="-1" android:layout_height="40dp">
+					<TextView android:textSize="14sp" android:textColor="666666" android:layout_gravity="0x10" android:layout_width="0dp" android:layout_height="-2" android:layout_marginLeft="15dp" android:text="上下线记录" android:lines="1" android:layout_weight="{4:1065353216}" />
+					<ImageView android:layout_gravity="0x10" android:layout_width="23dp" android:layout_height="23dp" android:layout_marginRight="10dp" android:src="res/drawable-xxhdpi-v4/down_gray.png" android:rotation="{4:1132920832}" />
+				</LinearLayout>
+			</LinearLayout>
+		</ScrollView>
+	</com.scwang.smart.refresh.layout.SmartRefreshLayout>
+</LinearLayout>

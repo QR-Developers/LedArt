@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="-1" android:layout_height="-1">
+	<LinearLayout android:layout_gravity="0x11" android:orientation="1" android:layout_width="-2" android:layout_height="-2">
+		<RelativeLayout android:background="res/drawable/bg_round_10_rectangle_f2_79.xml" android:layout_width="280dp" android:layout_height="330dp">
+			<FrameLayout android:id="false" android:layout_width="-1" android:layout_height="50dp">
+				<TextView android:textSize="14sp" android:textStyle="0x1" android:textColor="333333" android:gravity="0x11" android:layout_gravity="0x11" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="60dp" android:layout_marginRight="60dp" android:text="Read back program" android:singleLine="true" />
+			</FrameLayout>
+			<FrameLayout android:id="false" android:paddingLeft="10dp" android:paddingTop="15dp" android:paddingRight="10dp" android:paddingBottom="15dp" android:layout_width="-1" android:layout_height="-2" android:layout_alignParentBottom="true">
+				<LinearLayout android:layout_gravity="0x11" android:orientation="0" android:id="false" android:visibility="2" android:layout_width="220dp" android:layout_height="36dp">
+					<Button android:textSize="14sp" android:textColor="ffffff" android:gravity="0x11" android:id="false" android:background="res/drawable/shape_round_rect_corner_25_solid_ff9900.xml" android:layout_width="90dp" android:layout_height="-1" android:text="Cover" android:lines="1" />
+					<Button android:textSize="14sp" android:textColor="ffffff" android:gravity="0x11" android:id="false" android:background="res/drawable-xxhdpi-v4/shape_round_rect_corner_25_solid_3399ff.xml" android:layout_width="90dp" android:layout_height="-1" android:layout_marginLeft="40dp" android:text="Add" android:lines="1" />
+				</LinearLayout>
+				<Button android:textSize="14sp" android:textColor="ffffff" android:gravity="0x11" android:layout_gravity="0x11" android:id="false" android:background="res/drawable-xxhdpi-v4/shape_round_rect_corner_25_solid_3399ff.xml" android:visibility="0" android:layout_width="160dp" android:layout_height="36dp" android:text="Confirm" android:lines="1" />
+			</FrameLayout>
+			<FrameLayout android:id="false" android:layout_width="-1" android:layout_height="-1" android:layout_above="false" android:layout_below="false">
+				<FrameLayout android:id="false" android:background="ffffff" android:visibility="0" android:layout_width="-1" android:layout_height="-1">
+					<TextView android:gravity="0x1" android:layout_gravity="0x11" android:id="false" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="10dp" android:layout_marginRight="10dp" android:text="Read back program successfully" />
+					<androidx.recyclerview.widget.RecyclerView android:id="false" android:layout_width="-1" android:layout_height="-1" />
+				</FrameLayout>
+				<FrameLayout android:id="false" android:visibility="2" android:layout_width="-1" android:layout_height="-1">
+					<LinearLayout android:layout_gravity="0x11" android:orientation="1" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="5dp" android:layout_marginRight="5dp">
+						<ProgressBar android:layout_gravity="0x11" android:layout_width="50dp" android:layout_height="50dp" />
+						<TextView android:layout_gravity="0x1" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="10dp" android:text="Reading back …" />
+					</LinearLayout>
+				</FrameLayout>
+			</FrameLayout>
+		</RelativeLayout>
+		<FrameLayout android:layout_gravity="0x50" android:id="false" android:layout_width="-1" android:layout_height="50dp">
+			<ImageView android:layout_gravity="0x51" android:layout_width="30dp" android:layout_height="30dp" android:src="res/drawable-xhdpi-v4/close_w.png" android:contentDescription="resourceId:0x0" />
+		</FrameLayout>
+	</LinearLayout>
+</FrameLayout>

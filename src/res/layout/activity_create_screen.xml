@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="false" android:layout_width="-1" android:layout_height="-1">
+	<RelativeLayout android:id="false" android:background="res/drawable-xhdpi-v4/header_bg.png" android:layout_width="-1" android:layout_height="75dp">
+		<FrameLayout android:id="false" android:focusable="true" android:clickable="true" android:layout_width="50dp" android:layout_height="50dp" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true">
+			<ImageView android:layout_gravity="0x11" android:background="res/drawable-xhdpi-v4/base_setting_left_angle.png" android:layout_width="24dp" android:layout_height="24dp" android:contentDescription="resourceId:0x0" />
+		</FrameLayout>
+		<TextView android:textSize="15sp" android:textColor="ffffff" android:gravity="0x11" android:id="false" android:layout_width="-1" android:layout_height="50dp" android:layout_marginLeft="120dp" android:layout_marginRight="120dp" android:text="New display" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+		<FrameLayout android:id="false" android:layout_width="-2" android:layout_height="50dp" android:layout_marginRight="10dp" android:layout_alignParentRight="true" android:layout_alignParentBottom="true">
+			<TextView android:textSize="13sp" android:textColor="ffffff" android:gravity="0x11" android:layout_gravity="0x11" android:id="false" android:background="res/drawable/shape_rect_white_border_with_corner.xml" android:paddingLeft="8dp" android:paddingRight="8dp" android:layout_width="-2" android:layout_height="24dp" android:maxWidth="90dp" android:text="Sync" android:lines="1" />
+		</FrameLayout>
+	</RelativeLayout>
+	<Button android:textSize="14sp" android:textColor="ffffff" android:id="false" android:background="res/drawable/shape_rect_with_corner_solid_3399ff.xml" android:layout_width="200dp" android:layout_height="40dp" android:layout_marginTop="20dp" android:layout_marginBottom="30dp" android:text="OK" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+	<FrameLayout android:layout_width="-1" android:layout_height="-1" android:layout_above="false" android:layout_below="false">
+		<ScrollView android:id="false" android:layout_width="-1" android:layout_height="-1">
+			<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2">
+				<TextView android:textSize="14sp" android:textColor="999999" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="30dp" android:layout_marginTop="15dp" android:text="Screen name" />
+				<EditText android:textSize="14dp" android:textColor="333333" android:gravity="0x13" android:id="false" android:background="res/drawable/shape_rect_with_corner_stroke_d7.xml" android:paddingLeft="20dp" android:layout_width="-1" android:layout_height="40dp" android:layout_marginLeft="20dp" android:layout_marginTop="5dp" android:layout_marginRight="20dp" android:maxLength="32" android:inputType="0x1" android:imeOptions="0x5" />
+				<LinearLayout android:orientation="1" android:id="false" android:visibility="2" android:layout_width="-1" android:layout_height="-2">
+					<TextView android:textSize="14sp" android:textColor="999999" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="30dp" android:layout_marginTop="20dp" android:text="Type selection" />
+					<LinearLayout android:gravity="0x1" android:orientation="0" android:background="res/drawable/shape_rect_with_corner_stroke_d7.xml" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="20dp" android:layout_marginTop="5dp" android:layout_marginRight="20dp">
+						<LinearLayout android:gravity="0x11" android:id="false" android:layout_width="0dp" android:layout_height="40dp" android:layout_weight="{4:1065353216}">
+							<ImageView android:layout_gravity="0x11" android:id="false" android:layout_width="-2" android:layout_height="-2" android:src="res/drawable-xxhdpi-v4/circle_radio_checked.png" android:contentDescription="resourceId:0x0" />
+							<TextView android:textSize="14sp" android:textColor="333333" android:layout_gravity="0x13" android:layout_width="-2" android:layout_height="-2" android:text="Single screen show" android:layout_marginStart="5dp" />
+						</LinearLayout>
+						<LinearLayout android:gravity="0x1" android:id="false" android:layout_width="0dp" android:layout_height="40dp" android:layout_weight="{4:1065353216}">
+							<ImageView android:layout_gravity="0x11" android:id="false" android:layout_width="-2" android:layout_height="-2" android:src="res/drawable-xxhdpi-v4/circle_radio_unchecked.png" android:contentDescription="resourceId:0x0" android:layout_marginStart="20dp" />
+							<TextView android:textSize="14sp" android:textColor="333333" android:layout_gravity="0x11" android:layout_width="-2" android:layout_height="-2" android:text="Dual screen show" android:layout_marginStart="5dp" />
+						</LinearLayout>
+					</LinearLayout>
+				</LinearLayout>
+				<TextView android:textSize="14sp" android:textColor="999999" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="30dp" android:layout_marginTop="20dp" android:text="Display size" />
+				<LinearLayout android:orientation="1" android:background="res/drawable/shape_rect_with_corner_stroke_d7.xml" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="20dp" android:layout_marginTop="5dp" android:layout_marginRight="20dp">
+					<FrameLayout android:id="false" android:layout_width="-1" android:layout_height="40dp">
+						<TextView android:textSize="14sp" android:textColor="333333" android:layout_gravity="0x13" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="20dp" android:text="Width" />
+						<EditText android:textSize="14sp" android:textStyle="0x1" android:textColor="3366ff" android:gravity="0x15" android:layout_gravity="0x5" android:id="false" android:background="resourceId:0x0" android:paddingRight="20dp" android:layout_width="100dp" android:layout_height="-1" android:text="128" android:maxLength="6" android:inputType="0x2" android:imeOptions="0x5" />
+					</FrameLayout>
+					<View android:background="res/drawable/bg_dashed_line_e4.xml" android:layout_width="-1" android:layout_height="1dp" android:layerType="1" />
+					<FrameLayout android:id="false" android:layout_width="-1" android:layout_height="40dp">
+						<TextView android:textSize="14sp" android:textColor="333333" android:layout_gravity="0x13" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="20dp" android:text="Height" />
+						<EditText android:textSize="14sp" android:textStyle="0x1" android:textColor="3366ff" android:gravity="0x15" android:layout_gravity="0x5" android:id="false" android:background="resourceId:0x0" android:paddingRight="20dp" android:layout_width="100dp" android:layout_height="-1" android:text="32" android:maxLength="6" android:inputType="0x2" android:imeOptions="0x5" />
+					</FrameLayout>
+				</LinearLayout>
+				<LinearLayout android:orientation="1" android:id="false" android:visibility="2" android:layout_width="-1" android:layout_height="-2">
+					<TextView android:textSize="14sp" android:textColor="999999" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="30dp" android:layout_marginTop="20dp" android:text="Secondary display size" />
+					<LinearLayout android:orientation="1" android:background="res/drawable/shape_rect_with_corner_stroke_d7.xml" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="20dp" android:layout_marginTop="5dp" android:layout_marginRight="20dp">
+						<FrameLayout android:id="false" android:layout_width="-1" android:layout_height="40dp">
+							<TextView android:textSize="14sp" android:textColor="333333" android:layout_gravity="0x13" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="20dp" android:text="Width" />
+							<EditText android:textSize="14sp" android:textStyle="0x1" android:textColor="3366ff" android:gravity="0x15" android:layout_gravity="0x5" android:id="false" android:background="resourceId:0x0" android:paddingRight="20dp" android:layout_width="100dp" android:layout_height="-1" android:text="128" android:maxLength="6" android:inputType="0x2" android:imeOptions="0x5" />
+						</FrameLayout>
+						<View android:background="res/drawable/bg_dashed_line_e4.xml" android:layout_width="-1" android:layout_height="1dp" android:layerType="1" />
+						<FrameLayout android:id="false" android:layout_width="-1" android:layout_height="40dp">
+							<TextView android:textSize="14sp" android:textColor="333333" android:layout_gravity="0x13" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="20dp" android:text="Height" />
+							<EditText android:textSize="14sp" android:textStyle="0x1" android:textColor="3366ff" android:gravity="0x15" android:layout_gravity="0x5" android:id="false" android:background="resourceId:0x0" android:paddingRight="20dp" android:layout_width="100dp" android:layout_height="-1" android:text="32" android:maxLength="6" android:inputType="0x2" android:imeOptions="0x5" />
+						</FrameLayout>
+					</LinearLayout>
+				</LinearLayout>
+				<TextView android:textSize="14sp" android:textColor="999999" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="30dp" android:layout_marginTop="20dp" android:text="Device model" />
+				<FrameLayout android:id="false" android:background="res/drawable/shape_rect_with_corner_stroke_d7.xml" android:layout_width="-1" android:layout_height="40dp" android:layout_marginLeft="20dp" android:layout_marginTop="5dp" android:layout_marginRight="20dp">
+					<TextView android:textSize="14sp" android:textColor="333333" android:layout_gravity="0x13" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="20dp" android:text="A603" />
+					<ImageView android:layout_gravity="0x15" android:layout_width="16dp" android:layout_height="16dp" android:layout_marginRight="16dp" android:src="res/drawable-xxhdpi-v4/right_b.png" android:alpha="{4:1060320051}" />
+				</FrameLayout>
+				<LinearLayout android:orientation="1" android:id="false" android:visibility="2" android:layout_width="-1" android:layout_height="-2">
+					<TextView android:textSize="14sp" android:textColor="999999" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="30dp" android:layout_marginTop="20dp" android:text="Number of splicing rows" />
+					<FrameLayout android:background="res/drawable/shape_rect_with_corner_stroke_d7.xml" android:layout_width="-1" android:layout_height="40dp" android:layout_marginLeft="20dp" android:layout_marginTop="5dp" android:layout_marginRight="20dp">
+						<cn.huidu.view.common.HDNumberPicker android:id="false" android:layout_width="-1" android:layout_height="-1" />
+					</FrameLayout>
+				</LinearLayout>
+				<LinearLayout android:orientation="1" android:id="false" android:visibility="2" android:layout_width="-1" android:layout_height="-2">
+					<TextView android:textSize="14sp" android:textColor="999999" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="30dp" android:layout_marginTop="20dp" android:text="Number of splicing columns" />
+					<FrameLayout android:background="res/drawable/shape_rect_with_corner_stroke_d7.xml" android:layout_width="-1" android:layout_height="40dp" android:layout_marginLeft="20dp" android:layout_marginTop="5dp" android:layout_marginRight="20dp">
+						<cn.huidu.view.common.HDNumberPicker android:id="false" android:layout_width="-1" android:layout_height="-1" />
+					</FrameLayout>
+				</LinearLayout>
+				<LinearLayout android:orientation="1" android:id="false" android:visibility="2" android:layout_width="-1" android:layout_height="-2">
+					<TextView android:textSize="14sp" android:textColor="999999" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="30dp" android:layout_marginTop="20dp" android:text="Color level" />
+					<LinearLayout android:orientation="1" android:background="res/drawable/shape_rect_with_corner_stroke_d7.xml" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="20dp" android:layout_marginTop="5dp" android:layout_marginRight="20dp">
+						<FrameLayout android:id="false" android:layout_width="-1" android:layout_height="40dp">
+							<TextView android:textSize="14sp" android:textColor="333333" android:layout_gravity="0x13" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="20dp" android:text="Single color" />
+							<FrameLayout android:layout_gravity="0x5" android:layout_width="50dp" android:layout_height="-1">
+								<ImageView android:layout_gravity="0x15" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="20dp" android:src="res/drawable-xxhdpi-v4/circle_radio_checked.png" android:contentDescription="resourceId:0x0" />
+							</FrameLayout>
+						</FrameLayout>
+						<View android:background="res/drawable/bg_dashed_line_e4.xml" android:layout_width="-1" android:layout_height="1dp" android:layerType="1" />
+						<FrameLayout android:id="false" android:layout_width="-1" android:layout_height="40dp">
+							<TextView android:textSize="14sp" android:textColor="333333" android:layout_gravity="0x13" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="20dp" android:text="Dual color" />
+							<FrameLayout android:layout_gravity="0x5" android:layout_width="50dp" android:layout_height="-1">
+								<ImageView android:layout_gravity="0x15" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="20dp" android:src="res/drawable-xxhdpi-v4/circle_radio_unchecked.png" android:contentDescription="resourceId:0x0" />
+							</FrameLayout>
+						</FrameLayout>
+						<View android:background="res/drawable/bg_dashed_line_e4.xml" android:layout_width="-1" android:layout_height="1dp" android:layerType="1" />
+						<FrameLayout android:id="false" android:layout_width="-1" android:layout_height="40dp">
+							<TextView android:textSize="14sp" android:textColor="333333" android:layout_gravity="0x13" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="20dp" android:text="Full color" />
+							<FrameLayout android:layout_gravity="0x5" android:layout_width="50dp" android:layout_height="-1">
+								<ImageView android:layout_gravity="0x15" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="20dp" android:src="res/drawable-xxhdpi-v4/circle_radio_unchecked.png" android:contentDescription="resourceId:0x0" />
+							</FrameLayout>
+						</FrameLayout>
+					</LinearLayout>
+				</LinearLayout>
+				<LinearLayout android:orientation="1" android:id="false" android:visibility="2" android:layout_width="-1" android:layout_height="-2">
+					<TextView android:textSize="14sp" android:textColor="999999" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="30dp" android:layout_marginTop="20dp" android:text="Gray level" />
+					<FrameLayout android:background="res/drawable/shape_rect_with_corner_stroke_d7.xml" android:layout_width="-1" android:layout_height="40dp" android:layout_marginLeft="20dp" android:layout_marginTop="5dp" android:layout_marginRight="20dp">
+						<cn.huidu.view.common.HDNumberPicker android:id="false" android:layout_width="-1" android:layout_height="-1" />
+					</FrameLayout>
+				</LinearLayout>
+				<LinearLayout android:orientation="1" android:id="false" android:visibility="2" android:layout_width="-1" android:layout_height="-2">
+					<TextView android:textSize="14sp" android:textColor="999999" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="30dp" android:layout_marginTop="20dp" android:text="Double-sided screen" />
+					<RelativeLayout android:background="res/drawable/shape_rect_with_corner_stroke_d7.xml" android:layout_width="-1" android:layout_height="40dp" android:layout_marginLeft="20dp" android:layout_marginTop="5dp" android:layout_marginRight="20dp">
+						<TextView android:textSize="14sp" android:textColor="333333" android:ellipsize="3" android:layout_gravity="0x13" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="10dp" android:text="Enable double-sided screen" android:lines="1" android:layout_centerVertical="true" />
+						<cn.huidu.view.CustomSwitch android:id="false" android:layout_width="36dp" android:layout_height="20dp" android:layout_marginRight="10dp" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+					</RelativeLayout>
+				</LinearLayout>
+			</LinearLayout>
+		</ScrollView>
+		<FrameLayout android:id="false" android:visibility="2" android:layout_width="-1" android:layout_height="-1">
+			<androidx.recyclerview.widget.RecyclerView android:id="false" android:layout_width="-1" android:layout_height="-1" />
+		</FrameLayout>
+	</FrameLayout>
+</RelativeLayout>

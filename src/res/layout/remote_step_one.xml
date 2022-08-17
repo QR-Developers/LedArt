@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:background="f8f8f8" android:padding="15dp" android:layout_width="-1" android:layout_height="-1" android:splitMotionEvents="false">
+	<LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="0dp" android:layout_weight="{4:1065353216}" android:splitMotionEvents="false">
+		<LinearLayout android:gravity="0x11" android:layout_width="0dp" android:layout_height="-1" android:layout_weight="{4:1065353216}">
+			<TextView android:gravity="0x11" android:id="false" android:layout_width="50dp" android:layout_height="50dp" android:text="1" style="resourceId:0x7f12031b" />
+		</LinearLayout>
+		<LinearLayout android:gravity="0x11" android:layout_width="0dp" android:layout_height="-1" android:layout_weight="{4:1065353216}">
+			<TextView android:gravity="0x11" android:id="false" android:layout_width="50dp" android:layout_height="50dp" android:text="2" style="resourceId:0x7f12031b" />
+		</LinearLayout>
+		<LinearLayout android:gravity="0x11" android:layout_width="0dp" android:layout_height="-1" android:layout_weight="{4:1065353216}">
+			<TextView android:gravity="0x11" android:id="false" android:layout_width="50dp" android:layout_height="50dp" android:text="3" style="resourceId:0x7f12031b" />
+		</LinearLayout>
+	</LinearLayout>
+	<LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="0dp" android:layout_weight="{4:1065353216}" android:splitMotionEvents="false">
+		<LinearLayout android:gravity="0x11" android:layout_width="0dp" android:layout_height="-1" android:layout_weight="{4:1065353216}">
+			<TextView android:gravity="0x11" android:id="false" android:layout_width="50dp" android:layout_height="50dp" android:text="4" style="resourceId:0x7f12031b" />
+		</LinearLayout>
+		<LinearLayout android:gravity="0x11" android:layout_width="0dp" android:layout_height="-1" android:layout_weight="{4:1065353216}">
+			<TextView android:gravity="0x11" android:id="false" android:layout_width="50dp" android:layout_height="50dp" android:text="5" style="resourceId:0x7f12031b" />
+		</LinearLayout>
+		<LinearLayout android:gravity="0x11" android:layout_width="0dp" android:layout_height="-1" android:layout_weight="{4:1065353216}">
+			<TextView android:gravity="0x11" android:id="false" android:layout_width="50dp" android:layout_height="50dp" android:text="6" style="resourceId:0x7f12031b" />
+		</LinearLayout>
+	</LinearLayout>
+	<LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="0dp" android:layout_weight="{4:1065353216}" android:splitMotionEvents="false">
+		<LinearLayout android:gravity="0x11" android:layout_width="0dp" android:layout_height="-1" android:layout_weight="{4:1065353216}">
+			<TextView android:gravity="0x11" android:id="false" android:layout_width="50dp" android:layout_height="50dp" android:text="7" style="resourceId:0x7f12031b" />
+		</LinearLayout>
+		<LinearLayout android:gravity="0x11" android:layout_width="0dp" android:layout_height="-1" android:layout_weight="{4:1065353216}">
+			<TextView android:gravity="0x11" android:id="false" android:layout_width="50dp" android:layout_height="50dp" android:text="8" style="resourceId:0x7f12031b" />
+		</LinearLayout>
+		<LinearLayout android:gravity="0x11" android:layout_width="0dp" android:layout_height="-1" android:layout_weight="{4:1065353216}">
+			<TextView android:gravity="0x11" android:id="false" android:layout_width="50dp" android:layout_height="50dp" android:text="9" style="resourceId:0x7f12031b" />
+		</LinearLayout>
+	</LinearLayout>
+	<LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="0dp" android:layout_weight="{4:1065353216}" android:splitMotionEvents="false">
+		<LinearLayout android:gravity="0x11" android:layout_width="0dp" android:layout_height="-1" android:layout_weight="{4:1065353216}" />
+		<LinearLayout android:gravity="0x11" android:layout_width="0dp" android:layout_height="-1" android:layout_weight="{4:1065353216}">
+			<TextView android:gravity="0x11" android:id="false" android:layout_width="50dp" android:layout_height="50dp" android:text="0" style="resourceId:0x7f12031b" />
+		</LinearLayout>
+		<LinearLayout android:gravity="0x11" android:layout_width="0dp" android:layout_height="-1" android:layout_weight="{4:1065353216}">
+			<LinearLayout android:gravity="0x11" android:id="false" android:background="res/drawable/remote_selector.xml" android:clickable="true" android:layout_width="50dp" android:layout_height="50dp">
+				<ImageView android:layout_width="24dp" android:layout_height="24dp" android:src="res/drawable-xhdpi-v4/remote_ok.png" />
+			</LinearLayout>
+		</LinearLayout>
+	</LinearLayout>
+</LinearLayout>

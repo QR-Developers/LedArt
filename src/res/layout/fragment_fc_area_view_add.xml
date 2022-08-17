@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="false" android:layout_width="-1" android:layout_height="-1">
+	<View android:id="false" android:layout_width="-1" android:layout_height="-1" />
+	<FrameLayout android:layout_width="-1" android:layout_height="-1">
+		<LinearLayout android:gravity="0x11" android:layout_gravity="0x11" android:orientation="0" android:layout_width="-2" android:layout_height="-2">
+			<LinearLayout android:orientation="1" android:id="false" android:layout_width="0dp" android:layout_height="-2" android:layout_weight="{4:1065353216}">
+				<LinearLayout android:gravity="0x13" android:layout_gravity="0x13" android:orientation="0" android:id="false" android:paddingTop="10dp" android:paddingBottom="10dp" android:clickable="true" android:layout_width="-2" android:layout_height="-2">
+					<ImageView android:layout_width="30dp" android:layout_height="30dp" android:src="res/drawable-xxhdpi-v4/text_area.png" />
+					<TextView android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="15dp" android:text="Add text" style="resourceId:0x7f120314" />
+				</LinearLayout>
+				<LinearLayout android:gravity="0x13" android:layout_gravity="0x13" android:orientation="0" android:id="false" android:paddingTop="10dp" android:paddingBottom="10dp" android:clickable="true" android:layout_width="-2" android:layout_height="-2">
+					<ImageView android:layout_width="30dp" android:layout_height="30dp" android:src="res/drawable-xxhdpi-v4/image_area.png" />
+					<TextView android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="15dp" android:text="Add image" style="resourceId:0x7f120314" />
+				</LinearLayout>
+				<LinearLayout android:gravity="0x13" android:layout_gravity="0x13" android:orientation="0" android:id="false" android:paddingTop="10dp" android:paddingBottom="10dp" android:clickable="true" android:layout_width="-2" android:layout_height="-2">
+					<ImageView android:layout_width="30dp" android:layout_height="30dp" android:src="res/drawable-xxhdpi-v4/clock_area.png" />
+					<TextView android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="15dp" android:text="Add clock" style="resourceId:0x7f120314" />
+				</LinearLayout>
+			</LinearLayout>
+			<LinearLayout android:orientation="1" android:id="false" android:layout_width="0dp" android:layout_height="-2" android:layout_marginLeft="35dp" android:layout_weight="{4:1065353216}">
+				<LinearLayout android:gravity="0x13" android:layout_gravity="0x13" android:orientation="0" android:id="false" android:paddingTop="10dp" android:paddingBottom="10dp" android:clickable="true" android:layout_width="-2" android:layout_height="-2">
+					<ImageView android:layout_width="30dp" android:layout_height="30dp" android:src="res/drawable-xxhdpi-v4/temp_area.png" />
+					<TextView android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="15dp" android:text="Add temperature" style="resourceId:0x7f120314" />
+				</LinearLayout>
+				<LinearLayout android:gravity="0x13" android:layout_gravity="0x13" android:orientation="0" android:id="false" android:paddingTop="10dp" android:paddingBottom="10dp" android:clickable="true" android:layout_width="-2" android:layout_height="-2">
+					<ImageView android:layout_width="30dp" android:layout_height="30dp" android:src="res/drawable-xxhdpi-v4/humidity_area.png" />
+					<TextView android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="15dp" android:text="Add humidity" style="resourceId:0x7f120314" />
+				</LinearLayout>
+				<LinearLayout android:gravity="0x13" android:layout_gravity="0x13" android:orientation="0" android:id="false" android:paddingTop="10dp" android:paddingBottom="10dp" android:clickable="true" android:layout_width="-2" android:layout_height="-2">
+					<ImageView android:layout_width="30dp" android:layout_height="30dp" android:src="res/drawable-xxhdpi-v4/timing_area.png" />
+					<TextView android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="15dp" android:text="Add timing" style="resourceId:0x7f120314" />
+				</LinearLayout>
+			</LinearLayout>
+			<LinearLayout android:layout_gravity="0x30" android:orientation="1" android:id="false" android:layout_width="0dp" android:layout_height="-2" android:layout_marginLeft="35dp" android:layout_weight="{4:1065353216}">
+				<LinearLayout android:gravity="0x13" android:layout_gravity="0x13" android:orientation="0" android:id="false" android:paddingTop="10dp" android:paddingBottom="10dp" android:clickable="true" android:layout_width="-2" android:layout_height="-2">
+					<ImageView android:layout_width="30dp" android:layout_height="30dp" android:src="res/drawable-xxhdpi-v4/animation_text_icon.png" />
+					<TextView android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="15dp" android:minWidth="120dp" android:text="Add animation" style="resourceId:0x7f120314" />
+				</LinearLayout>
+				<LinearLayout android:gravity="0x13" android:layout_gravity="0x13" android:orientation="0" android:id="false" android:paddingTop="10dp" android:paddingBottom="10dp" android:clickable="true" android:layout_width="-2" android:layout_height="-2">
+					<ImageView android:layout_width="30dp" android:layout_height="30dp" android:src="res/drawable-xxhdpi-v4/video_area.png" />
+					<TextView android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="15dp" android:text="Add video" style="resourceId:0x7f120314" />
+				</LinearLayout>
+			</LinearLayout>
+		</LinearLayout>
+	</FrameLayout>
+</FrameLayout>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:clickable="true" android:layout_width="-1" android:layout_height="-1">
+	<View android:id="false" android:layout_width="-1" android:layout_height="-1" />
+	<RelativeLayout android:layout_width="-1" android:layout_height="-1">
+		<LinearLayout android:gravity="0x31" android:orientation="1" android:id="false" android:visibility="2" android:layout_width="-1" android:layout_height="-1">
+			<LinearLayout android:gravity="0x11" android:layout_width="400dp" android:layout_height="75dp">
+				<TextView android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="15dp" android:text="Program sending" style="resourceId:0x7f120314" />
+			</LinearLayout>
+			<TextView android:background="30ffffff" android:layout_width="400dp" android:layout_height="1px" android:text=" " />
+			<LinearLayout android:gravity="0x31" android:orientation="1" android:layout_width="-1" android:layout_height="-1" android:layout_marginBottom="40dp">
+				<ListView android:id="false" android:background="0000" android:focusable="false" android:clickable="false" android:layout_width="400dp" android:layout_height="-1" android:listSelector="resourceId:0x106000d" android:divider="30ffffff" android:dividerHeight="4194304unknown unit:0x30" />
+				<TextView android:background="30ffffff" android:layout_width="400dp" android:layout_height="1px" android:text=" " />
+			</LinearLayout>
+		</LinearLayout>
+		<LinearLayout android:orientation="1" android:id="false" android:background="res/drawable-xhdpi-v4/message_bg.9.png" android:padding="10dp" android:visibility="2" android:layout_width="-2" android:layout_height="-2">
+			<LinearLayout android:gravity="0x13" android:orientation="0" android:layout_width="-2" android:layout_height="-2" android:layout_marginBottom="5dp">
+				<ImageView android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="2dp" android:src="res/drawable-xhdpi-v4/program_send_waring.png" />
+				<TextView android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="" />
+			</LinearLayout>
+			<TextView android:textColor="4b74cc" android:layout_gravity="0x5" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginBottom="5dp" android:text="Retry" />
+		</LinearLayout>
+		<FrameLayout android:id="false" android:layout_width="-1" android:layout_height="-1">
+			<LinearLayout android:gravity="0x11" android:layout_gravity="0x11" android:orientation="0" android:id="false" android:layout_width="-2" android:layout_height="-2">
+				<LinearLayout android:gravity="0x11" android:layout_gravity="0x11" android:orientation="1" android:id="false" android:padding="40dp" android:clickable="true" android:layout_width="-2" android:layout_height="-2">
+					<ImageView android:layout_width="-2" android:layout_height="-2" android:src="res/drawable-xxhdpi-v4/send.png" />
+					<TextView android:paddingTop="10dp" android:layout_width="-2" android:layout_height="-2" android:text="Send" style="resourceId:0x7f120314" />
+				</LinearLayout>
+				<TextView android:background="333333" android:layout_width="1dp" android:layout_height="-1" />
+				<LinearLayout android:gravity="0x11" android:layout_gravity="0x11" android:orientation="1" android:id="false" android:padding="40dp" android:clickable="true" android:layout_width="-2" android:layout_height="-2">
+					<ImageView android:layout_width="-2" android:layout_height="-2" android:src="res/drawable-xxhdpi-v4/export.png" />
+					<TextView android:paddingTop="10dp" android:layout_width="-2" android:layout_height="-2" android:text="Export" style="resourceId:0x7f120314" />
+				</LinearLayout>
+			</LinearLayout>
+			<LinearLayout android:gravity="0x11" android:layout_gravity="0x11" android:orientation="1" android:id="false" android:visibility="2" android:layout_width="-2" android:layout_height="-2">
+				<ProgressBar android:id="false" android:layout_width="-2" android:layout_height="-2" style="{2:16842874}" />
+				<TextView android:id="false" android:paddingTop="15dp" android:layout_width="-2" android:layout_height="-2" style="resourceId:0x7f120314" />
+			</LinearLayout>
+		</FrameLayout>
+	</RelativeLayout>
+</RelativeLayout>

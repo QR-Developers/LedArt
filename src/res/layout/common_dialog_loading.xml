@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="0x11" android:orientation="1" android:id="false" android:layout_width="-1" android:layout_height="-1">
+	<LinearLayout android:gravity="0x11" android:orientation="1" android:background="res/drawable/shape_bg.xml" android:paddingLeft="15dp" android:paddingTop="10dp" android:paddingRight="15dp" android:paddingBottom="10dp" android:layout_width="-2" android:layout_height="90dp" android:minWidth="100dp">
+		<ProgressBar android:layout_gravity="0x1" android:layout_width="35dp" android:layout_height="35dp" android:indeterminateOnly="true" android:indeterminateDrawable="res/drawable/dialog_loading.xml" android:indeterminateBehavior="1" />
+		<TextView android:textSize="15sp" android:textColor="f0f0f0" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="10dp" android:text="加载中..." />
+	</LinearLayout>
+</LinearLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="f2f2f2" android:layout_width="-1" android:layout_height="-1">
+	<LinearLayout android:gravity="0x30" android:orientation="1" android:layout_width="-1" android:layout_height="-2">
+		<FrameLayout android:background="3399ff" android:fitsSystemWindows="true" android:layout_width="-1" android:layout_height="75dp">
+			<ImageView android:layout_gravity="0x10" android:id="false" android:padding="10dp" android:layout_width="44dp" android:layout_height="44dp" android:src="res/drawable-xhdpi-v4/base_setting_left_angle.png" />
+			<TextView android:textSize="16sp" android:textColor="ffffff" android:ellipsize="4" android:gravity="0x11" android:layout_gravity="0x10" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="70dp" android:layout_marginRight="70dp" android:text="Account" android:singleLine="true" />
+		</FrameLayout>
+		<LinearLayout android:orientation="0" android:background="res/drawable/bg_rectangle_only_bottom_ff_stroke_d7.xml" android:layout_width="-1" android:layout_height="45dp">
+			<TextView android:textSize="14sp" android:textColor="333333" android:layout_gravity="0x10" android:id="false" android:layout_width="0dp" android:layout_height="-2" android:layout_marginLeft="20dp" android:text="Phone number" android:layout_weight="{4:1065353216}" />
+			<TextView android:textSize="14sp" android:textColor="333333" android:layout_gravity="0x10" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="20dp" android:text="13366666666" />
+		</LinearLayout>
+	</LinearLayout>
+	<LinearLayout android:layout_gravity="0x50" android:orientation="1" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="20dp" android:layout_marginRight="20dp" android:layout_marginBottom="20dp">
+		<TextView android:textSize="14sp" android:textColor="ffffff" android:gravity="0x11" android:id="false" android:background="ff00" android:layout_width="-1" android:layout_height="45dp" android:text="Sign out" />
+		<TextView android:textSize="14sp" android:textColor="ffffff" android:gravity="0x11" android:id="false" android:background="ff00" android:layout_width="-1" android:layout_height="45dp" android:layout_marginTop="10dp" android:text="Logout" />
+	</LinearLayout>
+</FrameLayout>

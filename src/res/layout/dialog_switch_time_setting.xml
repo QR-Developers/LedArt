@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:gravity="0x50" android:orientation="1" android:background="resourceId:0x106000b" android:padding="20dp" android:layout_width="-1" android:layout_height="-1">
+	<cn.huidu.view.SettingRow android:id="false" android:layout_width="-1" android:layout_height="-2" app:major_title="Screen on">
+		<TextView android:layout_gravity="0x15" android:id="false" android:paddingRight="25dp" android:layout_width="-2" android:layout_height="-2" android:text="08:00" />
+	</cn.huidu.view.SettingRow>
+	<cn.huidu.view.SettingRow android:id="false" android:layout_width="-1" android:layout_height="-2" app:major_title="Screen off">
+		<TextView android:layout_gravity="0x15" android:id="false" android:paddingRight="25dp" android:layout_width="-2" android:layout_height="-2" android:text="08:00" />
+	</cn.huidu.view.SettingRow>
+</LinearLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:layout_width="-1" android:layout_height="-2">
+	<LinearLayout android:gravity="0x13" android:orientation="0" android:id="false" android:background="res/drawable/bg_rectangle_only_bottom_ff_stroke_e4.xml" android:layout_width="-1" android:layout_height="50dp">
+		<TextView android:textColor="333333" android:gravity="0x3" android:layout_width="0dp" android:layout_height="-2" android:layout_marginLeft="15dp" android:text="Sensor type" android:layout_weight="{4:1050253722}" />
+		<TextView android:textColor="999999" android:gravity="0x5" android:id="false" android:paddingRight="10dp" android:layout_width="0dp" android:layout_height="-2" android:text="温度" android:layout_weight="{4:1065353216}" />
+		<ImageView android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="15dp" android:src="res/drawable-xhdpi-v4/angle_right.png" android:alpha="{4:1053609165}" />
+	</LinearLayout>
+	<LinearLayout android:gravity="0x13" android:orientation="0" android:id="false" android:background="res/drawable/bg_rectangle_only_bottom_ff_stroke_e4.xml" android:layout_width="-1" android:layout_height="50dp">
+		<TextView android:textColor="333333" android:gravity="0x3" android:layout_width="0dp" android:layout_height="-2" android:layout_marginLeft="15dp" android:text="Color" android:layout_weight="{4:1065353216}" />
+		<com.coship.fullcolorprogram.view.CircleView android:id="false" android:layout_width="25dp" android:layout_height="25dp" android:layout_marginRight="15dp" />
+	</LinearLayout>
+</LinearLayout>

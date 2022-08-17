@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="-1" android:layout_height="-1">
+	<FrameLayout android:id="false" android:visibility="1" android:layout_width="-1" android:layout_height="-1">
+		<LinearLayout android:orientation="1" android:id="false" android:layout_width="-1" android:layout_height="-1">
+			<FrameLayout android:id="false" android:layout_width="-1" android:layout_height="-1">
+				<cn.huidu.view.dateview.MaterialCalendarView android:id="false" android:layout_width="-1" android:layout_height="-1" android:layout_marginBottom="20dp" app:mcv_selectionColor="3399ff" app:mcv_showOtherDates="0x1" app:mcv_tileWidth="0dp" app:mcv_top_bar_visible="false" />
+			</FrameLayout>
+			<LinearLayout android:gravity="0x11" android:orientation="0" android:id="false" android:paddingLeft="45dp" android:paddingTop="25dp" android:paddingRight="45dp" android:paddingBottom="25dp" android:layout_width="-1" android:layout_height="-1">
+				<cn.huidu.view.dateview.PickerView android:id="false" android:layout_width="0dp" android:layout_height="-1" android:layout_weight="{4:1084227584}" />
+				<TextView android:textSize="28sp" android:textColor="3366ff" android:gravity="0x11" android:layout_width="0dp" android:layout_height="-1" android:text=":" android:layout_weight="{4:1073741824}" />
+				<cn.huidu.view.dateview.PickerView android:id="false" android:layout_width="0dp" android:layout_height="-1" android:layout_weight="{4:1084227584}" />
+				<TextView android:textSize="28sp" android:textColor="3366ff" android:gravity="0x11" android:layout_width="0dp" android:layout_height="-1" android:text=":" android:layout_weight="{4:1073741824}" />
+				<cn.huidu.view.dateview.PickerView android:id="false" android:layout_width="0dp" android:layout_height="-1" android:layout_weight="{4:1084227584}" />
+			</LinearLayout>
+		</LinearLayout>
+	</FrameLayout>
+	<androidx.core.widget.NestedScrollView android:id="false" android:layout_width="-1" android:layout_height="-1">
+		<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2">
+			<LinearLayout android:orientation="0" android:id="false" android:background="res/drawable/bg_rectangle_top_bottom_ff_stroke_e4.xml" android:layout_width="-1" android:layout_height="40dp" android:layout_marginTop="10dp">
+				<LinearLayout android:layout_gravity="0x11" android:layout_width="0dp" android:layout_height="-2" android:layout_marginLeft="15dp" android:layout_weight="{4:1065353216}">
+					<TextView android:textSize="13sp" android:textColor="333333" android:layout_width="-2" android:layout_height="-2" android:text="Mode" android:lines="1" />
+				</LinearLayout>
+				<TextView android:textSize="13sp" android:textColor="333333" android:layout_gravity="0x11" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="10dp" android:layout_marginRight="10dp" android:text="顺时针" android:lines="1" />
+				<ImageView android:layout_gravity="0x11" android:layout_width="12dp" android:layout_height="6dp" android:layout_marginRight="15dp" android:src="res/drawable-xxhdpi-v4/font_arrow.png" android:rotation="{4:1127481344}" />
+			</LinearLayout>
+			<LinearLayout android:orientation="0" android:id="false" android:background="res/drawable/bg_rectangle_top_bottom_ff_stroke_e4.xml" android:layout_width="-1" android:layout_height="40dp" android:layout_marginTop="10dp">
+				<LinearLayout android:layout_gravity="0x11" android:layout_width="0dp" android:layout_height="-2" android:layout_marginLeft="15dp" android:layout_weight="{4:1065353216}">
+					<TextView android:textSize="13sp" android:textColor="333333" android:layout_width="-2" android:layout_height="-2" android:text="Target date" android:lines="1" />
+				</LinearLayout>
+				<TextView android:textSize="14sp" android:textColor="333333" android:layout_gravity="0x11" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="8dp" android:layout_marginRight="8dp" android:text="2019/01/31" android:lines="1" />
+				<ImageView android:layout_gravity="0x11" android:layout_width="16dp" android:layout_height="16dp" android:layout_marginRight="12dp" android:src="res/drawable-xhdpi-v4/angle_right.png" android:alpha="{4:1058642330}" />
+			</LinearLayout>
+			<LinearLayout android:orientation="0" android:id="false" android:background="res/drawable/bg_rectangle_only_bottom_ff_stroke_e4.xml" android:layout_width="-1" android:layout_height="40dp">
+				<LinearLayout android:layout_gravity="0x11" android:layout_width="0dp" android:layout_height="-2" android:layout_marginLeft="15dp" android:layout_weight="{4:1065353216}">
+					<TextView android:textSize="13sp" android:textColor="333333" android:layout_width="-2" android:layout_height="-2" android:text="Target time" android:lines="1" />
+				</LinearLayout>
+				<TextView android:textSize="14sp" android:textColor="333333" android:layout_gravity="0x11" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="8dp" android:layout_marginRight="8dp" android:text="10:59:59" android:lines="1" />
+				<ImageView android:layout_gravity="0x11" android:layout_width="16dp" android:layout_height="16dp" android:layout_marginRight="12dp" android:src="res/drawable-xhdpi-v4/angle_right.png" android:alpha="{4:1058642330}" />
+			</LinearLayout>
+			<LinearLayout android:orientation="0" android:id="false" android:background="res/drawable/bg_rectangle_only_bottom_ff_stroke_e4.xml" android:layout_width="-1" android:layout_height="40dp">
+				<LinearLayout android:layout_gravity="0x11" android:layout_width="0dp" android:layout_height="-2" android:layout_marginLeft="15dp" android:layout_weight="{4:1065353216}">
+					<TextView android:textSize="13sp" android:textColor="333333" android:layout_width="-2" android:layout_height="-2" android:text="Display format" android:lines="1" />
+				</LinearLayout>
+				<TextView android:textSize="14sp" android:textColor="333333" android:layout_gravity="0x11" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="10dp" android:layout_marginRight="10dp" android:text="默认" android:lines="1" />
+				<ImageView android:layout_gravity="0x11" android:layout_width="12dp" android:layout_height="6dp" android:layout_marginRight="15dp" android:src="res/drawable-xxhdpi-v4/font_arrow.png" android:rotation="{4:1127481344}" />
+			</LinearLayout>
+			<LinearLayout android:orientation="0" android:id="false" android:background="res/drawable/bg_rectangle_top_bottom_ff_stroke_e4.xml" android:layout_width="-1" android:layout_height="40dp" android:layout_marginTop="10dp">
+				<LinearLayout android:layout_gravity="0x11" android:layout_width="0dp" android:layout_height="-2" android:layout_marginLeft="15dp" android:layout_weight="{4:1065353216}">
+					<TextView android:textSize="13sp" android:textColor="333333" android:layout_width="-2" android:layout_height="-2" android:text="Font" android:lines="1" />
+				</LinearLayout>
+				<TextView android:textSize="13sp" android:textColor="333333" android:layout_gravity="0x10" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="10dp" android:layout_marginRight="10dp" android:text="宋体" android:lines="1" />
+				<ImageView android:layout_gravity="0x11" android:layout_width="12dp" android:layout_height="6dp" android:layout_marginRight="15dp" android:src="res/drawable-xxhdpi-v4/font_arrow.png" android:rotation="{4:1127481344}" />
+			</LinearLayout>
+			<LinearLayout android:orientation="0" android:id="false" android:background="res/drawable/bg_rectangle_only_bottom_ff_stroke_e4.xml" android:layout_width="-1" android:layout_height="40dp">
+				<LinearLayout android:layout_gravity="0x11" android:layout_width="0dp" android:layout_height="-2" android:layout_marginLeft="15dp" android:layout_weight="{4:1065353216}">
+					<TextView android:textSize="13sp" android:textColor="333333" android:layout_width="-2" android:layout_height="-2" android:text="Font size" android:lines="1" />
+				</LinearLayout>
+				<TextView android:textSize="14sp" android:textColor="333333" android:layout_gravity="0x10" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="10dp" android:layout_marginRight="10dp" android:text="14" android:lines="1" />
+				<ImageView android:layout_gravity="0x11" android:layout_width="12dp" android:layout_height="6dp" android:layout_marginRight="15dp" android:src="res/drawable-xxhdpi-v4/font_arrow.png" android:rotation="{4:1127481344}" />
+			</LinearLayout>
+			<LinearLayout android:orientation="0" android:id="false" android:background="res/drawable/bg_rectangle_only_bottom_ff_stroke_e4.xml" android:layout_width="-1" android:layout_height="40dp">
+				<LinearLayout android:layout_gravity="0x11" android:layout_width="0dp" android:layout_height="-2" android:layout_marginLeft="15dp" android:layout_weight="{4:1065353216}">
+					<TextView android:textSize="13sp" android:textColor="333333" android:layout_width="-2" android:layout_height="-2" android:text="Text color" android:lines="1" />
+				</LinearLayout>
+				<View android:layout_gravity="0x10" android:id="false" android:background="ff00" android:layout_width="24dp" android:layout_height="18dp" android:layout_marginLeft="10dp" android:layout_marginRight="15dp" />
+			</LinearLayout>
+			<LinearLayout android:orientation="0" android:id="false" android:background="res/drawable/bg_rectangle_only_bottom_ff_stroke_e4.xml" android:layout_width="-1" android:layout_height="40dp">
+				<LinearLayout android:layout_gravity="0x11" android:layout_width="0dp" android:layout_height="-2" android:layout_marginLeft="15dp" android:layout_weight="{4:1065353216}">
+					<TextView android:textSize="13sp" android:textColor="333333" android:layout_width="-2" android:layout_height="-2" android:text="Time color" android:lines="1" />
+				</LinearLayout>
+				<View android:layout_gravity="0x10" android:id="false" android:background="ff00" android:layout_width="24dp" android:layout_height="18dp" android:layout_marginLeft="10dp" android:layout_marginRight="15dp" />
+			</LinearLayout>
+			<View android:layout_width="-1" android:layout_height="20dp" />
+		</LinearLayout>
+	</androidx.core.widget.NestedScrollView>
+</FrameLayout>

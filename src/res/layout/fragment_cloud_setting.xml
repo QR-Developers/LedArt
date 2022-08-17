@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:background="f6f6f6" android:layout_width="-1" android:layout_height="-1">
+	<RelativeLayout android:background="3399ff" android:layout_width="-1" android:layout_height="70dp">
+		<TextView android:textSize="15sp" android:textColor="ffffff" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginBottom="15dp" android:text="Settings" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+	</RelativeLayout>
+	<LinearLayout android:orientation="0" android:id="false" android:background="res/drawable/cloud_bg_rectangle_only_bottom_ff_stroke_e4.xml" android:layout_width="-1" android:layout_height="40dp">
+		<ImageView android:layout_gravity="0x10" android:layout_width="20dp" android:layout_height="20dp" android:layout_marginLeft="15dp" android:src="res/drawable-xxhdpi-v4/settings_language.png" />
+		<TextView android:textSize="14sp" android:textColor="666666" android:layout_gravity="0x10" android:layout_width="0dp" android:layout_height="-2" android:layout_marginLeft="15dp" android:text="Language" android:lines="1" android:layout_weight="{4:1065353216}" />
+		<ImageView android:layout_gravity="0x10" android:layout_width="23dp" android:layout_height="23dp" android:layout_marginRight="10dp" android:src="res/drawable-xxhdpi-v4/down_gray.png" android:alpha="{4:1060320051}" android:rotation="{4:1132920832}" />
+	</LinearLayout>
+	<LinearLayout android:orientation="0" android:id="false" android:background="res/drawable/cloud_bg_rectangle_only_bottom_ff_stroke_e4.xml" android:layout_width="-1" android:layout_height="40dp" android:layout_marginTop="10dp">
+		<ImageView android:layout_gravity="0x10" android:layout_width="20dp" android:layout_height="20dp" android:layout_marginLeft="15dp" android:src="res/drawable-xxhdpi-v4/device_deactive.png" />
+		<TextView android:textSize="14sp" android:textColor="666666" android:layout_gravity="0x10" android:layout_width="0dp" android:layout_height="-2" android:layout_marginLeft="15dp" android:text="Switch stand-alone version" android:lines="1" android:layout_weight="{4:1065353216}" />
+		<ImageView android:layout_gravity="0x10" android:layout_width="23dp" android:layout_height="23dp" android:layout_marginRight="10dp" android:src="res/drawable-xxhdpi-v4/down_gray.png" android:alpha="{4:1060320051}" android:rotation="{4:1132920832}" />
+	</LinearLayout>
+	<LinearLayout android:orientation="0" android:id="false" android:background="res/drawable/cloud_bg_rectangle_only_bottom_ff_stroke_e4.xml" android:layout_width="-1" android:layout_height="40dp" android:layout_marginTop="10dp">
+		<ImageView android:layout_gravity="0x10" android:layout_width="20dp" android:layout_height="20dp" android:layout_marginLeft="15dp" android:src="res/drawable-xxhdpi-v4/account_img.png" />
+		<TextView android:textSize="14sp" android:textColor="666666" android:layout_gravity="0x10" android:layout_width="0dp" android:layout_height="-2" android:layout_marginLeft="15dp" android:text="Account" android:lines="1" android:layout_weight="{4:1065353216}" />
+		<ImageView android:layout_gravity="0x10" android:layout_width="23dp" android:layout_height="23dp" android:layout_marginRight="10dp" android:src="res/drawable-xxhdpi-v4/down_gray.png" android:alpha="{4:1060320051}" android:rotation="{4:1132920832}" />
+	</LinearLayout>
+	<LinearLayout android:orientation="0" android:id="false" android:background="res/drawable/cloud_bg_rectangle_only_bottom_ff_stroke_e4.xml" android:visibility="2" android:layout_width="-1" android:layout_height="40dp">
+		<TextView android:textSize="14sp" android:textColor="666666" android:layout_gravity="0x10" android:layout_width="0dp" android:layout_height="-2" android:layout_marginLeft="15dp" android:text="账户管理" android:lines="1" android:layout_weight="{4:1065353216}" />
+		<ImageView android:layout_gravity="0x10" android:layout_width="23dp" android:layout_height="23dp" android:layout_marginRight="10dp" android:src="res/drawable-xxhdpi-v4/down_gray.png" android:rotation="{4:1132920832}" />
+	</LinearLayout>
+	<LinearLayout android:orientation="0" android:id="false" android:background="res/drawable/cloud_bg_rectangle_only_bottom_ff_stroke_e4.xml" android:visibility="2" android:layout_width="-1" android:layout_height="40dp">
+		<TextView android:textSize="14sp" android:textColor="666666" android:layout_gravity="0x10" android:layout_width="0dp" android:layout_height="-2" android:layout_marginLeft="15dp" android:text="角色管理" android:lines="1" android:layout_weight="{4:1065353216}" />
+		<ImageView android:layout_gravity="0x10" android:layout_width="23dp" android:layout_height="23dp" android:layout_marginRight="10dp" android:src="res/drawable-xxhdpi-v4/down_gray.png" android:rotation="{4:1132920832}" />
+	</LinearLayout>
+</LinearLayout>

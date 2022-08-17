@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="-1" android:layout_height="-1">
+	<View android:id="false" android:background="cc000" android:layout_width="-1" android:layout_height="-1" />
+	<TextView android:textSize="15sp" android:textColor="ffffff" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="100dp" android:text="Release program" android:layout_centerHorizontal="true" android:alpha="{4:1058642330}" />
+	<androidx.recyclerview.widget.RecyclerView android:id="false" android:layout_width="-1" android:layout_height="-1" android:layout_marginLeft="20dp" android:layout_marginTop="20dp" android:layout_marginRight="20dp" android:layout_marginBottom="100dp" android:layout_below="false" />
+	<LinearLayout android:gravity="0x11" android:orientation="1" android:layout_width="-2" android:layout_height="-2" android:layout_centerInParent="true">
+		<cn.huidu.view.common.HDLoadingView android:id="false" android:layout_width="50dp" android:layout_height="50dp" android:src="res/drawable-xxhdpi-v4/common_loading_white.png" />
+		<TextView android:textSize="14sp" android:textColor="ffffff" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="10dp" />
+	</LinearLayout>
+	<FrameLayout android:layout_width="100dp" android:layout_height="40dp" android:layout_marginBottom="40dp" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true">
+		<Button android:textSize="15sp" android:textColor="ffffff" android:id="false" android:background="res/drawable-xxhdpi-v4/shape_round_rect_corner_25_solid_3399ff.xml" android:visibility="2" android:layout_width="-1" android:layout_height="-1" android:text="Return" />
+	</FrameLayout>
+</RelativeLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:paddingLeft="10dp" android:paddingTop="5dp" android:paddingRight="10dp" android:paddingBottom="5dp" android:layout_width="-1" android:layout_height="-2">
+	<TextView android:textSize="14sp" android:textColor="ffffff" android:layout_width="-1" android:layout_height="-2" android:text="You need to do the following to connect the device:" android:alpha="{4:1063675494}" />
+	<TextView android:textSize="14sp" android:textStyle="0x1" android:textColor="ffffff" android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="5dp" android:text="1. Go to the mobile phone system Wi-Fi settings" />
+	<TextView android:textSize="14sp" android:textStyle="0x1" android:textColor="ffffff" android:id="false" android:layout_width="-1" android:layout_height="-2" android:text="2. Find the hotspot named ##SSID" />
+	<TextView android:textSize="14sp" android:textStyle="0x1" android:textColor="ffffff" android:id="false" android:layout_width="-1" android:layout_height="-2" android:text="3. Connect ##SSID with the new password you just modified" />
+</LinearLayout>

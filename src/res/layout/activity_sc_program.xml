@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="res/drawable/single_screen_bg_repeat.xml" android:layout_width="-1" android:layout_height="-1">
+	<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+		<FrameLayout android:layout_width="-1" android:layout_height="0dp" android:layout_weight="{4:1073741824}">
+			<FrameLayout android:background="res/drawable-xhdpi-v4/header_bg.png" android:fitsSystemWindows="true" android:layout_width="-1" android:layout_height="75dp">
+				<ImageView android:layout_gravity="0x10" android:id="false" android:padding="10dp" android:layout_width="44dp" android:layout_height="44dp" android:src="res/drawable-xhdpi-v4/base_setting_left_angle.png" />
+				<TextView android:textSize="15sp" android:textColor="ffffff" android:ellipsize="4" android:gravity="0x11" android:layout_gravity="0x10" android:id="false" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="70dp" android:layout_marginRight="70dp" android:text="" android:singleLine="true" />
+				<TextView android:textSize="13sp" android:textColor="ffffff" android:ellipsize="3" android:gravity="0x11" android:layout_gravity="0x15" android:id="false" android:background="res/drawable/shape_rect_white_border_with_corner.xml" android:paddingLeft="5dp" android:paddingTop="3dp" android:paddingRight="5dp" android:paddingBottom="3dp" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="15dp" android:maxWidth="90dp" android:text="Send" android:lines="1" />
+			</FrameLayout>
+			<cn.huidu.singlecolor.view.ScreenView android:id="false" android:layout_width="-1" android:layout_height="-1" android:layout_marginTop="75dp" />
+			<TextView android:textSize="12sp" android:textStyle="0x1" android:textColor="3366ff" android:layout_gravity="0x33" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="15dp" android:layout_marginTop="90dp" android:text="0,0 128,32" />
+			<LinearLayout android:layout_gravity="0x35" android:orientation="0" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="15dp" android:layout_marginTop="90dp" android:layout_marginRight="15dp">
+				<TextView android:textSize="10sp" android:textColor="3399ff" android:id="false" android:background="res/drawable/bg_round_8_rectangle_3399ff_transparent.xml" android:paddingLeft="5dp" android:paddingRight="5dp" android:layout_width="-2" android:layout_height="-2" android:text="128*64" />
+				<TextView android:textSize="10sp" android:textColor="3399ff" android:id="false" android:background="res/drawable/bg_round_8_rectangle_3399ff_transparent.xml" android:paddingLeft="5dp" android:paddingRight="5dp" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="5dp" android:text="三基色" />
+				<TextView android:textSize="10sp" android:textColor="3399ff" android:id="false" android:background="res/drawable/bg_round_8_rectangle_3399ff_transparent.xml" android:paddingLeft="5dp" android:paddingRight="5dp" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="5dp" android:text="8级灰度" />
+			</LinearLayout>
+			<TextView android:textSize="11sp" android:textColor="333333" android:layout_gravity="0x55" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="8dp" android:layout_marginBottom="8dp" android:text="100%" />
+		</FrameLayout>
+		<LinearLayout android:orientation="1" android:id="false" android:layout_width="-1" android:layout_height="0dp" android:layout_weight="{4:1077936128}">
+			<cn.huidu.huiduapp.ledart.ui.view.ScWidgetMenuViewGroup android:id="false" android:background="f2f2f2" android:layout_width="-1" android:layout_height="45dp" />
+			<cn.huidu.view.InputViewPager android:id="false" android:background="f8f8f8" android:layout_width="-1" android:layout_height="0dp" android:layout_weight="{4:1065353216}" />
+		</LinearLayout>
+	</LinearLayout>
+	<include android:id="false" android:visibility="2" layout="res/layout/view_single_context_menu.xml" />
+	<include android:id="false" android:visibility="1" layout="res/layout/view_image_context_menu.xml" />
+	<FrameLayout android:id="false" android:layout_width="-1" android:layout_height="-1" />
+</FrameLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+	<FrameLayout android:layout_width="-1" android:layout_height="-1">
+		<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+			<RelativeLayout android:background="f0f0f0" android:clickable="true" android:layout_width="-1" android:layout_height="52dp">
+				<TextView android:textSize="16sp" android:textColor="333333" android:gravity="0x11" android:id="false" android:layout_width="-1" android:layout_height="-1" android:text="asdfasdf" />
+				<ImageView android:id="false" android:layout_width="50dp" android:layout_height="50dp" android:src="res/drawable-xxhdpi-v4/left_b.png" android:scaleType="5" />
+				<View android:background="cccccc" android:layout_width="-1" android:layout_height="1px" android:layout_alignParentBottom="true" />
+			</RelativeLayout>
+			<FrameLayout android:layout_width="-1" android:layout_height="-1">
+				<FrameLayout android:id="false" android:background="fcfcfc" android:clickable="true" android:layout_width="-1" android:layout_height="-1" />
+			</FrameLayout>
+		</LinearLayout>
+		<include android:id="false" android:visibility="1" layout="res/layout/view_image_context_menu.xml" />
+	</FrameLayout>
+</LinearLayout>

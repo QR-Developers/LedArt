@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="1" android:paddingLeft="20dp" android:paddingRight="20dp" android:layout_width="-1" android:layout_height="-1">
+	<cn.huidu.view.SettingRow android:layout_width="-1" android:layout_height="-2" app:major_title="Automatic" app:minor_title="Use system provided time" app:show_angle_right="false">
+		<cn.huidu.view.CustomSwitch android:layout_gravity="0x800015" android:id="false" android:layout_width="-2" android:layout_height="-2" android:checked="true" />
+	</cn.huidu.view.SettingRow>
+	<cn.huidu.view.SettingRow_Date android:id="false" android:layout_width="-1" android:layout_height="-2" app:enabled="false" app:major_title="Set date" app:minor_title="" app:show_angle_right="true" />
+	<cn.huidu.view.SettingRow_Date android:id="false" android:layout_width="-1" android:layout_height="-2" app:enabled="false" app:major_title="Set time" app:minor_title="" app:show_angle_right="true" />
+</LinearLayout>

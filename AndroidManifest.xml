@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="175" android:versionName="3.6.7.1" android:compileSdkVersion="30" android:compileSdkVersionCodename="11" package="cn.huidu.huiduapp" platformBuildVersionCode="30" platformBuildVersionName="11">
+	<uses-sdk android:minSdkVersion="19" android:targetSdkVersion="30" />
+	<supports-screens android:anyDensity="true" android:smallScreens="true" android:normalScreens="true" android:largeScreens="true" android:resizeable="true" />
+	<uses-feature android:name="android.hardware.camera" android:required="false" />
+	<uses-feature android:name="android.hardware.camera.front" android:required="false" />
+	<uses-feature android:name="android.hardware.camera.autofocus" android:required="false" />
+	<uses-feature android:name="android.hardware.camera.flash" android:required="false" />
+	<uses-feature android:name="android.hardware.screen.landscape" />
+	<uses-feature android:name="android.hardware.wifi" android:required="false" />
+	<uses-feature android:name="android.hardware.touchscreen" />
+	<uses-permission android:name="android.permission.INTERNET" />
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+	<uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+	<uses-permission android:name="android.permission.CHANGE_WIFI_MULTICAST_STATE" />
+	<uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+	<uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+	<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+	<uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+	<uses-permission android:name="android.permission.CAMERA" />
+	<uses-permission android:name="android.permission.VIBRATE" />
+	<uses-permission android:name="android.permission.WAKE_LOCK" />
+	<uses-permission android:name="android.hardware.sensor.accelerometer" />
+	<uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+	<uses-permission android:name="android.permission.READ_PHONE_STATE" />
+	<queries>
+		<package android:name="com.tencent.mm" />
+	</queries>
+	<uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+	<application android:theme="resourceId:0x7f12000a" android:label="LedArt" android:icon="res/mipmap-xxxhdpi-v4/logo.png" android:name="cn.huidu.huiduapp.ledart.HuiduApplication" android:allowBackup="false" android:largeHeap="true" android:extractNativeLibs="false" android:networkSecurityConfig="res/xml/network_security_config.xml" android:appComponentFactory="androidx.core.app.CoreComponentFactory" android:isSplitRequired="true" android:requestLegacyExternalStorage="true">
+		<activity android:theme="resourceId:0x7f1200fd" android:label="LedArt" android:name="cn.huidu.huiduapp.ledart.WelcomeActivity" android:launchMode="singleTop" android:screenOrientation="portrait">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+				<category android:name="android.intent.category.LAUNCHER" />
+			</intent-filter>
+		</activity>
+		<activity android:name="cn.huidu.huiduapp.ledart.ui.fullcolor.FcProgramActivity" android:screenOrientation="landscape" android:configChanges="0x4a0" />
+		<activity android:name="cn.huidu.huiduapp.ledart.ui.fullcolor.shake.PictureShowActivity" android:screenOrientation="portrait" />
+		<activity android:name="cn.huidu.huiduapp.ledart.ui.setting.ModelSelectionActivity" android:screenOrientation="portrait" android:windowSoftInputMode="0x33" />
+		<activity android:name="cn.huidu.huiduapp.ledart.ui.setting.RecommendCardsActivity" android:screenOrientation="portrait" android:windowSoftInputMode="0x33" />
+		<activity android:name="cn.huidu.huiduapp.ledart.ui.singlecolor.WifiSettingActivity" android:screenOrientation="portrait" android:windowSoftInputMode="0x13" />
+		<activity android:name="cn.huidu.huiduapp.ledart.ui.fullcolor.WifiSettingActivity" android:screenOrientation="portrait" android:windowSoftInputMode="0x33" />
+		<activity android:name="cn.huidu.huiduapp.ledart.HomeActivity" android:screenOrientation="portrait" android:windowSoftInputMode="0x33">
+			<intent-filter>
+				<action android:name="com.example.activity.ACTION_START" />
+				<category android:name="android.intent.category.DEFAULT" />
+				<category android:name="com.example.activity.ACTION_START" />
+			</intent-filter>
+		</activity>
+		<activity android:name="cn.huidu.huiduapp.ledart.ui.setting.LanguageSelectActivity" android:screenOrientation="portrait" android:windowSoftInputMode="0x33" />
+		<activity android:name="cn.huidu.huiduapp.ledart.ui.singlecolor.SwitchActivity" android:screenOrientation="portrait" android:windowSoftInputMode="0x33" />
+		<activity android:name="cn.huidu.huiduapp.ledart.ui.singlecolor.BrightnessActivity" android:screenOrientation="portrait" android:windowSoftInputMode="0x33" />
+		<activity android:name="cn.huidu.huiduapp.ledart.ui.singlecolor.DateTimeActivity" android:screenOrientation="portrait" android:windowSoftInputMode="0x33" />
+		<activity android:name="cn.huidu.huiduapp.ledart.ui.singlecolor.hardware.HardwareMainActivity" android:screenOrientation="portrait" android:windowSoftInputMode="0x33" />
+		<activity android:name="cn.huidu.huiduapp.ledart.ui.singlecolor.hardware.HardwareScanActivity" android:screenOrientation="portrait" android:windowSoftInputMode="0x33" />
+		<activity android:name="cn.huidu.huiduapp.ledart.ui.singlecolor.hardware.HardwareSmartActivity" android:screenOrientation="portrait" android:windowSoftInputMode="0x33" />
+		<activity android:name="cn.huidu.huiduapp.ledart.ui.singlecolor.RemoteActivity" android:screenOrientation="portrait" android:windowSoftInputMode="0x33" />
+		<activity android:name="cn.huidu.huiduapp.ledart.ui.fullcolor.SwitchActivity" android:screenOrientation="portrait" android:windowSoftInputMode="0x33" />
+		<activity android:name="cn.huidu.huiduapp.ledart.ui.fullcolor.BrightnessActivity" android:screenOrientation="portrait" android:windowSoftInputMode="0x33" />
+		<activity android:name="cn.huidu.huiduapp.ledart.ui.fullcolor.DateTimeActivity" android:screenOrientation="portrait" android:windowSoftInputMode="0x33" />
+		<activity android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" android:name="cn.huidu.huiduapp.ledart.ui.fullcolor.CameraActivity" android:screenOrientation="landscape" android:configChanges="0xa0" />
+		<activity android:name="cn.huidu.huiduapp.ledart.ui.fullcolor.RemoteActivity" android:screenOrientation="portrait" android:windowSoftInputMode="0x33" />
+		<activity android:name="cn.huidu.huiduapp.ledart.ui.fullcolor.FlingActivity" android:screenOrientation="portrait" android:windowSoftInputMode="0x33" />
+		<activity android:name="cn.huidu.huiduapp.ledart.ui.DeviceListActivity" android:launchMode="singleTop" android:screenOrientation="portrait" />
+		<activity android:name="cn.huidu.huiduapp.ledart.ui.singlecolor.ScProgramActivity" android:launchMode="singleTop" android:screenOrientation="portrait" android:windowSoftInputMode="0x33" />
+		<activity android:name="cn.huidu.huiduapp.ledart.ui.singlecolor.ScNewScreenActivity" android:launchMode="singleTop" android:screenOrientation="portrait" android:windowSoftInputMode="0x32" />
+		<activity android:name="cn.huidu.huiduapp.ledart.ui.fullcolor.FcNewScreenActivity" android:launchMode="singleTop" android:screenOrientation="portrait" android:windowSoftInputMode="0x32" />
+		<activity android:name="cn.huidu.huiduapp.ledart.ui.singlecolor.ScreenParamActivity" android:screenOrientation="portrait" android:windowSoftInputMode="0x32" />
+		<activity android:name="cn.huidu.huiduapp.ledart.ui.common.PictureSelectionActivity" android:screenOrientation="portrait" android:windowSoftInputMode="0x32" />
+		<activity android:name="cn.huidu.huiduapp.ledart.ui.fullcolor.TimeZoneSelectActivity" android:screenOrientation="portrait" />
+		<activity android:name="cn.huidu.huiduapp.ledart.ui.setting.FontManagementActivity" android:screenOrientation="portrait" />
+		<activity android:name="cn.huidu.huiduapp.ledart.ui.setting.FeedbackCenterActivity" android:screenOrientation="portrait" android:windowSoftInputMode="0x12" />
+		<activity android:name="cn.huidu.huiduapp.ledart.ui.setting.SelectionModuleActivity" android:screenOrientation="portrait" android:windowSoftInputMode="0x32" />
+		<activity android:name="cn.huidu.huiduapp.ledart.ui.common.RichEditActivity" android:screenOrientation="landscape" android:windowSoftInputMode="0x24" />
+		<activity android:name="cn.huidu.huiduapp.ledart.ui.singlecolor.FirmwareActivity" android:screenOrientation="portrait" />
+		<activity android:name="cn.huidu.huiduapp.ledart.ui.setting.QRcodeShareActivity" android:screenOrientation="portrait" />
+		<activity android:name="cn.huidu.huiduapp.ledart.ui.CreateScreenActivity" android:launchMode="singleTop" android:screenOrientation="portrait" android:windowSoftInputMode="0x32" />
+		<activity android:name="cn.huidu.huiduapp.ledart.ui.lcd.LcdProgramActivity" android:launchMode="singleTop" android:screenOrientation="portrait" android:windowSoftInputMode="0x32" />
+		<activity android:name="cn.huidu.huiduapp.ledart.ui.lcd.ledandroid.LedProgramActivity" android:launchMode="singleTop" android:screenOrientation="portrait" android:windowSoftInputMode="0x32" />
+		<activity android:name="cn.huidu.huiduapp.ledart.ui.lcd.LcdDateTimeActivity" android:screenOrientation="portrait" />
+		<activity android:name="cn.huidu.huiduapp.ledart.ui.lcd.LcdRemoteControlActivity" android:screenOrientation="portrait" />
+		<activity android:name="cn.huidu.huiduapp.ledart.ui.lcd.LcdVideoSelectionActivity" android:screenOrientation="portrait" />
+		<activity android:theme="resourceId:0x7f1200fd" android:name="cn.huidu.huiduapp.ledart.ui.common.SafetyCertificateRegisteredActivity" android:screenOrientation="portrait" />
+		<activity android:theme="resourceId:0x7f1200fd" android:name="cn.huidu.huiduapp.ledart.ui.common.WxLoginActivity" android:screenOrientation="portrait" />
+		<activity android:name="cn.huidu.huiduapp.wxapi.WXEntryActivity" android:exported="true" android:taskAffinity="cn.huidu.huiduapp" android:launchMode="singleTask" />
+		<activity android:theme="@android:style/Theme.NoTitleBar.Fullscreen" android:name="cn.huidu.huiduapp.ledart.ui.common.LoginServiceAgreementActivity" android:screenOrientation="portrait" />
+		<activity android:theme="resourceId:0x7f1200fd" android:name="cn.huidu.huiduapp.ledart.ui.setting.CertificateAccountActivity" android:screenOrientation="portrait" />
+		<activity android:name="cn.huidu.huiduapp.ledart.ui.setting.HardwareFileManagementActivity" android:screenOrientation="portrait" />
+		<activity android:name="cn.huidu.huiduapp.ledart.ui.setting.WifiPasswordActivity" android:screenOrientation="portrait" />
+		<activity android:name="cn.huidu.huiduapp.ledart.ui.setting.UsingHelpActivity" android:screenOrientation="portrait" />
+		<activity android:name="cn.huidu.huiduapp.ledart.ui.fullcolor.FcDeviceLockActivity" android:screenOrientation="portrait" />
+		<activity android:name="cn.huidu.huiduapp.ledart.ui.lcd.LcdDeviceLockActivity" android:screenOrientation="portrait" />
+		<activity android:name="cn.huidu.huiduapp.ledart.ui.lcd.LcdTimeZoneSelectActivity" android:screenOrientation="portrait" />
+		<activity android:name="cn.huidu.huiduapp.ledart.ui.common.ModifyWifiPwdActivity" android:screenOrientation="portrait" />
+		<activity android:name="cn.huidu.huiduapp.ledart.ui.lcd.LcdUpgradeActivity" android:screenOrientation="portrait" />
+		<activity android:name="cn.huidu.huiduapp.ledart.ui.setting.DownloadSourceFileActivity" android:screenOrientation="portrait" />
+		<activity android:name="cn.huidu.huiduapp.ledart.ui.common.PictureSourceSelectionActivity" android:screenOrientation="portrait" />
+		<activity android:name="cn.huidu.huiduapp.ledart.ui.common.PictureLocalSelectionActivity" android:screenOrientation="portrait" />
+		<activity android:name="cn.huidu.huiduapp.ledart.ui.setting.ProductModelActivity" android:screenOrientation="portrait" />
+		<activity android:name="cn.huidu.huiduapp.ledart.ui.lcd.LcdScreenParamActivity" android:screenOrientation="portrait" />
+		<activity android:name="cn.huidu.huiduapp.ledart.ui.lcd.LcdSoftBindDeviceActivity" android:screenOrientation="portrait" />
+		<activity android:name="cn.huidu.huiduapp.ledart.ui.lcd.LcdSoftScreenSyncActivity" android:screenOrientation="portrait" android:configChanges="0xf0" android:windowSoftInputMode="0x24" />
+		<activity android:name="cn.huidu.huiduapp.ledart.ui.lcd.LcdFlingActivity" android:screenOrientation="portrait" />
+		<activity android:name="cn.huidu.huiduapp.ledart.ui.lcd.LcdMoreActivity" android:screenOrientation="portrait" />
+		<activity android:name="cn.huidu.huiduapp.ledart.ui.singlecolor.FinishUpgradeActivity" android:screenOrientation="portrait" />
+		<activity android:name="cn.huidu.huiduapp.ledart.ui.setting.LcdPlayerApkDownloadActivity" android:screenOrientation="portrait" />
+		<activity android:name="cn.huidu.huiduapp.ledart.ui.setting.LcdScreenParamsDownloadActivity" android:screenOrientation="portrait" />
+		<activity android:name="cn.huidu.huiduapp.ledart.ui.setting.DownloadManagementActivity" android:screenOrientation="portrait" />
+		<activity android:name="cn.huidu.huiduapp.ledart.ui.setting.AboutUsActivity" android:screenOrientation="portrait" />
+		<activity android:name="cn.huidu.huiduapp.ledart.ui.common.PrivacyAgreementActivity" android:screenOrientation="portrait" />
+		<activity android:name="cn.huidu.huiduapp.ledart.ui.lcd.LcdTestActivity" android:screenOrientation="portrait" />
+		<activity android:name="cn.huidu.huiduapp.ledart.ui.fullcolor.ReceiveCardRelationActivity" android:screenOrientation="portrait" />
+		<activity android:name="cn.huidu.huiduapp.ledart.ui.fullcolor.FCTestActivity" />
+		<activity android:name="cn.huidu.huiduapp.ledart.ui.fullcolor.hardware.FcHardwareMainActivity" android:screenOrientation="portrait" />
+		<activity android:name="cn.huidu.huiduapp.ledart.ui.fullcolor.hardware.FcSendCardParamActivity" android:screenOrientation="portrait" />
+		<activity android:name="cn.huidu.huiduapp.ledart.ui.fullcolor.hardware.FcReceiveCardListActivity" android:screenOrientation="portrait" />
+		<activity android:name="cn.huidu.huiduapp.ledart.ui.fullcolor.hardware.FcReceiveCardRelationActivity" android:screenOrientation="portrait" android:windowSoftInputMode="0x33" />
+		<activity android:name="cn.huidu.huiduapp.ledart.ui.fullcolor.hardware.FcReceiveCardParamActivity" android:screenOrientation="portrait" />
+		<activity android:name="cn.huidu.huiduapp.ledart.ui.fullcolor.hardware.FcUniversalModuleActivity" android:screenOrientation="portrait" />
+		<activity android:name="cn.huidu.huiduapp.ledart.ui.fullcolor.hardware.FcHardwareExtendedAttributeActivity" android:screenOrientation="portrait" android:windowSoftInputMode="0x33" />
+		<activity android:name="cn.huidu.huiduapp.ledart.ui.fullcolor.hardware.FcHardwareSmartActivity" android:screenOrientation="portrait" />
+		<activity android:name="cn.huidu.huiduapp.ledart.ui.lcd.LcdSwitchActivity" android:screenOrientation="portrait" />
+		<activity android:name="cn.huidu.huiduapp.ledart.ui.fullcolor.hardware.FcHardwareBaseActivity" android:screenOrientation="portrait" />
+		<activity android:name="cn.huidu.huiduapp.ledart.ui.fullcolor.hardware.FcDriveChipSelectActivity" android:screenOrientation="portrait" />
+		<activity android:name="cn.huidu.huiduapp.ledart.ui.fullcolor.hardware.FcNetPortSetActivity" android:screenOrientation="portrait" android:windowSoftInputMode="0x33" />
+		<activity android:name="cn.huidu.huiduapp.ledart.ui.singlecolor.ScScreenTestActivity" android:screenOrientation="portrait" />
+		<activity android:name="cn.huidu.huiduapp.ledart.ui.fullcolor.hardware.FcAdvancedSettingActivity" android:screenOrientation="portrait" />
+		<activity android:name="cn.huidu.huiduapp.ledart.ui.fullcolor.hardware.FcDataGroupExchangeActivity" android:screenOrientation="portrait" />
+		<activity android:name="cn.huidu.huiduapp.ledart.ui.fullcolor.hardware.FcHardwareColorChannelActivity" android:screenOrientation="portrait" />
+		<activity android:name="cn.huidu.huiduapp.ledart.ui.fullcolor.hardware.FcDataGroupOffsetActivity" android:screenOrientation="portrait" />
+		<activity android:name="cn.huidu.huiduapp.ledart.ui.fullcolor.hardware.FcGammaSettingActivity" android:screenOrientation="portrait" android:windowSoftInputMode="0x33" />
+		<activity android:name="cn.huidu.huiduapp.ledart.ui.fullcolor.hardware.FcBoxConnectMapActivity" android:screenOrientation="portrait" android:windowSoftInputMode="0x33" />
+		<activity android:name="cn.huidu.huiduapp.ledart.ui.setting.AboutFeedbackActivity" android:screenOrientation="portrait" />
+		<activity android:name="cn.huidu.huiduapp.ledart.ui.lcd.LcdSoftSpliceProgramActivity" android:screenOrientation="portrait" />
+		<activity android:name="cn.huidu.huiduapp.ledart.ui.fullcolor.FCSetVolumeActivity" android:screenOrientation="portrait" />
+		<activity android:name="cn.huidu.huiduapp.ledart.ui.rubik.RubikProgramActivity" android:screenOrientation="portrait" />
+		<activity android:name="cn.huidu.huiduapp.ledart.ui.lcd.ledandroid.AndroidLedBrightnessActivity" android:screenOrientation="portrait" />
+		<activity android:name="cn.huidu.huiduapp.ledart.ui.lcd.ledandroid.AndroidLedVolumeActivity" android:screenOrientation="portrait" />
+		<activity android:name="cn.huidu.huiduapp.ledart.ui.lcd.ledandroid.AndroidLedWifiSettingActivity" android:screenOrientation="portrait" />
+		<activity android:name="cn.huidu.huiduapp.ledart.ui.lcd.ledandroid.LedDateTimeActivity" android:screenOrientation="portrait" />
+		<meta-data android:name="UMENG_CHANNEL" android:value="GooglePlay" />
+		<receiver android:name="cn.huidu.huiduapp.ledart.receiver.WiFiStateReceiver" android:enabled="true" android:exported="false">
+			<intent-filter>
+				<action android:name="android.net.wifi.WIFI_STATE_CHANGED" />
+				<action android:name="android.net.wifi.STATE_CHANGE" />
+			</intent-filter>
+		</receiver>
+		<service android:name="com.huidu.applibs.service.imp.TickService" />
+		<service android:name="com.huidu.applibs.service.search.SearchService" />
+		<service android:name="com.coship.rtspserver.application.api.CustomRtspServer" />
+		<service android:name="cn.huidu.huiduapp.ledart.ui.fullcolor.shake.ThrowImageService" />
+		<activity android:name="cn.huidu.cloud.ui.CloudHomeActivity" android:screenOrientation="portrait" />
+		<activity android:name="cn.huidu.cloud.ui.task.CloudTaskDetailsActivity" android:screenOrientation="portrait" />
+		<activity android:name="cn.huidu.cloud.ui.program.fullcolor.CloudFCProgramActivity" android:screenOrientation="landscape" />
+		<activity android:name="cn.huidu.cloud.ui.program.singlecolor.CloudSCProgramActivity" android:screenOrientation="portrait" />
+		<activity android:name="cn.huidu.cloud.ui.device.CloudSetTimeActivity" android:screenOrientation="portrait" />
+		<activity android:name="cn.huidu.cloud.ui.device.CloudBrightnessActivity" android:screenOrientation="portrait" />
+		<activity android:name="cn.huidu.cloud.ui.device.CloudSwitchActivity" android:screenOrientation="portrait" />
+		<activity android:name="cn.huidu.cloud.ui.account.CloudRegisterLoginActivity">
+			<intent-filter>
+				<action android:name="com.example.activity.CloudRegisterLoginActivity" />
+				<category android:name="android.intent.category.DEFAULT" />
+				<category android:name="com.example.activity.CloudRegisterLoginActivity" />
+			</intent-filter>
+		</activity>
+		<activity android:name="cn.huidu.cloud.ui.account.CloudResetPasswordActivity" android:screenOrientation="portrait" />
+		<activity android:name="cn.huidu.cloud.ui.account.CloudSetNewPasswordActivity" android:screenOrientation="portrait" />
+		<activity android:name="cn.huidu.cloud.ui.account.CloudRegisterAccountActivity" android:screenOrientation="portrait" />
+		<activity android:name="cn.huidu.cloud.ui.resource.LocalResourcePickerActivity" android:screenOrientation="portrait" />
+		<activity android:name="cn.huidu.cloud.ui.account.CloudUserInfoActivity" android:screenOrientation="portrait" />
+		<activity android:name="cn.huidu.cloud.ui.account.CloudModifyPasswordActivity" android:screenOrientation="portrait" />
+		<activity android:name="cn.huidu.cloud.ui.resource.CloudResourcePreviewActivity" android:screenOrientation="portrait" />
+		<activity android:name="cn.huidu.cloud.ui.device.CloudSetHdmiActivity" android:screenOrientation="portrait" />
+		<activity android:name="cn.huidu.cloud.ui.device.CloudTimeZoneSelectActivity" android:screenOrientation="portrait" />
+		<activity android:name="cn.huidu.cloud.ui.account.CloudPrivacyAgreementActivity" android:screenOrientation="portrait" />
+		<activity android:name="cn.huidu.cloud.ui.device.CloudFCDeviceDetailActivity" android:screenOrientation="portrait" />
+		<activity android:name="cn.huidu.cloud.ui.device.CloudSCDeviceDetailActivity" android:screenOrientation="portrait" />
+		<activity android:name="cn.huidu.cloud.ui.device.CloudDeviceEventListActivity" android:screenOrientation="portrait" />
+		<activity android:name="cn.huidu.cloud.ui.device.CloudDeviceProgramListActivity" android:screenOrientation="portrait" />
+		<activity android:name="cn.huidu.cloud.ui.device.CloudDeviceActionListActivity" android:screenOrientation="portrait" />
+		<activity android:name="cn.huidu.cloud.ui.base.BaseListActivity" />
+		<activity android:name="cn.huidu.cloud.ui.account.CloudAccountManageActivity" android:screenOrientation="portrait" />
+		<activity android:name="cn.huidu.cloud.ui.account.CloudRoleManageActivity" android:screenOrientation="portrait" />
+		<activity android:name="cn.huidu.cloud.ui.device.CloudDeviceGroupManageActivity" android:screenOrientation="portrait" />
+		<activity android:name="cn.huidu.cloud.ui.program.CloudSendProgramActivity" android:screenOrientation="portrait" />
+		<activity android:name="cn.huidu.cloud.ui.program.CloudAddNewProgramActivity" android:launchMode="singleTop" android:windowSoftInputMode="0x32" />
+		<activity android:name="cn.huidu.cloud.ui.program.CloudSelectDeviceActivity" android:screenOrientation="portrait" />
+		<activity android:name="cn.huidu.cloud.ui.device.CloudUpgradeFirmwareActivity" android:screenOrientation="portrait" />
+		<activity android:name="cn.huidu.cloud.ui.task.CloudTaskEventListActivity" android:screenOrientation="portrait" />
+		<activity android:name="cn.huidu.cloud.ui.device.CloudCellularNetworkDetailActivity" android:screenOrientation="portrait" />
+		<activity android:name="cn.huidu.cloud.ui.program.CloudProgramPublishHistoryActivity" android:screenOrientation="portrait" />
+		<activity android:name="cn.huidu.cloud.ui.resource.CloudResourceUploadActivity" android:screenOrientation="portrait" />
+		<activity android:name="cn.huidu.cloud.ui.program.CloudSelectTreeDeviceActivity" android:screenOrientation="portrait" />
+		<activity android:name="cn.huidu.cloud.ui.program.CloudProgramBindDeviceActivity" android:screenOrientation="portrait" />
+		<activity android:name="cn.huidu.cloud.ui.account.CloudLanguageSelectActivity" android:screenOrientation="portrait" />
+		<activity android:name="cn.huidu.cloud.ui.program.lcd.CloudLcdProgramActivity" android:screenOrientation="portrait" android:windowSoftInputMode="0x33" />
+		<activity android:name="cn.huidu.cloud.ui.device.CloudLCDDeviceDetailActivity" android:screenOrientation="portrait" />
+		<activity android:name="cn.huidu.cloud.ui.device.CloudLcdSetTimeActivity" android:screenOrientation="portrait" />
+		<activity android:name="cn.huidu.cloud.ui.device.CloudSettingTaskActivity" android:screenOrientation="portrait" />
+		<activity android:name="cn.huidu.cloud.ui.device.CloudLcdNetworkInfoActivity" android:screenOrientation="portrait" />
+		<activity android:name="cn.huidu.cloud.ui.program.lcd.CloudLcdImagePickerActivity" android:screenOrientation="portrait" />
+		<activity android:name="cn.huidu.cloud.ui.device.CloudLcdFaceDetectActivity" android:screenOrientation="portrait" />
+		<activity android:name="cn.huidu.cloud.ui.device.CloudLcdSnapshotListActivity" android:screenOrientation="portrait" />
+		<activity android:name="cn.huidu.display.ui.VisualEffectActivity" android:screenOrientation="portrait" />
+		<activity android:name="cn.huidu.display.ui.DeviceSettingActivity" android:screenOrientation="portrait" />
+		<activity android:name="cn.huidu.display.ui.DisplayMainActivity" android:screenOrientation="portrait" />
+		<activity android:name="cn.huidu.display.ui.InputResolutionActivity" android:screenOrientation="portrait" />
+		<activity android:name="cn.huidu.display.ui.VgaSettingActivity" android:screenOrientation="portrait" />
+		<activity android:name="cn.huidu.display.ui.PictureRotationActivity" android:screenOrientation="portrait" />
+		<activity android:name="cn.huidu.display.ui.AudioSettingActivity" android:screenOrientation="portrait" />
+		<activity android:name="cn.huidu.display.ui.DisplayLanguageSelectActivity" android:screenOrientation="portrait" />
+		<activity android:name="cn.huidu.display.ui.UsbSettingActivity" android:screenOrientation="portrait" />
+		<service android:name="com.lzy.okhttpserver.download.DownloadService" />
+		<meta-data android:name="com.android.vending.splits.required" android:value="true" />
+		<meta-data android:name="com.android.stamp.source" android:value="https://play.google.com/store" />
+		<meta-data android:name="com.android.stamp.type" android:value="STAMP_TYPE_DISTRIBUTION_APK" />
+		<meta-data android:name="com.android.vending.splits" android:value="res/xml/splits0.xml" />
+		<meta-data android:name="com.android.vending.derived.apk.id" android:value="23" />
+	</application>
+</manifest>

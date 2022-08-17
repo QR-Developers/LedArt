@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:background="ececec" android:layout_width="-1" android:layout_height="-1">
+	<ScrollView android:layout_width="-1" android:layout_height="-1" android:fillViewport="true">
+		<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+			<LinearLayout android:gravity="0x31" android:orientation="1" android:layout_width="-1" android:layout_height="0dp" android:layout_weight="{4:1065353216}">
+				<TextView android:gravity="0x13" android:paddingLeft="15dp" android:layout_width="-1" android:layout_height="40dp" android:layout_marginTop="10dp" android:text="Screen information" style="resourceId:0x7f120305" />
+				<TextView android:background="dddddd" android:layout_width="-1" android:layout_height="1px" />
+				<LinearLayout android:orientation="1" android:background="f8f8f8" android:visibility="0" android:layout_width="-1" android:layout_height="-2">
+					<LinearLayout android:gravity="0x13" android:orientation="0" android:layout_width="-1" android:layout_height="0dp" android:layout_marginTop="25dp" android:layout_weight="{4:1065353216}">
+						<ImageView android:background="res/drawable/model_selection_tag.xml" android:layout_width="8dp" android:layout_height="8dp" android:layout_marginLeft="15dp" android:layout_marginRight="15dp" />
+						<TextView android:layout_width="-2" android:layout_height="-2" android:text="Size" style="resourceId:0x7f1202fd" />
+						<TextView android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="5dp" android:text="" style="resourceId:0x7f1202fd" />
+					</LinearLayout>
+					<LinearLayout android:gravity="0x13" android:orientation="0" android:layout_width="-1" android:layout_height="0dp" android:layout_marginTop="15dp" android:layout_marginBottom="15dp" android:layout_weight="{4:1065353216}">
+						<ImageView android:background="res/drawable/model_selection_tag.xml" android:layout_width="8dp" android:layout_height="8dp" android:layout_marginLeft="15dp" android:layout_marginRight="15dp" />
+						<TextView android:layout_width="-2" android:layout_height="-2" android:text="Module" style="resourceId:0x7f1202fd" />
+						<TextView android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="5dp" android:text="" style="resourceId:0x7f1202fd" />
+					</LinearLayout>
+					<LinearLayout android:gravity="0x13" android:orientation="0" android:layout_width="-1" android:layout_height="0dp" android:layout_marginBottom="25dp" android:layout_weight="{4:1065353216}">
+						<ImageView android:background="res/drawable/model_selection_tag.xml" android:layout_width="8dp" android:layout_height="8dp" android:layout_marginLeft="15dp" android:layout_marginRight="15dp" />
+						<TextView android:layout_width="-2" android:layout_height="-2" android:text="Pixel" style="resourceId:0x7f1202fd" />
+						<TextView android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="5dp" android:text="" style="resourceId:0x7f1202fd" />
+					</LinearLayout>
+				</LinearLayout>
+				<TextView android:background="dddddd" android:layout_width="-1" android:layout_height="1px" />
+				<LinearLayout android:orientation="1" android:id="false" android:visibility="0" android:layout_width="-1" android:layout_height="-1" android:layout_marginTop="5dp">
+					<LinearLayout android:gravity="0x13" android:orientation="0" android:layout_width="-1" android:layout_height="40dp" android:layout_marginLeft="15dp" android:layout_marginRight="5dp">
+						<TextView android:layout_width="-2" android:layout_height="-2" android:text="Recommended for you:" style="resourceId:0x7f120305" />
+						<TextView android:layout_width="0dp" android:layout_height="-2" android:layout_weight="{4:1065353216}" />
+						<TextView android:gravity="0x11" android:id="false" android:paddingLeft="10dp" android:paddingRight="10dp" android:layout_width="-2" android:layout_height="-1" android:text="High performance" style="resourceId:0x7f12030f" />
+						<TextView android:gravity="0x11" android:id="false" android:paddingLeft="10dp" android:paddingRight="10dp" android:layout_width="-2" android:layout_height="-1" android:text="Low cost" style="resourceId:0x7f120310" />
+					</LinearLayout>
+					<TextView android:background="dddddd" android:layout_width="-1" android:layout_height="1px" />
+					<ListView android:id="false" android:layout_width="-1" android:layout_height="-2" android:listSelector="resourceId:0x106000d" android:divider="dddddd" android:dividerHeight="4194304unknown unit:0x30" />
+					<TextView android:background="dddddd" android:layout_width="-1" android:layout_height="1px" />
+					<LinearLayout android:orientation="1" android:id="false" android:background="f8f8f8" android:visibility="0" android:layout_width="-1" android:layout_height="-2">
+						<LinearLayout android:orientation="1" android:paddingLeft="10dp" android:paddingTop="10dp" android:paddingRight="10dp" android:paddingBottom="10dp" android:layout_width="-1" android:layout_height="-2">
+							<LinearLayout android:layout_gravity="0x11" android:orientation="0" android:layout_width="-2" android:layout_height="-2" android:layout_marginBottom="10dp">
+								<LinearLayout android:gravity="0x11" android:layout_gravity="0x11" android:orientation="0" android:layout_width="220dp" android:layout_height="-2">
+									<ImageView android:layout_width="-2" android:layout_height="-2" android:src="res/drawable-xhdpi-v4/left_scale.png" />
+									<LinearLayout android:gravity="0x11" android:layout_width="0dp" android:layout_height="-2" android:layout_weight="{4:1065353216}">
+										<TextView android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="" style="resourceId:0x7f120305" />
+									</LinearLayout>
+									<ImageView android:layout_width="-2" android:layout_height="-2" android:src="res/drawable-xhdpi-v4/right_scale.png" />
+								</LinearLayout>
+							</LinearLayout>
+							<LinearLayout android:layout_gravity="0x11" android:orientation="0" android:visibility="0" android:layout_width="-1" android:layout_height="-2">
+								<TextView android:layout_width="0dp" android:layout_height="-2" android:text=" " android:layout_weight="{4:1065353216}" />
+								<LinearLayout android:orientation="1" android:background="res/drawable/model_selection_size_bg.xml" android:padding="10dp" android:layout_width="220dp" android:layout_height="140dp">
+									<cn.huidu.huiduapp.ledart.ui.recommend.FullColorMatrixView android:id="false" android:layout_width="-1" android:layout_height="-1" />
+								</LinearLayout>
+								<LinearLayout android:orientation="1" android:layout_width="0dp" android:layout_height="140dp" android:layout_weight="{4:1065353216}">
+									<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1" android:layout_marginLeft="10dp">
+										<ImageView android:layout_width="-2" android:layout_height="-2" android:src="res/drawable-xhdpi-v4/top_scale.png" />
+										<LinearLayout android:gravity="0x11" android:orientation="0" android:layout_width="-2" android:layout_height="0dp" android:layout_weight="{4:1065353216}">
+											<TextView android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="" style="resourceId:0x7f120305" />
+										</LinearLayout>
+										<ImageView android:layout_width="-2" android:layout_height="-2" android:src="res/drawable-xhdpi-v4/bottom_scale.png" />
+									</LinearLayout>
+								</LinearLayout>
+							</LinearLayout>
+							<LinearLayout android:layout_gravity="0x11" android:orientation="1" android:id="false" android:padding="10dp" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="10dp">
+								<TextView android:textSize="14sp" android:textColor="666666" android:padding="5dp" android:layout_width="-2" android:layout_height="-2" android:text="Send card stitching" />
+								<FrameLayout android:background="res/drawable/model_selection_size_bg.xml" android:padding="10dp" android:layout_width="220dp" android:layout_height="140dp">
+									<cn.huidu.huiduapp.ledart.ui.recommend.SendCardMatrixView android:id="false" android:layout_width="-1" android:layout_height="-1" />
+								</FrameLayout>
+							</LinearLayout>
+							<LinearLayout android:gravity="0x13" android:orientation="1" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="5dp">
+								<LinearLayout android:gravity="0x13" android:layout_width="-1" android:layout_height="30dp">
+									<TextView android:gravity="0x11" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:text="Solution Details" style="resourceId:0x7f120305" />
+								</LinearLayout>
+								<TextView android:background="dddddd" android:layout_width="-1" android:layout_height="1px" />
+								<LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="20dp" android:layout_marginTop="10dp" android:layout_marginBottom="10dp">
+									<LinearLayout android:gravity="0x5" android:orientation="1" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="15dp">
+										<LinearLayout android:gravity="0x15" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="3dp" android:layout_marginBottom="3dp">
+											<TextView android:gravity="0x5" android:id="false" android:layout_width="-1" android:layout_height="-2" android:text="Send card" style="resourceId:0x7f120302" />
+										</LinearLayout>
+										<LinearLayout android:gravity="0x35" android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="3dp" android:layout_marginBottom="3dp">
+											<TextView android:gravity="0x5" android:layout_width="-1" android:layout_height="-2" android:text="Load" style="resourceId:0x7f120302" />
+										</LinearLayout>
+										<LinearLayout android:gravity="0x15" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="3dp" android:layout_marginBottom="3dp">
+											<TextView android:gravity="0x5" android:layout_width="-1" android:layout_height="-2" android:text="Receiving card" style="resourceId:0x7f120302" />
+										</LinearLayout>
+										<LinearLayout android:gravity="0x35" android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="3dp" android:layout_marginBottom="3dp">
+											<TextView android:gravity="0x5" android:layout_width="-1" android:layout_height="-2" android:text="Load" style="resourceId:0x7f120302" />
+										</LinearLayout>
+										<LinearLayout android:gravity="0x15" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="3dp" android:layout_marginBottom="3dp">
+											<TextView android:gravity="0x5" android:id="false" android:layout_width="-1" android:layout_height="-2" android:text="Other" style="resourceId:0x7f120302" />
+										</LinearLayout>
+									</LinearLayout>
+									<LinearLayout android:gravity="0x13" android:orientation="1" android:layout_width="0dp" android:layout_height="-2" android:layout_weight="{4:1065353216}">
+										<LinearLayout android:gravity="0x13" android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="3dp" android:layout_marginBottom="3dp">
+											<TextView android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="C10，作为接收卡使用，使用HUB-75-08" style="resourceId:0x7f1202fd" />
+										</LinearLayout>
+										<LinearLayout android:gravity="0x33" android:orientation="1" android:id="false" android:layout_width="-2" android:layout_height="-2">
+											<LinearLayout android:gravity="0x13" android:orientation="0" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="3dp" android:layout_marginBottom="3dp">
+												<ImageView android:layout_width="10dp" android:layout_height="10dp" android:src="res/drawable/model_selection_simple_color.xml" />
+												<TextView android:gravity="0x11" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="12dp" android:text="4 * 4 张模组" style="resourceId:0x7f1202fd" />
+											</LinearLayout>
+											<LinearLayout android:gravity="0x13" android:orientation="0" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="3dp" android:layout_marginBottom="3dp">
+												<ImageView android:layout_width="10dp" android:layout_height="10dp" android:src="res/drawable/model_selection_matrix_two.xml" />
+												<TextView android:gravity="0x11" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="12dp" android:text="4 * 4 张模组" style="resourceId:0x7f1202fd" />
+											</LinearLayout>
+											<LinearLayout android:gravity="0x13" android:orientation="0" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="3dp" android:layout_marginBottom="3dp">
+												<ImageView android:layout_width="10dp" android:layout_height="10dp" android:src="res/drawable/model_selection_matrix_three.xml" />
+												<TextView android:gravity="0x11" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="12dp" android:text="4 * 4 张模组" style="resourceId:0x7f1202fd" />
+											</LinearLayout>
+											<LinearLayout android:gravity="0x13" android:orientation="0" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="3dp" android:layout_marginBottom="3dp">
+												<ImageView android:layout_width="10dp" android:layout_height="10dp" android:src="res/drawable/model_selection_matrix_four.xml" />
+												<TextView android:gravity="0x11" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="12dp" android:text="4 * 4 张模组" style="resourceId:0x7f1202fd" />
+											</LinearLayout>
+										</LinearLayout>
+										<LinearLayout android:gravity="0x13" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="3dp" android:layout_marginBottom="3dp">
+											<TextView android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="R501 20张" style="resourceId:0x7f1202fd" />
+										</LinearLayout>
+										<LinearLayout android:gravity="0x33" android:orientation="1" android:layout_width="-2" android:layout_height="-2">
+											<LinearLayout android:gravity="0x13" android:orientation="0" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="3dp" android:layout_marginBottom="3dp">
+												<ImageView android:layout_width="10dp" android:layout_height="10dp" android:src="res/drawable/model_selection_simple_color.xml" />
+												<TextView android:gravity="0x11" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="12dp" android:text="4 * 4 张模组" style="resourceId:0x7f1202fd" />
+											</LinearLayout>
+											<LinearLayout android:gravity="0x13" android:orientation="0" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="3dp" android:layout_marginBottom="3dp">
+												<ImageView android:layout_width="10dp" android:layout_height="10dp" android:src="res/drawable/model_selection_matrix_two.xml" />
+												<TextView android:gravity="0x11" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="12dp" android:text="4 * 4 张模组" style="resourceId:0x7f1202fd" />
+											</LinearLayout>
+											<LinearLayout android:gravity="0x13" android:orientation="0" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="3dp" android:layout_marginBottom="3dp">
+												<ImageView android:layout_width="10dp" android:layout_height="10dp" android:src="res/drawable/model_selection_matrix_three.xml" />
+												<TextView android:gravity="0x11" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="12dp" android:text="4 * 4 张模组" style="resourceId:0x7f1202fd" />
+											</LinearLayout>
+											<LinearLayout android:gravity="0x13" android:orientation="0" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="3dp" android:layout_marginBottom="3dp">
+												<ImageView android:layout_width="10dp" android:layout_height="10dp" android:src="res/drawable/model_selection_matrix_four.xml" />
+												<TextView android:gravity="0x11" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="12dp" android:text="4 * 4 张模组" style="resourceId:0x7f1202fd" />
+											</LinearLayout>
+										</LinearLayout>
+										<LinearLayout android:gravity="0x13" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="3dp" android:layout_marginBottom="3dp">
+											<TextView android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="This scheme only for simple box" style="resourceId:0x7f1202fd" />
+										</LinearLayout>
+									</LinearLayout>
+								</LinearLayout>
+							</LinearLayout>
+						</LinearLayout>
+					</LinearLayout>
+					<TextView android:background="dddddd" android:layout_width="-1" android:layout_height="1px" />
+					<RelativeLayout android:orientation="0" android:id="false" android:background="f8f8f8" android:visibility="2" android:layout_width="-1" android:layout_height="50dp">
+						<TextView android:textSize="13sp" android:textColor="ff660" android:layout_gravity="0x10" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="38dp" android:text="Notice" android:layout_centerVertical="true" />
+						<TextView android:textSize="13sp" android:textColor="ff660" android:gravity="0x3" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="15dp" android:layout_marginRight="15dp" android:text="请使用HUB75E-5转接板" android:layout_toRightOf="false" android:layout_centerVertical="true" />
+						<TextView android:background="dddddd" android:layout_width="-1" android:layout_height="1px" android:layout_alignParentBottom="true" />
+					</RelativeLayout>
+				</LinearLayout>
+				<TextView android:gravity="0x11" android:id="false" android:visibility="2" android:layout_width="-1" android:layout_height="-1" android:text="Match fails" style="resourceId:0x7f120303" />
+			</LinearLayout>
+			<LinearLayout android:gravity="0x11" android:layout_width="-1" android:layout_height="60dp" android:layout_marginTop="20dp">
+				<TextView android:gravity="0x11" android:id="false" android:paddingLeft="20dp" android:paddingRight="20dp" android:layout_width="-2" android:layout_height="-1" android:text="Re-selection" style="resourceId:0x7f12030b" />
+			</LinearLayout>
+		</LinearLayout>
+	</ScrollView>
+</LinearLayout>

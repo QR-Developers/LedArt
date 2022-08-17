@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:custom="http://schemas.android.com/apk/res-auto" android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+	<RelativeLayout android:id="false" android:background="res/drawable-xhdpi-v4/header_bg.png" android:layout_width="-1" android:layout_height="75dp">
+		<FrameLayout android:id="false" android:focusable="true" android:clickable="true" android:layout_width="50dp" android:layout_height="50dp" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true">
+			<ImageView android:layout_gravity="0x11" android:background="res/drawable-xhdpi-v4/base_setting_left_angle.png" android:layout_width="24dp" android:layout_height="24dp" android:contentDescription="resourceId:0x0" />
+		</FrameLayout>
+		<TextView android:textSize="16sp" android:textColor="ffffff" android:ellipsize="4" android:gravity="0x11" android:id="false" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="200dp" android:layout_height="50dp" android:text="Wi-Fi" android:singleLine="true" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+	</RelativeLayout>
+	<FrameLayout android:layout_width="-1" android:layout_height="-1" android:layout_marginTop="75dp">
+		<LinearLayout android:orientation="1" android:id="false" android:layout_width="-1" android:layout_height="-1">
+			<FrameLayout android:layout_width="-1" android:layout_height="0dp" android:layout_weight="{4:1065353216}">
+				<ScrollView android:layout_width="-1" android:layout_height="-1" android:fillViewport="true">
+					<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2">
+						<TextView android:textSize="16sp" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="50dp" android:layout_marginTop="20dp" android:text="Name:" />
+						<EditText android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="50dp" android:layout_marginRight="50dp" android:singleLine="true" android:maxLength="31" android:inputType="0x1" />
+						<TextView android:textSize="16sp" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="50dp" android:layout_marginTop="10dp" android:text="Password:" />
+						<EditText android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="50dp" android:layout_marginRight="50dp" android:singleLine="true" android:inputType="0x91" />
+						<RelativeLayout android:layout_width="-1" android:layout_height="50dp">
+							<TextView android:textSize="18sp" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="50dp" android:text="IP Setting" android:layout_alignParentLeft="true" android:layout_centerInParent="true" />
+							<cn.huidu.view.CustomSwitch android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="50dp" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+						</RelativeLayout>
+						<LinearLayout android:orientation="1" android:id="false" android:visibility="2" android:layout_width="-1" android:layout_height="-2">
+							<TextView android:textSize="16sp" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="50dp" android:layout_marginTop="10dp" android:text="IP Address:" />
+							<EditText android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="50dp" android:layout_marginRight="50dp" android:singleLine="true" android:maxLength="16" android:digits="0123456789." android:inputType="0x2" />
+							<TextView android:textSize="16sp" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="50dp" android:layout_marginTop="10dp" android:text="Subnet mask:" />
+							<EditText android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="50dp" android:layout_marginRight="50dp" android:singleLine="true" android:maxLength="16" android:digits="0123456789." android:inputType="0x2" />
+						</LinearLayout>
+						<RelativeLayout android:layout_width="-1" android:layout_height="50dp">
+							<TextView android:textSize="18sp" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="50dp" android:text="Station mode" android:layout_alignParentLeft="true" android:layout_centerInParent="true" />
+							<cn.huidu.view.CustomSwitch android:id="false" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="50dp" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+						</RelativeLayout>
+						<LinearLayout android:orientation="1" android:id="false" android:visibility="2" android:layout_width="-1" android:layout_height="-2">
+							<TextView android:textSize="14sp" android:gravity="0x11" android:layout_gravity="0x11" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="Not connected" />
+							<TextView android:textSize="16sp" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="50dp" android:layout_marginTop="10dp" android:text="Name:" />
+							<FrameLayout android:layout_width="-1" android:layout_height="50dp" android:layout_marginLeft="50dp" android:layout_marginRight="50dp">
+								<EditText android:layout_gravity="0x11" android:id="false" android:paddingRight="60dp" android:layout_width="-1" android:layout_height="-2" android:maxLength="32" android:inputType="0x1" />
+								<FrameLayout android:layout_gravity="0x5" android:id="false" android:layout_width="50dp" android:layout_height="-1">
+									<ImageView android:layout_gravity="0x11" android:layout_width="16dp" android:layout_height="8dp" android:src="res/drawable-xxhdpi-v4/drop_down_icon.png" android:contentDescription="resourceId:0x0" />
+								</FrameLayout>
+							</FrameLayout>
+							<TextView android:textSize="16sp" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="50dp" android:layout_marginTop="10dp" android:text="Password:" />
+							<EditText android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="50dp" android:layout_marginRight="50dp" android:maxLength="32" android:inputType="0x1" />
+						</LinearLayout>
+					</LinearLayout>
+				</ScrollView>
+			</FrameLayout>
+			<ViewFlipper android:id="false" android:padding="20dp" android:layout_width="-1" android:layout_height="-2">
+				<cn.huidu.view.ButtonGroup android:id="false" android:layout_width="-1" android:layout_height="-2" custom:height="40dp" custom:ischangebackgroud="false" custom:names="Cancel,OK" custom:type="0" />
+			</ViewFlipper>
+		</LinearLayout>
+		<LinearLayout android:gravity="0x11" android:orientation="1" android:id="false" android:background="80ffffff" android:visibility="2" android:layout_width="-1" android:layout_height="-1">
+			<ProgressBar android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginBottom="10dp" android:indeterminateDrawable="res/drawable/progressbar.xml" />
+			<TextView android:textSize="18sp" android:textColor="c0000" android:id="false" android:paddingTop="15dp" android:layout_width="-2" android:layout_height="-2" android:text="Loading…" />
+		</LinearLayout>
+	</FrameLayout>
+	<FrameLayout android:id="false" android:background="0000" android:layout_width="-1" android:layout_height="-1" />
+</FrameLayout>

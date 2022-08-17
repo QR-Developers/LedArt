@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:background="f2f2f2" android:layout_width="-1" android:layout_height="-1" android:splitMotionEvents="false">
+	<LinearLayout android:gravity="0x10" android:id="false" android:background="res/drawable/bg_rectangle_only_bottom_ff_stroke_e4.xml" android:layout_width="-1" android:layout_height="45dp">
+		<TextView android:textSize="14sp" android:textColor="333333" android:layout_width="0dp" android:layout_height="-2" android:layout_marginLeft="15dp" android:text="Red" android:layout_weight="{4:1065353216}" />
+		<ImageView android:layout_width="16dp" android:layout_height="16dp" android:layout_marginRight="15dp" android:src="res/drawable-xxhdpi-v4/red_test.png" />
+	</LinearLayout>
+	<LinearLayout android:gravity="0x10" android:id="false" android:background="res/drawable/bg_rectangle_only_bottom_ff_stroke_e4.xml" android:layout_width="-1" android:layout_height="45dp">
+		<TextView android:textSize="14sp" android:textColor="333333" android:layout_width="0dp" android:layout_height="-2" android:layout_marginLeft="15dp" android:text="Green" android:layout_weight="{4:1065353216}" />
+		<ImageView android:layout_width="16dp" android:layout_height="16dp" android:layout_marginRight="15dp" android:src="res/drawable-xxhdpi-v4/green_test.png" />
+	</LinearLayout>
+	<LinearLayout android:gravity="0x10" android:id="false" android:background="res/drawable/bg_rectangle_only_bottom_ff_stroke_e4.xml" android:layout_width="-1" android:layout_height="45dp">
+		<TextView android:textSize="14sp" android:textColor="333333" android:layout_width="0dp" android:layout_height="-2" android:layout_marginLeft="15dp" android:text="Blue" android:layout_weight="{4:1065353216}" />
+		<ImageView android:layout_width="16dp" android:layout_height="16dp" android:layout_marginRight="15dp" android:src="res/drawable-xxhdpi-v4/blue_test.png" />
+	</LinearLayout>
+	<LinearLayout android:gravity="0x10" android:id="false" android:background="res/drawable/bg_rectangle_only_bottom_ff_stroke_e4.xml" android:layout_width="-1" android:layout_height="45dp">
+		<TextView android:textSize="14sp" android:textColor="333333" android:layout_width="0dp" android:layout_height="-2" android:layout_marginLeft="15dp" android:text="White" android:layout_weight="{4:1065353216}" />
+		<ImageView android:layout_width="16dp" android:layout_height="16dp" android:layout_marginRight="15dp" android:src="res/drawable-xxhdpi-v4/white_test.png" />
+	</LinearLayout>
+	<LinearLayout android:gravity="0x10" android:id="false" android:background="res/drawable/bg_rectangle_only_bottom_ff_stroke_e4.xml" android:layout_width="-1" android:layout_height="45dp">
+		<TextView android:textSize="14sp" android:textColor="333333" android:layout_width="0dp" android:layout_height="-2" android:layout_marginLeft="15dp" android:text="Horizontal line" android:layout_weight="{4:1065353216}" />
+		<ImageView android:layout_width="16dp" android:layout_height="16dp" android:layout_marginRight="15dp" android:src="res/drawable-xxhdpi-v4/horizontal_line_test.png" />
+	</LinearLayout>
+	<LinearLayout android:gravity="0x10" android:id="false" android:background="res/drawable/bg_rectangle_only_bottom_ff_stroke_e4.xml" android:layout_width="-1" android:layout_height="45dp">
+		<TextView android:textSize="14sp" android:textColor="333333" android:layout_width="0dp" android:layout_height="-2" android:layout_marginLeft="15dp" android:text="Vertical line" android:layout_weight="{4:1065353216}" />
+		<ImageView android:layout_width="16dp" android:layout_height="16dp" android:layout_marginRight="15dp" android:src="res/drawable-xxhdpi-v4/vertical_line_test.png" />
+	</LinearLayout>
+	<LinearLayout android:gravity="0x10" android:id="false" android:background="res/drawable/bg_rectangle_only_bottom_ff_stroke_e4.xml" android:layout_width="-1" android:layout_height="45dp">
+		<TextView android:textSize="14sp" android:textColor="333333" android:layout_width="0dp" android:layout_height="-2" android:layout_marginLeft="15dp" android:text="Slash" android:layout_weight="{4:1065353216}" />
+		<ImageView android:layout_width="16dp" android:layout_height="16dp" android:layout_marginRight="15dp" android:src="res/drawable-xxhdpi-v4/slash_test.png" />
+	</LinearLayout>
+	<LinearLayout android:gravity="0x10" android:id="false" android:background="res/drawable/bg_rectangle_only_bottom_ff_stroke_e4.xml" android:layout_width="-1" android:layout_height="45dp">
+		<TextView android:textSize="14sp" android:textColor="333333" android:layout_width="0dp" android:layout_height="-2" android:layout_marginLeft="15dp" android:text="Backslash" android:layout_weight="{4:1065353216}" />
+		<ImageView android:layout_width="16dp" android:layout_height="16dp" android:layout_marginRight="15dp" android:src="res/drawable-xxhdpi-v4/back_slash_test.png" />
+	</LinearLayout>
+	<View android:layout_width="-2" android:layout_height="0dp" android:layout_weight="{4:1065353216}" />
+	<Button android:textSize="14sp" android:textColor="ffffff" android:id="false" android:background="3399ff" android:layout_width="-1" android:layout_height="40dp" android:layout_marginLeft="40dp" android:layout_marginTop="20dp" android:layout_marginRight="40dp" android:text="Automatic switching" android:singleLine="true" android:textAllCaps="false" />
+	<Button android:textSize="14sp" android:textColor="333333" android:id="false" android:background="d7d7d7" android:layout_width="-1" android:layout_height="40dp" android:layout_marginLeft="40dp" android:layout_marginTop="20dp" android:layout_marginRight="40dp" android:layout_marginBottom="30dp" android:text="Exit the test" android:singleLine="true" android:textAllCaps="false" />
+</LinearLayout>

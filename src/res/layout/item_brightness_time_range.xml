@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="-1" android:layout_height="50dp">
+	<FrameLayout android:id="false" android:paddingRight="15dp" android:layout_width="-2" android:layout_height="-1" android:layout_alignParentLeft="true" android:layout_centerVertical="true">
+		<ImageView android:layout_gravity="0x10" android:id="false" android:layout_width="15dp" android:layout_height="15dp" />
+	</FrameLayout>
+	<LinearLayout android:gravity="0x10" android:orientation="0" android:paddingTop="15dp" android:paddingBottom="15dp" android:layout_width="-2" android:layout_height="-1" android:layout_toRightOf="false" android:layout_centerVertical="true">
+		<TextView android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="12:00:00" />
+		<View android:background="d7d7d7" android:layout_width="1px" android:layout_height="-1" android:layout_marginLeft="15dp" android:layout_marginRight="15dp" />
+		<TextView android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="50%" style="resourceId:0x7f1202df" />
+	</LinearLayout>
+	<cn.huidu.view.CustomSwitch android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+</RelativeLayout>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="0x31" android:orientation="1" android:paddingLeft="15dp" android:paddingRight="15dp" android:layout_width="-1" android:layout_height="-1">
+	<ScrollView android:layout_width="-1" android:layout_height="-2">
+		<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2">
+			<LinearLayout android:gravity="0x13" android:orientation="0" android:background="res/drawable/list_bottom_line.xml" android:layout_width="-1" android:layout_height="50dp">
+				<TextView android:textColor="333333" android:gravity="0x3" android:layout_width="0dp" android:layout_height="-2" android:text="Enable" android:layout_weight="{4:1056964608}" />
+				<cn.huidu.view.CustomSwitch android:id="false" android:layout_width="-2" android:layout_height="-2" />
+			</LinearLayout>
+			<LinearLayout android:orientation="1" android:id="false" android:layout_width="-1" android:layout_height="-2">
+				<LinearLayout android:gravity="0x13" android:orientation="0" android:id="false" android:background="res/drawable/list_bottom_line.xml" android:layout_width="-1" android:layout_height="50dp">
+					<TextView android:textColor="333333" android:gravity="0x3" android:layout_width="0dp" android:layout_height="-2" android:text="Type" android:layout_weight="{4:1056964608}" />
+					<ImageView android:gravity="0x5" android:id="false" android:paddingRight="10dp" android:layout_width="0dp" android:layout_height="-2" android:scaleType="1" android:layout_weight="{4:1045220557}" />
+					<ImageView android:gravity="0x5" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="10dp" android:scaleType="1" android:alpha="{4:1061997773}" />
+					<ImageView android:layout_width="-2" android:layout_height="-2" android:src="res/drawable-xhdpi-v4/angle_right.png" android:alpha="{4:1053609165}" />
+				</LinearLayout>
+				<LinearLayout android:orientation="1" android:background="res/drawable/list_bottom_line.xml" android:layout_width="-1" android:layout_height="150dp">
+					<LinearLayout android:orientation="1" android:id="false" android:visibility="0" android:layout_width="-1" android:layout_height="-2">
+						<LinearLayout android:gravity="0x13" android:orientation="0" android:id="false" android:background="res/drawable/list_bottom_line.xml" android:layout_width="-1" android:layout_height="50dp">
+							<TextView android:textColor="333333" android:gravity="0x3" android:layout_width="0dp" android:layout_height="-2" android:text="Effect" android:layout_weight="{4:1056964608}" />
+							<TextView android:textColor="999999" android:gravity="0x5" android:id="false" android:paddingRight="10dp" android:layout_width="0dp" android:layout_height="-2" android:text="顺时针旋转" android:layout_weight="{4:1056964608}" />
+							<ImageView android:layout_width="-2" android:layout_height="-2" android:src="res/drawable-xhdpi-v4/angle_right.png" android:alpha="{4:1053609165}" />
+						</LinearLayout>
+						<LinearLayout android:gravity="0x13" android:orientation="0" android:id="false" android:background="res/drawable/list_bottom_line.xml" android:layout_width="-1" android:layout_height="50dp">
+							<TextView android:textColor="333333" android:gravity="0x3" android:layout_width="-2" android:layout_height="-2" android:text="Speed" android:layout_weight="{4:1056964608}" />
+							<TextView android:textColor="999999" android:gravity="0x5" android:id="false" android:paddingRight="10dp" android:layout_width="0dp" android:layout_height="-2" android:text="0" android:layout_weight="{4:1056964608}" />
+						</LinearLayout>
+						<LinearLayout android:gravity="0x11" android:orientation="0" android:background="res/drawable/list_selector.xml" android:layout_width="-1" android:layout_height="50dp">
+							<SeekBar android:id="false" android:layout_width="-1" android:layout_height="-2" android:maxHeight="7dp" android:max="1000" android:progress="0" android:progressDrawable="res/drawable/seek_bar_blue.xml" android:minHeight="7dp" android:thumb="res/drawable/progress_bar_circle.xml" android:thumbOffset="0dp" />
+						</LinearLayout>
+					</LinearLayout>
+					<ImageView android:layout_gravity="0x11" android:id="false" android:layout_width="-2" android:layout_height="-2" android:src="res/drawable-xhdpi-v4/down_b.png" android:alpha="{4:1053609165}" />
+				</LinearLayout>
+			</LinearLayout>
+		</LinearLayout>
+	</ScrollView>
+</LinearLayout>

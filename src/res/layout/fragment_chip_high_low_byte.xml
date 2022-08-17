@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="0x10" android:orientation="0" android:layout_width="-1" android:layout_height="45dp">
+	<TextView android:textSize="14sp" android:textColor="333333" android:ellipsize="3" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="15dp" android:maxWidth="100dp" android:lines="1" />
+	<EditText android:textSize="15sp" android:textColor="333333" android:gravity="0x11" android:id="false" android:background="res/drawable/bg_round_3_rectangle_solid.xml" android:padding="5dp" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="40dp" android:layout_height="32dp" android:layout_marginLeft="12dp" android:maxLength="2" android:digits="1234567890abcdefABCDEF" android:inputType="0x1001" />
+	<TextView android:textSize="14sp" android:textColor="333333" android:ellipsize="3" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="15dp" android:maxWidth="100dp" android:lines="1" />
+	<EditText android:textSize="15sp" android:textColor="333333" android:gravity="0x11" android:id="false" android:background="res/drawable/bg_round_3_rectangle_solid.xml" android:padding="5dp" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="40dp" android:layout_height="32dp" android:layout_marginLeft="12dp" android:maxLength="2" android:digits="1234567890abcdefABCDEF" android:inputType="0x1001" />
+	<View android:layout_width="0dp" android:layout_height="-1" android:layout_weight="{4:1065353216}" />
+	<FrameLayout android:id="false" android:background="res/drawable/bg_rectangle_left_top_f8_stroke_d0.xml" android:layout_width="45dp" android:layout_height="-1" android:layout_marginLeft="11dp">
+		<ImageView android:layout_gravity="0x11" android:layout_width="24dp" android:layout_height="24dp" android:src="res/drawable-xxhdpi-v4/green_selected.png" android:scaleType="1" />
+	</FrameLayout>
+</LinearLayout>

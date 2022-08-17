@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:background="res/drawable/cloud_bg_rectangle_only_bottom_ff_stroke_e4.xml" android:paddingLeft="15dp" android:paddingRight="15dp" android:layout_width="-1" android:layout_height="-2">
+	<LinearLayout android:gravity="0x10" android:orientation="0" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="8dp">
+		<TextView android:textSize="13sp" android:textColor="333333" android:id="false" android:layout_width="-2" android:layout_height="-2" />
+		<TextView android:textSize="11sp" android:textColor="33cc0" android:id="false" android:background="res/drawable/cloud_bg_stroke_2_corner_33cc00.xml" android:padding="2dp" android:layout_width="-2" android:layout_height="-1" android:layout_marginLeft="10dp" />
+	</LinearLayout>
+	<LinearLayout android:orientation="0" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="5dp">
+		<TextView android:textSize="11sp" android:textColor="999999" android:ellipsize="3" android:id="false" android:padding="2dp" android:layout_width="-2" android:layout_height="-2" android:maxWidth="220dp" android:lines="1" />
+		<TextView android:textSize="11sp" android:textColor="999999" android:ellipsize="3" android:id="false" android:padding="2dp" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="10dp" android:lines="1" />
+	</LinearLayout>
+	<LinearLayout android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="5dp" android:layout_marginBottom="8dp">
+		<TextView android:textSize="11sp" android:textColor="999999" android:id="false" android:layout_width="-2" android:layout_height="-2" />
+		<TextView android:textSize="11sp" android:textColor="999999" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="10dp" />
+	</LinearLayout>
+</LinearLayout>

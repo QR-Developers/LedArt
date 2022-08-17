@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="false" android:layout_width="-1" android:layout_height="40dp">
+	<TextView android:textSize="14sp" android:textColor="333333" android:layout_gravity="0x13" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="20dp" />
+	<ImageView android:layout_gravity="0x15" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="20dp" android:contentDescription="resourceId:0x0" />
+	<View android:layout_gravity="0x50" android:id="false" android:background="res/drawable/bg_dashed_line_e4.xml" android:layout_width="-1" android:layout_height="1dp" android:layerType="1" />
+</FrameLayout>

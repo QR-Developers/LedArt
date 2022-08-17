@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:paddingLeft="15dp" android:paddingTop="20dp" android:layout_width="-1" android:layout_height="-1">
+	<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2">
+		<RelativeLayout android:id="false" android:layout_width="-1" android:layout_height="-2">
+			<FrameLayout android:id="false" android:layout_width="150dp" android:layout_height="150dp" android:layout_weight="{4:1065353216}">
+				<ImageView android:layout_gravity="0x11" android:id="false" android:layout_width="150dp" android:layout_height="-1" android:src="res/drawable-xxhdpi-v4/video_sample_gray.png" android:scaleType="6" />
+				<FrameLayout android:layout_gravity="0x11" android:layout_width="40dp" android:layout_height="40dp">
+					<ImageView android:layout_gravity="0x11" android:layout_width="-2" android:layout_height="-2" android:src="res/drawable-xhdpi-v4/play2.png" />
+				</FrameLayout>
+			</FrameLayout>
+			<LinearLayout android:orientation="1" android:paddingLeft="15dp" android:layout_width="-2" android:layout_height="-2" android:layout_toRightOf="false">
+				<TextView android:textSize="15sp" android:textColor="333333" android:layout_width="-2" android:layout_height="-2" android:text="Resolution" />
+				<TextView android:textSize="15sp" android:textColor="999999" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="5dp" android:text="--*-- " />
+				<TextView android:textSize="15sp" android:textColor="333333" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="15dp" android:text="Duration" />
+				<TextView android:textSize="15sp" android:textColor="999999" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="5dp" android:text="00:00:00" />
+				<TextView android:textColor="resourceId:0x106000b" android:gravity="0x11" android:layout_gravity="0x11" android:id="false" android:background="res/drawable-hdpi-v4/choose_button.png" android:clickable="true" android:layout_width="100dp" android:layout_height="30dp" android:layout_marginTop="20dp" android:text="Select" />
+			</LinearLayout>
+		</RelativeLayout>
+		<View android:background="res/drawable/list_bottom_line.xml" android:layout_width="-1" android:layout_height="1px" android:layout_marginTop="20dp" />
+		<LinearLayout android:gravity="0x13" android:orientation="0" android:id="false" android:background="res/drawable/list_bottom_line.xml" android:layout_width="-1" android:layout_height="50dp">
+			<ImageView android:layout_width="25dp" android:layout_height="25dp" android:src="res/drawable-xxhdpi-v4/video_aspect_radio_icon.png" />
+			<TextView android:textColor="333333" android:paddingLeft="15dp" android:layout_width="0dp" android:layout_height="-2" android:text="Keep aspect ratio" android:layout_weight="{4:1056964608}" />
+			<TextView android:textColor="999999" android:gravity="0x5" android:id="false" android:paddingRight="10dp" android:layout_width="0dp" android:layout_height="-2" android:layout_weight="{4:1056964608}" />
+			<cn.huidu.view.CustomSwitch android:id="false" android:layout_width="-2" android:layout_height="-2" />
+		</LinearLayout>
+	</LinearLayout>
+</LinearLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:custom="http://schemas.android.com/apk/res-auto" android:orientation="1" android:background="ffffff" android:layout_width="-1" android:layout_height="-1">
+	<FrameLayout android:background="3399ff" android:layout_width="-1" android:layout_height="45dp">
+		<TextView android:textSize="15sp" android:textColor="ffffff" android:layout_gravity="0x11" android:layout_width="-2" android:layout_height="-2" android:text="Filter" />
+	</FrameLayout>
+	<LinearLayout android:orientation="1" android:background="ffffff" android:layout_width="-1" android:layout_height="-1" android:layout_marginBottom="20dp">
+		<TextView android:textSize="15sp" android:textColor="333333" android:gravity="0x50" android:background="f2f2f2" android:paddingLeft="15dp" android:layout_width="-1" android:layout_height="30dp" android:layout_marginTop="10dp" android:text="Keyword" />
+		<EditText android:textSize="13sp" android:textColor="666666" android:id="false" android:background="res/drawable/bg_round_5_rectangle_ff_d7.xml" android:paddingLeft="5dp" android:layout_width="-1" android:layout_height="30dp" android:layout_marginLeft="25dp" android:layout_marginTop="30dp" android:layout_marginRight="25dp" android:layout_marginBottom="30dp" android:hint="Program name" />
+		<TextView android:textSize="15sp" android:textColor="333333" android:gravity="0x50" android:background="f2f2f2" android:paddingLeft="15dp" android:layout_width="-1" android:layout_height="30dp" android:text="Types" />
+		<androidx.recyclerview.widget.RecyclerView android:id="false" android:layout_width="-1" android:layout_height="0dp" android:layout_marginLeft="25dp" android:layout_marginTop="20dp" android:layout_weight="{4:1065353216}" />
+		<cn.huidu.view.ButtonGroup android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="20dp" android:layout_marginRight="20dp" custom:height="40dp" custom:ischangebackgroud="false" custom:names="Cancel,OK" custom:type="0" />
+	</LinearLayout>
+</LinearLayout>

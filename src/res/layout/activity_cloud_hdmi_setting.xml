@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:id="false" android:paddingLeft="20dp" android:paddingRight="20dp" android:layout_width="-1" android:layout_height="-1">
+	<RelativeLayout android:id="false" android:background="res/drawable/cloud_bg_rectangle_top_bottom_ff_stroke_e4.xml" android:layout_width="-1" android:layout_height="40dp" android:layout_marginTop="10dp">
+		<TextView android:textSize="14sp" android:textColor="666666" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="20dp" android:text="Mode" android:layout_centerVertical="true" />
+		<ImageView android:id="false" android:layout_width="12dp" android:layout_height="6dp" android:layout_marginRight="15dp" android:src="res/drawable-xxhdpi-v4/font_arrow.png" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:rotation="{4:1127481344}" />
+		<TextView android:textSize="14sp" android:textColor="333333" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="10dp" android:text="Sync priority mode" android:layout_toLeftOf="false" android:layout_centerVertical="true" />
+	</RelativeLayout>
+	<TextView android:textColor="333333" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="10dp" android:layout_marginBottom="10dp" android:text="The HDMI input picture quality is played by default. When the HDMI input is interrupted, it automatically switches to playing a pre-stored program." />
+	<androidx.recyclerview.widget.RecyclerView android:id="false" android:layout_width="-1" android:layout_height="-1" />
+</LinearLayout>

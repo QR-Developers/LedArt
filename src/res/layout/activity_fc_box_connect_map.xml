@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+	<FrameLayout android:background="res/drawable-xhdpi-v4/header_bg.png" android:fitsSystemWindows="true" android:layout_width="-1" android:layout_height="75dp">
+		<ImageView android:layout_gravity="0x10" android:id="false" android:padding="10dp" android:layout_width="44dp" android:layout_height="44dp" android:src="res/drawable-xhdpi-v4/base_setting_left_angle.png" />
+		<TextView android:textSize="15sp" android:textColor="ffffff" android:ellipsize="4" android:gravity="0x11" android:layout_gravity="0x10" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="70dp" android:layout_marginRight="70dp" android:text="Connection diagram" android:singleLine="true" />
+		<TextView android:textSize="12sp" android:textColor="ffffff" android:ellipsize="3" android:gravity="0x11" android:layout_gravity="0x15" android:id="false" android:background="res/drawable/bg_rectangle_corner_ffffff.xml" android:paddingLeft="8dp" android:paddingTop="2dp" android:paddingRight="8dp" android:paddingBottom="2dp" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="15dp" android:maxWidth="80dp" android:text="OK" android:lines="1" />
+	</FrameLayout>
+	<RelativeLayout android:layout_width="-1" android:layout_height="-1">
+		<androidx.recyclerview.widget.RecyclerView android:id="false" android:background="res/drawable/cloud_bg_rectangle_top_bottom_ff_stroke_e4.xml" android:padding="10dp" android:layout_width="-1" android:layout_height="-2" />
+		<cn.huidu.huiduapp.ledart.ui.fullcolor.hardware.FcBoxConnectMapView android:id="false" android:layout_width="-1" android:layout_height="-1" android:layout_below="false" />
+		<LinearLayout android:orientation="0" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="20dp" android:layout_marginBottom="20dp" android:layout_alignParentBottom="true">
+			<FrameLayout android:id="false" android:background="res/drawable/bg_rect_corner_80000000.xml" android:layout_width="36dp" android:layout_height="36dp">
+				<ImageView android:layout_gravity="0x11" android:id="false" android:layout_width="24dp" android:layout_height="24dp" android:src="res/drawable-xxhdpi-v4/line_mode_light.png" />
+			</FrameLayout>
+			<FrameLayout android:id="false" android:background="res/drawable/bg_rect_corner_80000000.xml" android:layout_width="36dp" android:layout_height="36dp" android:layout_marginLeft="8dp">
+				<ImageView android:layout_gravity="0x11" android:layout_width="24dp" android:layout_height="24dp" android:src="res/drawable-xxhdpi-v4/line_mode_clear.png" />
+			</FrameLayout>
+			<FrameLayout android:id="false" android:background="res/drawable/bg_rect_corner_80000000.xml" android:layout_width="36dp" android:layout_height="36dp" android:layout_marginLeft="8dp">
+				<ImageView android:layout_gravity="0x11" android:layout_width="24dp" android:layout_height="24dp" android:src="res/drawable-xxhdpi-v4/box_add.png" />
+			</FrameLayout>
+			<FrameLayout android:id="false" android:background="res/drawable/bg_rect_corner_80000000.xml" android:layout_width="36dp" android:layout_height="36dp" android:layout_marginLeft="8dp">
+				<ImageView android:layout_gravity="0x11" android:layout_width="24dp" android:layout_height="24dp" android:src="res/drawable-xxhdpi-v4/box_delete.png" />
+			</FrameLayout>
+		</LinearLayout>
+		<LinearLayout android:orientation="1" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="10dp" android:layout_marginBottom="20dp" android:layout_alignParentRight="true" android:layout_alignParentBottom="true">
+			<FrameLayout android:id="false" android:background="80000" android:layout_width="36dp" android:layout_height="36dp">
+				<ImageView android:layout_width="-1" android:layout_height="-1" android:src="res/drawable-xhdpi-v4/zoom_restore.png" />
+			</FrameLayout>
+			<FrameLayout android:id="false" android:background="80000" android:layout_width="36dp" android:layout_height="36dp" android:layout_marginTop="3dp">
+				<ImageView android:layout_width="-1" android:layout_height="-1" android:src="res/drawable-xhdpi-v4/zoom_add.png" />
+			</FrameLayout>
+			<FrameLayout android:id="false" android:background="80000" android:layout_width="36dp" android:layout_height="36dp" android:layout_marginTop="3dp">
+				<ImageView android:layout_width="-1" android:layout_height="-1" android:src="res/drawable-xhdpi-v4/zoom_subtract.png" />
+			</FrameLayout>
+		</LinearLayout>
+	</RelativeLayout>
+</LinearLayout>

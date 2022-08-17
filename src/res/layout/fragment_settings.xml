@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:id="false" android:background="f8f8f8" android:layout_width="-1" android:layout_height="-1">
+	<FrameLayout android:background="res/drawable-xhdpi-v4/header_bg.png" android:paddingTop="20dp" android:layout_width="-1" android:layout_height="70dp">
+		<TextView android:textSize="15sp" android:textColor="ffffff" android:layout_gravity="0x11" android:layout_width="-2" android:layout_height="-2" android:text="Settings" />
+	</FrameLayout>
+	<androidx.core.widget.NestedScrollView android:layout_width="-1" android:layout_height="-1" android:fillViewport="true">
+		<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2">
+			<RelativeLayout android:id="false" android:background="ffffff" android:layout_width="-1" android:layout_height="45dp">
+				<View android:background="e8e8e8" android:layout_width="-1" android:layout_height="1px" />
+				<ImageView android:id="false" android:layout_width="20dp" android:layout_height="20dp" android:layout_marginLeft="15dp" android:layout_marginRight="15dp" android:src="res/drawable-xxhdpi-v4/settings_language.png" android:layout_centerVertical="true" android:contentDescription="resourceId:0x0" />
+				<TextView android:textSize="15sp" android:textColor="333333" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="Language" android:layout_toRightOf="false" android:layout_centerVertical="true" />
+				<ImageView android:layout_width="10dp" android:layout_height="18dp" android:layout_marginRight="15dp" android:src="res/drawable-xxhdpi-v4/angle_right_black.png" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:contentDescription="resourceId:0x0" android:alpha="{4:1058642330}" />
+				<View android:background="e8e8e8" android:layout_width="-1" android:layout_height="1px" android:layout_alignParentBottom="true" />
+			</RelativeLayout>
+			<RelativeLayout android:id="false" android:background="ffffff" android:layout_width="-1" android:layout_height="45dp" android:layout_marginTop="10dp">
+				<ImageView android:id="false" android:layout_width="20dp" android:layout_height="20dp" android:layout_marginLeft="15dp" android:layout_marginRight="15dp" android:src="res/drawable-xxhdpi-v4/settings_firmware.png" android:layout_centerVertical="true" android:contentDescription="resourceId:0x0" />
+				<TextView android:textSize="15sp" android:textColor="333333" android:layout_width="-2" android:layout_height="-2" android:text="Firmware management" android:layout_toRightOf="false" android:layout_centerVertical="true" />
+				<ImageView android:layout_width="10dp" android:layout_height="18dp" android:layout_marginRight="15dp" android:src="res/drawable-xxhdpi-v4/angle_right_black.png" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:contentDescription="resourceId:0x0" android:alpha="{4:1058642330}" />
+				<View android:background="e8e8e8" android:layout_width="-1" android:layout_height="1px" android:layout_alignParentBottom="true" />
+			</RelativeLayout>
+			<RelativeLayout android:id="false" android:background="ffffff" android:visibility="2" android:layout_width="-1" android:layout_height="45dp">
+				<ImageView android:id="false" android:layout_width="20dp" android:layout_height="20dp" android:layout_marginLeft="15dp" android:layout_marginRight="15dp" android:src="res/drawable-xxhdpi-v4/hardware_params.png" android:layout_centerVertical="true" android:contentDescription="resourceId:0x0" />
+				<TextView android:textSize="15sp" android:textColor="333333" android:layout_width="-2" android:layout_height="-2" android:text="Hardware parameter management" android:layout_toRightOf="false" android:layout_centerVertical="true" />
+				<ImageView android:layout_width="10dp" android:layout_height="18dp" android:layout_marginRight="15dp" android:src="res/drawable-xxhdpi-v4/angle_right_black.png" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:contentDescription="resourceId:0x0" android:alpha="{4:1058642330}" />
+				<View android:background="e8e8e8" android:layout_width="-1" android:layout_height="1px" android:layout_alignParentBottom="true" />
+			</RelativeLayout>
+			<RelativeLayout android:id="false" android:background="ffffff" android:layout_width="-1" android:layout_height="45dp">
+				<ImageView android:id="false" android:layout_width="20dp" android:layout_height="20dp" android:layout_marginLeft="15dp" android:layout_marginRight="15dp" android:src="res/drawable-xxhdpi-v4/settings_resource.png" android:layout_centerVertical="true" android:contentDescription="resourceId:0x0" />
+				<TextView android:textSize="15sp" android:textColor="333333" android:layout_width="-2" android:layout_height="-2" android:text="Download management" android:layout_toRightOf="false" android:layout_centerVertical="true" />
+				<ImageView android:layout_width="10dp" android:layout_height="18dp" android:layout_marginRight="15dp" android:src="res/drawable-xxhdpi-v4/angle_right_black.png" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:contentDescription="resourceId:0x0" android:alpha="{4:1058642330}" />
+				<View android:background="e8e8e8" android:layout_width="-1" android:layout_height="1px" android:layout_alignParentBottom="true" />
+			</RelativeLayout>
+			<RelativeLayout android:id="false" android:background="ffffff" android:visibility="2" android:layout_width="-1" android:layout_height="45dp">
+				<ImageView android:id="false" android:padding="2dp" android:layout_width="24dp" android:layout_height="24dp" android:layout_marginLeft="15dp" android:layout_marginRight="15dp" android:src="res/drawable-xxhdpi-v4/user_center_feedback_center.png" android:layout_centerVertical="true" android:contentDescription="resourceId:0x0" />
+				<TextView android:textSize="15sp" android:textColor="333333" android:layout_width="-2" android:layout_height="-2" android:text="Feedback" android:layout_toRightOf="false" android:layout_centerVertical="true" />
+				<ImageView android:layout_width="10dp" android:layout_height="18dp" android:layout_marginRight="15dp" android:src="res/drawable-xxhdpi-v4/angle_right_black.png" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:contentDescription="resourceId:0x0" />
+				<View android:background="e8e8e8" android:layout_width="-1" android:layout_height="1px" android:layout_alignParentBottom="true" />
+			</RelativeLayout>
+			<RelativeLayout android:id="false" android:background="ffffff" android:layout_width="-1" android:layout_height="45dp" android:layout_marginTop="10dp">
+				<ImageView android:id="false" android:layout_width="20dp" android:layout_height="20dp" android:layout_marginLeft="15dp" android:layout_marginRight="15dp" android:src="res/drawable-xxhdpi-v4/settings_model_tool.png" android:layout_centerVertical="true" android:contentDescription="resourceId:0x0" />
+				<TextView android:textSize="15sp" android:textColor="333333" android:layout_width="-2" android:layout_height="-2" android:text="Selection tool" android:layout_toRightOf="false" android:layout_centerVertical="true" />
+				<ImageView android:layout_width="10dp" android:layout_height="18dp" android:layout_marginRight="15dp" android:src="res/drawable-xxhdpi-v4/angle_right_black.png" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:contentDescription="resourceId:0x0" android:alpha="{4:1058642330}" />
+				<View android:background="e8e8e8" android:layout_width="-1" android:layout_height="1px" android:layout_alignParentBottom="true" />
+			</RelativeLayout>
+			<RelativeLayout android:id="false" android:background="ffffff" android:layout_width="-1" android:layout_height="45dp">
+				<ImageView android:id="false" android:layout_width="20dp" android:layout_height="20dp" android:layout_marginLeft="15dp" android:layout_marginRight="15dp" android:src="res/drawable/icon_wifi_pwd.png" android:layout_centerVertical="true" android:contentDescription="resourceId:0x0" />
+				<TextView android:textSize="15sp" android:textColor="333333" android:gravity="0x3" android:layout_width="-2" android:layout_height="-2" android:text="Wi-Fi password" android:layout_toRightOf="false" android:layout_centerVertical="true" />
+				<ImageView android:layout_width="10dp" android:layout_height="18dp" android:layout_marginRight="15dp" android:src="res/drawable-xxhdpi-v4/angle_right_black.png" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:contentDescription="resourceId:0x0" android:alpha="{4:1058642330}" />
+				<View android:background="e8e8e8" android:layout_width="-1" android:layout_height="1px" android:layout_alignParentBottom="true" />
+			</RelativeLayout>
+			<RelativeLayout android:id="false" android:background="ffffff" android:layout_width="-1" android:layout_height="45dp">
+				<ImageView android:id="false" android:layout_width="20dp" android:layout_height="20dp" android:layout_marginLeft="15dp" android:layout_marginRight="15dp" android:src="res/drawable-xxhdpi-v4/icon_wifi.png" android:layout_centerVertical="true" android:contentDescription="resourceId:0x0" />
+				<TextView android:textSize="15sp" android:textColor="333333" android:gravity="0x3" android:layout_width="-2" android:layout_height="-2" android:text="Connect Wi-Fi in system settings" android:layout_toLeftOf="false" android:layout_toRightOf="false" android:layout_centerVertical="true" />
+				<cn.huidu.view.CustomSwitch android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="15dp" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+				<View android:background="e8e8e8" android:layout_width="-1" android:layout_height="1px" android:layout_alignParentBottom="true" />
+			</RelativeLayout>
+			<RelativeLayout android:id="false" android:background="ffffff" android:layout_width="-1" android:layout_height="45dp">
+				<ImageView android:id="false" android:layout_width="20dp" android:layout_height="20dp" android:layout_marginLeft="15dp" android:layout_marginRight="15dp" android:src="res/drawable-xxhdpi-v4/program_deactive.png" android:layout_centerVertical="true" android:contentDescription="resourceId:0x0" />
+				<TextView android:textSize="15sp" android:textColor="333333" android:gravity="0x3" android:layout_width="-2" android:layout_height="-2" android:text="Program read back" android:layout_toLeftOf="false" android:layout_toRightOf="false" android:layout_centerVertical="true" />
+				<cn.huidu.view.CustomSwitch android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="15dp" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+				<View android:background="e8e8e8" android:layout_width="-1" android:layout_height="1px" android:layout_alignParentBottom="true" />
+			</RelativeLayout>
+			<RelativeLayout android:id="false" android:background="ffffff" android:layout_width="-1" android:layout_height="45dp" android:layout_marginTop="10dp">
+				<View android:background="e8e8e8" android:layout_width="-1" android:layout_height="1px" />
+				<ImageView android:id="false" android:layout_width="20dp" android:layout_height="20dp" android:layout_marginLeft="15dp" android:layout_marginRight="15dp" android:src="res/drawable-xxhdpi-v4/setting_share.png" android:layout_centerVertical="true" android:contentDescription="resourceId:0x0" />
+				<TextView android:textSize="15sp" android:textColor="333333" android:gravity="0x3" android:layout_width="-2" android:layout_height="-2" android:text="Share app" android:layout_toLeftOf="false" android:layout_toRightOf="false" android:layout_centerVertical="true" />
+				<ImageView android:id="false" android:layout_width="10dp" android:layout_height="18dp" android:layout_marginRight="15dp" android:src="res/drawable-xxhdpi-v4/angle_right_black.png" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:contentDescription="resourceId:0x0" android:alpha="{4:1058642330}" />
+				<View android:background="e8e8e8" android:layout_width="-1" android:layout_height="1px" android:layout_alignParentBottom="true" />
+			</RelativeLayout>
+			<RelativeLayout android:id="false" android:background="ffffff" android:layout_width="-1" android:layout_height="45dp">
+				<ImageView android:id="false" android:layout_width="20dp" android:layout_height="20dp" android:layout_marginLeft="15dp" android:layout_marginRight="15dp" android:src="res/drawable-xxhdpi-v4/settings_help.png" android:layout_centerVertical="true" android:contentDescription="resourceId:0x0" />
+				<TextView android:textSize="15sp" android:textColor="333333" android:gravity="0x3" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="Help" android:layout_toRightOf="false" android:layout_centerVertical="true" />
+				<ImageView android:id="false" android:layout_width="8dp" android:layout_height="8dp" android:layout_marginLeft="5dp" android:src="res/drawable/notice_dot.xml" android:layout_toRightOf="false" android:layout_alignTop="false" />
+				<ImageView android:id="false" android:layout_width="10dp" android:layout_height="18dp" android:layout_marginRight="15dp" android:src="res/drawable-xxhdpi-v4/angle_right_black.png" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:contentDescription="resourceId:0x0" android:alpha="{4:1058642330}" />
+				<View android:background="e8e8e8" android:layout_width="-1" android:layout_height="1px" android:layout_alignParentBottom="true" />
+			</RelativeLayout>
+			<RelativeLayout android:id="false" android:background="ffffff" android:layout_width="-1" android:layout_height="45dp">
+				<ImageView android:id="false" android:layout_width="20dp" android:layout_height="20dp" android:layout_marginLeft="15dp" android:layout_marginRight="15dp" android:src="res/drawable-xxhdpi-v4/settings_version.png" android:layout_centerVertical="true" android:contentDescription="resourceId:0x0" />
+				<TextView android:textSize="15sp" android:textColor="333333" android:gravity="0x3" android:layout_width="-2" android:layout_height="-2" android:text="About us" android:layout_toLeftOf="false" android:layout_toRightOf="false" android:layout_centerVertical="true" />
+				<ImageView android:id="false" android:layout_width="10dp" android:layout_height="18dp" android:layout_marginRight="15dp" android:src="res/drawable-xxhdpi-v4/angle_right_black.png" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:contentDescription="resourceId:0x0" android:alpha="{4:1058642330}" />
+				<View android:background="e8e8e8" android:layout_width="-1" android:layout_height="1px" android:layout_alignParentBottom="true" />
+			</RelativeLayout>
+			<RelativeLayout android:id="false" android:background="ffffff" android:layout_width="-1" android:layout_height="45dp">
+				<ImageView android:id="false" android:layout_width="20dp" android:layout_height="20dp" android:layout_marginLeft="15dp" android:layout_marginRight="15dp" android:src="res/drawable-xxhdpi-v4/icon_cloud.png" android:layout_centerVertical="true" android:contentDescription="resourceId:0x0" />
+				<TextView android:textSize="15sp" android:textColor="333333" android:layout_width="-2" android:layout_height="-2" android:text="Cloud platform" android:layout_toRightOf="false" android:layout_centerVertical="true" />
+				<ImageView android:layout_width="10dp" android:layout_height="18dp" android:layout_marginRight="15dp" android:src="res/drawable-xxhdpi-v4/angle_right_black.png" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:contentDescription="resourceId:0x0" android:alpha="{4:1058642330}" />
+				<View android:background="e8e8e8" android:layout_width="-1" android:layout_height="1px" android:layout_alignParentBottom="true" />
+			</RelativeLayout>
+			<RelativeLayout android:id="false" android:background="ffffff" android:visibility="0" android:layout_width="-1" android:layout_height="45dp">
+				<ImageView android:id="false" android:layout_width="20dp" android:layout_height="20dp" android:layout_marginLeft="15dp" android:layout_marginRight="15dp" android:src="res/drawable-xxhdpi-v4/video_processor.png" android:layout_centerVertical="true" android:contentDescription="resourceId:0x0" />
+				<TextView android:textSize="15sp" android:textColor="333333" android:layout_width="-2" android:layout_height="-2" android:text="Display products" android:layout_toRightOf="false" android:layout_centerVertical="true" />
+				<ImageView android:layout_width="10dp" android:layout_height="18dp" android:layout_marginRight="15dp" android:src="res/drawable-xxhdpi-v4/angle_right_black.png" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:contentDescription="resourceId:0x0" android:alpha="{4:1058642330}" />
+				<View android:background="e8e8e8" android:layout_width="-1" android:layout_height="1px" android:layout_alignParentBottom="true" />
+			</RelativeLayout>
+			<RelativeLayout android:id="false" android:background="ffffff" android:layout_width="-1" android:layout_height="45dp" android:layout_marginTop="10dp">
+				<ImageView android:id="false" android:layout_width="20dp" android:layout_height="20dp" android:layout_marginLeft="15dp" android:layout_marginRight="15dp" android:src="res/drawable-xxhdpi-v4/settings_clear_cache.png" android:layout_centerVertical="true" android:contentDescription="resourceId:0x0" />
+				<TextView android:textSize="15sp" android:textColor="333333" android:layout_width="-2" android:layout_height="-2" android:text="Clear cache" android:layout_toRightOf="false" android:layout_centerVertical="true" />
+				<TextView android:textSize="15sp" android:textColor="ff00" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="15dp" android:text="0 B" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+				<View android:background="e8e8e8" android:layout_width="-1" android:layout_height="1px" android:layout_alignParentBottom="true" />
+			</RelativeLayout>
+			<RelativeLayout android:id="false" android:background="ffffff" android:layout_width="-1" android:layout_height="45dp" android:layout_marginTop="10dp">
+				<View android:background="e8e8e8" android:layout_width="-1" android:layout_height="1px" />
+				<ImageView android:id="false" android:layout_width="20dp" android:layout_height="20dp" android:layout_marginLeft="15dp" android:layout_marginRight="15dp" android:src="res/drawable-xxhdpi-v4/account_img.png" android:layout_centerVertical="true" android:contentDescription="resourceId:0x0" />
+				<TextView android:textSize="15sp" android:textColor="333333" android:layout_width="-2" android:layout_height="-2" android:text="Account" android:layout_toRightOf="false" android:layout_centerVertical="true" />
+				<ImageView android:layout_width="10dp" android:layout_height="18dp" android:layout_marginRight="15dp" android:src="res/drawable-xxhdpi-v4/angle_right_black.png" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:contentDescription="resourceId:0x0" android:alpha="{4:1058642330}" />
+				<View android:background="e8e8e8" android:layout_width="-1" android:layout_height="1px" android:layout_alignParentBottom="true" />
+			</RelativeLayout>
+		</LinearLayout>
+	</androidx.core.widget.NestedScrollView>
+</LinearLayout>

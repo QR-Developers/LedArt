@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="-1" android:layout_height="-1">
+	<ImageView android:id="false" android:layout_width="-1" android:layout_height="-1" android:scaleType="6" />
+	<FrameLayout android:layout_width="18dp" android:layout_height="18dp" android:layout_marginLeft="3dp" android:layout_marginTop="3dp">
+		<ImageView android:id="false" android:visibility="2" android:layout_width="-1" android:layout_height="-1" android:src="res/drawable/animated_uploading_cloud.xml" />
+		<ImageView android:id="false" android:visibility="2" android:layout_width="-1" android:layout_height="-1" android:src="res/drawable-xhdpi-v4/cloud_ok.png" />
+	</FrameLayout>
+	<ImageView android:id="false" android:paddingLeft="9dp" android:paddingTop="3dp" android:paddingRight="3dp" android:paddingBottom="9dp" android:layout_width="30dp" android:layout_height="30dp" android:src="res/drawable-xhdpi-v4/uncheck.png" android:layout_alignParentRight="true" />
+	<ProgressBar android:id="false" android:visibility="2" android:layout_width="-1" android:layout_height="2dp" android:max="100" android:indeterminateOnly="false" android:progressDrawable="res/drawable/file_upload_progress_drawable.xml" android:layout_alignParentBottom="true" />
+	<ImageView android:id="false" android:visibility="2" android:layout_width="25dp" android:layout_height="25dp" android:src="res/drawable-xhdpi-v4/play2.png" android:layout_centerInParent="true" />
+</RelativeLayout>

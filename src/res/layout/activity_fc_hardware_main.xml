@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="f2f2f2" android:layout_width="-1" android:layout_height="-1">
+	<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+		<FrameLayout android:background="res/drawable-xhdpi-v4/header_bg.png" android:fitsSystemWindows="true" android:layout_width="-1" android:layout_height="75dp">
+			<ImageView android:layout_gravity="0x10" android:id="false" android:padding="10dp" android:layout_width="44dp" android:layout_height="44dp" android:src="res/drawable-xhdpi-v4/base_setting_left_angle.png" />
+			<TextView android:textSize="15sp" android:textColor="ffffff" android:ellipsize="4" android:gravity="0x11" android:layout_gravity="0x10" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="70dp" android:layout_marginRight="70dp" android:text="Hardware" android:singleLine="true" />
+			<TextView android:textSize="12sp" android:textColor="ffffff" android:ellipsize="3" android:gravity="0x11" android:layout_gravity="0x15" android:id="false" android:background="res/drawable/bg_rectangle_corner_ffffff.xml" android:paddingLeft="8dp" android:paddingTop="2dp" android:paddingRight="8dp" android:paddingBottom="2dp" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="15dp" android:maxWidth="80dp" android:text="Sync" android:lines="1" />
+		</FrameLayout>
+		<LinearLayout android:orientation="0" android:id="false" android:background="res/drawable/bg_rectangle_only_bottom_ff_stroke_e4.xml" android:layout_width="-1" android:layout_height="40dp">
+			<TextView android:textSize="14sp" android:textColor="333333" android:layout_gravity="0x11" android:layout_width="0dp" android:layout_height="-2" android:layout_marginLeft="15dp" android:layout_marginRight="15dp" android:text="Sending card parameters" android:lines="1" android:layout_weight="{4:1065353216}" />
+			<ImageView android:layout_gravity="0x11" android:layout_width="16dp" android:layout_height="16dp" android:layout_marginRight="15dp" android:src="res/drawable-xhdpi-v4/angle_right.png" android:alpha="{4:1058642330}" />
+		</LinearLayout>
+		<LinearLayout android:orientation="0" android:id="false" android:background="res/drawable/bg_rectangle_only_bottom_ff_stroke_e4.xml" android:layout_width="-1" android:layout_height="40dp">
+			<TextView android:textSize="14sp" android:textColor="333333" android:layout_gravity="0x11" android:layout_width="0dp" android:layout_height="-2" android:layout_marginLeft="15dp" android:layout_marginRight="15dp" android:text="Connection settings" android:lines="1" android:layout_weight="{4:1065353216}" />
+			<ImageView android:layout_gravity="0x11" android:layout_width="16dp" android:layout_height="16dp" android:layout_marginRight="15dp" android:src="res/drawable-xhdpi-v4/angle_right.png" android:alpha="{4:1058642330}" />
+		</LinearLayout>
+		<LinearLayout android:orientation="0" android:id="false" android:background="res/drawable/bg_rectangle_only_bottom_ff_stroke_e4.xml" android:layout_width="-1" android:layout_height="40dp">
+			<TextView android:textSize="14sp" android:textColor="333333" android:layout_gravity="0x11" android:layout_width="0dp" android:layout_height="-2" android:layout_marginLeft="15dp" android:layout_marginRight="15dp" android:text="Receiving card parameters" android:lines="1" android:layout_weight="{4:1065353216}" />
+			<ImageView android:layout_gravity="0x11" android:layout_width="16dp" android:layout_height="16dp" android:layout_marginRight="15dp" android:src="res/drawable-xhdpi-v4/angle_right.png" android:alpha="{4:1058642330}" />
+		</LinearLayout>
+	</LinearLayout>
+	<LinearLayout android:gravity="0x11" android:orientation="1" android:id="false" android:background="b3000" android:visibility="2" android:layout_width="-1" android:layout_height="-1">
+		<ProgressBar android:layout_width="-2" android:layout_height="-2" android:layout_marginBottom="10dp" android:indeterminateDrawable="res/drawable/progressbar.xml" />
+		<TextView android:textSize="18sp" android:textColor="ffffff" android:id="false" android:paddingTop="15dp" android:layout_width="-2" android:layout_height="-2" android:text="Loading…" />
+	</LinearLayout>
+	<FrameLayout android:id="false" android:background="0000" android:layout_width="-1" android:layout_height="-1" />
+</FrameLayout>

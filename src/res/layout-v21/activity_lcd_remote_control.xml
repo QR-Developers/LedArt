@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:background="ffffff" android:layout_width="-1" android:layout_height="-1">
+	<FrameLayout android:background="res/drawable-xhdpi-v4/header_bg.png" android:fitsSystemWindows="true" android:layout_width="-1" android:layout_height="75dp">
+		<ImageView android:layout_gravity="0x10" android:id="false" android:padding="10dp" android:layout_width="44dp" android:layout_height="44dp" android:src="res/drawable-xhdpi-v4/base_setting_left_angle.png" android:contentDescription="resourceId:0x0" />
+		<TextView android:textSize="14sp" android:textColor="ffffff" android:ellipsize="4" android:gravity="0x11" android:layout_gravity="0x10" android:id="false" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="70dp" android:layout_marginRight="70dp" android:text="A603-18-0010" android:singleLine="true" />
+	</FrameLayout>
+	<View android:background="797979" android:layout_width="-1" android:layout_height="1px" />
+	<FrameLayout android:orientation="0" android:layout_width="-1" android:layout_height="-2" android:layout_margin="10dp">
+		<LinearLayout android:gravity="0x11" android:layout_gravity="0x800003" android:id="false" android:background="res/drawable/remote_selector.xml" android:focusable="true" android:clickable="true" android:layout_width="68dp" android:layout_height="68dp">
+			<ImageView android:layout_width="28dp" android:layout_height="28dp" android:src="resourceId:0x7f080284" />
+		</LinearLayout>
+		<LinearLayout android:gravity="0x11" android:layout_gravity="0x800005" android:id="false" android:background="res/drawable/remote_selector.xml" android:focusable="true" android:clickable="true" android:layout_width="68dp" android:layout_height="68dp">
+			<ImageView android:layout_width="28dp" android:layout_height="28dp" android:src="resourceId:0x7f08027d" />
+		</LinearLayout>
+	</FrameLayout>
+	<RelativeLayout android:layout_gravity="0x1" android:background="res/drawable/lcd_remote_selector.xml" android:layout_width="160dp" android:layout_height="160dp" android:layout_marginTop="20dp" android:transformPivotX="1dp" android:transformPivotY="1dp" android:elevation="2dp">
+		<LinearLayout android:gravity="0x11" android:id="false" android:background="res/drawable/lcd_remote_selector.xml" android:layout_width="60dp" android:layout_height="60dp" android:layout_centerInParent="true" android:transformPivotX="1dp" android:transformPivotY="1dp" android:elevation="2dp">
+			<TextView android:textSize="13sp" android:textColor="333333" android:layout_width="-2" android:layout_height="-2" android:text="OK" />
+		</LinearLayout>
+		<cn.huidu.view.RepeatClickLayout android:gravity="0x11" android:id="false" android:background="res/drawable/remote_selector.xml" android:focusable="true" android:clickable="true" android:layout_width="45dp" android:layout_height="45dp" android:layout_marginLeft="1dp" android:layout_centerVertical="true">
+			<ImageView android:layout_gravity="0x11" android:layout_width="24dp" android:layout_height="24dp" android:src="resourceId:0x7f08027a" android:rotation="{4:1132920832}" />
+		</cn.huidu.view.RepeatClickLayout>
+		<cn.huidu.view.RepeatClickLayout android:gravity="0x11" android:id="false" android:background="res/drawable/remote_selector.xml" android:focusable="true" android:clickable="true" android:layout_width="45dp" android:layout_height="45dp" android:layout_marginRight="1dp" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+			<ImageView android:layout_gravity="0x11" android:layout_width="24dp" android:layout_height="24dp" android:src="resourceId:0x7f08027a" android:rotation="{4:1119092736}" />
+		</cn.huidu.view.RepeatClickLayout>
+		<cn.huidu.view.RepeatClickLayout android:gravity="0x11" android:id="false" android:background="res/drawable/remote_selector.xml" android:focusable="true" android:clickable="true" android:layout_width="45dp" android:layout_height="45dp" android:layout_marginTop="1dp" android:layout_centerHorizontal="true">
+			<ImageView android:layout_gravity="0x11" android:layout_width="24dp" android:layout_height="24dp" android:src="resourceId:0x7f08027a" />
+		</cn.huidu.view.RepeatClickLayout>
+		<cn.huidu.view.RepeatClickLayout android:gravity="0x11" android:id="false" android:background="res/drawable/remote_selector.xml" android:focusable="true" android:clickable="true" android:layout_width="45dp" android:layout_height="45dp" android:layout_marginBottom="1dp" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true">
+			<ImageView android:layout_gravity="0x11" android:layout_width="24dp" android:layout_height="24dp" android:src="resourceId:0x7f08027a" android:rotation="{4:1127481344}" />
+		</cn.huidu.view.RepeatClickLayout>
+	</RelativeLayout>
+	<View android:background="res/drawable/shape_stroke_bottom_e4e4e4.xml" android:layout_width="-1" android:layout_height="0dp" android:layout_weight="{4:1065353216}" />
+	<LinearLayout android:orientation="1" android:layout_width="-2" android:layout_height="300dp">
+		<LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="100dp">
+			<LinearLayout android:gravity="0x11" android:layout_width="0dp" android:layout_height="-1" android:layout_weight="{4:1065353216}">
+				<ImageView android:id="false" android:background="res/drawable/remote_selector.xml" android:padding="20dp" android:focusable="true" android:clickable="true" android:layout_width="68dp" android:layout_height="68dp" android:src="resourceId:0x7f080281" />
+			</LinearLayout>
+			<View android:background="f2f2f2" android:layout_width="1px" android:layout_height="-1" />
+			<LinearLayout android:layout_width="0dp" android:layout_height="-1" android:layout_weight="{4:1065353216}" />
+			<View android:background="f2f2f2" android:layout_width="1px" android:layout_height="-1" />
+			<LinearLayout android:gravity="0x11" android:layout_width="0dp" android:layout_height="-1" android:layout_weight="{4:1065353216}">
+				<ImageView android:id="false" android:background="res/drawable/remote_selector.xml" android:padding="20dp" android:focusable="true" android:clickable="true" android:layout_width="68dp" android:layout_height="68dp" android:src="resourceId:0x7f080282" />
+			</LinearLayout>
+		</LinearLayout>
+		<View android:background="f2f2f2" android:layout_width="-1" android:layout_height="1px" />
+		<LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="100dp">
+			<LinearLayout android:gravity="0x11" android:layout_width="0dp" android:layout_height="-1" android:layout_weight="{4:1065353216}">
+				<ImageView android:id="false" android:background="res/drawable/remote_selector.xml" android:padding="20dp" android:focusable="true" android:clickable="true" android:layout_width="68dp" android:layout_height="68dp" android:src="resourceId:0x7f080288" />
+			</LinearLayout>
+			<View android:background="f2f2f2" android:layout_width="1px" android:layout_height="-1" />
+			<LinearLayout android:gravity="0x11" android:layout_width="0dp" android:layout_height="-1" android:layout_weight="{4:1065353216}">
+				<ImageView android:id="false" android:background="res/drawable/remote_selector.xml" android:padding="20dp" android:focusable="true" android:clickable="true" android:layout_width="68dp" android:layout_height="68dp" android:src="resourceId:0x7f080280" />
+			</LinearLayout>
+			<View android:background="f2f2f2" android:layout_width="1px" android:layout_height="-1" />
+			<LinearLayout android:gravity="0x11" android:layout_width="0dp" android:layout_height="-1" android:layout_weight="{4:1065353216}">
+				<ImageView android:id="false" android:background="res/drawable/remote_selector.xml" android:padding="20dp" android:focusable="true" android:clickable="true" android:layout_width="68dp" android:layout_height="68dp" android:src="resourceId:0x7f080287" />
+			</LinearLayout>
+		</LinearLayout>
+		<View android:background="f2f2f2" android:layout_width="-1" android:layout_height="1px" />
+		<LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="100dp">
+			<LinearLayout android:gravity="0x11" android:layout_width="0dp" android:layout_height="-1" android:layout_weight="{4:1065353216}">
+				<ImageView android:id="false" android:background="res/drawable/remote_selector.xml" android:padding="20dp" android:focusable="true" android:clickable="true" android:layout_width="68dp" android:layout_height="68dp" android:src="resourceId:0x7f08027c" />
+			</LinearLayout>
+			<View android:background="f2f2f2" android:layout_width="1px" android:layout_height="-1" />
+			<LinearLayout android:layout_width="0dp" android:layout_height="-1" android:layout_weight="{4:1065353216}" />
+			<View android:background="f2f2f2" android:layout_width="1px" android:layout_height="-1" />
+			<LinearLayout android:gravity="0x11" android:layout_width="0dp" android:layout_height="-1" android:layout_weight="{4:1065353216}">
+				<ImageView android:id="false" android:background="res/drawable/remote_selector.xml" android:padding="20dp" android:focusable="true" android:clickable="true" android:layout_width="68dp" android:layout_height="68dp" android:src="resourceId:0x7f08027b" />
+			</LinearLayout>
+		</LinearLayout>
+	</LinearLayout>
+</LinearLayout>

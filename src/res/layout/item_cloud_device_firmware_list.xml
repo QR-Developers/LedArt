@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:background="res/drawable/cloud_bg_rectangle_only_bottom_ff_stroke_e4.xml" android:paddingTop="8dp" android:layout_width="-1" android:layout_height="-2">
+	<LinearLayout android:gravity="0x10" android:orientation="0" android:layout_width="-1" android:layout_height="-2">
+		<TextView android:textSize="16sp" android:textColor="333333" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="15dp" />
+		<TextView android:textSize="12sp" android:textColor="ff660" android:id="false" android:paddingLeft="4dp" android:paddingRight="4dp" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="10dp" android:layout_marginRight="10dp" />
+	</LinearLayout>
+	<TextView android:textSize="12sp" android:textColor="ff660" android:id="false" android:paddingLeft="4dp" android:paddingRight="4dp" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="15dp" android:layout_marginTop="8dp" android:layout_marginRight="15dp" android:layout_marginBottom="8dp" />
+	<TextView android:textSize="14sp" android:textColor="999999" android:id="false" android:paddingBottom="8dp" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="15dp" android:layout_marginRight="15dp" />
+</LinearLayout>

@@ -1,0 +1,1412 @@
+[
+  {
+    "tag": "HJ-D2.5-FM6124-128X64-32S.ssx",
+    "file": "HJ-D2.5-FM6124-128X64-32S.ssx",
+    "extra": "HJ"
+  },
+  {
+    "tag": "HJ-P3.07-13S-104X52-V2.0-FM6127-138.ssx",
+    "file": "HJ-P3.07-13S-104X52-V2.0-FM6127-138.ssx",
+    "extra": "HJ"
+  },
+  {
+    "tag": "HJ_P1.667_48S_HUB320_192x768_two_open.ssx",
+    "file": "HJ_P1.667_48S_HUB320_192x768_two_open.ssx",
+    "extra": "HJ"
+  },
+  {
+    "tag": "HJ-D2.5-ICN2037-128X64-32S.ssx",
+    "file": "HJ-D2.5-ICN2037-128X64-32S.ssx",
+    "extra": "HJ"
+  },
+  {
+    "tag": "P1.86-172X86-43S-9929-9739.ssx",
+    "file": "P1.86-172X86-43S-9929-9739.ssx",
+    "extra": "HJ"
+  },
+  {
+    "tag": "HJ-D3-ICN2037-104X52-26S.ssx",
+    "file": "HJ-D3-ICN2037-104X52-26S.ssx",
+    "extra": "HJ"
+  },
+  {
+    "tag": "HJ-P4-FM6124-64X32-16S.ssx",
+    "file": "HJ-P4-FM6124-64X32-16S.ssx",
+    "extra": "HJ"
+  },
+  {
+    "tag": "HJ-D4-INC2037-80X40-10S.ssx",
+    "file": "HJ-D4-INC2037-80X40-10S.ssx",
+    "extra": "HJ"
+  },
+  {
+    "tag": "HJ_P2_QL_Q2_9929_40S_160x960.ssx",
+    "file": "HJ_P2_QL_Q2_9929_40S_160x960.ssx",
+    "extra": "HJ"
+  },
+  {
+    "tag": "HJ-D5-FM2037-64X32-8S.ssx",
+    "file": "HJ-D5-FM2037-64X32-8S.ssx",
+    "extra": "HJ"
+  },
+  {
+    "tag": "HJ-P3-ICN2038-64X64-32S.ssx",
+    "file": "HJ-P3-ICN2038-64X64-32S.ssx",
+    "extra": "HJ"
+  },
+  {
+    "tag": "HJ-D2-LS9929-160X80-40S.ssx",
+    "file": "HJ-D2-LS9929-160X80-40S.ssx",
+    "extra": "HJ"
+  },
+  {
+    "tag": "JO-0306464AF-SMV1.0.ssx",
+    "file": "JO-0306464AF-SMV1.0.ssx",
+    "extra": "QUNXING"
+  },
+  {
+    "tag": "M-P10-2S-3535-3216-JA1.ssx",
+    "file": "M-P10-2S-3535-3216-JA1.ssx",
+    "extra": "QUNXING"
+  },
+  {
+    "tag": "P4-1921-64X32-8S-S1.ssx",
+    "file": "P4-1921-64X32-8S-S1.ssx",
+    "extra": "QUNXING"
+  },
+  {
+    "tag": "P5(2727)64X32-8S-V1.0.ssx",
+    "file": "P5(2727)64X32-8S-V1.0.ssx",
+    "extra": "QUNXING"
+  },
+  {
+    "tag": "P6-3535-8S-HL2.0.ssx",
+    "file": "P6-3535-8S-HL2.0.ssx",
+    "extra": "QUNXING"
+  },
+  {
+    "tag": "P8-3535-4S-3216-SHL 2.0.ssx",
+    "file": "P8-3535-4S-3216-SHL 2.0.ssx",
+    "extra": "QUNXING"
+  },
+  {
+    "tag": "P10RGB-3535(2727)DP-4S-V2.0.ssx",
+    "file": "P10RGB-3535(2727)DP-4S-V2.0.ssx",
+    "extra": "QUNXING"
+  },
+  {
+    "tag": "P13.33-3535-RGB3S.ssx",
+    "file": "P13.33-3535-RGB3S.ssx",
+    "extra": "QUNXING"
+  },
+  {
+    "tag": "PH6.667(3535)48X24-6S-KM.ssx",
+    "file": "PH6.667(3535)48X24-6S-KM.ssx",
+    "extra": "QUNXING"
+  },
+  {
+    "tag": "P1.53-208X104-52S-ICND2163-ICN2018.ssx",
+    "file": "P1.53-208X104-52S-ICND2163-ICN2018.ssx",
+    "extra": "LYD"
+  },
+  {
+    "tag": "P1.66-192X96-ICN2065-ICN2018.ssx",
+    "file": "P1.66-192X96-ICN2065-ICN2018.ssx",
+    "extra": "LYD"
+  },
+  {
+    "tag": "P1.86-172X86-43S-ICND2065-ICN2018.ssx",
+    "file": "P1.86-172X86-43S-ICND2065-ICN2018.ssx",
+    "extra": "LYD"
+  },
+  {
+    "tag": "P2-128X64-32S-LYD6168C-TC7258GN.ssx",
+    "file": "P2-128X64-32S-LYD6168C-TC7258GN.ssx",
+    "extra": "LYD"
+  },
+  {
+    "tag": "P2-160X80-40S-ICND2163-ICN2018.ssx",
+    "file": "P2-160X80-40S-ICND2163-ICN2018.ssx",
+    "extra": "LYD"
+  },
+  {
+    "tag": "P3.07-104X52-26S-LYD6168C-ICN2012.ssx",
+    "file": "P3.07-104X52-26S-LYD6168C-ICN2012.ssx",
+    "extra": "LYD"
+  },
+  {
+    "tag": "P3-104X52-13S-LYD6168C-ICN2012.ssx",
+    "file": "P3-104X52-13S-LYD6168C-ICN2012.ssx",
+    "extra": "LYD"
+  },
+  {
+    "tag": "P4.81-52X52-13S-LYD6168C-ICN2012.ssx",
+    "file": "P4.81-52X52-13S-LYD6168C-ICN2012.ssx",
+    "extra": "LYD"
+  },
+  {
+    "tag": "P4-64X32-8S-SM16237DS-ICN2012.ssx",
+    "file": "P4-64X32-8S-SM16237DS-ICN2012.ssx",
+    "extra": "LYD"
+  },
+  {
+    "tag": "P4-64X32-16S-LYD6126-ICN2012.ssx",
+    "file": "P4-64X32-16S-LYD6126-ICN2012.ssx",
+    "extra": "LYD"
+  },
+  {
+    "tag": "P4-80X40-20S-ICN2153-ICN2012.ssx",
+    "file": "P4-80X40-20S-ICN2153-ICN2012.ssx",
+    "extra": "LYD"
+  },
+  {
+    "tag": "P5-64X32-8S-LYD6126C-ICN2012.ssx",
+    "file": "P5-64X32-8S-LYD6126C-ICN2012.ssx",
+    "extra": "LYD"
+  },
+  {
+    "tag": "P6-32X32-8S-LYD6126-ICN2012.ssx",
+    "file": "P6-32X32-8S-LYD6126-ICN2012.ssx",
+    "extra": "LYD"
+  },
+  {
+    "tag": "P6-32X32-8S-SM16237DS-ICN2012.ssx",
+    "file": "P6-32X32-8S-SM16237DS-ICN2012.ssx",
+    "extra": "LYD"
+  },
+  {
+    "tag": "P8-32X16-4S-SM16237DS-ICND2016.ssx",
+    "file": "P8-32X16-4S-SM16237DS-ICND2016.ssx",
+    "extra": "LYD"
+  },
+  {
+    "tag": "S1024GO2F21-32X16-2S-LYD6126.ssx",
+    "file": "S1024GO2F21-32X16-2S-LYD6126.ssx",
+    "extra": "LYD"
+  },
+  {
+    "tag": "[1] CLP6-64x32-3528RGB-16S.ssx",
+    "file": "[1] CLP6-64x32-3528RGB-16S.ssx",
+    "extra": "CAILIANG"
+  },
+  {
+    "tag": "[2] HJCLPCB-D2.5S32-2121-V1.ssx",
+    "file": "[2] HJCLPCB-D2.5S32-2121-V1.ssx",
+    "extra": "CAILIANG"
+  },
+  {
+    "tag": "[3] HJCLPCB-D2S20-D240S.ssx",
+    "file": "[3] HJCLPCB-D2S20-D240S.ssx",
+    "extra": "CAILIANG"
+  },
+  {
+    "tag": "[4] HJCLPCB-D4S10-1921-V1B-10S.ssx",
+    "file": "[4] HJCLPCB-D4S10-1921-V1B-10S.ssx",
+    "extra": "CAILIANG"
+  },
+  {
+    "tag": "[5] HJCLPCB-D5S8-2727-V2D5-8S.ssx",
+    "file": "[5] HJCLPCB-D5S8-2727-V2D5-8S.ssx",
+    "extra": "CAILIANG"
+  },
+  {
+    "tag": "[6] HJCLPCB-D8S5-3535-V1.ssx",
+    "file": "[6] HJCLPCB-D8S5-3535-V1.ssx",
+    "extra": "CAILIANG"
+  },
+  {
+    "tag": "[7] HJCLPCB-P2.5RGB-2121-04B-32S.ssx",
+    "file": "[7] HJCLPCB-P2.5RGB-2121-04B-32S.ssx",
+    "extra": "CAILIANG"
+  },
+  {
+    "tag": "[8] HJCLPCB-P3RGB-2121-04-32S.ssx",
+    "file": "[8] HJCLPCB-P3RGB-2121-04-32S.ssx",
+    "extra": "CAILIANG"
+  },
+  {
+    "tag": "[9] HJCLPCB-P4RGB-2121-03A-16S.ssx",
+    "file": "[9] HJCLPCB-P4RGB-2121-03A-16S.ssx",
+    "extra": "CAILIANG"
+  },
+  {
+    "tag": "[10] HJCLPCB-P4RGB-2121-06B-32S.ssx",
+    "file": "[10] HJCLPCB-P4RGB-2121-06B-32S.ssxx",
+    "extra": "CAILIANG"
+  },
+  {
+    "tag": "[11] HJCLPCB-P5RGB-2121-02B-16S.ssx",
+    "file": "[11] HJCLPCB-P5RGB-2121-02B-16S.ssx",
+    "extra": "CAILIANG"
+  },
+  {
+    "tag": "[12] HJCLPCB-P6-3535-8S-01.ssx",
+    "file": "[12] HJCLPCB-P6-3535-8S-01.ssx",
+    "extra": "CAILIANG"
+  },
+  {
+    "tag": "[13] HJCLPCB-P8RGB-3535-01B-4S.ssx",
+    "file": "[13] HJCLPCB-P8RGB-3535-01B-4S.ssx",
+    "extra": "CAILIANG"
+  },
+  {
+    "tag": "[14] HJCLPCB-P10-3535-4S-01-NO138.ssx",
+    "file": "[14] HJCLPCB-P10-3535-4S-01-NO138.ssx",
+    "extra": "CAILIANG"
+  },
+  {
+    "tag": "[15] HJ-P8(B)-256 128-4S.ssx",
+    "file": "[15] HJ-P8(B)-256 128-4S.ssx",
+    "extra": "CAILIANG"
+  },
+  {
+    "tag": "[1] P2.5-64x64-2121-32S-V2.5-ICN2038S.ssx",
+    "file": "[1] P2.5-64x64-2121-32S-V2.5-ICN2038S.ssx",
+    "extra": "GKGD"
+  },
+  {
+    "tag": "[2] P3.33-96x48-2121-24S-V2.1-ICN2038.ssx",
+    "file": "[2] P3.33-96x48-2121-24S-V2.1-ICN2038.ssx",
+    "extra": "GKGD"
+  },
+  {
+    "tag": "[3]P3.91-64x64-1921-16S-ICN2038.ssx",
+    "file": "[3]P3.91-64x64-1921-16S-ICN2038.ssx",
+    "extra": "GKGD"
+  },
+  {
+    "tag": "[4] P3.91-64x64-2121-16S-SM16017S.ssx",
+    "file": "[4] P3.91-64x64-2121-16S-SM16017S.ssx",
+    "extra": "GKGD"
+  },
+  {
+    "tag": "[5] P3-64x64-2121-32S-V2.3-ICN2038.ssx",
+    "file": "[5] P3-64x64-2121-32S-V2.3-ICN2038.ssx",
+    "extra": "GKGD"
+  },
+  {
+    "tag": "[6] P3-64x64-2121-32S-V2.5-ICN2053.ssx",
+    "file": "[6] P3-64x64-2121-32S-V2.5-ICN2053.ssx",
+    "extra": "GKGD"
+  },
+  {
+    "tag": "[7] P4.81-52x52-2727-13S-SKIP24PX-ICN2038.ssx",
+    "file": "[7] P4.81-52x52-2727-13S-SKIP24PX-ICN2038.ssx",
+    "extra": "GKGD"
+  },
+  {
+    "tag": "[8] P4-80x40-2121-20S-V2-ICN2038S.ssx",
+    "file": "[8] P4-80x40-2121-20S-V2-ICN2038S.ssx",
+    "extra": "GKGD"
+  },
+  {
+    "tag": "[9] P5.93-54x27-2727-9S-HUB20P-SKIP10PX-ICN2038S.ssx",
+    "file": "[9] P5.93-54x27-2727-9S-HUB20P-SKIP10PX-ICN2038S.ssx",
+    "extra": "GKGD"
+  },
+  {
+    "tag": "[10] P5-64x32-2121-16S-V2.4-SM16017S.ssx",
+    "file": "[10] P5-64x32-2121-16S-V2.4-SM16017S.ssx",
+    "extra": "GKGD"
+  },
+  {
+    "tag": "[11] P5-64x32-2727-8S-V2.0-SM16017S.ssx",
+    "file": "[11] P5-64x32-2727-8S-V2.0-SM16017S.ssx",
+    "extra": "GKGD"
+  },
+  {
+    "tag": "[12] P6.67-48x24-2727-6S-V2.1-ICN2038.ssx",
+    "file": "[12] P6.67-48x24-2727-6S-V2.1-ICN2038.ssx",
+    "extra": "GKGD"
+  },
+  {
+    "tag": "[13] P6-32x32-2727-8S-V1.1-ICN2038.ssx",
+    "file": "[13] P6-32x32-2727-8S-V1.1-ICN2038.ssx",
+    "extra": "GKGD"
+  },
+  {
+    "tag": "[14] P8-40x20-2727-5S-ICN2038S.ssx",
+    "file": "[14] P8-40x20-2727-5S-ICN2038S.ssx",
+    "extra": "GKGD"
+  },
+  {
+    "tag": "[15] P10-32x16-3535-2S-V1.2-SM16017S.ssx",
+    "file": "[15] P10-32x16-3535-2S-V1.2-SM16017S.ssx",
+    "extra": "GKGD"
+  },
+  {
+    "tag": "[16]GKGD-P2.5-12864-2121-32S-V3.2.ssx",
+    "file": "[16]GKGD-P2.5-12864-2121-32S-V3.2.ssx",
+    "extra": "GKGD"
+  },
+  {
+    "tag": "[17]GKGD-P3-6464-2121-32S-V2.8.ssx",
+    "file": "[17]GKGD-P3-6464-2121-32S-V2.8.ssx",
+    "extra": "GKGD"
+  },
+  {
+    "tag": "[18]GKGD-P4-6432-2121-16S-V2.6L.ssx",
+    "file": "[18]GKGD-P4-6432-2121-16S-V2.6L.ssx",
+    "extra": "GKGD"
+  },
+  {
+    "tag": "[19]GKGD-P5-6432-2121-16S-V2.5L.ssx",
+    "file": "[19]GKGD-P5-6432-2121-16S-V2.5L.ssx",
+    "extra": "GKGD"
+  },
+  {
+    "tag": "[20]GKGD-P5-6432-2727-8S-V3.4.ssx",
+    "file": "[20]GKGD-P5-6432-2727-8S-V3.4.ssx",
+    "extra": "GKGD"
+  },
+  {
+    "tag": "[21]GKGD-P6.67-4824-2727-6S-V2.3.ssx",
+    "file": "[21]GKGD-P6.67-4824-2727-6S-V2.3.ssx",
+    "extra": "GKGD"
+  },
+  {
+    "tag": "[22]GKGD-P8-4020-2727-5S-V2.ssx",
+    "file": "[22]GKGD-P8-4020-2727-5S-V2.ssx",
+    "extra": "GKGD"
+  },
+  {
+    "tag": "[23]GKGD-P10-3216-2727-2S-V1.1.ssx",
+    "file": "[23]GKGD-P10-3216-2727-2S-V1.1.ssx",
+    "extra": "GKGD"
+  },
+  {
+    "tag": "[24]P6-2727-8S-1.2-HL4.0.ssx",
+    "file": "[24]P6-2727-8S-1.2-HL4.0.ssx",
+    "extra": "GKGD"
+  },
+  {
+    "tag": "[25]P10-32S-64x64-Regular module.ssx",
+    "file": "[25]P10-32S-64x64-Regular module.ssx",
+    "extra": "GKGD"
+  },
+  {
+    "tag": "[26]P1.86-17286-9929-9739-43.ssx",
+    "file": "[26]P1.86-17286-9929-9739-43.ssx",
+    "extra": "GKGD"
+  },
+  {
+    "tag": "[27]GKGD-P2-16080-1515-40s-V1.2.ssx",
+    "file": "[27]GKGD-P2-16080-1515-40s-V1.2.ssx",
+    "extra": "GKGD"
+  },
+  {
+    "tag": "[28]GK_P1.667_192X96_48S_9929_9736_two_open.dat",
+    "file": "[28]GK_P1.667_192X96_48S_9929_9736_two_open.dat",
+    "extra": "GKGD"
+  },
+  {
+    "tag": "[29]GK_P1.667_192X96_48S_LS9929_9736_48S_HUB320.ssx",
+    "file": "[29]GK_P1.667_192X96_48S_LS9929_9736_48S_HUB320.ssx",
+    "extra": "GKGD"
+  },
+  {
+    "tag": "[30]GK_P2.5_128X64_SM16237DS_2012_32S.ssx",
+    "file": "[30]GK_P2.5_128X64_SM16237DS_2012_32S.ssx",
+    "extra": "GKGD"
+  },
+  {
+    "tag": "[31]GK_P2_160X80_ICND2038S_2018_40S.ssx",
+    "file": "[31]GK_P2_160X80_ICND2038S_2018_40S.ssx",
+    "extra": "GKGD"
+  },
+  {
+    "tag": "[32]GK_P3_64X64_FM6124_138_32S.ssx",
+    "file": "[32]GK_P3_64X64_FM6124_138_32S.ssx",
+    "extra": "GKGD"
+  },
+  {
+    "tag": "[33]GK_P3_64X64_ICND2046_138_32S.ssx",
+    "file": "[33]GK_P3_64X64_ICND2046_138_32S.ssx",
+    "extra": "GKGD"
+  },
+  {
+    "tag": "[34]GK_P4_80X40_FM6126B_7558N_10S.ssx",
+    "file": "[34]GK_P4_80X40_FM6126B_7558N_10S.ssx",
+    "extra": "GKGD"
+  },
+  {
+    "tag": "[35]GK_P4_80X40_ICND2038S_2012_20S",
+    "file": "[35]GK_P4_80X40_ICND2038S_2012_20S",
+    "extra": "GKGD"
+  },
+  {
+    "tag": "[36]GK_P5_64X32_FM6124_SM5166_8S.ssx",
+    "file": "[36]GK_P5_64X32_FM6124_SM5166_8S.ssx",
+    "extra": "GKGD"
+  },
+  {
+    "tag": "[37]GK_P6_32X32_FM6124_2012_8S.ssx",
+    "file": "[37]GK_P6_32X32_FM6124_2012_8S.ssx",
+    "extra": "GKGD"
+  },
+  {
+    "tag": "[1] Q2.5F32V7_128x64_SM16227S_32S_SM5266.ssx",
+    "file": "[1] Q2.5F32V7_128x64_SM16227S_32S_SM5266.ssx",
+    "extra": "QIANGLI"
+  },
+  {
+    "tag": "[2] Q4Y10V5H_ICN2038S_80x40_10S.ssx",
+    "file": "[2] Q4Y10V5H_ICN2038S_80x40_10S.ssx",
+    "extra": "QIANGLI"
+  },
+  {
+    "tag": "[3] Q4Y20V1_ICN2038S_80x40_20S_M17060254.ssx",
+    "file": "[3] Q4Y20V1_ICN2038S_80x40_20S_M17060254.ssx",
+    "extra": "QIANGLI"
+  },
+  {
+    "tag": "[4] Q5E8V1.1H_SM16227S_64x32_8S.ssx",
+    "file": "[4] Q5E8V1.1H_SM16227S_64x32_8S.ssx",
+    "extra": "QIANGLI"
+  },
+  {
+    "tag": "[5] Q5E16V4.6_SM16207S_64x32_16S.ssx",
+    "file": "[5] Q5E16V4.6_SM16207S_64x32_16S.ssx",
+    "extra": "QIANGLI"
+  },
+  {
+    "tag": "[6] Q6D8V10H_ICN2038_32x32_8S.ssx",
+    "file": "[6] Q6D8V10H_ICN2038_32x32_8S.ssx",
+    "extra": "QIANGLI"
+  },
+  {
+    "tag": "[7] Q10C2V7H_SM16207S_32x16_2S_NO138.ssx",
+    "file": "[7] Q10C2V7H_SM16207S_32x16_2S_NO138.ssx",
+    "extra": "QIANGLI"
+  },
+  {
+    "tag": "[8] Q10C4V6H_ICN2038S_32x16_NO138_4S.ssx",
+    "file": "[8] Q10C4V6H_ICN2038S_32x16_NO138_4S.ssx",
+    "extra": "QIANGLI"
+  },
+  {
+    "tag": "[9] S6.66J6V8_SM16207S_48x24_6S.ssx",
+    "file": "[9] S6.66J6V8_SM16207S_48x24_6S.ssx",
+    "extra": "QIANGLI"
+  },
+  {
+    "tag": "[10] S8S5V3_SM16207S_40x20_5S.ssx",
+    "file": "[10] S8S5V3_SM16207S_40x20_5S.ssx",
+    "extra": "QIANGLI"
+  },
+  {
+    "tag": "[11] S10C2V5.1_ICN2038S_32x16_2S_NO138.ssx",
+    "file": "[11] S10C2V5.1_ICN2038S_32x16_2S_NO138.ssx",
+    "extra": "QIANGLI"
+  },
+  {
+    "tag": "[12] S10C4V8_SM16227S_32x16_4S_SM5266.ssx",
+    "file": "[12] S10C4V8_SM16227S_32x16_4S_SM5266.ssx",
+    "extra": "QIANGLI"
+  },
+  {
+    "tag": "[13] P3 RGB 32S HUB22 QiangLi",
+    "file": "[13] P3 RGB 32S HUB22 QiangLi",
+    "extra": "QIANGLI"
+  },
+  {
+    "tag": "[14] P10 1R 4S HUB12 QiangLi",
+    "file": "[14] P10 1R 4S HUB12 QiangLi",
+    "extra": "QIANGLI"
+  },
+  {
+    "tag": "[15] P10 1R1G 4S HUB12 QiangLi",
+    "file": "[15] P10 1R1G 4S HUB12 QiangLi",
+    "extra": "QIANGLI"
+  },
+  {
+    "tag": "[16] P10 1R1G1B 4S NO138 HUB75B Qiangli X10",
+    "file": "[16] P10 1R1G1B 4S NO138 HUB75B Qiangli X10",
+    "extra": "QIANGLI"
+  },
+  {
+    "tag": "[17]Q2AC20V3_ICN2053_160x80_20S.ssx",
+    "file": "[17]Q2AC20V3_ICN2053_160x80_20S.ssx",
+    "extra": "QIANGLI"
+  },
+  {
+    "tag": "[18]Q1.53AP52V1.1-208X104-52S-2065-2018.ssx",
+    "file": "[18]Q1.53AP52V1.1-208X104-52S-2065-2018.ssx",
+    "extra": "QIANGLI"
+  },
+  {
+    "tag": "[19]Q2.5AB32V2.3-128X64-32S-2055-138.ssx",
+    "file": "[19]Q2.5AB32V2.3-128X64-32S-2055-138.ssx",
+    "extra": "QIANGLI"
+  },
+  {
+    "tag": "[20]Q2.5AB32V2-128X64-32S-16259-5266.ssx",
+    "file": "[20]Q2.5AB32V2-128X64-32S-16259-5266.ssx",
+    "extra": "QIANGLI"
+  },
+  {
+    "tag": "[21]Q2AC20V3-160X80-HUB320-20S-16237-5266.ssx",
+    "file": "[21]Q2AC20V3-160X80-HUB320-20S-16237-5266.ssx",
+    "extra": "QIANGLI"
+  },
+  {
+    "tag": "[22]Q3.07AH26V1-104X52-26S-2055-2013.ssx",
+    "file": "[22]Q3.07AH26V1-104X52-26S-2055-2013.ssx",
+    "extra": "QIANGLI"
+  },
+  {
+    "tag": "[23]Q4Y20V1-80X40-20S-2055-2013.ssx",
+    "file": "[23]Q4Y20V1-80X40-20S-2055-2013.ssx",
+    "extra": "QIANGLI"
+  },
+  {
+    "tag": "[24]Q5E8V6H-64X32-8S-2055-5266.ssx",
+    "file": "[24]Q5E8V6H-64X32-8S-2055-5266.ssx",
+    "extra": "QIANGLI"
+  },
+  {
+    "tag": "[25]Q6D8V10.1H-32X32-8S-2055-5266.ssx",
+    "file": "[25]Q6D8V10.1H-32X32-8S-2055-5266.ssx",
+    "extra": "QIANGLI"
+  },
+  {
+    "tag": "[26]Q10C4V7.1H-32X16-4S-SM16206-2013.ssx",
+    "file": "[26]Q10C4V7.1H-32X16-4S-SM16206-2013.ssx",
+    "extra": "QIANGLI"
+  },
+  {
+    "tag": "[27]S4Y10V3-80X40-10S-2053-5266.ssx",
+    "file": "[27]S4Y10V3-80X40-10S-2053-5266.ssx",
+    "extra": "QIANGLI"
+  },
+  {
+    "tag": "[28]S5E8V1.3-64X32-8S-2053-2013.ssx",
+    "file": "[28]S5E8V1.3-64X32-8S-2053-2013.ssx",
+    "extra": "QIANGLI"
+  },
+  {
+    "tag": "[29]QL_Q1.8AR43V3.2-2065-2018-43S.ssx",
+    "file": "[29]QL_Q1.8AR43V3.2-2065-2018-43S.ssx",
+    "extra": "QIANGLI"
+  },
+  {
+    "tag": "[30]QL_Q1.53AP52V1-52S-SM16359-5166.ssx",
+    "file": "[30]QL_Q1.53AP52V1-52S-SM16359-5166.ssx",
+    "extra": "QIANGLI"
+  },
+  {
+    "tag": "[31]QL_Q1.86AR43V2.2_LS9929_9736P.dat",
+    "file": "[31]QL_Q1.86AR43V2.2_LS9929_9736P.dat",
+    "extra": "QIANGLI"
+  },
+  {
+    "tag": "[32]QL_Q1.86AR43V2.2_LS9929_9736P_43S.ssx",
+    "file": "[32]QL_Q1.86AR43V2.2_LS9929_9736P_43S.ssx",
+    "extra": "QIANGLI"
+  },
+  {
+    "tag": "[33]QL_Q2.5AB16V1.1H_SM16169_5266_16S.ssx",
+    "file": "[33]QL_Q2.5AB16V1.1H_SM16169_5266_16S.ssx",
+    "extra": "QIANGLI"
+  },
+  {
+    "tag": "[34]QL_Q2.5AB32V2.1_LS9929_9735CP_32S.dat",
+    "file": "[34]QL_Q2.5AB32V2.1_LS9929_9735CP_32S.dat",
+    "extra": "QIANGLI"
+  },
+  {
+    "tag": "[35]QL_Q2.5AB32V2.1_LS9929_9735CP_32S.ssx",
+    "file": "[35]QL_Q2.5AB32V2.1_LS9929_9735CP_32S.ssx",
+    "extra": "QIANGLI"
+  },
+  {
+    "tag": "[1] P2.5 128x64.ssx",
+    "file": "[1] P2.5 128x64.ssx",
+    "extra": "LAMP"
+  },
+  {
+    "tag": "[2] P3 64x64.ssx",
+    "file": "[2] P3 64x64.ssx",
+    "extra": "LAMP"
+  },
+  {
+    "tag": "[3] P4 64x32.ssx",
+    "file": "[3] P4 64x32.ssx",
+    "extra": "LAMP"
+  },
+  {
+    "tag": "[4] P5 64x32.ssx",
+    "file": "[4] P5 64x32.ssx",
+    "extra": "LAMP"
+  },
+  {
+    "tag": "[5] P6 32x32.ssx",
+    "file": "[5] P6 32x32.ssx",
+    "extra": "LAMP"
+  },
+  {
+    "tag": "[6] P8 32x16.ssx",
+    "file": "[6] P8 32x16.ssx",
+    "extra": "LAMP"
+  },
+  {
+    "tag": "[7] P10 32x16.ssx",
+    "file": "[7] P10 32x16.ssx",
+    "extra": "LAMP"
+  },
+  {
+    "tag": "[8] V2.5.ssx",
+    "file": "[8] V2.5.ssx",
+    "extra": "LAMP"
+  },
+  {
+    "tag": "[9] V3 96x48.ssx",
+    "file": "[9] V3 96x48.ssx",
+    "extra": "LAMP"
+  },
+  {
+    "tag": "[10] V4 80x40.ssx",
+    "file": "[10] V4 80x40.ssx",
+    "extra": "LAMP"
+  },
+  {
+    "tag": "[11]LP_P.25_128X64_9929_2012_32S.dat",
+    "file": "[11]LP_P.25_128X64_9929_2012_32S.dat",
+    "extra": "LAMP"
+  },
+  {
+    "tag": "[12]LP_P1.25_256x128_2065_2018_64S.ssx",
+    "file": "[12]LP_P1.25_256x128_2065_2018_64S.ssx",
+    "extra": "LAMP"
+  },
+  {
+    "tag": "[13]LP_P1.66_192x96_2065_2018_64S.ssx",
+    "file": "[13]LP_P1.66_192x96_2065_2018_64S.ssx",
+    "extra": "LAMP"
+  },
+  {
+    "tag": "[14]LP_P1.538_208x104_2065_2018_52S.ssx",
+    "file": "[14]LP_P1.538_208x104_2065_2018_52S.ssx",
+    "extra": "LAMP"
+  },
+  {
+    "tag": "[15]LP_P1.538_208x104_2163_2018_52S.ssx",
+    "file": "[15]LP_P1.538_208x104_2163_2018_52S.ssx",
+    "extra": "LAMP"
+  },
+  {
+    "tag": "[16]LP_P1_320x160_2163_2018_40S.ssx",
+    "file": "[16]LP_P1_320x160_2163_2018_40S.ssx",
+    "extra": "LAMP"
+  },
+  {
+    "tag": "[17]LP_P2.5_128X64_9929_2012_32S.ssx",
+    "file": "[17]LP_P2.5_128X64_9929_2012_32S.ssx",
+    "extra": "LAMP"
+  },
+  {
+    "tag": "[18]LP_P2_128X64_2153_5958_32S.ssx",
+    "file": "[18]LP_P2_128X64_2153_5958_32S.ssx",
+    "extra": "LAMP"
+  },
+  {
+    "tag": "[19]LP_P2_160X80_2163_2018_40S.ssx",
+    "file": "[19]LP_P2_160X80_2163_2018_40S.ssx",
+    "extra": "LAMP"
+  },
+  {
+    "tag": "[20]LP_P3.076_104X52_6126_7258_26S.ssx",
+    "file": "[20]LP_P3.076_104X52_6126_7258_26S.ssx",
+    "extra": "LAMP"
+  },
+  {
+    "tag": "[21]LP_P4_64X32_2153_7258_8S.ssx",
+    "file": "[21]LP_P4_64X32_2153_7258_8S.ssx",
+    "extra": "LAMP"
+  },
+  {
+    "tag": "[22]LP_P4_64x64_2038S_2012_32S.ssx",
+    "file": "[22]LP_P4_64x64_2038S_2012_32S.ssx",
+    "extra": "LAMP"
+  },
+  {
+    "tag": "[23]LP_P8_40X20_5020_138_5S.ssx",
+    "file": "[23]LP_P8_40X20_5020_138_5S.ssx",
+    "extra": "LAMP"
+  },
+  {
+    "tag": "[24]LP_P10_32X16_5020_NO138_2S.ssx",
+    "file": "[24]LP_P10_32X16_5020_NO138_2S.ssx",
+    "extra": "LAMP"
+  },
+  {
+    "tag": "[1] LSD180321-P4-24364-A-16S.ssx",
+    "file": "[1] LSD180321-P4-24364-A-16S.ssx",
+    "extra": "LCF"
+  },
+  {
+    "tag": "[2] P5（2121）3264-16S-M1-16S.ssx",
+    "file": "[2] P5-2121-3264-16S-M1-16S.ssx",
+    "extra": "LCF"
+  },
+  {
+    "tag": "[3] P6-8S-2727-3232B1-8S.ssx",
+    "file": "[3] P6-8S-2727-3232B1-8S.ssx",
+    "extra": "LCF"
+  },
+  {
+    "tag": "[4] P8-256125-3535-4S-A3-4S.ssx",
+    "file": "[4] P8-256125-3535-4S-A3-4S.ssx",
+    "extra": "LCF"
+  },
+  {
+    "tag": "[5] P10-1-4-3535-4538-JY-3216-NRES-V2.6-4S.ssx",
+    "file": "[5] P10-1-4-3535-4538-JY-3216-NRES-V2.6-4S.ssx",
+    "extra": "LCF"
+  },
+  {
+    "tag": "[1] P10-A75.ssx",
+    "file": "[1] P10-A75.ssx",
+    "extra": "LLR"
+  },
+  {
+    "tag": "[2] P10-B75.ssx",
+    "file": "[2] P10-B75.ssx",
+    "extra": "LLR"
+  },
+  {
+    "tag": "[3] P13.3-A08.ssx",
+    "file": "[3] P13.3-A08.ssx",
+    "extra": "LLR"
+  },
+  {
+    "tag": "[4] P13.3-B75.ssx",
+    "file": "[4] P13.3-B75.ssx",
+    "extra": "LLR"
+  },
+  {
+    "tag": "P10 1R1G1B 4S HUB75 YLR",
+    "file": "P10 1R1G1B 4S HUB75 YLR",
+    "extra": "YLR"
+  },
+  {
+    "tag": "P4-indoor-20S-80X40(5125-1920)1W-20.5.29..ssx",
+    "file": "P4-indoor-20S-80X40(5125-1920)1W-20.5.29..ssx",
+    "extra": "YLR"
+  },
+  {
+    "tag": "P5-indoor-16s-64X32(5125-1920)23P-20.5.29.ssx",
+    "file": "P5-indoor-16s-64X32(5125-1920)23P-20.5.29.ssx",
+    "extra": "YLR"
+  },
+  {
+    "tag": "P10-indoor-8S-32X16(5020A-480)29P-20.5.29.ssx",
+    "file": "P10-indoor-8S-32X16(5020A-480)29P-20.5.29.ssx",
+    "extra": "YLR"
+  },
+  {
+    "tag": "P8-outdoor-5S-40X20(5125-1920)HS6000-20.5.29.ssx",
+    "file": "P8-outdoor-5S-40X20(5125-1920)HS6000-20.5.29.ssxR",
+    "extra": "YLR"
+  },
+  {
+    "tag": "P10-outdoor-4S-32X16(5125-1920)HS8P-20.5.28.ssx",
+    "file": "P10-outdoor-4S-32X16(5125-1920)HS8P-20.5.28.ssx",
+    "extra": "YLR"
+  },
+  {
+    "tag": "P4-outdoor-8S-64X32(5125-1920)5000-20.5.28.ssx",
+    "file": "P4-outdoor-8S-64X32(5125-1920)5000-20.5.28.ssx",
+    "extra": "YLR"
+  },
+  {
+    "tag": "P13.33 1R1G1B 3S HUB08 YLR",
+    "file": "P13.33 1R1G1B 3S HUB08 YLR",
+    "extra": "YLR"
+  },
+  {
+    "tag": "P6-outdoor-8S-32X32(2038S-1920)HS.5K-20.5.29.ssx",
+    "file": "P6-outdoor-8S-32X32(2038S-1920)HS.5K-20.5.29.ssx",
+    "extra": "YLR"
+  },
+  {
+    "tag": "P2-indoor-32S-128X64(2038S-1920)1P.3K-20.5.29.ssx",
+    "file": "P2-indoor-32S-128X64(2038S-1920)1P.3K-20.5.29.ssx",
+    "extra": "YLR"
+  },
+  {
+    "tag": "P4-indoor-16S-64X32(5125-1920)12P-20.5.29.ssx",
+    "file": "P4-indoor-16S-64X32(5125-1920)12P-20.5.29.ssx",
+    "extra": "YLR"
+  },
+  {
+    "tag": "P2-indoor-40S-160X80(2163-3840)300-20.7.9.ssx",
+    "file": "P2-indoor-40S-160X80(2163-3840)300-20.7.9.ssx",
+    "extra": "YLR"
+  },
+  {
+    "tag": "P4-outdoor-10S-80X40(5125-1920)3020-20.5.29.ssx",
+    "file": "P4-outdoor-10S-80X40(5125-1920)3020-20.5.29.ssx",
+    "extra": "YLR"
+  },
+  {
+    "tag": "P2.5-indoor-32S-128X64(2037-1920)XGT.5P-20.5.29.ssx",
+    "file": "P2.5-indoor-32S-128X64(2037-1920)XGT.5P-20.5.29.ssx",
+    "extra": "YLR"
+  },
+  {
+    "tag": "P4.81-outdoor-13S-52X52(2037-1920)1P3K-20.5.29.ssx",
+    "file": "P4.81-outdoor-13S-52X52(2037-1920)1P3K-20.5.29.ssx",
+    "extra": "YLR"
+  },
+  {
+    "tag": "P3-indoor-32S-64X64(5125-1920)14P-20.5.29.ssx",
+    "file": "P3-indoor-32S-64X64(5125-1920)14P-20.5.29.ssx",
+    "extra": "YLR"
+  },
+  {
+    "tag": "P5-outdoor-8S-64X32(5125-1920)HS9P-20.5.29.ssx",
+    "file": "P5-outdoor-8S-64X32(5125-1920)HS9P-20.5.29.ssx",
+    "extra": "YLR"
+  },
+  {
+    "tag": "P3-outdoor-16S-64X64(2038S-1920)4P5000-20.5.29.ssx",
+    "file": "P3-outdoor-16S-64X64(2038S-1920)4P5000-20.5.29.ssx",
+    "extra": "YLR"
+  },
+  {
+    "tag": "P8-outdoor-4S-32X16(5125-1920)5000-20.5.29.ssx",
+    "file": "P8-outdoor-4S-32X16(5125-1920)5000-20.5.29.ssx",
+    "extra": "YLR"
+  },
+  {
+    "tag": "P3.91-indoor-16S-64X64(2038S-3840)20.2.29.ssx",
+    "file": "P3.91-indoor-16S-64X64(2038S-3840)20.2.29.ssx",
+    "extra": "YLR"
+  },
+  {
+    "tag": "P3.91-outdoor-16S-64X64(2038S-1920)1P3K-20.5.29.ssx",
+    "file": "P3.91-outdoor-16S-64X64(2038S-1920)1P3K-20.5.29.ssx",
+    "extra": "YLR"
+  },
+  {
+    "tag": "P10 1R1G1B 4S HUB08 YLR",
+    "file": "P10 1R1G1B 4S HUB08 YLR",
+    "extra": "YLR"
+  },
+  {
+    "tag": "HJ_P1.875_64S_128x512-LS9929-9739.ssx",
+    "file": "HJ_P1.875_64S_128x512-LS9929-9739.ssx",
+    "extra": "HJCL"
+  },
+  {
+    "tag": "HJ_P2.5_64S_128x512-LS9929-9739-V1.0.ssx",
+    "file": "HJ_P2.5_64S_128x512-LS9929-9739-V1.0.ssx",
+    "extra": "HJCL"
+  },
+  {
+    "tag": "HJ_P2.5_LS9929_9737_128x64_64S-V3.6.ssx",
+    "file": "HJ_P2.5_LS9929_9737_128x64_64S-V3.6.ssx",
+    "extra": "HJCL"
+  },
+  {
+    "tag": "HJ_P2_9929-9739-40S_160x480.ssx",
+    "file": "HJ_P2_9929-9739-40S_160x480.ssx",
+    "extra": "HJCL"
+  },
+  {
+    "tag": "HJ_P3.07_LS9929_9739_104x52_52S.ssx",
+    "file": "HJ_P3.07_LS9929_9739_104x52_52S.ssx",
+    "extra": "HJCL"
+  },
+  {
+    "tag": "HJCL-D5.92S9-2525-V1.1-2038S-5957-54X27-HUB320.ssx",
+    "file": "HJCL-D5.92S9-2525-V1.1-2038S-5957-54X27-HUB320.ssx",
+    "extra": "HJCL"
+  },
+  {
+    "tag": "HJCLPCB-D2.5--32S--128X64-ICN2037BP.ssx",
+    "file": "HJCLPCB-D2.5--32S--128X64-ICN2037BP.ssx",
+    "extra": "HJCL"
+  },
+  {
+    "tag": "HJCLPCB-D2--20S--160X80-ICN2038S.ssx",
+    "file": "HJCLPCB-D2--20S--160X80-ICN2038S.ssx",
+    "extra": "HJCL"
+  },
+  {
+    "tag": "HJCLPCB-D3--24S--96X48-SM16207S.ssx",
+    "file": "HJCLPCB-D3--24S--96X48-SM16207S.ssx",
+    "extra": "HJCL"
+  },
+  {
+    "tag": "HJCLPCB-D3--26S--104X52-SM16237S.ssx",
+    "file": "HJCLPCB-D3--26S--104X52-SM16237S.ssx",
+    "extra": "HJCL"
+  },
+  {
+    "tag": "HJCLPCB-D4--20S--80X40-FM6124.ssx",
+    "file": "HJCLPCB-D4--20S--80X40-FM6124.ssx",
+    "extra": "HJCL"
+  },
+  {
+    "tag": "HJCLPCB-D4S10-V1A-16227S-138.ssx",
+    "file": "HJCLPCB-D4S10-V1A-16227S-138.ssx",
+    "extra": "HJCL"
+  },
+  {
+    "tag": "HJCLPCB-D5--8S--64X32-ICN2037BP.ssx",
+    "file": "HJCLPCB-D5--8S--64X32-ICN2037BP.ssx",
+    "extra": "HJCL"
+  },
+  {
+    "tag": "HJCLPCB-D5S8-2727-V2-2053-138.ssx",
+    "file": "HJCLPCB-D5S8-2727-V2-2053-138.ssx",
+    "extra": "HJCL"
+  },
+  {
+    "tag": "HJCLPCB-D6--6S--48X24-ICN2037BP.ssx",
+    "file": "HJCLPCB-D6--6S--48X24-ICN2037BP.ssx",
+    "extra": "HJCL"
+  },
+  {
+    "tag": "HJCLPCB-D6S6-3535-V2.2-2053-138.ssx",
+    "file": "HJCLPCB-D6S6-3535-V2.2-2053-138.ssx",
+    "extra": "HJCL"
+  },
+  {
+    "tag": "HJCLPCB-D8--5S--40X20-ICN2037BP.ssx",
+    "file": "HJCLPCB-D8--5S--40X20-ICN2037BP.ssx",
+    "extra": "HJCL"
+  },
+  {
+    "tag": "HJCLPCB-D8S5-3535-V2.2-2053-2012.ssx",
+    "file": "HJCLPCB-D8S5-3535-V2.2-2053-2012.ssx",
+    "extra": "HJCL"
+  },
+  {
+    "tag": "HJCLPCB-D10S2-3535-2038S-138.ssx",
+    "file": "HJCLPCB-D10S2-3535-2038S-138.ssx",
+    "extra": "HJCL"
+  },
+  {
+    "tag": "HJCLPCB-P1.875--32S--128X128-FM6253.ssx.ssx",
+    "file": "HJCLPCB-P1.875--32S--128X128-FM6253.ssx.ssx",
+    "extra": "HJCL"
+  },
+  {
+    "tag": "HJCLPCB-P2.5--32S--128X64-FM6124.ssx",
+    "file": "HJCLPCB-P2.5--32S--128X64-FM6124.ssx",
+    "extra": "HJCL"
+  },
+  {
+    "tag": "HJCLPCB-P3--32S--64X64-FM6124.ssx",
+    "file": "HJCLPCB-P3--32S--64X64-FM6124.ssx",
+    "extra": "HJCL"
+  },
+  {
+    "tag": "HJCLPCB-P4--32S--64X64-ICN2037BP.ssx",
+    "file": "HJCLPCB-P4--32S--64X64-ICN2037BP.ssx",
+    "extra": "HJCL"
+  },
+  {
+    "tag": "HJCLPCB-P5--16S--64X32-FM6124.ssx",
+    "file": "HJCLPCB-P5--16S--64X32-FM6124.ssx",
+    "extra": "HJCL"
+  },
+  {
+    "tag": "NCSD-P1.875(1515)128X64-32S-V2.0-2053-2012.ssx",
+    "file": "NCSD-P1.875-128X64-32S-V2.0-2053-2012.ssx",
+    "extra": "HJCL"
+  },
+  {
+    "tag": "P1.8604-172X86-43S-9929-9739-V1.3.ssx",
+    "file": "P1.8604-172X86-43S-9929-9739-V1.3.ssx",
+    "extra": "HJCL"
+  },
+  {
+    "tag": "P3(2121)64X64-32-M2-FM6124.ssx",
+    "file": "P3-64X64-32-M2-FM6124.ssx",
+    "extra": "HJCL"
+  },
+  {
+    "tag": "P3.91-250X250-64x64-16s--FM6124.ssx",
+    "file": "P3.91-250X250-64x64-16s--FM6124.ssx",
+    "extra": "HJCL"
+  },
+  {
+    "tag": "P4-（1921）-40x80-10s-M1.0-ICN2028-10s-户外.ssx",
+    "file": "P4-40x80-10s-M1.0-ICN2028-10s.ssx",
+    "extra": "HJCL"
+  },
+  {
+    "tag": "P4-256X128-2121-A2-FM6124.ssx",
+    "file": "P4-256X128-2121-A2-FM6124.ssx",
+    "extra": "HJCL"
+  },
+  {
+    "tag": "P4-2121-80X40-20S-M1.0-FM6124.ssx",
+    "file": "P4-2121-80X40-20S-M1.0-FM6124.ssx",
+    "extra": "HJCL"
+  },
+  {
+    "tag": "P4-RGB-16S-64X32-V3-ICN2028.ssx",
+    "file": "P4-RGB-16S-64X32-V3-ICN2028.ssx",
+    "extra": "HJCL"
+  },
+  {
+    "tag": "P5(25X25)-64X32-8S-M2-ICN2028.ssx",
+    "file": "P5-25X25-64X32-8S-M2-ICN2028.ssx",
+    "extra": "HJCL"
+  },
+  {
+    "tag": "P5-RGB-8S-64X32-V1.0-FM6124.ssx",
+    "file": "P5-RGB-8S-64X32-V1.0-FM6124.ssx",
+    "extra": "HJCL"
+  },
+  {
+    "tag": "P6(2727)4PIN-QWH-32X32-8S-17F.ssx",
+    "file": "P6-2727-4PIN-QWH-32X32-8S-17F.ssx",
+    "extra": "HJCL"
+  },
+  {
+    "tag": "P6(3535)32X32-8S-7258-M6-ICN2028.ssx",
+    "file": "P6-3535-32X32-8S-7258-M6-ICN2028.ssx",
+    "extra": "HJCL"
+  },
+  {
+    "tag": "P7.8125-250X250-4S-V1.0.ssx",
+    "file": "P7.8125-250X250-4S-V1.0.ssx",
+    "extra": "HJCL"
+  },
+  {
+    "tag": "P8(3535).16X32-4S-M6-FM6124.ssx",
+    "file": "P8-3535.16X32-4S-M6-FM6124.ssx",
+    "extra": "HJCL"
+  },
+  {
+    "tag": "P8-RGB-5S-40X20-320X160mm-V2.3-ICN2028.ssx",
+    "file": "P8-RGB-5S-40X20-320X160mm-V2.3-ICN2028.ssx",
+    "extra": "HJCL"
+  },
+  {
+    "tag": "P10(3535)-1632-2S-M3-ICN2028.ssx",
+    "file": "P10-3535-1632-2S-M3-ICN2028.ssx",
+    "extra": "HJCL"
+  },
+  {
+    "tag": "P10-RGB-4S-32X16-B5.ssx",
+    "file": "P10-RGB-4S-32X16-B5.ssx",
+    "extra": "HJCL"
+  },
+  {
+    "tag": "HJCL_D1.53S26_2055_2012_R320_208X104.ssx",
+    "file": "HJCL_D1.53S26_2055_2012_R320_208X104.ssx",
+    "extra": "HJCL"
+  },
+  {
+    "tag": "HJCL_D1.83S29_2053_2012_R320_174X696.ssx",
+    "file": "HJCL_D1.83S29_2053_2012_R320_174X696.ssx",
+    "extra": "HJCL"
+  },
+  {
+    "tag": "HJCL_D1.86S43_LS9929_9736BP.ssx",
+    "file": "HJCL_D1.86S43_LS9929_9736BP.ssx",
+    "extra": "HJCL"
+  },
+  {
+    "tag": "HJCL_D1.86S43_LS9929_9736BP_75E.dat",
+    "file": "HJCL_D1.86S43_LS9929_9736BP_75E.dat",
+    "extra": "HJCL"
+  },
+  {
+    "tag": "1R 4S HUB12",
+    "file": "P10 1R 4S HUB12",
+    "extra": "P10"
+  },
+  {
+    "tag": "1R 4S HUB12 QiangLi",
+    "file": "P10 1R 4S HUB12 QiangLi",
+    "extra": "P10"
+  },
+  {
+    "tag": "1R1G 4S HUB08",
+    "file": "P10 1R1G 4S HUB08",
+    "extra": "P10"
+  },
+  {
+    "tag": "1R1G 4S HUB12 QiangLi",
+    "file": "P10 1R1G 4S HUB12 QiangLi",
+    "extra": "P10"
+  },
+  {
+    "tag": "1R1G1B 4S HUB08 YLR",
+    "file": "P10 1R1G1B 4S HUB08 YLR",
+    "extra": "P10"
+  },
+  {
+    "tag": "1R1G1B 4S HUB75 1",
+    "file": "P10 1R1G1B 4S HUB75 1",
+    "extra": "P10"
+  },
+  {
+    "tag": "1R1G1B 4S HUB75 2",
+    "file": "P10 1R1G1B 4S HUB75 2",
+    "extra": "P10"
+  },
+  {
+    "tag": "1R1G1B 4S HUB75 3",
+    "file": "P10 1R1G1B 4S HUB75 3",
+    "extra": "P10"
+  },
+  {
+    "tag": "1R1G1B 4S HUB75 4",
+    "file": "P10 1R1G1B 4S HUB75 4",
+    "extra": "P10"
+  },
+  {
+    "tag": "1R1G1B 4S HUB75 5",
+    "file": "P10 1R1G1B 4S HUB75 5",
+    "extra": "P10"
+  },
+  {
+    "tag": "1R1G1B 4S HUB75 6",
+    "file": "P10 1R1G1B 4S HUB75 6",
+    "extra": "P10"
+  },
+  {
+    "tag": "1R1G1B 4S HUB75 7",
+    "file": "P10 1R1G1B 4S HUB75 7",
+    "extra": "P10"
+  },
+  {
+    "tag": "1R1G1B 4S HUB75 8",
+    "file": "P10 1R1G1B 4S HUB75 8",
+    "extra": "P10"
+  },
+  {
+    "tag": "1R1G1B 4S HUB75 KT",
+    "file": "P10 1R1G1B 4S HUB75 KT",
+    "extra": "P10"
+  },
+  {
+    "tag": "1R1G1B 4S HUB75 YLR",
+    "file": "P10 1R1G1B 4S HUB75 YLR",
+    "extra": "P10"
+  },
+  {
+    "tag": "1R1G1B 4S JHG",
+    "file": "P10 1R1G1B 4S JHG",
+    "extra": "P10"
+  },
+  {
+    "tag": "1R1G1B 4S NO138 HUB75B 1",
+    "file": "P10 1R1G1B 4S NO138 HUB75B 1",
+    "extra": "P10"
+  },
+  {
+    "tag": "1R1G1B 4S NO138 HUB75B 2",
+    "file": "P10 1R1G1B 4S NO138 HUB75B 2",
+    "extra": "P10"
+  },
+  {
+    "tag": "1R1G1B 4S NO138 HUB75B 3",
+    "file": "P10 1R1G1B 4S NO138 HUB75B 3",
+    "extra": "P10"
+  },
+  {
+    "tag": "1R1G1B 4S NO138 HUB75B 4",
+    "file": "P10 1R1G1B 4S NO138 HUB75B 4",
+    "extra": "P10"
+  },
+  {
+    "tag": "1R1G1B 4S NO138 HUB75B 5",
+    "file": "P10 1R1G1B 4S NO138 HUB75B 5",
+    "extra": "P10"
+  },
+  {
+    "tag": "1R1G1B 4S NO138 HUB75B 6",
+    "file": "P10 1R1G1B 4S NO138 HUB75B 6",
+    "extra": "P10"
+  },
+  {
+    "tag": "1R1G1B 4S NO138 HUB75B 7",
+    "file": "P10 1R1G1B 4S NO138 HUB75B 7",
+    "extra": "P10"
+  },
+  {
+    "tag": "1R1G1B 4S NO138 HUB75B 8",
+    "file": "P10 1R1G1B 4S NO138 HUB75B 8",
+    "extra": "P10"
+  },
+  {
+    "tag": "1R1G1B 4S NO138 HUB75B Qiangli X10",
+    "file": "P10 1R1G1B 4S NO138 HUB75B Qiangli X10",
+    "extra": "P10"
+  },
+  {
+    "tag": "1R1G1B 5S HUB08 HLL",
+    "file": "P10 1R1G1B 5S HUB08 HLL",
+    "extra": "P10"
+  },
+  {
+    "tag": "1R1G1B 4S  HUB06 JHG",
+    "file": "P10.41 1R1G1B 4S  HUB06 JHG",
+    "extra": "P10.41"
+  },
+  {
+    "tag": "2R1G 4S HUB12",
+    "file": "P12 2R1G 4S HUB12",
+    "extra": "P12"
+  },
+  {
+    "tag": "1R1G1B 3S HUB08",
+    "file": "P13.3 1R1G1B 3S HUB08",
+    "extra": "P13.3"
+  },
+  {
+    "tag": "1R 4S HUB12",
+    "file": "P13.33 1R 4S HUB12",
+    "extra": "P13.33"
+  },
+  {
+    "tag": "1R1G1B 3S HUB08 YLR",
+    "file": "P13.33 1R1G1B 3S HUB08 YLR",
+    "extra": "P13.33"
+  },
+  {
+    "tag": "1R1G1B 6S HUB08",
+    "file": "P13.33 1R1G1B 6S HUB08",
+    "extra": "P13.33"
+  },
+  {
+    "tag": "1R1G1B 6S HUB74",
+    "file": "P13.33 1R1G1B 6S HUB74",
+    "extra": "P13.33"
+  },
+  {
+    "tag": "1R1G1B1 3S JHG",
+    "file": "P13.33 1R1G1B1 3S JHG",
+    "extra": "P13.33"
+  },
+  {
+    "tag": "1R1G1B 5S HUB08 HLL",
+    "file": "P16 1R1G1B 5S HUB08 HLL",
+    "extra": "P16"
+  },
+  {
+    "tag": "1R1G1B 5S JHG",
+    "file": "P16 1R1G1B 5S JHG",
+    "extra": "P16"
+  },
+  {
+    "tag": "2R1G 4S HUB12",
+    "file": "P16 2R1G 4S HUB12",
+    "extra": "P16"
+  },
+  {
+    "tag": "2R1G1B 1S HUB40",
+    "file": "P16 2R1G1B 1S HUB40",
+    "extra": "P16"
+  },
+  {
+    "tag": "RGB 32S HUB75 595.5 RGB 32S HUB75 595.5 RGB 32S HUB75 595",
+    "file": "P2.5 RGB 32S HUB75 595.5 RGB 32S HUB75 595.5 RGB 32S HUB75 595",
+    "extra": "P2.5"
+  },
+  {
+    "tag": "RGB 32S HUB75 5958.5 RGB 32S HUB75 5958.5 RGB 32S HUB75 5958",
+    "file": "P2.5 RGB 32S HUB75 5958.5 RGB 32S HUB75 5958.5 RGB 32S HUB75 5958",
+    "extra": "P2.5"
+  },
+  {
+    "tag": "RGB 32S HUB75E 138.5 RGB 32S HUB75E 138.5 RGB 32S HUB75E 138",
+    "file": "P2.5 RGB 32S HUB75E 138.5 RGB 32S HUB75E 138.5 RGB 32S HUB75E 138",
+    "extra": "P2.5"
+  },
+  {
+    "tag": "2R1G 4S HUB12",
+    "file": "P20 2R1G 4S HUB12",
+    "extra": "P20"
+  },
+  {
+    "tag": "2R1G1B 4S HUB08",
+    "file": "P20 2R1G1B 4S HUB08",
+    "extra": "P20"
+  },
+  {
+    "tag": "2R1G1B 1S HUB75",
+    "file": "P25 2R1G1B 1S HUB75",
+    "extra": "P25"
+  },
+  {
+    "tag": "1R1G1B 16S HUB75B",
+    "file": "P3 1R1G1B 16S HUB75B",
+    "extra": "P3"
+  },
+  {
+    "tag": "RBG 32S HUB75 5958",
+    "file": "P3 RBG 32S HUB75 5958",
+    "extra": "P3"
+  },
+  {
+    "tag": "RGB 32S HUB22 QiangLi",
+    "file": "P3 RGB 32S HUB22 QiangLi",
+    "extra": "P3"
+  },
+  {
+    "tag": "1R1G1B 16S HUB47",
+    "file": "P4 1R1G1B 16S HUB47",
+    "extra": "P4"
+  },
+  {
+    "tag": "1R1G1B 16S HUB75B",
+    "file": "P4 1R1G1B 16S HUB75B",
+    "extra": "P4"
+  },
+  {
+    "tag": "1R1G1B 16S HUB08",
+    "file": "P5 1R1G1B 16S HUB08",
+    "extra": "P5"
+  },
+  {
+    "tag": "1R1G1B 16S HUB75B",
+    "file": "P5 1R1G1B 16S HUB75B",
+    "extra": "P5"
+  },
+  {
+    "tag": "1R1G1B 8S HUB75 1",
+    "file": "P6 1R1G1B 8S HUB75 1",
+    "extra": "P6"
+  },
+  {
+    "tag": "1R1G1B 8S HUB75 2",
+    "file": "P6 1R1G1B 8S HUB75 2",
+    "extra": "P6"
+  },
+  {
+    "tag": "1R1G1B 8S HUB103",
+    "file": "P6 1R1G1B 8S HUB103",
+    "extra": "P6"
+  },
+  {
+    "tag": "1R1G1B 16S HUB75B",
+    "file": "P6 1R1G1B 16S HUB75B",
+    "extra": "P6"
+  },
+  {
+    "tag": "1R1G1B 6S 5041 JHG",
+    "file": "P6.67 1R1G1B 6S 5041 JHG",
+    "extra": "P6.67"
+  },
+  {
+    "tag": "1R1G1B 6S JHG",
+    "file": "P6.67 1R1G1B 6S JHG",
+    "extra": "P6.67"
+  },
+  {
+    "tag": "1R1G1B 5S JHG",
+    "file": "P8 1R1G1B 5S JHG",
+    "extra": "P8"
+  }
+]

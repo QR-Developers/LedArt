@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="-1" android:layout_height="-1">
+	<androidx.core.widget.NestedScrollView android:id="false" android:layout_width="-1" android:layout_height="-1" android:fillViewport="true">
+		<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2">
+			<LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="60dp">
+				<TextView android:textSize="13sp" android:textColor="333333" android:gravity="0x800013" android:id="false" android:background="res/drawable/bg_sc_edit_text_preview.xml" android:padding="3dp" android:layout_width="0dp" android:layout_height="-1" android:layout_margin="8dp" android:singleLine="false" android:layout_weight="{4:1082130432}" />
+				<LinearLayout android:gravity="0x11" android:layout_gravity="0x11" android:orientation="0" android:background="res/drawable/bg_sc_edit_text_preview.xml" android:layout_width="-2" android:layout_height="-1" android:layout_margin="8dp">
+					<LinearLayout android:id="false" android:layout_width="-1" android:layout_height="-1">
+						<TextView android:textSize="16sp" android:textColor="333333" android:gravity="0x11" android:layout_gravity="0x10" android:id="false" android:layout_width="30dp" android:layout_height="-1" android:singleLine="true" />
+						<ImageView android:layout_gravity="0x800015" android:id="false" android:layout_width="12dp" android:layout_height="6dp" android:src="res/drawable-xxhdpi-v4/font_arrow.png" android:rotation="{4:1127481344}" android:layout_marginEnd="10dp" />
+						<View android:layout_gravity="0x800015" android:background="e4e4e4" android:layout_width="1px" android:layout_height="20dp" />
+					</LinearLayout>
+					<LinearLayout android:gravity="0x11" android:layout_gravity="0x11" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginStart="10dp" android:layout_marginEnd="15dp">
+						<View android:layout_width="20dp" android:layout_height="16dp" />
+					</LinearLayout>
+				</LinearLayout>
+			</LinearLayout>
+			<LinearLayout android:orientation="0" android:id="false" android:background="res/drawable/bg_rectangle_only_bottom_ff_stroke_e4.xml" android:layout_width="-1" android:layout_height="40dp">
+				<TextView android:textSize="13sp" android:textColor="333333" android:layout_gravity="0x10" android:layout_width="0dp" android:layout_height="-2" android:text="Background color" android:layout_weight="{4:1065353216}" android:layout_marginStart="15dp" />
+				<View android:layout_gravity="0x10" android:id="false" android:layout_width="20dp" android:layout_height="16dp" android:layout_marginEnd="25dp" />
+			</LinearLayout>
+			<LinearLayout android:orientation="0" android:background="res/drawable/bg_rectangle_only_bottom_ff_stroke_e4.xml" android:layout_width="-1" android:layout_height="40dp">
+				<TextView android:textSize="13sp" android:textColor="333333" android:layout_gravity="0x10" android:layout_width="0dp" android:layout_height="-2" android:text="Border" android:layout_weight="{4:1065353216}" android:layout_marginStart="15dp" />
+				<LinearLayout android:layout_gravity="0x11" android:orientation="0" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginStart="10dp">
+					<TextView android:textSize="13sp" android:textColor="333333" android:gravity="0x11" android:layout_gravity="0x11" android:id="false" android:background="res/drawable/bg_sc_edit_text_preview.xml" android:layout_width="30dp" android:layout_height="30dp" android:text="0" android:singleLine="false" android:layout_marginEnd="10dp" />
+					<View android:layout_gravity="0x10" android:id="false" android:background="res/drawable/bg_round_3_rectangle_stroke_d7_ffffff.xml" android:layout_width="20dp" android:layout_height="16dp" android:layout_marginEnd="25dp" />
+				</LinearLayout>
+			</LinearLayout>
+			<LinearLayout android:orientation="0" android:background="res/drawable/bg_rectangle_only_bottom_ff_stroke_e4.xml" android:layout_width="-1" android:layout_height="40dp">
+				<TextView android:textSize="13sp" android:textColor="333333" android:layout_gravity="0x10" android:layout_width="0dp" android:layout_height="-2" android:text="Fillet" android:layout_weight="{4:1065353216}" android:layout_marginStart="15dp" />
+				<TextView android:textSize="13sp" android:textColor="333333" android:gravity="0x11" android:layout_gravity="0x11" android:id="false" android:background="res/drawable/bg_sc_edit_text_preview.xml" android:layout_width="30dp" android:layout_height="30dp" android:text="0" android:singleLine="false" android:layout_marginEnd="20dp" />
+			</LinearLayout>
+			<LinearLayout android:orientation="1" android:background="res/drawable/bg_rectangle_only_bottom_ff_stroke_e4.xml" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="10dp">
+				<LinearLayout android:orientation="0" android:id="false" android:background="res/drawable/bg_rectangle_only_bottom_ff_stroke_e4.xml" android:layout_width="-1" android:layout_height="40dp" android:layout_marginStart="10dp" android:layout_marginEnd="10dp">
+					<TextView android:textSize="13sp" android:textColor="333333" android:layout_gravity="0x10" android:layout_width="0dp" android:layout_height="-2" android:text="the goal" android:lines="1" android:layout_weight="{4:1065353216}" />
+					<LinearLayout android:layout_gravity="0x10" android:layout_width="-2" android:layout_height="-2">
+						<TextView android:textSize="13sp" android:textColor="066ff" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="please choose" android:lines="1" android:layout_marginStart="5dp" android:layout_marginEnd="10dp" />
+						<ImageView android:layout_gravity="0x10" android:layout_width="12dp" android:layout_height="6dp" android:src="res/drawable-xxhdpi-v4/font_arrow.png" android:rotation="{4:1127481344}" android:layout_marginEnd="15dp" />
+					</LinearLayout>
+				</LinearLayout>
+				<LinearLayout android:orientation="0" android:id="false" android:background="res/drawable/bg_rectangle_only_bottom_ff_stroke_e4.xml" android:layout_width="-1" android:layout_height="40dp" android:layout_marginStart="10dp" android:layout_marginEnd="10dp">
+					<TextView android:textSize="13sp" android:textColor="333333" android:layout_gravity="0x10" android:layout_width="0dp" android:layout_height="-2" android:text="When the button is clicked" android:lines="1" android:layout_weight="{4:1065353216}" />
+					<LinearLayout android:layout_gravity="0x10" android:layout_width="-2" android:layout_height="-2">
+						<TextView android:textSize="13sp" android:textColor="066ff" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="please choose" android:lines="1" android:layout_marginStart="5dp" android:layout_marginEnd="10dp" />
+						<ImageView android:layout_gravity="0x10" android:layout_width="12dp" android:layout_height="6dp" android:src="res/drawable-xxhdpi-v4/font_arrow.png" android:rotation="{4:1127481344}" android:layout_marginEnd="15dp" />
+					</LinearLayout>
+				</LinearLayout>
+				<LinearLayout android:orientation="0" android:id="false" android:background="res/drawable/bg_rectangle_only_bottom_ff_stroke_e4.xml" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:layout_marginStart="10dp" android:layout_marginEnd="10dp">
+					<TextView android:textSize="13sp" android:textColor="333333" android:layout_gravity="0x10" android:layout_width="-2" android:layout_height="-2" android:text="please choose" />
+					<androidx.recyclerview.widget.RecyclerView android:id="false" android:background="res/drawable/bg_rectangle_only_bottom_ff_stroke_e4.xml" android:layout_width="-1" android:layout_height="-2" android:splitMotionEvents="false" />
+				</LinearLayout>
+				<LinearLayout android:orientation="0" android:id="false" android:background="res/drawable/bg_rectangle_only_bottom_ff_stroke_e4.xml" android:visibility="2" android:layout_width="-1" android:layout_height="40dp" android:layout_marginStart="10dp" android:layout_marginEnd="10dp">
+					<TextView android:textSize="13sp" android:textColor="333333" android:layout_gravity="0x10" android:layout_width="0dp" android:layout_height="-2" android:text="redirect to" android:layout_weight="{4:1065353216}" />
+					<TextView android:textSize="13sp" android:textColor="333333" android:id="false" android:background="res/drawable/bg_round_3_rectangle_stroke_d7_ffffff.xml" android:padding="5dp" android:layout_width="0dp" android:layout_height="-1" android:layout_margin="7dp" android:singleLine="false" android:layout_weight="{4:1082130432}" />
+				</LinearLayout>
+			</LinearLayout>
+		</LinearLayout>
+	</androidx.core.widget.NestedScrollView>
+</FrameLayout>

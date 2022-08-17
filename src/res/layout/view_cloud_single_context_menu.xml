@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="-1" android:layout_height="-1">
+	<View android:id="false" android:background="0000" android:layout_width="-1" android:layout_height="-1" />
+	<LinearLayout android:orientation="0" android:id="false" android:background="res/drawable-xxhdpi-v4/single_context_menu_bg.9.png" android:padding="5dp" android:layout_width="-2" android:layout_height="41dp">
+		<FrameLayout android:id="false" android:paddingBottom="10dp" android:layout_width="50dp" android:layout_height="-1">
+			<TextView android:textSize="14sp" android:textColor="ffffff" android:layout_gravity="0x11" android:layout_width="-2" android:layout_height="-2" android:text="Copy" />
+		</FrameLayout>
+		<View android:id="false" android:background="res/drawable/bg_vertical_line_ff.xml" android:layout_width="1px" android:layout_height="18dp" android:layout_marginTop="2dp" />
+		<FrameLayout android:id="false" android:paddingBottom="10dp" android:layout_width="50dp" android:layout_height="-1">
+			<TextView android:textSize="14sp" android:textColor="ffffff" android:layout_gravity="0x11" android:layout_width="-2" android:layout_height="-2" android:text="Delete" />
+		</FrameLayout>
+	</LinearLayout>
+</FrameLayout>

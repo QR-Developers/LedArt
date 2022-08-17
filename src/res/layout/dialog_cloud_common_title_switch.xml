@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:layout_width="-1" android:layout_height="-2">
+	<LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="40dp" android:layout_marginTop="20dp" android:layout_marginBottom="20dp">
+		<TextView android:textSize="14sp" android:textColor="333333" android:layout_gravity="0x10" android:id="false" android:layout_width="0dp" android:layout_height="-2" android:layout_marginLeft="20dp" android:text="Open" android:layout_weight="{4:1065353216}" />
+		<cn.huidu.view.CustomSwitch android:layout_gravity="0x10" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="20dp" />
+	</LinearLayout>
+</LinearLayout>

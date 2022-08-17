@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+	<RelativeLayout android:id="false" android:background="res/drawable-xhdpi-v4/header_bg.png" android:layout_width="-1" android:layout_height="75dp">
+		<FrameLayout android:id="false" android:focusable="true" android:clickable="true" android:layout_width="50dp" android:layout_height="50dp" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true">
+			<ImageView android:layout_gravity="0x11" android:background="res/drawable-xhdpi-v4/base_setting_left_angle.png" android:layout_width="24dp" android:layout_height="24dp" android:contentDescription="resourceId:0x0" />
+		</FrameLayout>
+		<TextView android:textSize="16sp" android:textColor="ffffff" android:gravity="0x11" android:layout_width="200dp" android:layout_height="50dp" android:text="Feedback" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+	</RelativeLayout>
+	<ScrollView android:layout_width="-1" android:layout_height="-1" android:layout_marginTop="75dp" android:fillViewport="true">
+		<LinearLayout android:orientation="1" android:background="f2f2f2" android:paddingLeft="20dp" android:paddingTop="15dp" android:paddingRight="20dp" android:paddingBottom="20dp" android:layout_width="-1" android:layout_height="-2">
+			<TextView android:textSize="13sp" android:textColor="999999" android:ellipsize="3" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="15dp" android:layout_marginRight="15dp" android:layout_marginBottom="5dp" android:text="Problem and suggestion" android:lines="1" />
+			<FrameLayout android:background="res/drawable/feedback_center_bg_fl_normal.xml" android:padding="15dp" android:layout_width="-1" android:layout_height="110dp">
+				<EditText android:textSize="13sp" android:textColor="999999" android:textColorHint="999999" android:gravity="0x33" android:id="false" android:background="resourceId:0x0" android:scrollbars="0x0" android:layout_width="-1" android:layout_height="-1" android:layout_marginBottom="20dp" android:hint="Please fill in the questions you have encountered, no less than 10 words, so that we can quickly locate" android:maxLength="200" />
+				<TextView android:textSize="13sp" android:textColor="999999" android:layout_gravity="0x55" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="0/200" />
+			</FrameLayout>
+			<TextView android:textSize="13sp" android:textColor="999999" android:ellipsize="3" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="15dp" android:layout_marginTop="15dp" android:layout_marginRight="15dp" android:layout_marginBottom="5dp" android:text="Device information (optional)" android:lines="1" />
+			<EditText android:textSize="13sp" android:textColor="999999" android:textColorHint="999999" android:id="false" android:background="res/drawable/feedback_center_bg_et_normal.xml" android:paddingLeft="15dp" android:paddingTop="5dp" android:paddingRight="15dp" android:paddingBottom="5dp" android:scrollbars="0x0" android:layout_width="-1" android:layout_height="40dp" android:hint="Device model/Device version" android:singleLine="true" android:maxLength="100" />
+			<TextView android:textSize="13sp" android:textColor="999999" android:ellipsize="3" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="15dp" android:layout_marginTop="15dp" android:layout_marginRight="15dp" android:layout_marginBottom="5dp" android:text="Select problem generation module" android:lines="1" />
+			<LinearLayout android:gravity="0x10" android:orientation="0" android:id="false" android:background="res/drawable/feedback_center_bg_ll_normal.xml" android:paddingLeft="15dp" android:paddingRight="15dp" android:layout_width="-1" android:layout_height="40dp">
+				<TextView android:textSize="13sp" android:textColor="999999" android:layout_width="0dp" android:layout_height="-2" android:text="Module" android:layout_weight="{4:1065353216}" />
+				<TextView android:textSize="13sp" android:textColor="333333" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="10dp" android:text="Other" />
+				<ImageView android:layout_width="-2" android:layout_height="-2" android:src="res/drawable-xxhdpi-v4/angle_right_black.png" android:alpha="{4:1061997773}" />
+			</LinearLayout>
+			<LinearLayout android:orientation="0" android:paddingLeft="15dp" android:paddingTop="15dp" android:paddingRight="15dp" android:paddingBottom="5dp" android:layout_width="-1" android:layout_height="-2">
+				<TextView android:textSize="13sp" android:textColor="999999" android:ellipsize="3" android:layout_width="0dp" android:layout_height="-2" android:layout_marginRight="5dp" android:text="Add an image (optional, provide a screenshot of the problem)" android:lines="1" android:layout_weight="{4:1065353216}" />
+				<TextView android:textSize="13sp" android:textColor="999999" android:ellipsize="3" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="0/4" android:lines="1" />
+			</LinearLayout>
+			<androidx.core.widget.NestedScrollView android:orientation="0" android:background="res/drawable/feedback_center_bg_ll_normal.xml" android:padding="15dp" android:layout_width="-1" android:layout_height="85dp">
+				<LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="-1">
+					<androidx.recyclerview.widget.RecyclerView android:id="false" android:layout_width="-2" android:layout_height="-1" />
+					<TextView android:textSize="48sp" android:textColor="999999" android:gravity="0x11" android:id="false" android:background="res/drawable/feedback_center_bg_iv_normal.xml" android:layout_width="55dp" android:layout_height="55dp" android:text="+" />
+				</LinearLayout>
+			</androidx.core.widget.NestedScrollView>
+			<TextView android:textSize="13sp" android:textColor="999999" android:ellipsize="3" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="15dp" android:layout_marginTop="15dp" android:layout_marginRight="15dp" android:layout_marginBottom="5dp" android:text="Contact information (optional)" android:lines="1" />
+			<EditText android:textSize="13sp" android:textColor="999999" android:textColorHint="999999" android:id="false" android:background="res/drawable/feedback_center_bg_et_normal.xml" android:paddingLeft="15dp" android:paddingTop="5dp" android:paddingRight="15dp" android:paddingBottom="5dp" android:scrollbars="0x0" android:layout_width="-1" android:layout_height="40dp" android:hint="Mobile number/Email" android:maxLength="30" />
+			<Button android:textSize="14sp" android:textColor="ffffff" android:id="false" android:background="res/drawable/feedback_center_bg_btn_normal.xml" android:layout_width="-1" android:layout_height="40dp" android:layout_marginTop="18dp" android:text="Submit feedback" android:textAllCaps="false" />
+		</LinearLayout>
+	</ScrollView>
+</FrameLayout>

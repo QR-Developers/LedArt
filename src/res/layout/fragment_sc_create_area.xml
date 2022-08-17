@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="-1" android:layout_height="-1">
+	<View android:id="false" android:background="cc000" android:layout_width="-1" android:layout_height="-1" />
+	<LinearLayout android:layout_gravity="0x11" android:orientation="1" android:layout_width="-2" android:layout_height="-2">
+		<LinearLayout android:orientation="0" android:id="false" android:layout_width="-2" android:layout_height="-2">
+			<ImageView android:layout_width="36dp" android:layout_height="36dp" android:layout_marginTop="10dp" android:layout_marginRight="15dp" android:layout_marginBottom="10dp" android:src="res/drawable-xxhdpi-v4/clock_area.png" android:contentDescription="resourceId:0x0" />
+			<TextView android:textSize="16sp" android:textColor="ffffff" android:layout_gravity="0x11" android:layout_width="-2" android:layout_height="-2" android:text="Add clock" />
+		</LinearLayout>
+		<LinearLayout android:orientation="0" android:id="false" android:layout_width="-2" android:layout_height="-2">
+			<ImageView android:layout_width="36dp" android:layout_height="36dp" android:layout_marginTop="10dp" android:layout_marginRight="15dp" android:layout_marginBottom="10dp" android:src="res/drawable-xxhdpi-v4/image_area.png" android:contentDescription="resourceId:0x0" />
+			<TextView android:textSize="16sp" android:textColor="ffffff" android:layout_gravity="0x11" android:layout_width="-2" android:layout_height="-2" android:text="Add image" />
+		</LinearLayout>
+		<LinearLayout android:orientation="0" android:id="false" android:layout_width="-2" android:layout_height="-2">
+			<ImageView android:layout_width="36dp" android:layout_height="36dp" android:layout_marginTop="10dp" android:layout_marginRight="15dp" android:layout_marginBottom="10dp" android:src="res/drawable-xxhdpi-v4/text_area.png" android:contentDescription="resourceId:0x0" />
+			<TextView android:textSize="16sp" android:textColor="ffffff" android:layout_gravity="0x11" android:layout_width="-2" android:layout_height="-2" android:text="Add text" />
+		</LinearLayout>
+		<LinearLayout android:orientation="0" android:id="false" android:layout_width="-2" android:layout_height="-2">
+			<ImageView android:layout_width="36dp" android:layout_height="36dp" android:layout_marginTop="10dp" android:layout_marginRight="15dp" android:layout_marginBottom="10dp" android:src="res/drawable-xxhdpi-v4/temp_humidity_area.png" android:contentDescription="resourceId:0x0" />
+			<TextView android:textSize="16sp" android:textColor="ffffff" android:layout_gravity="0x11" android:layout_width="-2" android:layout_height="-2" android:text="Add temperature and humidity" />
+		</LinearLayout>
+		<LinearLayout android:orientation="0" android:id="false" android:layout_width="-2" android:layout_height="-2">
+			<ImageView android:layout_width="36dp" android:layout_height="36dp" android:layout_marginTop="10dp" android:layout_marginRight="15dp" android:layout_marginBottom="10dp" android:src="res/drawable-xxhdpi-v4/timing_area.png" android:contentDescription="resourceId:0x0" />
+			<TextView android:textSize="16sp" android:textColor="ffffff" android:layout_gravity="0x11" android:layout_width="-2" android:layout_height="-2" android:text="Add timing" />
+		</LinearLayout>
+		<LinearLayout android:orientation="0" android:id="false" android:layout_width="-2" android:layout_height="-2">
+			<ImageView android:layout_width="36dp" android:layout_height="36dp" android:layout_marginTop="10dp" android:layout_marginRight="15dp" android:layout_marginBottom="10dp" android:src="res/drawable-xxhdpi-v4/timer_area.png" android:contentDescription="resourceId:0x0" />
+			<TextView android:textSize="16sp" android:textColor="ffffff" android:layout_gravity="0x11" android:layout_width="-2" android:layout_height="-2" android:text="Add count" />
+		</LinearLayout>
+		<LinearLayout android:orientation="0" android:id="false" android:layout_width="-2" android:layout_height="-2">
+			<ImageView android:layout_width="36dp" android:layout_height="36dp" android:layout_marginTop="10dp" android:layout_marginRight="15dp" android:layout_marginBottom="10dp" android:src="res/drawable-xxhdpi-v4/animation_text_icon.png" android:contentDescription="resourceId:0x0" />
+			<TextView android:textSize="16sp" android:textColor="ffffff" android:layout_gravity="0x11" android:layout_width="-2" android:layout_height="-2" android:text="Add animation" />
+		</LinearLayout>
+	</LinearLayout>
+</FrameLayout>

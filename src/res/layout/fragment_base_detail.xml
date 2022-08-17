@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="f0f0f0" android:layout_width="-1" android:layout_height="-1" android:splitMotionEvents="false">
+	<LinearLayout android:gravity="0x1" android:orientation="1" android:id="false" android:background="res/drawable/shape_rect_stroke_gray.xml" android:visibility="2" android:layout_width="-1" android:layout_height="-1">
+		<ImageView android:layout_width="48dp" android:layout_height="48dp" android:layout_marginTop="80dp" android:src="res/drawable-xxhdpi-v4/null_program.png" />
+		<TextView android:textSize="14sp" android:textColor="999999" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="20dp" android:text="Unselected device" />
+	</LinearLayout>
+	<androidx.recyclerview.widget.RecyclerView android:id="false" android:visibility="0" android:scrollbars="0x200" android:layout_width="-1" android:layout_height="-1" android:layout_marginLeft="20dp" android:layout_marginTop="20dp" android:layout_marginRight="20dp" />
+	<FrameLayout android:id="false" android:background="80ffffff" android:visibility="2" android:layout_width="-1" android:layout_height="-1">
+		<ProgressBar android:layout_gravity="0x11" android:layout_width="50dp" android:layout_height="50dp" />
+	</FrameLayout>
+</FrameLayout>

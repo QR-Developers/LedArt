@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="0x31" android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+	<ScrollView android:layout_width="-1" android:layout_height="-2">
+		<LinearLayout android:orientation="1" android:paddingLeft="15dp" android:paddingRight="15dp" android:layout_width="-1" android:layout_height="-2">
+			<LinearLayout android:gravity="0x13" android:orientation="0" android:background="res/drawable/list_bottom_line.xml" android:layout_width="-1" android:layout_height="50dp">
+				<TextView android:textSize="16sp" android:textColor="666666" android:gravity="0x3" android:layout_width="0dp" android:layout_height="-2" android:text="Style" android:layout_weight="{4:1056964608}" />
+			</LinearLayout>
+			<LinearLayout android:gravity="0x11" android:orientation="0" android:id="false" android:background="res/drawable/list_bottom_line.xml" android:layout_width="-1" android:layout_height="100dp">
+				<ViewFlipper android:id="false" android:layout_width="0dp" android:layout_height="-1" android:inAnimation="res/anim/navi_item_in.xml" android:outAnimation="res/anim/navi_item_out.xml" android:layout_weight="{4:1065353216}">
+					<ImageView android:layout_gravity="0x11" android:layout_width="60dp" android:layout_height="60dp" android:src="res/drawable-xxhdpi-v4/clock_style1_focused.png" />
+					<ImageView android:layout_gravity="0x11" android:layout_width="60dp" android:layout_height="60dp" android:src="res/drawable-xxhdpi-v4/clock_style1_unfocused.png" android:alpha="{4:1053609165}" />
+				</ViewFlipper>
+				<ViewFlipper android:id="false" android:layout_width="0dp" android:layout_height="-1" android:inAnimation="res/anim/navi_item_in.xml" android:outAnimation="res/anim/navi_item_out.xml" android:layout_weight="{4:1065353216}">
+					<ImageView android:layout_gravity="0x11" android:layout_width="60dp" android:layout_height="60dp" android:src="res/drawable-xxhdpi-v4/clock_style2_unfocused.png" android:alpha="{4:1053609165}" />
+					<ImageView android:layout_gravity="0x11" android:layout_width="60dp" android:layout_height="60dp" android:src="res/drawable-xxhdpi-v4/clock_style2_focused.png" />
+				</ViewFlipper>
+			</LinearLayout>
+			<LinearLayout android:gravity="0x13" android:orientation="0" android:id="false" android:background="res/drawable/list_bottom_line.xml" android:layout_width="-1" android:layout_height="50dp">
+				<ImageView android:layout_width="25dp" android:layout_height="25dp" android:src="res/drawable-xxhdpi-v4/clock_timezone_icon.png" />
+				<TextView android:textColor="333333" android:gravity="0x3" android:paddingLeft="15dp" android:layout_width="0dp" android:layout_height="-2" android:text="Time zone" android:layout_weight="{4:1056964608}" />
+				<TextView android:textColor="999999" android:gravity="0x5" android:id="false" android:paddingRight="10dp" android:layout_width="0dp" android:layout_height="-2" android:text="Following system" android:layout_weight="{4:1056964608}" />
+				<ImageView android:layout_width="-2" android:layout_height="-2" android:src="res/drawable-xhdpi-v4/angle_right.png" android:alpha="{4:1053609165}" />
+			</LinearLayout>
+			<LinearLayout android:gravity="0x10" android:orientation="0" android:id="false" android:background="res/drawable/list_bottom_line.xml" android:layout_width="-1" android:layout_height="50dp">
+				<ImageView android:layout_width="25dp" android:layout_height="25dp" android:src="res/drawable-xxhdpi-v4/font.png" />
+				<TextView android:textColor="333333" android:gravity="0x3" android:layout_width="0dp" android:layout_height="-2" android:layout_marginLeft="15dp" android:text="Font" android:layout_weight="{4:1056964608}" />
+				<TextView android:textColor="999999" android:gravity="0x5" android:id="false" android:paddingRight="10dp" android:layout_width="0dp" android:layout_height="-2" android:layout_weight="{4:1056964608}" />
+				<ImageView android:layout_width="-2" android:layout_height="-2" android:src="res/drawable-xhdpi-v4/angle_right.png" android:alpha="{4:1053609165}" />
+			</LinearLayout>
+			<LinearLayout android:gravity="0x13" android:orientation="0" android:id="false" android:background="res/drawable/list_bottom_line.xml" android:layout_width="-1" android:layout_height="50dp">
+				<ImageView android:layout_width="25dp" android:layout_height="25dp" android:src="res/drawable-xxhdpi-v4/font.png" />
+				<TextView android:textColor="333333" android:gravity="0x3" android:paddingLeft="15dp" android:layout_width="0dp" android:layout_height="-2" android:text="Font size" android:layout_weight="{4:1056964608}" />
+				<TextView android:textColor="999999" android:gravity="0x5" android:id="false" android:paddingRight="10dp" android:layout_width="0dp" android:layout_height="-2" android:layout_weight="{4:1056964608}" />
+				<ImageView android:layout_width="-2" android:layout_height="-2" android:src="res/drawable-xhdpi-v4/angle_right.png" android:alpha="{4:1053609165}" />
+			</LinearLayout>
+			<LinearLayout android:gravity="0x13" android:orientation="0" android:id="false" android:background="res/drawable/list_bottom_line.xml" android:layout_width="-1" android:layout_height="50dp">
+				<ImageView android:layout_width="25dp" android:layout_height="25dp" android:src="res/drawable-xxhdpi-v4/clock_title_icon.png" />
+				<TextView android:textColor="333333" android:gravity="0x3" android:paddingLeft="15dp" android:layout_width="0dp" android:layout_height="-2" android:text="Title" android:layout_weight="{4:1056964608}" />
+				<TextView android:textColor="999999" android:gravity="0x5" android:id="false" android:paddingRight="10dp" android:layout_width="0dp" android:layout_height="-2" android:layout_weight="{4:1056964608}" />
+				<cn.huidu.view.CustomSwitch android:id="false" android:layout_width="-2" android:layout_height="-2" />
+			</LinearLayout>
+		</LinearLayout>
+	</ScrollView>
+</LinearLayout>

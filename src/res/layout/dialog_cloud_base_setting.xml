@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="0000" android:layout_width="-1" android:layout_height="-1">
+	<LinearLayout android:layout_gravity="0x11" android:orientation="1" android:background="res/drawable/bg_round_10_rectangle_f2_79.xml" android:layout_width="300dp" android:layout_height="-2" android:minHeight="200dp">
+		<FrameLayout android:paddingLeft="10dp" android:paddingRight="10dp" android:layout_width="-1" android:layout_height="50dp">
+			<TextView android:textSize="14sp" android:textColor="333333" android:gravity="0x11" android:layout_gravity="0x11" android:id="false" android:layout_width="-2" android:layout_height="-2" android:lines="1" />
+		</FrameLayout>
+		<View android:background="d7d7d7" android:layout_width="-1" android:layout_height="1px" />
+		<FrameLayout android:background="ffffff" android:layout_width="-1" android:layout_height="0dp" android:layout_weight="{4:1065353216}">
+			<FrameLayout android:id="false" android:layout_width="-1" android:layout_height="-2" />
+			<LinearLayout android:gravity="0x11" android:orientation="1" android:id="false" android:layout_width="-1" android:layout_height="-1">
+				<ProgressBar android:layout_gravity="0x11" android:layout_width="50dp" android:layout_height="50dp" />
+				<TextView android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="10dp" android:text="设置中..." />
+			</LinearLayout>
+		</FrameLayout>
+		<View android:background="d7d7d7" android:layout_width="-1" android:layout_height="1px" />
+		<LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="50dp">
+			<View android:background="d7d7d7" android:visibility="1" android:layout_width="0dp" android:layout_height="-1" android:layout_weight="{4:1065353216}" />
+			<Button android:textSize="14sp" android:textColor="666666" android:layout_gravity="0x10" android:id="false" android:background="0000" android:visibility="0" android:layout_width="54dp" android:layout_height="28dp" android:text="Cancel" android:singleLine="true" android:textAllCaps="false" />
+			<Button android:textSize="14sp" android:textColor="ffffff" android:layout_gravity="0x10" android:id="false" android:background="res/drawable/bg_round_5_rectangle_3399ff.xml" android:layout_width="54dp" android:layout_height="28dp" android:layout_marginRight="10dp" android:text="OK" android:singleLine="true" android:textAllCaps="false" />
+		</LinearLayout>
+	</LinearLayout>
+</FrameLayout>

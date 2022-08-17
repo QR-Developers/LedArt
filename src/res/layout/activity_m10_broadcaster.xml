@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="-1" android:layout_height="-1">
+	<FrameLayout android:id="false" android:background="res/drawable-xhdpi-v4/header_bg.png" android:fitsSystemWindows="true" android:layout_width="-1" android:layout_height="75dp">
+		<FrameLayout android:id="false" android:layout_width="40dp" android:layout_height="-1">
+			<ImageView android:layout_gravity="0x11" android:layout_width="10dp" android:layout_height="20dp" android:src="res/drawable-xhdpi-v4/model_selection_left.png" />
+		</FrameLayout>
+		<TextView android:textSize="15sp" android:textColor="ffffff" android:ellipsize="4" android:gravity="0x11" android:layout_gravity="0x10" android:id="false" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="70dp" android:layout_marginRight="70dp" android:text="Player" android:singleLine="true" />
+	</FrameLayout>
+	<RelativeLayout android:background="f2f2f2" android:layout_width="-1" android:layout_height="-1" android:layout_below="false">
+		<Button android:textSize="14sp" android:textColor="ffffff" android:id="false" android:background="res/drawable-xxhdpi-v4/shape_round_rect_corner_25_solid_3399ff.xml" android:layout_width="160dp" android:layout_height="36dp" android:layout_marginTop="20dp" android:layout_marginBottom="20dp" android:text="Upgrade" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+		<FrameLayout android:layout_width="-1" android:layout_height="-1" android:layout_above="false">
+			<androidx.recyclerview.widget.RecyclerView android:id="false" android:layout_width="-1" android:layout_height="-1" />
+			<LinearLayout android:gravity="0x11" android:orientation="1" android:id="false" android:visibility="2" android:layout_width="-1" android:layout_height="-1">
+				<ImageView android:layout_width="-2" android:layout_height="-2" android:src="res/drawable-xxhdpi-v4/null_program.png" />
+				<TextView android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="20dp" android:text="No upgradeable firmware" />
+				<TextView android:layout_width="-2" android:layout_height="-2" android:text="Click to update from server" />
+			</LinearLayout>
+			<TextView android:layout_gravity="0x11" android:id="false" android:visibility="2" android:layout_width="-2" android:layout_height="-2" />
+		</FrameLayout>
+		<LinearLayout android:gravity="0x11" android:orientation="1" android:id="false" android:background="80ffffff" android:visibility="2" android:layout_width="-1" android:layout_height="-1">
+			<ProgressBar android:layout_width="50dp" android:layout_height="50dp" />
+			<TextView android:textSize="14sp" android:textColor="333333" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="10dp" />
+		</LinearLayout>
+	</RelativeLayout>
+</RelativeLayout>

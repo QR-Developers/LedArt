@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+	<LinearLayout android:gravity="0x13" android:orientation="0" android:paddingLeft="15dp" android:paddingRight="10dp" android:layout_width="-1" android:layout_height="48dp">
+		<LinearLayout android:gravity="0x13" android:orientation="0" android:layout_width="0dp" android:layout_height="-1" android:layout_weight="{4:1056964608}">
+			<TextView android:textSize="10sp" android:textStyle="0x1" android:textColor="c0ffffff" android:gravity="0x11" android:layout_gravity="0x11" android:id="false" android:background="res/drawable/shape_green.xml" android:layout_width="30dp" android:layout_height="30dp" />
+			<LinearLayout android:orientation="1" android:layout_width="-2" android:layout_height="-2">
+				<TextView android:ellipsize="3" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="15dp" android:maxLines="1" style="resourceId:0x7f120315" />
+				<TextView android:textSize="12sp" android:textColor="ffffff" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="15dp" android:alpha="{4:1053609165}" />
+			</LinearLayout>
+		</LinearLayout>
+		<LinearLayout android:gravity="0x13" android:orientation="0" android:layout_width="0dp" android:layout_height="-1" android:layout_weight="{4:1051595899}">
+			<TextView android:ellipsize="1" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="15dp" android:text="192.168.161,161" android:maxLines="1" style="resourceId:0x7f120315" />
+		</LinearLayout>
+		<LinearLayout android:gravity="0x11" android:orientation="0" android:layout_width="0dp" android:layout_height="-1" android:layout_weight="{4:1042536202}">
+			<TextView android:gravity="0x11" android:id="false" android:background="res/drawable/program_send_background.xml" android:paddingLeft="6dp" android:paddingRight="6dp" android:visibility="2" android:layout_width="-2" android:layout_height="24dp" android:layout_marginLeft="15dp" android:minWidth="50dp" android:text="Send" style="resourceId:0x7f120316" />
+			<ImageView android:id="false" android:visibility="2" android:layout_width="-1" android:layout_height="-1" android:layout_marginLeft="15dp" android:src="res/drawable-xhdpi-v4/program_send_ok.png" android:scaleType="5" />
+			<ImageView android:id="false" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="15dp" android:src="res/drawable-xhdpi-v4/unlink_single.png" android:alpha="{4:1050253722}" />
+			<ImageView android:id="false" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="15dp" android:src="res/drawable-xhdpi-v4/program_send_waring.png" />
+			<TextView android:textColor="33cc33" android:id="false" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="15dp" android:text="USB" android:alpha="{4:1061997773}" />
+		</LinearLayout>
+	</LinearLayout>
+</LinearLayout>

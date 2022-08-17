@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="-1" android:layout_height="-1">
+	<LinearLayout android:orientation="1" android:paddingLeft="20dp" android:paddingRight="20dp" android:layout_width="-1" android:layout_height="-2">
+		<LinearLayout android:orientation="1" android:id="false" android:layout_width="-1" android:layout_height="-2">
+			<TextView android:textSize="14sp" android:textColor="999999" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="15dp" android:text="Time" />
+			<View android:background="e0e0e0" android:layout_width="-1" android:layout_height="1px" android:layout_marginTop="5dp" />
+			<LinearLayout android:orientation="0" android:id="false" android:layout_width="-1" android:layout_height="60dp">
+				<TextView android:textSize="16sp" android:textColor="444444" android:layout_gravity="0x10" android:layout_width="0dp" android:layout_height="-2" android:layout_marginRight="2dp" android:text="System timezone" android:maxLines="2" android:layout_weight="{4:1065353216}" />
+				<TextView android:textSize="14sp" android:textColor="ff999999" android:layout_gravity="0x10" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="15dp" android:maxLength="15" />
+				<ImageView android:layout_gravity="0x800015" android:layout_width="-2" android:layout_height="-2" android:src="res/drawable-xxhdpi-v4/angle_right_black.png" />
+			</LinearLayout>
+			<View android:background="e0e0e0" android:layout_width="-1" android:layout_height="1px" />
+			<cn.huidu.view.SettingRow android:id="false" android:layout_width="-1" android:layout_height="-2" app:major_title="Daylight" app:show_angle_right="true">
+				<cn.huidu.view.CustomSwitch android:layout_gravity="0x800015" android:id="false" android:layout_width="50dp" android:layout_height="25dp" android:checked="false" />
+			</cn.huidu.view.SettingRow>
+			<cn.huidu.view.SettingRow android:id="false" android:layout_width="-1" android:layout_height="-2" app:major_title="Auto sync" app:minor_title="Must connect internet or use GPS model" app:show_angle_right="true">
+				<cn.huidu.view.CustomSwitch android:layout_gravity="0x800015" android:id="false" android:layout_width="50dp" android:layout_height="25dp" android:checked="false" />
+			</cn.huidu.view.SettingRow>
+			<View android:background="e0e0e0" android:layout_width="-1" android:layout_height="1px" android:layout_marginTop="20dp" />
+			<cn.huidu.view.SettingRow android:id="false" android:layout_width="-1" android:layout_height="-2" app:major_title="Use time conrrection" app:show_angle_right="false">
+				<cn.huidu.view.CustomSwitch android:layout_gravity="0x800015" android:id="false" android:layout_width="50dp" android:layout_height="25dp" android:checked="false" />
+			</cn.huidu.view.SettingRow>
+		</LinearLayout>
+		<LinearLayout android:orientation="1" android:id="false" android:layout_width="-1" android:layout_height="-2">
+			<TextView android:textSize="14sp" android:textColor="999999" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="15dp" android:text="Time" />
+			<View android:background="e0e0e0" android:layout_width="-1" android:layout_height="1px" android:layout_marginTop="5dp" />
+			<cn.huidu.view.SettingRow android:id="false" android:layout_width="-1" android:layout_height="-2" app:major_title="Automatic" app:minor_title="Use system provided time" app:show_angle_right="false">
+				<cn.huidu.view.CustomSwitch android:layout_gravity="0x800015" android:id="false" android:layout_width="50dp" android:layout_height="25dp" android:checked="false" />
+			</cn.huidu.view.SettingRow>
+			<cn.huidu.view.SettingRow android:id="false" android:layout_width="-1" android:layout_height="-2" app:major_title="Set date" app:show_angle_right="true">
+				<TextView android:textSize="14sp" android:textColor="ff999999" android:layout_gravity="0x15" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="25dp" android:text="2018-01-01" />
+			</cn.huidu.view.SettingRow>
+			<cn.huidu.view.SettingRow android:id="false" android:layout_width="-1" android:layout_height="-2" app:major_title="Set time" app:show_angle_right="true">
+				<TextView android:textSize="14sp" android:textColor="ff999999" android:layout_gravity="0x15" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="25dp" android:text="00:00:00" />
+			</cn.huidu.view.SettingRow>
+		</LinearLayout>
+		<View android:background="e0e0e0" android:layout_width="-1" android:layout_height="1px" android:layout_marginTop="20dp" />
+		<cn.huidu.view.SettingRow android:id="false" android:layout_width="-1" android:layout_height="-2" app:major_title="Device time" app:show_angle_right="false">
+			<TextView android:textSize="14sp" android:textColor="ff990" android:layout_gravity="0x15" android:id="false" android:layout_width="-2" android:layout_height="-2" />
+		</cn.huidu.view.SettingRow>
+	</LinearLayout>
+</ScrollView>

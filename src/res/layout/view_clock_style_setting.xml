@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:paddingLeft="15dp" android:paddingRight="15dp" android:layout_width="-1" android:layout_height="-2">
+	<LinearLayout android:gravity="0x13" android:orientation="0" android:id="false" android:background="res/drawable/list_bottom_line.xml" android:visibility="2" android:layout_width="-1" android:layout_height="50dp">
+		<TextView android:textColor="333333" android:gravity="0x3" android:layout_width="0dp" android:layout_height="-2" android:text="Single line" android:layout_weight="{4:1056964608}" />
+		<cn.huidu.view.CustomSwitch android:id="false" android:layout_width="-2" android:layout_height="-2" />
+	</LinearLayout>
+	<LinearLayout android:gravity="0x13" android:orientation="0" android:id="false" android:background="res/drawable/list_bottom_line.xml" android:visibility="2" android:layout_width="-1" android:layout_height="50dp">
+		<TextView android:textColor="333333" android:gravity="0x3" android:layout_width="0dp" android:layout_height="-2" android:text="Display digital" android:layout_weight="{4:1056964608}" />
+		<cn.huidu.view.CustomSwitch android:id="false" android:layout_width="-2" android:layout_height="-2" />
+	</LinearLayout>
+	<LinearLayout android:gravity="0x13" android:orientation="0" android:id="false" android:background="res/drawable/list_bottom_line.xml" android:layout_width="-1" android:layout_height="50dp">
+		<ImageView android:layout_width="25dp" android:layout_height="25dp" android:src="res/drawable-xxhdpi-v4/clock_title_icon.png" />
+		<TextView android:textColor="333333" android:gravity="0x3" android:paddingLeft="15dp" android:layout_width="0dp" android:layout_height="-2" android:text="Time" android:layout_weight="{4:1056964608}" />
+		<TextView android:textColor="999999" android:gravity="0x5" android:paddingRight="10dp" android:layout_width="0dp" android:layout_height="-2" android:layout_weight="{4:1056964608}" />
+		<cn.huidu.view.CustomSwitch android:id="false" android:layout_width="-2" android:layout_height="-2" />
+	</LinearLayout>
+	<LinearLayout android:gravity="0x13" android:orientation="0" android:id="false" android:background="res/drawable/list_bottom_line.xml" android:visibility="2" android:layout_width="-1" android:layout_height="50dp">
+		<ImageView android:layout_width="25dp" android:layout_height="25dp" android:src="res/drawable-xxhdpi-v4/clock_title_icon.png" />
+		<TextView android:textColor="333333" android:paddingLeft="15dp" android:layout_width="0dp" android:layout_height="-2" android:text="AM/PM" android:layout_weight="{4:1056964608}" />
+		<cn.huidu.view.CustomSwitch android:id="false" android:layout_width="-2" android:layout_height="-2" />
+	</LinearLayout>
+	<LinearLayout android:gravity="0x13" android:orientation="0" android:id="false" android:background="res/drawable/list_bottom_line.xml" android:layout_width="-1" android:layout_height="50dp">
+		<ImageView android:layout_width="25dp" android:layout_height="25dp" android:src="res/drawable-xxhdpi-v4/clock_style_date_icon.png" />
+		<TextView android:textColor="333333" android:gravity="0x3" android:paddingLeft="15dp" android:layout_width="0dp" android:layout_height="-2" android:text="Date" android:layout_weight="{4:1056964608}" />
+		<TextView android:textColor="999999" android:gravity="0x5" android:paddingRight="10dp" android:layout_width="0dp" android:layout_height="-2" android:layout_weight="{4:1056964608}" />
+		<cn.huidu.view.CustomSwitch android:id="false" android:layout_width="-2" android:layout_height="-2" />
+	</LinearLayout>
+	<LinearLayout android:gravity="0x13" android:orientation="0" android:id="false" android:background="res/drawable/list_bottom_line.xml" android:layout_width="-1" android:layout_height="50dp">
+		<ImageView android:layout_width="25dp" android:layout_height="25dp" android:src="res/drawable-xxhdpi-v4/clock_style_day_icon.png" />
+		<TextView android:textColor="333333" android:gravity="0x3" android:paddingLeft="15dp" android:layout_width="0dp" android:layout_height="-2" android:text="Week" android:layout_weight="{4:1056964608}" />
+		<TextView android:textColor="999999" android:gravity="0x5" android:paddingRight="10dp" android:layout_width="0dp" android:layout_height="-2" android:layout_weight="{4:1056964608}" />
+		<cn.huidu.view.CustomSwitch android:id="false" android:layout_width="-2" android:layout_height="-2" />
+	</LinearLayout>
+	<LinearLayout android:gravity="0x13" android:orientation="0" android:id="false" android:background="res/drawable/list_bottom_line.xml" android:layout_width="-1" android:layout_height="50dp">
+		<ImageView android:layout_width="25dp" android:layout_height="25dp" android:src="res/drawable-xxhdpi-v4/lunar.png" />
+		<TextView android:textColor="333333" android:gravity="0x3" android:paddingLeft="15dp" android:layout_width="0dp" android:layout_height="-2" android:text="Lunar" android:layout_weight="{4:1056964608}" />
+		<TextView android:textColor="999999" android:gravity="0x5" android:paddingRight="10dp" android:layout_width="0dp" android:layout_height="-2" android:layout_weight="{4:1056964608}" />
+		<cn.huidu.view.CustomSwitch android:id="false" android:layout_width="-2" android:layout_height="-2" />
+	</LinearLayout>
+	<LinearLayout android:gravity="0x13" android:orientation="0" android:id="false" android:background="res/drawable/list_bottom_line.xml" android:layout_width="-1" android:layout_height="50dp">
+		<ImageView android:layout_width="25dp" android:layout_height="25dp" android:src="res/drawable-hdpi-v4/interval.png" />
+		<TextView android:textColor="333333" android:gravity="0x3" android:paddingLeft="15dp" android:layout_width="0dp" android:layout_height="-2" android:text="Interval" android:layout_weight="{4:1056964608}" />
+		<TextView android:textColor="999999" android:gravity="0x5" android:paddingRight="10dp" android:layout_width="0dp" android:layout_height="-2" android:layout_weight="{4:1053609165}" />
+		<TextView android:layout_gravity="0x11" android:id="false" android:paddingRight="10dp" android:layout_width="-2" android:layout_height="-2" />
+		<ImageView android:gravity="0x5" android:layout_gravity="0x11" android:layout_width="-2" android:layout_height="-2" android:src="res/drawable-xhdpi-v4/angle_right.png" android:alpha="{4:1053609165}" />
+	</LinearLayout>
+</LinearLayout>

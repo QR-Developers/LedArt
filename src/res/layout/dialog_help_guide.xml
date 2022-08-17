@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="-1" android:layout_height="-1">
+	<LinearLayout android:layout_gravity="0x11" android:orientation="1" android:background="res/drawable/bg_rect_corner_white.xml" android:layout_width="260dp" android:layout_height="-2">
+		<TextView android:textSize="16sp" android:textColor="999999" android:gravity="0x11" android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="60dp" android:layout_marginTop="50dp" android:layout_marginRight="60dp" android:text="You can view the help document of APP here" />
+		<ImageView android:layout_gravity="0x11" android:layout_width="96dp" android:layout_height="96dp" android:layout_marginTop="30dp" android:src="res/drawable-xxhdpi-v4/colorful_doc.png" />
+		<Button android:textSize="13sp" android:textColor="ffffff" android:gravity="0x11" android:layout_gravity="0x11" android:id="false" android:background="res/drawable-xxhdpi-v4/shape_round_rect_corner_25_solid_3399ff.xml" android:layout_width="120dp" android:layout_height="32dp" android:layout_marginTop="30dp" android:text="View help" android:lines="1" />
+		<Button android:textSize="13sp" android:textColor="ff990" android:gravity="0x11" android:layout_gravity="0x11" android:id="false" android:background="res/drawable/bg_rect_corner_stroke_ff9900.xml" android:layout_width="120dp" android:layout_height="32dp" android:layout_marginTop="30dp" android:layout_marginBottom="30dp" android:text="Enter app" android:lines="1" />
+	</LinearLayout>
+</FrameLayout>

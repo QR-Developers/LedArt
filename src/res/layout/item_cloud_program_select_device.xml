@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="0" android:background="res/drawable/cloud_bg_rectangle_only_bottom_ff_stroke_e4.xml" android:layout_width="-1" android:layout_height="46dp">
+	<LinearLayout android:orientation="1" android:layout_width="0dp" android:layout_height="-2" android:layout_marginLeft="10dp" android:layout_weight="{4:1065353216}">
+		<LinearLayout android:orientation="0" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="6dp">
+			<TextView android:textSize="14sp" android:textColor="333333" android:id="false" android:layout_width="-2" android:layout_height="-2" android:maxWidth="200dp" />
+			<TextView android:textSize="12sp" android:textColor="666666" android:layout_gravity="0x10" android:id="false" android:background="res/drawable/cloud_bg_stroke_2_corner_3399ff.xml" android:paddingLeft="4dp" android:paddingRight="4dp" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="10dp" />
+		</LinearLayout>
+		<TextView android:textSize="12sp" android:textColor="666666" android:id="false" android:layout_width="-2" android:layout_height="-2" />
+	</LinearLayout>
+	<View android:layout_gravity="0x10" android:id="false" android:background="res/drawable/bg_round_5_rectangle_ff0000.xml" android:layout_width="10dp" android:layout_height="10dp" android:layout_marginRight="10dp" />
+</LinearLayout>

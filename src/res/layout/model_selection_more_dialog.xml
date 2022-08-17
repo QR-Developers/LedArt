@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+	<LinearLayout android:orientation="1" android:background="ececec" android:layout_width="-1" android:layout_height="-2">
+		<LinearLayout android:gravity="0x15" android:layout_width="-1" android:layout_height="-2">
+			<ImageView android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_margin="15dp" android:src="res/drawable-xhdpi-v4/bg_cancel.png" />
+		</LinearLayout>
+		<ScrollView android:layout_width="-1" android:layout_height="0dp" android:layout_weight="{4:1065353216}">
+			<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+				<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2">
+					<LinearLayout android:gravity="0x13" android:paddingLeft="15dp" android:paddingRight="15dp" android:layout_width="-1" android:layout_height="40dp" android:layout_marginTop="10dp">
+						<TextView android:layout_width="-2" android:layout_height="-2" android:text="Way of communication" style="resourceId:0x7f120305" />
+					</LinearLayout>
+					<TextView android:background="cccccc" android:layout_width="-1" android:layout_height="1px" />
+					<LinearLayout android:background="f8f8f8" android:layout_width="-1" android:layout_height="-2">
+						<cn.huidu.view.CustomFlowLayout android:id="false" android:padding="5dp" android:layout_width="-1" android:layout_height="-1">
+							<LinearLayout android:gravity="0x11" android:padding="5dp" android:layout_width="-2" android:layout_height="-2">
+								<TextView android:gravity="0x11" android:background="res/drawable/model_selection_model_item.xml" android:paddingLeft="8dp" android:paddingRight="8dp" android:layout_width="-2" android:layout_height="24dp" android:text="" style="resourceId:0x7f120300" />
+							</LinearLayout>
+						</cn.huidu.view.CustomFlowLayout>
+					</LinearLayout>
+					<TextView android:background="cccccc" android:layout_width="-1" android:layout_height="1px" />
+				</LinearLayout>
+				<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2">
+					<LinearLayout android:gravity="0x13" android:paddingLeft="15dp" android:paddingRight="15dp" android:layout_width="-1" android:layout_height="40dp" android:layout_marginTop="5dp">
+						<TextView android:layout_width="-2" android:layout_height="-2" android:text="Other" style="resourceId:0x7f120305" />
+					</LinearLayout>
+					<TextView android:background="cccccc" android:layout_width="-1" android:layout_height="1px" />
+					<LinearLayout android:background="f8f8f8" android:layout_width="-1" android:layout_height="-2">
+						<cn.huidu.view.CustomFlowLayout android:id="false" android:padding="5dp" android:layout_width="-1" android:layout_height="-1">
+							<LinearLayout android:gravity="0x11" android:padding="5dp" android:layout_width="-2" android:layout_height="-2">
+								<TextView android:gravity="0x11" android:background="res/drawable/model_selection_model_item.xml" android:paddingLeft="8dp" android:paddingRight="8dp" android:layout_width="-2" android:layout_height="24dp" android:text="" style="resourceId:0x7f120300" />
+							</LinearLayout>
+						</cn.huidu.view.CustomFlowLayout>
+					</LinearLayout>
+					<TextView android:background="cccccc" android:layout_width="-1" android:layout_height="1px" />
+				</LinearLayout>
+			</LinearLayout>
+		</ScrollView>
+		<LinearLayout android:layout_width="-1" android:layout_height="48dp" />
+	</LinearLayout>
+	<LinearLayout android:orientation="0" android:id="false" android:layout_width="-1" android:layout_height="0dp" android:layout_weight="{4:1065353216}" android:alpha="{4:1061997773}" />
+</LinearLayout>

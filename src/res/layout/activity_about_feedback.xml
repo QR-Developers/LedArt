@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="-1" android:layout_height="-1">
+	<RelativeLayout android:id="false" android:background="res/drawable-xhdpi-v4/header_bg.png" android:layout_width="-1" android:layout_height="75dp">
+		<FrameLayout android:id="false" android:focusable="true" android:clickable="true" android:layout_width="50dp" android:layout_height="50dp" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true">
+			<ImageView android:layout_gravity="0x11" android:background="res/drawable-xhdpi-v4/base_setting_left_angle.png" android:layout_width="24dp" android:layout_height="24dp" android:contentDescription="resourceId:0x0" />
+		</FrameLayout>
+		<TextView android:textSize="16sp" android:textColor="ffffff" android:gravity="0x11" android:layout_width="200dp" android:layout_height="50dp" android:text="Feedback" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+	</RelativeLayout>
+	<LinearLayout android:orientation="1" android:paddingLeft="20dp" android:paddingTop="15dp" android:paddingRight="20dp" android:paddingBottom="20dp" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="75dp">
+		<TextView android:textSize="13sp" android:textColor="999999" android:ellipsize="3" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="15dp" android:layout_marginRight="15dp" android:layout_marginBottom="5dp" android:text="Title" android:lines="1" />
+		<EditText android:textSize="13sp" android:textColor="999999" android:textColorHint="999999" android:id="false" android:background="res/drawable/feedback_center_bg_et_normal.xml" android:paddingLeft="15dp" android:paddingTop="5dp" android:paddingRight="15dp" android:paddingBottom="5dp" android:scrollbars="0x0" android:layout_width="-1" android:layout_height="40dp" android:hint="Please enter title" android:singleLine="true" android:maxLength="100" />
+		<TextView android:textSize="13sp" android:textColor="999999" android:ellipsize="3" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="15dp" android:layout_marginTop="15dp" android:layout_marginRight="15dp" android:layout_marginBottom="5dp" android:text="Problem and suggestion" android:lines="1" />
+		<FrameLayout android:background="res/drawable/feedback_center_bg_fl_normal.xml" android:padding="15dp" android:layout_width="-1" android:layout_height="110dp">
+			<EditText android:textSize="13sp" android:textColor="999999" android:textColorHint="999999" android:gravity="0x33" android:id="false" android:background="resourceId:0x0" android:scrollbars="0x0" android:layout_width="-1" android:layout_height="-1" android:layout_marginBottom="20dp" android:hint="Please describe the problem you encountered in detail so that we can quickly locate it." android:maxLength="200" />
+		</FrameLayout>
+		<TextView android:textSize="13sp" android:textColor="999999" android:ellipsize="3" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="15dp" android:layout_marginTop="15dp" android:layout_marginRight="15dp" android:layout_marginBottom="5dp" android:text="contact details" android:lines="1" />
+		<EditText android:textSize="13sp" android:textColor="999999" android:textColorHint="999999" android:id="false" android:background="res/drawable/feedback_center_bg_et_normal.xml" android:paddingLeft="15dp" android:paddingTop="5dp" android:paddingRight="15dp" android:paddingBottom="5dp" android:scrollbars="0x0" android:layout_width="-1" android:layout_height="40dp" android:hint="Please enter the phone number" android:maxLength="11" android:inputType="0x2" />
+		<Button android:textSize="14sp" android:textColor="ffffff" android:id="false" android:background="res/drawable/feedback_center_bg_btn_normal.xml" android:layout_width="-1" android:layout_height="40dp" android:layout_marginTop="18dp" android:text="Submit feedback" android:textAllCaps="false" />
+	</LinearLayout>
+</FrameLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="0x50" android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+	<LinearLayout android:orientation="0" android:id="false" android:layout_width="-1" android:layout_height="0dp" android:layout_weight="{4:1065353216}" android:alpha="{4:1061997773}" />
+	<LinearLayout android:orientation="1" android:background="fcfcfc" android:padding="20dp" android:layout_width="-1" android:layout_height="-2">
+		<TextView android:gravity="0x11" android:layout_width="-1" android:layout_height="60dp" android:text="Module spec" style="resourceId:0x7f1202f9" />
+		<View style="resourceId:0x7f120330" />
+		<LinearLayout android:gravity="0x10" android:orientation="0" android:paddingTop="20dp" android:paddingBottom="20dp" android:layout_width="-1" android:layout_height="-2">
+			<TextView android:layout_width="-2" android:layout_height="-2" android:text="Spec" style="resourceId:0x7f1202f8" />
+			<TextView android:layout_width="0dp" android:layout_height="-2" android:layout_weight="{4:1065353216}" />
+			<TextView android:layout_width="-2" android:layout_height="-2" android:text="P " style="resourceId:0x7f1202f8" />
+			<EditText android:id="false" android:background="res/drawable/edit_bottom.xml" android:layout_width="80dp" android:layout_height="-2" android:singleLine="true" android:maxLength="7" android:inputType="0x2002" />
+			<ImageView android:layout_width="-2" android:layout_height="-2" android:src="res/drawable-xhdpi-v4/input_edit.png" android:alpha="{4:1053609165}" />
+		</LinearLayout>
+	</LinearLayout>
+</LinearLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+	<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="0x10" android:background="res/drawable/bg_round_rectangle_stroke_e4e4e4.xml" android:paddingLeft="15dp" android:paddingRight="15dp" android:layout_width="-1" android:layout_height="40dp" android:layout_marginLeft="15dp" android:layout_marginTop="15dp" android:layout_marginRight="15dp">
+		<TextView android:textSize="14sp" android:textColor="333333" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="启用" />
+		<ImageView android:id="false" android:layout_width="16dp" android:layout_height="16dp" android:src="res/drawable-xxhdpi-v4/circle_radio_checked.png" android:layout_alignParentRight="true" />
+	</RelativeLayout>
+	<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2">
+		<EditText android:textSize="16sp" android:gravity="0x1" android:layout_gravity="0x1" android:id="false" android:layout_width="100dp" android:layout_height="-2" android:hint="Please enter" android:inputType="0x2" />
+		<SeekBar android:id="false" android:layout_width="-1" android:layout_height="40dp" android:layout_marginLeft="15dp" android:layout_marginTop="10dp" android:layout_marginRight="15dp" />
+	</LinearLayout>
+</LinearLayout>

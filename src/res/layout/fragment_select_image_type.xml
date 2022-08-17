@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="false" android:layout_width="-1" android:layout_height="-1">
+	<LinearLayout android:orientation="1" android:background="ffffff" android:layout_width="-1" android:layout_height="-2" android:layout_alignParentBottom="true">
+		<View android:background="e8e8e8" android:layout_width="-1" android:layout_height="1px" />
+		<TextView android:textSize="15sp" android:textColor="333333" android:gravity="0x11" android:layout_width="-1" android:layout_height="40dp" android:text="Select Image" />
+		<View android:background="e8e8e8" android:layout_width="-1" android:layout_height="1px" />
+		<LinearLayout android:orientation="1" android:id="false" android:layout_width="-1" android:layout_height="50dp">
+			<TextView android:textSize="14sp" android:textColor="666666" android:gravity="0x11" android:layout_width="-2" android:layout_height="45dp" android:text="Local picture" android:layout_marginStart="20dp" />
+		</LinearLayout>
+		<View android:background="e8e8e8" android:layout_width="-1" android:layout_height="1px" />
+		<LinearLayout android:orientation="1" android:id="false" android:layout_width="-1" android:layout_height="50dp">
+			<TextView android:textSize="14sp" android:textColor="666666" android:gravity="0x11" android:layout_width="-2" android:layout_height="-1" android:text="Download image" android:layout_marginStart="20dp" />
+		</LinearLayout>
+	</LinearLayout>
+</RelativeLayout>

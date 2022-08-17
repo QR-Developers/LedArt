@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="-1" android:layout_height="-1" android:splitMotionEvents="false">
+	<FrameLayout android:id="false" android:background="f2f2f2" android:layout_width="-1" android:layout_height="50dp" android:layout_alignParentBottom="true">
+		<LinearLayout android:orientation="0" android:id="false" android:layout_width="-1" android:layout_height="-1" android:baselineAligned="false">
+			<RelativeLayout android:id="false" android:layout_width="0dp" android:layout_height="-1" android:layout_weight="{4:1065353216}">
+				<ImageView android:id="false" android:layout_width="20dp" android:layout_height="20dp" android:layout_marginTop="8dp" android:src="res/drawable-xxhdpi-v4/program_active.png" android:layout_centerHorizontal="true" />
+				<TextView android:textSize="11sp" android:textColor="066ff" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="Program" android:layout_below="false" android:layout_centerHorizontal="true" />
+			</RelativeLayout>
+			<RelativeLayout android:id="false" android:layout_width="0dp" android:layout_height="-1" android:layout_weight="{4:1065353216}">
+				<ImageView android:id="false" android:layout_width="20dp" android:layout_height="20dp" android:layout_marginTop="8dp" android:src="res/drawable-xxhdpi-v4/device_deactive.png" android:layout_centerHorizontal="true" />
+				<TextView android:textSize="11sp" android:textColor="666666" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="Device" android:layout_below="false" android:layout_centerHorizontal="true" />
+			</RelativeLayout>
+			<RelativeLayout android:id="false" android:layout_width="0dp" android:layout_height="-1" android:layout_weight="{4:1065353216}">
+				<FrameLayout android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_centerHorizontal="true">
+					<ImageView android:id="false" android:layout_width="20dp" android:layout_height="20dp" android:layout_marginLeft="5dp" android:layout_marginTop="8dp" android:layout_marginRight="5dp" android:src="res/drawable-xxhdpi-v4/setting_deactive.png" />
+					<ImageView android:layout_gravity="0x35" android:id="false" android:layout_width="8dp" android:layout_height="8dp" android:layout_marginTop="5dp" android:src="res/drawable/notice_dot.xml" />
+				</FrameLayout>
+				<TextView android:textSize="11sp" android:textColor="666666" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="Settings" android:layout_below="false" android:layout_centerHorizontal="true" />
+			</RelativeLayout>
+		</LinearLayout>
+		<View android:background="cccccc" android:layout_width="-1" android:layout_height="1px" />
+	</FrameLayout>
+	<androidx.viewpager.widget.ViewPager android:id="false" android:layout_width="-1" android:layout_height="-1" android:layout_above="false" />
+</RelativeLayout>

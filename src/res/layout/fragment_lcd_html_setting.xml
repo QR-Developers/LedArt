@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:background="f8f8f8" android:layout_width="-1" android:layout_height="-1">
+	<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2">
+		<LinearLayout android:orientation="0" android:id="false" android:background="res/drawable/bg_rectangle_only_bottom_ff_stroke_e4.xml" android:layout_width="-1" android:layout_height="40dp" android:layout_marginTop="10dp">
+			<TextView android:textSize="13sp" android:textColor="333333" android:layout_gravity="0x10" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="15dp" android:text="Page path" android:layout_marginStart="15dp" />
+			<TextView android:textSize="13sp" android:textColor="333333" android:gravity="0x10" android:layout_gravity="0x10" android:id="false" android:background="res/drawable/bg_round_3_rectangle_stroke_d7_ffffff.xml" android:paddingLeft="5dp" android:paddingRight="5dp" android:layout_width="-1" android:layout_height="28dp" android:layout_marginLeft="30dp" android:layout_marginRight="15dp" android:singleLine="true" />
+		</LinearLayout>
+		<LinearLayout android:orientation="0" android:id="false" android:background="res/drawable/bg_rectangle_only_bottom_ff_stroke_e4.xml" android:layout_width="-1" android:layout_height="40dp">
+			<TextView android:textSize="13sp" android:textColor="333333" android:layout_gravity="0x10" android:layout_width="0dp" android:layout_height="-2" android:layout_marginLeft="15dp" android:text="Refresh time" android:lines="1" android:layout_weight="{4:1065353216}" />
+			<TextView android:textSize="13sp" android:textColor="333333" android:gravity="0x11" android:layout_gravity="0x10" android:id="false" android:background="res/drawable/bg_round_3_rectangle_stroke_d7_ffffff.xml" android:paddingLeft="5dp" android:paddingRight="5dp" android:layout_width="-2" android:layout_height="28dp" android:minWidth="50dp" android:singleLine="true" />
+			<TextView android:textSize="13sp" android:textColor="333333" android:layout_gravity="0x10" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="5dp" android:text="s" android:lines="1" />
+			<cn.huidu.view.CustomSwitch android:layout_gravity="0x10" android:id="false" android:layout_width="36dp" android:layout_height="20dp" android:layout_marginLeft="10dp" android:layout_marginRight="15dp" />
+		</LinearLayout>
+		<LinearLayout android:orientation="0" android:id="false" android:background="res/drawable/bg_rectangle_only_bottom_ff_stroke_e4.xml" android:layout_width="-1" android:layout_height="40dp">
+			<TextView android:textSize="13sp" android:textColor="333333" android:layout_gravity="0x10" android:layout_width="0dp" android:layout_height="-2" android:layout_marginLeft="15dp" android:text="Hold" android:lines="1" android:layout_weight="{4:1065353216}" />
+			<TextView android:textSize="13sp" android:textColor="333333" android:gravity="0x11" android:layout_gravity="0x10" android:id="false" android:background="res/drawable/bg_round_3_rectangle_stroke_d7_ffffff.xml" android:paddingLeft="5dp" android:paddingRight="5dp" android:layout_width="-2" android:layout_height="28dp" android:minWidth="50dp" android:singleLine="true" />
+			<TextView android:textSize="13sp" android:textColor="333333" android:layout_gravity="0x10" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="5dp" android:layout_marginRight="15dp" android:text="s" android:lines="1" />
+		</LinearLayout>
+	</LinearLayout>
+</androidx.core.widget.NestedScrollView>

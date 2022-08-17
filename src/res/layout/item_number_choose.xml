@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="res/drawable/bg_round_rectangle_stroke_e4e4e4.xml" android:layout_width="-1" android:layout_height="40dp" android:layout_marginLeft="15dp" android:layout_marginRight="15dp" android:layout_below="false">
+	<cn.huidu.view.common.HDNumberPicker android:id="false" android:layout_width="-1" android:layout_height="-1" />
+</FrameLayout>

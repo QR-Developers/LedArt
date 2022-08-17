@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="f2f2f2" android:layout_width="-1" android:layout_height="-1">
+	<androidx.recyclerview.widget.RecyclerView android:id="false" android:scrollbars="0x200" android:layout_width="-1" android:layout_height="-1" />
+	<FrameLayout android:id="false" android:visibility="2" android:layout_width="-1" android:layout_height="-1">
+		<LinearLayout android:layout_gravity="0x11" android:orientation="1" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="20dp" android:layout_marginRight="20dp">
+			<ImageView android:layout_gravity="0x11" android:layout_width="-2" android:layout_height="-2" android:src="res/drawable-xxhdpi-v4/null_program.png" />
+			<TextView android:gravity="0x11" android:layout_gravity="0x11" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="20dp" android:text="没有图片" />
+			<TextView android:layout_gravity="0x10" android:layout_width="-2" android:layout_height="-2" android:text="点击屏幕前往资源下载" android:lines="2" />
+		</LinearLayout>
+	</FrameLayout>
+</FrameLayout>

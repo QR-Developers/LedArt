@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+	<LinearLayout android:gravity="0x10" android:orientation="0" android:background="res/drawable/cloud_bg_rectangle_only_bottom_ff_stroke_e4.xml" android:paddingLeft="15dp" android:paddingRight="15dp" android:layout_width="-1" android:layout_height="50dp" android:layout_marginTop="10dp">
+		<EditText android:textSize="14sp" android:textColor="333333" android:id="false" android:background="res/drawable/edit_text_bg_focus.xml" android:paddingLeft="5dp" android:layout_width="0dp" android:layout_height="35dp" android:hint="Please enter the city" android:layout_weight="{4:1065353216}" />
+		<FrameLayout android:id="false" android:background="3399ff" android:layout_width="35dp" android:layout_height="35dp" android:layout_marginLeft="10dp">
+			<ImageView android:layout_gravity="0x11" android:layout_width="20dp" android:layout_height="20dp" android:src="res/drawable-xxhdpi-v4/search_device.png" />
+		</FrameLayout>
+	</LinearLayout>
+	<FrameLayout android:layout_width="-1" android:layout_height="-1">
+		<androidx.recyclerview.widget.RecyclerView android:id="false" android:layout_width="-1" android:layout_height="-1" android:layout_marginTop="10dp" />
+		<ProgressBar android:layout_gravity="0x11" android:id="false" android:visibility="1" android:layout_width="-2" android:layout_height="-2" />
+		<TextView android:textColor="666666" android:layout_gravity="0x11" android:id="false" android:visibility="1" android:layout_width="-2" android:layout_height="-2" android:text="Loading…" />
+	</FrameLayout>
+</LinearLayout>

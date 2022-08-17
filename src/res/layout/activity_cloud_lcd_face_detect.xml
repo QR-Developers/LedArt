@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+	<androidx.core.widget.NestedScrollView android:layout_width="-1" android:layout_height="-1" android:fillViewport="true">
+		<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2">
+			<LinearLayout android:orientation="0" android:background="res/drawable/cloud_bg_rectangle_only_bottom_ff_stroke_e4.xml" android:layout_width="-1" android:layout_height="50dp">
+				<TextView android:textSize="14sp" android:textColor="333333" android:layout_gravity="0x10" android:layout_width="0dp" android:layout_height="-2" android:layout_marginLeft="15dp" android:text="Turn on face detection" android:lines="1" android:layout_weight="{4:1065353216}" />
+				<cn.huidu.view.CustomSwitch android:layout_gravity="0x800015" android:id="false" android:layout_width="50dp" android:layout_height="25dp" android:layout_marginRight="15dp" android:checked="false" />
+			</LinearLayout>
+			<LinearLayout android:orientation="0" android:id="false" android:background="res/drawable/cloud_bg_rectangle_only_bottom_ff_stroke_e4.xml" android:layout_width="-1" android:layout_height="50dp">
+				<TextView android:textSize="14sp" android:textColor="333333" android:layout_gravity="0x10" android:layout_width="0dp" android:layout_height="-2" android:layout_marginLeft="15dp" android:text="Turn on passenger flow statistics" android:lines="1" android:layout_weight="{4:1065353216}" />
+				<cn.huidu.view.CustomSwitch android:layout_gravity="0x800015" android:id="false" android:layout_width="50dp" android:layout_height="25dp" android:layout_marginRight="15dp" android:checked="false" />
+			</LinearLayout>
+			<LinearLayout android:orientation="0" android:id="false" android:background="res/drawable/cloud_bg_rectangle_only_bottom_ff_stroke_e4.xml" android:layout_width="-1" android:layout_height="50dp">
+				<TextView android:textSize="14sp" android:textColor="333333" android:layout_gravity="0x10" android:layout_width="0dp" android:layout_height="-2" android:layout_marginLeft="15dp" android:text="Camera preview" android:lines="1" android:layout_weight="{4:1065353216}" />
+				<cn.huidu.view.CustomSwitch android:layout_gravity="0x800015" android:id="false" android:layout_width="50dp" android:layout_height="25dp" android:layout_marginRight="15dp" android:checked="false" />
+			</LinearLayout>
+			<LinearLayout android:orientation="0" android:id="false" android:background="res/drawable/cloud_bg_rectangle_only_bottom_ff_stroke_e4.xml" android:layout_width="-1" android:layout_height="50dp">
+				<TextView android:textSize="14sp" android:textColor="333333" android:layout_gravity="0x10" android:layout_width="0dp" android:layout_height="-2" android:layout_marginLeft="15dp" android:text="Preview footfall" android:lines="1" android:layout_weight="{4:1065353216}" />
+				<cn.huidu.view.CustomSwitch android:layout_gravity="0x800015" android:id="false" android:layout_width="50dp" android:layout_height="25dp" android:layout_marginRight="15dp" android:checked="false" />
+			</LinearLayout>
+			<LinearLayout android:orientation="0" android:id="false" android:background="res/drawable/cloud_bg_rectangle_only_bottom_ff_stroke_e4.xml" android:layout_width="-1" android:layout_height="50dp">
+				<TextView android:textSize="13sp" android:textColor="333333" android:ellipsize="3" android:layout_gravity="0x10" android:layout_width="0dp" android:layout_height="-2" android:layout_marginLeft="15dp" android:text="Preview area width" android:lines="1" android:layout_weight="{4:1065353216}" />
+				<cn.huidu.view.inputview.AddAndSubtractInputView android:layout_gravity="0x10" android:id="false" android:layout_width="-2" android:layout_height="-1" android:layout_marginRight="15dp" />
+			</LinearLayout>
+			<LinearLayout android:orientation="0" android:id="false" android:background="res/drawable/cloud_bg_rectangle_only_bottom_ff_stroke_e4.xml" android:layout_width="-1" android:layout_height="50dp">
+				<TextView android:textSize="13sp" android:textColor="333333" android:ellipsize="3" android:layout_gravity="0x10" android:layout_width="0dp" android:layout_height="-2" android:layout_marginLeft="15dp" android:text="Preview area height" android:lines="1" android:layout_weight="{4:1065353216}" />
+				<cn.huidu.view.inputview.AddAndSubtractInputView android:layout_gravity="0x10" android:id="false" android:layout_width="-2" android:layout_height="-1" android:layout_marginRight="15dp" />
+			</LinearLayout>
+			<LinearLayout android:orientation="0" android:id="false" android:background="res/drawable/cloud_bg_rectangle_only_bottom_ff_stroke_e4.xml" android:layout_width="-1" android:layout_height="50dp">
+				<TextView android:textSize="14sp" android:textColor="333333" android:layout_gravity="0x10" android:layout_width="0dp" android:layout_height="-2" android:layout_marginLeft="15dp" android:text="Preview area horizontal position" android:lines="1" android:layout_weight="{4:1065353216}" />
+				<TextView android:textSize="14sp" android:textColor="333333" android:layout_gravity="0x10" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="Left" android:lines="1" />
+				<ImageView android:layout_gravity="0x10" android:layout_width="12dp" android:layout_height="6dp" android:layout_marginLeft="3dp" android:layout_marginRight="15dp" android:src="res/drawable-xxhdpi-v4/font_arrow.png" android:rotation="{4:1127481344}" />
+			</LinearLayout>
+			<LinearLayout android:orientation="0" android:id="false" android:background="res/drawable/cloud_bg_rectangle_only_bottom_ff_stroke_e4.xml" android:layout_width="-1" android:layout_height="50dp">
+				<TextView android:textSize="14sp" android:textColor="333333" android:layout_gravity="0x10" android:layout_width="0dp" android:layout_height="-2" android:layout_marginLeft="15dp" android:text="Vertical position of preview area" android:lines="1" android:layout_weight="{4:1065353216}" />
+				<TextView android:textSize="14sp" android:textColor="333333" android:layout_gravity="0x10" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="On" android:lines="1" />
+				<ImageView android:layout_gravity="0x10" android:layout_width="12dp" android:layout_height="6dp" android:layout_marginLeft="3dp" android:layout_marginRight="15dp" android:src="res/drawable-xxhdpi-v4/font_arrow.png" android:rotation="{4:1127481344}" />
+			</LinearLayout>
+			<TextView android:textSize="14sp" android:textColor="ff8c0" android:id="false" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="15dp" android:layout_marginTop="18dp" android:text="No camera device detected!" android:lines="1" />
+		</LinearLayout>
+	</androidx.core.widget.NestedScrollView>
+</LinearLayout>

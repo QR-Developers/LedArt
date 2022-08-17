@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android" android:clickable="true" android:layout_width="-1" android:layout_height="60dp" android:layout_margin="8dp" android:foreground="{2:16843534}">
+	<ImageView android:layout_gravity="0x11" android:id="false" android:visibility="2" android:layout_width="-1" android:layout_height="-1" android:scaleType="5" />
+	<TextView android:textSize="15sp" android:textColor="333333" android:gravity="0x11" android:layout_gravity="0x11" android:id="false" android:layout_width="-1" android:layout_height="-1" android:text="仿宋" android:lines="1" />
+	<ImageView android:layout_gravity="0x35" android:id="false" android:visibility="2" android:layout_width="18dp" android:layout_height="18dp" android:layout_marginTop="2dp" android:layout_marginRight="2dp" android:src="res/drawable-xxhdpi-v4/font_download_iv_normal_2.png" />
+	<cn.huidu.view.LinearPercentProgressView android:id="false" android:visibility="1" android:layout_width="-1" android:layout_height="-1" />
+</androidx.cardview.widget.CardView>

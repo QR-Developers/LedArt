@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="false" android:layout_width="60dp" android:layout_height="-1">
+	<ImageView android:id="false" android:background="res/drawable/bg_dashed_rectangle_cc.xml" android:padding="13dp" android:layout_width="50dp" android:layout_height="50dp" android:layout_marginTop="10dp" android:layout_marginBottom="10dp" android:src="res/drawable-xxhdpi-v4/image_fragment_add_image_img_normal.png" android:layerType="1" />
+</FrameLayout>

@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0,user-scalable=0"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./style.css">
+    <title>操作说明</title>
+</head>
+<body>
+    <div id="wrap">
+        <div class="tab">
+            <div id="tab1" class="tab-item tab-selete" onclick="jump('bookmark1')">full color</div>
+            <div id="tab2" class="tab-item" onclick="jump('bookmark2')">single dual color</div>
+        </div>
+        <div id="bookmark1"></div>
+        <div id="wifi-changepass">
+            <div class="bookmark1"></div>
+            <!-- 连接控制卡 -->
+            <div class="title1">Connect the control card and modify the Wi-Fi password</div>
+            <div class="wifi-text01">
+                <span class="title2">1. Connect the control card:</span>Open the “LedArt”, click the “Find device” button on the software interface or select the Wi-Fi hot spot corresponding to the control card in the phone settings to connect. The initial password is 88888888. After the connection is successful, the software interface displays the name of the control card.
+            </div>
+            <div class="wifi_img_content">
+                <img class="wifi_img" src="./images/wifi01.png">
+            </div>
+            <div class="wifi-text01">
+                <span class="title2">2. Change Password:</span>When using for the first time (connected with the initial password), you need to change the Wi-Fi password (8~16-digit alphanumeric combination) according to the software prompt and re-enter the new password connection.
+            </div>
+
+            <!-- 新建显示屏 -->
+            <div class="title1">New display</div>
+            <div class="wifi-text01">
+                Click “New Display” on the program list interface, the APP will automatically read back the connected control card model and resolution, and click “OK” button to enter the display program editing.
+            </div>
+            <div class="wifi_img_content">
+                <img class="wifi_img" src="./images/newscreen.png">
+            </div>
+
+            <!-- 添加节目内容 -->
+            <div class="title1">Add program content</div>
+            <div class="wifi-text01">
+                Click the“<img class="icon-small" src="./images/add.png">”icon in the lower right corner of the program editing interface to select content such as video, picture, text, animation word, clock, etc., and freely set display effects and area position.
+            </div>
+            <div class="wifi_img_content">
+                <img class="wifi_img" src="./images/addprogramcon.png">
+            </div>
+
+            <!-- 发送节目 -->
+            <div class="title1">Sending a program</div>
+            <div class="wifi-text01">
+                Click the icon"<img class="icon-small" src="./images/send.png">"in the upper right corner and select "Send Program" to wait for the transmission to succeed.
+            </div>
+            <div class="wifi_img_content">
+                <img class="wifi_img" src="./images/sendprogram.png">
+            </div>
+
+            <!-- 甩一甩更新节目 -->
+            <div class="title1">shake to update the program</div>
+            <div class="wifi-text01">
+                The shake function is a minimalist program update method. Click the “shake” icon in the device interface, select a picture or video, shake the phone to send the picture or video to the LED display.
+            </div>
+            <div class="wifi_img_content">
+                <img class="wifi_img" src="./images/swing.png">
+            </div>
+            <div class="wifi-text01">
+                In addition to updating the program, the mobile app “LedAr” can also set the LED display switch, brightness, time correction, remote control and control card selection.
+            </div>
+        </div>
+
+        <div id="bookmark2"></div>
+        <div id="wifi-changepass" style="margin-bottom: 20px;">
+            <div class="bookmark2"></div>
+            <!-- 连接控制卡 -->
+            <div class="title1">Second, connect the control card and modify the Wi-Fi password</div>
+            <div class="wifi-text01">
+                <span class="title2">1. Connect the control card:</span>Open “LedArt”, click the “Find Machine” button or select the Wi-Fi hot spot in the phone settings to connect it. The initial password is 88888888. After the connection is successful, the software interface displays the name of the control card.
+            </div>
+            <div class="wifi_img_content">
+                <img class="wifi_img" src="./images/wifi02.png">
+            </div>
+            <div class="wifi-text01">
+                <span class="title2">2. Change password:</span>When using for the first time (connected with initial password), you need to modify the Wi-Fi password (8~16-digit alphanumeric combination) according to the software prompt and re-enter the new password connection.
+            </div>
+
+            <!-- 新建显示屏 -->
+            <div class="title1">the new display</div>
+            <div class="wifi-text01">
+                Click “New Display” in the program list interface, APP will automatically read back the connected control card model and resolution. Click “OK” button to enter the display and edit programs.
+            </div>
+            <div class="wifi_img_content">
+                <img class="wifi_img" src="./images/newprogram1.png">
+            </div>
+            <div class="wifi_img_content">
+                <img class="wifi_img" src="./images/newprogram2.png">
+            </div>
+           
+            <!-- 添加节目内容 -->
+            <div class="title1">adding program content</div>
+            <div class="wifi-text01">
+                Click the<img class="icon-small" src="./images/add_sin.png">”icon on the right side of the program editing interface to select text, clock, temperature and humidity, timing, etc., and you can freely set the display effect and area location.
+            </div>
+            <div class="wifi_img_content">
+                <img class="wifi_img" src="./images/addprogramcon_sin.png">
+            </div>
+
+            <!-- 发送节目 -->
+            <div class="title1">sending programs</div>
+            <div class="wifi-text01">
+                Click the "Send" button in the top right corner and wait for the delivery to succeed.
+            </div>
+            <div class="wifi_img_content">
+                <img class="wifi_img" src="./images/sendprogram_sin.png">
+            </div>
+            <div class="wifi-text01">
+                In addition to updating the program, the APP "LedArt" can also set the LED display switch, brightness, time correction, remote control, firmware upgrade and other functions.
+            </div>
+        </div>
+    </div>
+    <script>
+        let bookmark1 = document.getElementById("bookmark1"); 
+        let bookmark2 = document.getElementById("bookmark2"); 
+        let tab1 = document.getElementById("tab1"); 
+        let tab2 = document.getElementById("tab2"); 
+        window.addEventListener('scroll', () => {
+            let scrolled = document.documentElement.scrollTop || document.body.scrollTop;
+            if(scrolled > 2000) {
+                tab2.className = 'tab-item tab-selete';
+                tab1.className = 'tab-item';
+            }else {
+                tab1.className = 'tab-item tab-selete';
+                tab2.className = 'tab-item';
+            }
+        })
+
+        function jump(bookmark) {
+            location.href = `#${bookmark}`;
+            if(bookmark == 'bookmark2') {
+                tab2.className = 'tab-item tab-selete';
+                tab1.className = 'tab-item';
+            }else {
+                tab1.className = 'tab-item tab-selete';
+                tab2.className = 'tab-item';
+            }
+        }
+    </script>
+</body>
+</html>

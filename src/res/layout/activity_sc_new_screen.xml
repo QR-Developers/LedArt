@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="false" android:layout_width="-1" android:layout_height="-1">
+	<RelativeLayout android:layout_width="-1" android:layout_height="-1">
+		<RelativeLayout android:id="false" android:background="res/drawable-xhdpi-v4/header_bg.png" android:layout_width="-1" android:layout_height="75dp">
+			<FrameLayout android:id="false" android:focusable="true" android:clickable="true" android:layout_width="50dp" android:layout_height="50dp" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true">
+				<ImageView android:layout_gravity="0x11" android:background="res/drawable-xhdpi-v4/base_setting_left_angle.png" android:layout_width="24dp" android:layout_height="24dp" android:contentDescription="resourceId:0x0" />
+			</FrameLayout>
+			<TextView android:textSize="16sp" android:textColor="ffffff" android:gravity="0x11" android:layout_width="-1" android:layout_height="50dp" android:layout_marginLeft="120dp" android:layout_marginRight="120dp" android:text="New single color screen" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+			<TextView android:textSize="13sp" android:textColor="ffffff" android:gravity="0x11" android:id="false" android:background="res/drawable/shape_rect_white_border_with_corner.xml" android:paddingLeft="8dp" android:paddingRight="8dp" android:layout_width="-2" android:layout_height="24dp" android:layout_marginRight="10dp" android:layout_marginBottom="15dp" android:maxWidth="90dp" android:text="Sync" android:lines="1" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+		</RelativeLayout>
+		<ScrollView android:layout_width="-1" android:layout_height="-1" android:layout_above="false" android:layout_below="false">
+			<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2">
+				<TextView android:textSize="14sp" android:textColor="999999" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="30dp" android:layout_marginTop="15dp" android:text="Screen name" />
+				<EditText android:textSize="14dp" android:textColor="333333" android:gravity="0x13" android:id="false" android:background="res/drawable/shape_rect_with_corner_stroke_d7.xml" android:paddingLeft="20dp" android:layout_width="-1" android:layout_height="40dp" android:layout_marginLeft="20dp" android:layout_marginTop="5dp" android:layout_marginRight="20dp" android:maxLength="16" android:inputType="0x1" />
+				<TextView android:textSize="14sp" android:textColor="999999" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="30dp" android:layout_marginTop="20dp" android:text="Display size" />
+				<LinearLayout android:orientation="1" android:background="res/drawable/shape_rect_with_corner_stroke_d7.xml" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="20dp" android:layout_marginTop="5dp" android:layout_marginRight="20dp">
+					<FrameLayout android:layout_width="-1" android:layout_height="40dp">
+						<TextView android:textSize="14sp" android:textColor="333333" android:layout_gravity="0x13" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="20dp" android:text="Width" />
+						<EditText android:textSize="14sp" android:textStyle="0x1" android:textColor="3366ff" android:gravity="0x15" android:layout_gravity="0x5" android:id="false" android:background="resourceId:0x0" android:paddingRight="20dp" android:layout_width="100dp" android:layout_height="-1" android:text="128" android:maxLength="6" android:inputType="0x2" />
+					</FrameLayout>
+					<View android:background="res/drawable/bg_dashed_line_e4.xml" android:layout_width="-1" android:layout_height="1dp" android:layerType="1" />
+					<FrameLayout android:layout_width="-1" android:layout_height="40dp">
+						<TextView android:textSize="14sp" android:textColor="333333" android:layout_gravity="0x13" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="20dp" android:text="Height" />
+						<EditText android:textSize="14sp" android:textStyle="0x1" android:textColor="3366ff" android:gravity="0x15" android:layout_gravity="0x5" android:id="false" android:background="resourceId:0x0" android:paddingRight="20dp" android:layout_width="100dp" android:layout_height="-1" android:text="32" android:maxLength="6" android:inputType="0x2" />
+					</FrameLayout>
+				</LinearLayout>
+				<TextView android:textSize="14sp" android:textColor="999999" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="30dp" android:layout_marginTop="20dp" android:text="Color level" />
+				<androidx.recyclerview.widget.RecyclerView android:id="false" android:background="res/drawable/shape_rect_with_corner_stroke_d7.xml" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="20dp" android:layout_marginTop="5dp" android:layout_marginRight="20dp" />
+				<TextView android:textSize="14sp" android:textColor="999999" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="30dp" android:layout_marginTop="20dp" android:text="Gray level" />
+				<cn.huidu.view.common.HDNumberPicker android:id="false" android:background="res/drawable/shape_rect_with_corner_stroke_d7.xml" android:layout_width="-1" android:layout_height="40dp" android:layout_marginLeft="20dp" android:layout_marginTop="5dp" android:layout_marginRight="20dp" />
+			</LinearLayout>
+		</ScrollView>
+		<Button android:textSize="14sp" android:textColor="ffffff" android:id="false" android:background="res/drawable/shape_rect_with_corner_solid_3399ff.xml" android:layout_width="200dp" android:layout_height="40dp" android:layout_marginTop="20dp" android:layout_marginBottom="30dp" android:text="OK" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+	</RelativeLayout>
+	<FrameLayout android:id="false" android:layout_width="-1" android:layout_height="-1" />
+	<ProgressBar android:layout_gravity="0x11" android:id="false" android:visibility="2" android:layout_width="50dp" android:layout_height="50dp" />
+</FrameLayout>

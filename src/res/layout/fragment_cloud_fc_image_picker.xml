@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="-1" android:layout_height="-1">
+	<View android:id="false" android:layout_width="-2" android:layout_height="-1" />
+	<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+		<RelativeLayout android:background="66000" android:layout_width="-1" android:layout_height="50dp">
+			<RelativeLayout android:id="false" android:layout_width="50dp" android:layout_height="-1">
+				<ImageView android:id="false" android:visibility="2" android:layout_width="20dp" android:layout_height="20dp" android:layout_marginLeft="15dp" android:src="res/drawable-xxhdpi-v4/left_w.png" android:layout_centerVertical="true" />
+				<ImageView android:id="false" android:layout_width="24dp" android:layout_height="24dp" android:layout_marginLeft="16dp" android:src="res/drawable-xhdpi-v4/close_w.png" android:layout_centerVertical="true" />
+			</RelativeLayout>
+			<LinearLayout android:id="false" android:layout_width="-2" android:layout_height="-1" android:layout_centerInParent="true">
+				<TextView android:textSize="16sp" android:textColor="e6ffffff" android:gravity="0x11" android:id="false" android:paddingLeft="10dp" android:paddingRight="10dp" android:layout_width="-2" android:layout_height="-1" android:text="Local" />
+				<TextView android:textSize="16sp" android:textColor="67ffffff" android:gravity="0x11" android:id="false" android:paddingLeft="10dp" android:paddingRight="10dp" android:layout_width="-2" android:layout_height="-1" android:layout_marginLeft="10dp" android:text="Cloud" />
+			</LinearLayout>
+			<RelativeLayout android:id="false" android:layout_width="-2" android:layout_height="-1" android:layout_alignParentRight="true">
+				<TextView android:textSize="16sp" android:textColor="33cc0" android:gravity="0x11" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="20dp" android:text="OK" android:layout_centerVertical="true" />
+			</RelativeLayout>
+			<RelativeLayout android:layout_width="24dp" android:layout_height="24dp" android:layout_marginRight="10dp" android:layout_toLeftOf="false" android:layout_centerVertical="true">
+				<ImageView android:layout_width="-1" android:layout_height="-1" android:src="res/drawable/oval_bg_1.xml" />
+				<TextView android:textSize="16sp" android:textColor="ffffff" android:gravity="0x11" android:id="false" android:layout_width="-1" android:layout_height="-1" android:text="0" />
+			</RelativeLayout>
+		</RelativeLayout>
+		<View android:background="33ffffff" android:layout_width="-1" android:layout_height="1px" />
+		<FrameLayout android:layout_width="-1" android:layout_height="-1">
+			<RelativeLayout android:id="false" android:layout_width="-1" android:layout_height="-1">
+				<androidx.recyclerview.widget.RecyclerView android:id="false" android:layout_width="-1" android:layout_height="-1" />
+			</RelativeLayout>
+			<LinearLayout android:gravity="0x11" android:orientation="1" android:id="false" android:layout_width="-1" android:layout_height="-1">
+				<ProgressBar android:layout_gravity="0x11" android:id="false" android:layout_width="40dp" android:layout_height="40dp" />
+				<TextView android:textSize="14sp" android:textColor="cccccc" android:layout_width="-2" android:layout_height="-2" android:text="Loading…" />
+			</LinearLayout>
+		</FrameLayout>
+	</LinearLayout>
+</FrameLayout>

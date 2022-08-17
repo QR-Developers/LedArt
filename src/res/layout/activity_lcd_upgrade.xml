@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="f2f2f2" android:layout_width="-1" android:layout_height="-1">
+	<LinearLayout android:gravity="0x11" android:orientation="1" android:id="false" android:visibility="0" android:layout_width="-1" android:layout_height="-1">
+		<ImageView android:layout_width="-2" android:layout_height="-2" android:src="res/drawable-xxhdpi-v4/null_program.png" />
+		<TextView android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="20dp" android:text="No upgradeable player files" />
+		<TextView android:layout_width="-2" android:layout_height="-2" android:text="Click to download management download" />
+	</LinearLayout>
+	<androidx.recyclerview.widget.RecyclerView android:id="false" android:layout_width="-1" android:layout_height="-1" />
+</FrameLayout>

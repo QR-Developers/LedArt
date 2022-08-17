@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:background="ececec" android:layout_width="-1" android:layout_height="-1">
+	<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="48dp">
+		<RelativeLayout android:gravity="0x13" android:layout_width="-1" android:layout_height="48dp">
+			<LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="-1">
+				<LinearLayout android:gravity="0x11" android:id="false" android:layout_width="0dp" android:layout_height="-1" android:layout_weight="{4:1065353216}">
+					<TextView android:layout_width="-2" android:layout_height="-2" android:text="Size" style="resourceId:0x7f12030e" />
+				</LinearLayout>
+				<LinearLayout android:gravity="0x11" android:id="false" android:layout_width="0dp" android:layout_height="-1" android:layout_weight="{4:1065353216}">
+					<TextView android:layout_width="-2" android:layout_height="-2" android:text="Module" style="resourceId:0x7f12030e" />
+				</LinearLayout>
+			</LinearLayout>
+			<ImageView android:id="false" android:focusable="true" android:layout_width="8dp" android:layout_height="8dp" android:layout_marginTop="4dp" android:layout_marginBottom="4dp" android:src="res/drawable/model_selection_tag.xml" android:scaleType="0" android:layout_alignParentBottom="true" />
+		</RelativeLayout>
+	</LinearLayout>
+	<TextView android:background="cccccc" android:layout_width="-1" android:layout_height="1px" />
+	<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+		<LinearLayout android:layout_width="-1" android:layout_height="0dp" android:layout_marginTop="50dp" android:layout_weight="{4:1065353216}">
+			<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+				<LinearLayout android:layout_gravity="0x11" android:orientation="0" android:layout_width="-2" android:layout_height="-2" android:layout_marginBottom="10dp">
+					<LinearLayout android:gravity="0x11" android:layout_gravity="0x11" android:orientation="0" android:layout_width="200dp" android:layout_height="-2">
+						<ImageView android:layout_width="-2" android:layout_height="-2" android:src="res/drawable-xhdpi-v4/left_scale.png" />
+						<LinearLayout android:gravity="0x11" android:layout_width="0dp" android:layout_height="-2" android:layout_weight="{4:1065353216}">
+							<EditText android:gravity="0x11" android:id="false" android:background="resourceId:0x0" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="5dp" android:minWidth="36dp" android:text="1.2" android:singleLine="true" android:maxLength="5" android:inputType="0x2002" style="resourceId:0x7f1202fa" />
+							<EditText android:gravity="0x11" android:id="false" android:background="resourceId:0x0" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="5dp" android:minWidth="36dp" android:text="1" android:singleLine="true" android:maxLength="3" android:inputType="0x2" style="resourceId:0x7f1202fb" />
+							<TextView android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="m" style="resourceId:0x7f1202fa" />
+						</LinearLayout>
+						<ImageView android:layout_width="-2" android:layout_height="-2" android:src="res/drawable-xhdpi-v4/right_scale.png" />
+					</LinearLayout>
+				</LinearLayout>
+				<LinearLayout android:layout_gravity="0x11" android:orientation="0" android:layout_width="-1" android:layout_height="-2">
+					<TextView android:layout_width="0dp" android:layout_height="-2" android:text=" " android:layout_weight="{4:1065353216}" />
+					<FrameLayout android:background="res/drawable/model_selection_size_bg.xml" android:layout_width="200dp" android:layout_height="120dp">
+						<LinearLayout android:gravity="0x11" android:layout_gravity="0x11" android:orientation="0" android:id="false" android:background="ffffff" android:layout_width="180dp" android:layout_height="100dp">
+							<ImageView android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="10dp" android:src="res/drawable-xhdpi-v4/input_tag.png" />
+							<TextView android:layout_width="-2" android:layout_height="-2" android:text="Click here to enter" style="resourceId:0x7f1202fe" />
+						</LinearLayout>
+					</FrameLayout>
+					<LinearLayout android:orientation="1" android:layout_width="0dp" android:layout_height="120dp" android:layout_weight="{4:1065353216}">
+						<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1" android:layout_marginLeft="10dp">
+							<ImageView android:layout_width="-2" android:layout_height="-2" android:src="res/drawable-xhdpi-v4/top_scale.png" />
+							<LinearLayout android:gravity="0x11" android:orientation="0" android:layout_width="-2" android:layout_height="0dp" android:layout_weight="{4:1065353216}">
+								<EditText android:gravity="0x3" android:id="false" android:background="resourceId:0x0" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="5dp" android:minWidth="24dp" android:text="0.6" android:singleLine="true" android:maxLength="5" android:inputType="0x2002" style="resourceId:0x7f1202fa" />
+								<EditText android:gravity="0x3" android:id="false" android:background="resourceId:0x0" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="5dp" android:minWidth="24dp" android:text="1" android:singleLine="true" android:maxLength="3" android:inputType="0x2" style="resourceId:0x7f1202fb" />
+								<TextView android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="m" android:singleLine="true" style="resourceId:0x7f1202fa" />
+							</LinearLayout>
+							<ImageView android:layout_width="-2" android:layout_height="-2" android:src="res/drawable-xhdpi-v4/bottom_scale.png" />
+						</LinearLayout>
+					</LinearLayout>
+				</LinearLayout>
+				<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="20dp">
+					<LinearLayout android:gravity="0x13" android:paddingLeft="15dp" android:paddingRight="15dp" android:layout_width="-1" android:layout_height="40dp" android:layout_marginTop="10dp">
+						<TextView android:layout_width="-2" android:layout_height="-2" android:text="Filter" style="resourceId:0x7f120305" />
+					</LinearLayout>
+					<TextView android:background="cccccc" android:layout_width="-1" android:layout_height="1px" />
+					<LinearLayout android:orientation="1" android:background="f8f8f8" android:layout_width="-1" android:layout_height="-2">
+						<cn.huidu.view.CustomFlowLayout android:id="false" android:padding="5dp" android:layout_width="-1" android:layout_height="-1">
+							<LinearLayout android:gravity="0x11" android:padding="5dp" android:layout_width="-2" android:layout_height="-2">
+								<TextView android:gravity="0x11" android:background="res/drawable/model_selection_model_item.xml" android:paddingLeft="8dp" android:paddingRight="8dp" android:layout_width="-2" android:layout_height="24dp" android:text="" style="resourceId:0x7f120300" />
+							</LinearLayout>
+						</cn.huidu.view.CustomFlowLayout>
+						<cn.huidu.view.CustomFlowLayout android:id="false" android:padding="5dp" android:visibility="2" android:layout_width="-1" android:layout_height="-1">
+							<LinearLayout android:gravity="0x11" android:padding="5dp" android:layout_width="-2" android:layout_height="-2">
+								<TextView android:gravity="0x11" android:background="res/drawable/model_selection_model_item.xml" android:paddingLeft="8dp" android:paddingRight="8dp" android:layout_width="-2" android:layout_height="24dp" android:text="" style="resourceId:0x7f120300" />
+							</LinearLayout>
+						</cn.huidu.view.CustomFlowLayout>
+					</LinearLayout>
+					<TextView android:background="cccccc" android:layout_width="-1" android:layout_height="1px" />
+				</LinearLayout>
+			</LinearLayout>
+		</LinearLayout>
+		<LinearLayout android:gravity="0x5" android:layout_width="-1" android:layout_height="-2">
+			<Button android:id="false" android:background="res/drawable/btn_step.xml" android:layout_width="80dp" android:layout_height="30dp" android:layout_marginRight="30dp" android:layout_marginBottom="30dp" android:text="Next" style="resourceId:0x7f12030d" />
+		</LinearLayout>
+	</LinearLayout>
+</LinearLayout>

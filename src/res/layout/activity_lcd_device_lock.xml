@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+	<LinearLayout android:orientation="0" android:id="false" android:background="res/drawable/bg_rectangle_only_bottom_ff_stroke_e4.xml" android:layout_width="-1" android:layout_height="40dp">
+		<TextView android:textColor="333333" android:layout_gravity="0x11" android:layout_width="0dp" android:layout_height="-2" android:layout_marginLeft="15dp" android:text="Enable" android:layout_weight="{4:1065353216}" android:layout_marginStart="15dp" />
+		<cn.huidu.view.CustomSwitch android:layout_gravity="0x10" android:id="false" android:layout_width="36dp" android:layout_height="20dp" android:layout_marginRight="15dp" />
+	</LinearLayout>
+	<LinearLayout android:orientation="1" android:id="false" android:layout_width="-1" android:layout_height="-1">
+		<TextView android:textSize="14sp" android:textColor="444444" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="10dp" android:layout_marginTop="15dp" android:layout_marginBottom="5dp" android:text="Set the device lock password:" />
+		<EditText android:textSize="14sp" android:id="false" android:background="res/drawable/bg_rectangle_top_bottom_ff_stroke_e4.xml" android:paddingLeft="10dp" android:paddingRight="10dp" android:layout_width="-1" android:layout_height="40dp" android:hint="New password" android:inputType="0x81" />
+		<EditText android:textSize="14sp" android:id="false" android:background="res/drawable/bg_rectangle_only_bottom_ff_stroke_e4.xml" android:paddingLeft="10dp" android:paddingRight="10dp" android:layout_width="-1" android:layout_height="40dp" android:hint="Confirm password" android:inputType="0x81" />
+	</LinearLayout>
+</LinearLayout>

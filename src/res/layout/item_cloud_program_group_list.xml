@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:layout_width="-1" android:layout_height="-2">
+	<View android:id="false" android:layout_width="-2" android:layout_height="10dp" />
+	<LinearLayout android:orientation="0" android:background="res/drawable/cloud_bg_rectangle_top_bottom_ff_stroke_e4.xml" android:layout_width="-1" android:layout_height="45dp">
+		<ImageView android:id="false" android:paddingLeft="10dp" android:paddingTop="10dp" android:paddingBottom="10dp" android:layout_width="-2" android:layout_height="-1" android:src="res/drawable-xxhdpi-v4/checkbox_half_checked.png" />
+		<FrameLayout android:layout_width="0dp" android:layout_height="-1" android:layout_marginLeft="10dp" android:layout_weight="{4:1065353216}">
+			<LinearLayout android:layout_gravity="0x13" android:orientation="0" android:id="false" android:visibility="1" android:layout_width="-2" android:layout_height="-2">
+				<TextView android:textSize="13sp" android:textColor="333333" android:id="false" android:layout_width="-2" android:layout_height="-2" android:maxWidth="200dp" android:singleLine="true" />
+				<TextView android:textSize="11sp" android:textColor="3399ff" android:id="false" android:background="res/drawable/cloud_bg_stroke_2_corner_3399ff.xml" android:paddingLeft="4dp" android:paddingRight="4dp" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="8dp" />
+			</LinearLayout>
+			<LinearLayout android:orientation="1" android:id="false" android:visibility="0" android:layout_width="-1" android:layout_height="-1">
+				<LinearLayout android:gravity="0x10" android:orientation="0" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="6dp">
+					<TextView android:textSize="13sp" android:textColor="333333" android:ellipsize="3" android:id="false" android:layout_width="-2" android:layout_height="-2" android:maxWidth="200dp" android:singleLine="true" />
+					<TextView android:textSize="11sp" android:textColor="33cc0" android:id="false" android:background="res/drawable/cloud_bg_stroke_2_corner_33cc00.xml" android:paddingLeft="4dp" android:paddingRight="4dp" android:layout_width="-2" android:layout_height="-2" android:layout_marginStart="8dp" />
+					<TextView android:textSize="11sp" android:textColor="3399ff" android:id="false" android:background="res/drawable/cloud_bg_stroke_2_corner_3399ff.xml" android:paddingLeft="4dp" android:paddingRight="4dp" android:layout_width="-2" android:layout_height="-2" android:layout_marginStart="8dp" />
+				</LinearLayout>
+				<LinearLayout android:orientation="0" android:layout_width="-2" android:layout_height="-2">
+					<TextView android:textSize="11sp" android:textColor="3399ff" android:id="false" android:layout_width="-2" android:layout_height="-2" />
+					<TextView android:textSize="11sp" android:textColor="666666" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="8dp" />
+					<TextView android:textSize="11sp" android:textColor="666666" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="8dp" />
+				</LinearLayout>
+			</LinearLayout>
+		</FrameLayout>
+		<LinearLayout android:layout_gravity="0x10" android:orientation="0" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="5dp">
+			<ImageView android:id="false" android:padding="10dp" android:visibility="2" android:layout_width="36dp" android:layout_height="36dp" android:src="res/drawable-xxhdpi-v4/screen_setting.png" android:alpha="{4:1060320051}" />
+			<ImageView android:layout_gravity="0x11" android:id="false" android:visibility="0" android:layout_width="20dp" android:layout_height="20dp" android:layout_marginRight="10dp" android:src="res/drawable-xxhdpi-v4/down_gray.png" android:alpha="{4:1060320051}" />
+		</LinearLayout>
+	</LinearLayout>
+	<LinearLayout android:orientation="1" android:id="false" android:visibility="0" android:layout_width="-1" android:layout_height="-2">
+		<LinearLayout android:orientation="1" android:id="false" android:layout_width="-1" android:layout_height="-2" />
+		<FrameLayout android:id="false" android:background="ffffff" android:layout_width="-1" android:layout_height="40dp">
+			<LinearLayout android:gravity="0x10" android:orientation="0" android:id="false" android:layout_width="-1" android:layout_height="-1">
+				<ImageView android:id="false" android:padding="5dp" android:layout_width="-2" android:layout_height="30dp" android:layout_marginLeft="15dp" android:layout_marginRight="3dp" android:src="res/drawable-xxhdpi-v4/delete_keg.png" />
+				<ImageView android:id="false" android:padding="7dp" android:layout_width="30dp" android:layout_height="30dp" android:layout_marginRight="3dp" android:src="res/drawable-xxhdpi-v4/up_sort.png" />
+				<ImageView android:id="false" android:padding="7dp" android:layout_width="30dp" android:layout_height="30dp" android:layout_marginRight="3dp" android:src="res/drawable-xxhdpi-v4/up_sort.png" android:rotation="{4:1127481344}" />
+				<View android:layout_width="0dp" android:layout_height="-2" android:layout_weight="{4:1065353216}" />
+				<ImageView android:id="false" android:padding="5dp" android:layout_width="40dp" android:layout_height="-1" android:src="res/drawable-xxhdpi-v4/remote_count_add.png" />
+			</LinearLayout>
+			<View android:layout_gravity="0x30" android:id="false" android:background="d7d7d7" android:visibility="2" android:layout_width="-1" android:layout_height="1px" />
+			<View android:layout_gravity="0x50" android:background="d7d7d7" android:layout_width="-1" android:layout_height="1px" />
+		</FrameLayout>
+	</LinearLayout>
+</LinearLayout>

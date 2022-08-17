@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:layout_width="-1" android:layout_height="-2">
+	<LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="15dp">
+		<FrameLayout android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="42dp">
+			<ImageView android:id="false" android:padding="1px" android:layout_width="96dp" android:layout_height="96dp" android:src="res/drawable/temp_humidity_type_img.png" />
+			<ImageView android:layout_gravity="0x35" android:id="false" android:layout_width="20dp" android:layout_height="20dp" android:src="res/drawable-xxhdpi-v4/green_selected.png" />
+		</FrameLayout>
+		<FrameLayout android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="15dp">
+			<ImageView android:id="false" android:padding="1px" android:layout_width="96dp" android:layout_height="96dp" android:src="res/drawable/temperature_type_img.png" />
+			<ImageView android:layout_gravity="0x35" android:id="false" android:layout_width="20dp" android:layout_height="20dp" android:src="res/drawable-xxhdpi-v4/green_selected.png" />
+		</FrameLayout>
+	</LinearLayout>
+	<TextView android:textSize="12sp" android:textColor="999999" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="30dp" android:layout_marginTop="15dp" android:layout_marginBottom="5dp" android:text="Display" />
+</LinearLayout>

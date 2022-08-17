@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="0000" android:layout_width="-1" android:layout_height="-1">
+	<View android:id="false" android:layout_width="-1" android:layout_height="-1" />
+	<View android:id="false" android:focusable="false" android:layout_width="-1" android:layout_height="-1" />
+	<cn.huidu.jumtop.MultiPageGrid android:id="false" android:layout_width="-1" android:layout_height="-1" />
+</RelativeLayout>

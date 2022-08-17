@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="-1" android:layout_height="-1">
+	<View android:id="false" android:background="cc000" android:layout_width="-1" android:layout_height="-1" />
+	<View android:id="false" android:layout_width="1px" android:layout_height="1px" android:layout_centerInParent="true" />
+	<LinearLayout android:gravity="0x11" android:orientation="0" android:layout_width="-1" android:layout_height="-2" android:layout_centerVertical="true">
+		<LinearLayout android:layout_gravity="0x30" android:orientation="1" android:id="false" android:layout_width="-2" android:layout_height="-2">
+			<LinearLayout android:orientation="0" android:id="false" android:layout_width="-2" android:layout_height="-2">
+				<ImageView android:layout_width="36dp" android:layout_height="36dp" android:src="res/drawable-xxhdpi-v4/image_area.png" android:contentDescription="resourceId:0x0" />
+				<TextView android:textSize="14sp" android:textColor="ffffff" android:gravity="0x3" android:layout_gravity="0x10" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="15dp" android:maxWidth="120dp" android:text="Add image" />
+			</LinearLayout>
+			<LinearLayout android:orientation="0" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="15dp">
+				<ImageView android:layout_width="36dp" android:layout_height="36dp" android:src="res/drawable-xxhdpi-v4/text_area.png" android:contentDescription="resourceId:0x0" />
+				<TextView android:textSize="14sp" android:textColor="ffffff" android:gravity="0x3" android:layout_gravity="0x10" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="15dp" android:maxWidth="120dp" android:text="Add text" />
+			</LinearLayout>
+			<LinearLayout android:orientation="0" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="15dp">
+				<ImageView android:layout_width="36dp" android:layout_height="36dp" android:src="res/drawable-xxhdpi-v4/ewatch_area.png" android:contentDescription="resourceId:0x0" />
+				<TextView android:textSize="14sp" android:textColor="ffffff" android:gravity="0x3" android:layout_gravity="0x10" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="15dp" android:maxWidth="120dp" android:text="Add EWatch" />
+			</LinearLayout>
+			<LinearLayout android:orientation="0" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="15dp">
+				<ImageView android:layout_width="36dp" android:layout_height="36dp" android:src="res/drawable-xxhdpi-v4/weather_area.png" android:contentDescription="resourceId:0x0" />
+				<TextView android:textSize="14sp" android:textColor="ffffff" android:gravity="0x3" android:layout_gravity="0x10" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="15dp" android:maxWidth="120dp" android:text="Add weather" />
+			</LinearLayout>
+			<LinearLayout android:orientation="0" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="15dp">
+				<ImageView android:layout_width="36dp" android:layout_height="36dp" android:src="res/drawable-xxhdpi-v4/qr_code_area.png" android:contentDescription="resourceId:0x0" />
+				<TextView android:textSize="14sp" android:textColor="ffffff" android:gravity="0x3" android:layout_gravity="0x10" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="15dp" android:maxWidth="120dp" android:text="Add QR code" />
+			</LinearLayout>
+			<LinearLayout android:orientation="0" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="15dp">
+				<ImageView android:layout_width="36dp" android:layout_height="36dp" android:src="res/drawable-xxhdpi-v4/hdmi_in_area.png" android:contentDescription="resourceId:0x0" />
+				<TextView android:textSize="14sp" android:textColor="ffffff" android:gravity="0x3" android:layout_gravity="0x10" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="15dp" android:maxWidth="120dp" android:text="Add HDMI IN" android:textAllCaps="true" />
+			</LinearLayout>
+			<LinearLayout android:orientation="0" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="15dp">
+				<ImageView android:layout_width="36dp" android:layout_height="36dp" android:src="res/drawable-xxhdpi-v4/button_area.png" android:scaleType="5" android:contentDescription="resourceId:0x0" />
+				<TextView android:textSize="14sp" android:textColor="ffffff" android:gravity="0x3" android:layout_gravity="0x10" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="15dp" android:maxWidth="120dp" android:text="Add button" />
+			</LinearLayout>
+		</LinearLayout>
+		<LinearLayout android:layout_gravity="0x30" android:orientation="1" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="20dp">
+			<LinearLayout android:orientation="0" android:id="false" android:layout_width="-2" android:layout_height="-2">
+				<ImageView android:layout_width="36dp" android:layout_height="36dp" android:src="res/drawable-xxhdpi-v4/video_area.png" android:contentDescription="resourceId:0x0" />
+				<TextView android:textSize="14sp" android:textColor="ffffff" android:gravity="0x3" android:layout_gravity="0x10" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="15dp" android:maxWidth="120dp" android:text="Add video" />
+			</LinearLayout>
+			<LinearLayout android:orientation="0" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="15dp">
+				<ImageView android:layout_width="36dp" android:layout_height="36dp" android:src="res/drawable-xxhdpi-v4/clock_area.png" android:contentDescription="resourceId:0x0" />
+				<TextView android:textSize="14sp" android:textColor="ffffff" android:gravity="0x3" android:layout_gravity="0x10" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="15dp" android:maxWidth="120dp" android:text="Add clock" />
+			</LinearLayout>
+			<LinearLayout android:orientation="0" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="15dp">
+				<ImageView android:layout_width="36dp" android:layout_height="36dp" android:src="res/drawable-xhdpi-v4/html_area.png" android:contentDescription="resourceId:0x0" />
+				<TextView android:textSize="14sp" android:textColor="ffffff" android:gravity="0x3" android:layout_gravity="0x10" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="15dp" android:maxWidth="120dp" android:text="Add HTML" />
+			</LinearLayout>
+			<LinearLayout android:orientation="0" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="15dp">
+				<ImageView android:layout_width="36dp" android:layout_height="36dp" android:src="res/drawable-xxhdpi-v4/timer_area.png" android:contentDescription="resourceId:0x0" />
+				<TextView android:textSize="14sp" android:textColor="ffffff" android:gravity="0x3" android:layout_gravity="0x10" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="15dp" android:maxWidth="120dp" android:text="Add timing" />
+			</LinearLayout>
+			<LinearLayout android:orientation="0" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="15dp">
+				<ImageView android:layout_width="36dp" android:layout_height="36dp" android:src="res/drawable-xxhdpi-v4/live_stream_area.png" android:contentDescription="resourceId:0x0" />
+				<TextView android:textSize="14sp" android:textColor="ffffff" android:gravity="0x3" android:layout_gravity="0x10" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="15dp" android:maxWidth="120dp" android:text="Add streaming" />
+			</LinearLayout>
+			<LinearLayout android:orientation="0" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="15dp">
+				<ImageView android:layout_width="36dp" android:layout_height="36dp" android:src="res/drawable-xxhdpi-v4/custom_area.png" android:contentDescription="resourceId:0x0" />
+				<TextView android:textSize="14sp" android:textColor="ffffff" android:gravity="0x3" android:layout_gravity="0x10" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="15dp" android:maxWidth="120dp" android:text="Add custom" />
+			</LinearLayout>
+		</LinearLayout>
+	</LinearLayout>
+</RelativeLayout>

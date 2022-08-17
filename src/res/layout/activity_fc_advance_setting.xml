@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:background="f2f2f2" android:layout_width="-1" android:layout_height="-1">
+	<RelativeLayout android:layout_width="-1" android:layout_height="40dp">
+		<TextView android:textSize="14sp" android:textColor="999999" android:layout_gravity="0x50" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="15dp" android:layout_marginBottom="5dp" android:text="Display correction" android:lines="1" android:layout_alignParentBottom="true" />
+	</RelativeLayout>
+	<LinearLayout android:gravity="0x10" android:orientation="0" android:id="false" android:background="res/drawable/bg_rectangle_only_bottom_ff_stroke_e4.xml" android:paddingLeft="15dp" android:paddingRight="15dp" android:layout_width="-1" android:layout_height="50dp">
+		<TextView android:textSize="14sp" android:textColor="333333" android:layout_width="0dp" android:layout_height="-2" android:text="Gamma" android:lines="1" android:layout_weight="{4:1065353216}" />
+		<TextView android:textSize="14sp" android:textColor="666666" android:layout_gravity="0x11" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="5dp" android:layout_marginRight="10dp" android:lines="1" />
+		<ImageView android:layout_gravity="0x11" android:layout_width="16dp" android:layout_height="16dp" android:src="res/drawable-xhdpi-v4/angle_right.png" android:alpha="{4:1058642330}" />
+	</LinearLayout>
+	<RelativeLayout android:layout_width="-1" android:layout_height="40dp">
+		<TextView android:textSize="14sp" android:textColor="999999" android:layout_gravity="0x50" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="15dp" android:layout_marginBottom="5dp" android:text="Color correction" android:lines="1" android:layout_alignParentBottom="true" />
+	</RelativeLayout>
+	<LinearLayout android:gravity="0x10" android:orientation="0" android:id="false" android:background="res/drawable/bg_rectangle_only_bottom_ff_stroke_e4.xml" android:paddingLeft="15dp" android:paddingRight="15dp" android:layout_width="-1" android:layout_height="50dp">
+		<TextView android:textSize="14sp" android:textColor="333333" android:layout_width="0dp" android:layout_height="-2" android:text="Colour" android:lines="1" android:layout_weight="{4:1065353216}" />
+		<TextView android:textSize="14sp" android:textColor="666666" android:layout_gravity="0x11" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="5dp" android:layout_marginRight="10dp" android:lines="1" />
+		<ImageView android:layout_gravity="0x11" android:layout_width="16dp" android:layout_height="16dp" android:src="res/drawable-xhdpi-v4/angle_right.png" android:alpha="{4:1058642330}" />
+	</LinearLayout>
+	<RelativeLayout android:layout_width="-1" android:layout_height="40dp">
+		<TextView android:textSize="14sp" android:textColor="999999" android:layout_gravity="0x50" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="15dp" android:layout_marginBottom="5dp" android:text="Scan parameters" android:lines="1" android:layout_alignParentBottom="true" />
+	</RelativeLayout>
+	<LinearLayout android:orientation="0" android:id="false" android:background="res/drawable/bg_rectangle_only_bottom_ff_stroke_e4.xml" android:layout_width="-1" android:layout_height="45dp">
+		<TextView android:textSize="14sp" android:textColor="333333" android:ellipsize="3" android:gravity="0x10" android:layout_gravity="0x10" android:layout_width="0dp" android:layout_height="-2" android:layout_marginLeft="15dp" android:text="Duty cycle" android:lines="1" android:layout_weight="{4:1065353216}" />
+		<TextView android:textSize="14sp" android:textColor="666666" android:ellipsize="3" android:gravity="0x5" android:layout_gravity="0x10" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="10dp" android:maxWidth="200dp" android:text="50%" android:lines="1" />
+		<ImageView android:layout_gravity="0x10" android:layout_width="12dp" android:layout_height="6dp" android:layout_marginRight="15dp" android:src="res/drawable-xxhdpi-v4/font_arrow.png" android:rotation="{4:1127481344}" />
+	</LinearLayout>
+	<LinearLayout android:orientation="0" android:id="false" android:background="res/drawable/bg_rectangle_only_bottom_ff_stroke_e4.xml" android:layout_width="-1" android:layout_height="45dp">
+		<TextView android:textSize="14sp" android:textColor="333333" android:ellipsize="3" android:gravity="0x10" android:layout_gravity="0x10" android:layout_width="0dp" android:layout_height="-2" android:layout_marginLeft="15dp" android:text="Line blanking" android:lines="1" android:layout_weight="{4:1065353216}" />
+		<cn.huidu.view.inputview.AddAndSubtractInputView android:layout_gravity="0x10" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="15dp" />
+	</LinearLayout>
+	<LinearLayout android:orientation="0" android:id="false" android:background="res/drawable/bg_rectangle_only_bottom_ff_stroke_e4.xml" android:layout_width="-1" android:layout_height="45dp">
+		<TextView android:textSize="14sp" android:textColor="333333" android:ellipsize="3" android:gravity="0x10" android:layout_gravity="0x10" android:layout_width="0dp" android:layout_height="-2" android:layout_marginLeft="15dp" android:text="Phase" android:lines="1" android:layout_weight="{4:1065353216}" />
+		<TextView android:textSize="14sp" android:textColor="666666" android:ellipsize="3" android:gravity="0x5" android:layout_gravity="0x10" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="10dp" android:maxWidth="200dp" android:text="0" android:lines="1" />
+		<ImageView android:layout_gravity="0x10" android:layout_width="12dp" android:layout_height="6dp" android:layout_marginRight="15dp" android:src="res/drawable-xxhdpi-v4/font_arrow.png" android:rotation="{4:1127481344}" />
+	</LinearLayout>
+	<RelativeLayout android:layout_width="-1" android:layout_height="40dp">
+		<TextView android:textSize="14sp" android:textColor="999999" android:layout_gravity="0x50" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="15dp" android:layout_marginBottom="5dp" android:text="Other" android:lines="1" android:layout_alignParentBottom="true" />
+	</RelativeLayout>
+	<LinearLayout android:orientation="0" android:id="false" android:background="res/drawable/bg_rectangle_only_bottom_ff_stroke_e4.xml" android:layout_width="-1" android:layout_height="45dp">
+		<TextView android:textSize="14sp" android:textColor="333333" android:ellipsize="3" android:gravity="0x10" android:layout_gravity="0x10" android:layout_width="0dp" android:layout_height="-2" android:layout_marginLeft="15dp" android:text="Afterglow polarity" android:lines="1" android:layout_weight="{4:1065353216}" />
+		<TextView android:textSize="14sp" android:textColor="666666" android:ellipsize="3" android:gravity="0x5" android:layout_gravity="0x10" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="10dp" android:maxWidth="200dp" android:text="Active high" android:lines="1" />
+		<ImageView android:layout_gravity="0x10" android:layout_width="12dp" android:layout_height="6dp" android:layout_marginRight="15dp" android:src="res/drawable-xxhdpi-v4/font_arrow.png" android:rotation="{4:1127481344}" />
+	</LinearLayout>
+	<LinearLayout android:orientation="0" android:id="false" android:background="res/drawable/bg_rectangle_only_bottom_ff_stroke_e4.xml" android:layout_width="-1" android:layout_height="45dp">
+		<TextView android:textSize="14sp" android:textColor="333333" android:ellipsize="3" android:gravity="0x10" android:layout_gravity="0x10" android:layout_width="0dp" android:layout_height="-2" android:layout_marginLeft="15dp" android:text="Output mode" android:lines="1" android:layout_weight="{4:1065353216}" />
+		<TextView android:textSize="14sp" android:textColor="666666" android:ellipsize="3" android:gravity="0x5" android:layout_gravity="0x10" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="10dp" android:maxWidth="200dp" android:text="Normal output" android:lines="1" />
+		<ImageView android:layout_gravity="0x10" android:layout_width="12dp" android:layout_height="6dp" android:layout_marginRight="15dp" android:src="res/drawable-xxhdpi-v4/font_arrow.png" android:rotation="{4:1127481344}" />
+	</LinearLayout>
+	<LinearLayout android:orientation="0" android:id="false" android:background="res/drawable/bg_rectangle_only_bottom_ff_stroke_e4.xml" android:layout_width="-1" android:layout_height="45dp">
+		<TextView android:textSize="14sp" android:textColor="333333" android:ellipsize="3" android:gravity="0x10" android:layout_gravity="0x10" android:layout_width="0dp" android:layout_height="-2" android:layout_marginLeft="15dp" android:text="No signal display" android:lines="1" android:layout_weight="{4:1065353216}" />
+		<TextView android:textSize="14sp" android:textColor="666666" android:ellipsize="3" android:gravity="0x5" android:layout_gravity="0x10" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="10dp" android:maxWidth="200dp" android:text="Last frame" android:lines="1" />
+		<ImageView android:layout_gravity="0x10" android:layout_width="12dp" android:layout_height="6dp" android:layout_marginRight="15dp" android:src="res/drawable-xxhdpi-v4/font_arrow.png" android:rotation="{4:1127481344}" />
+	</LinearLayout>
+	<LinearLayout android:orientation="0" android:id="false" android:background="res/drawable/bg_rectangle_only_bottom_ff_stroke_e4.xml" android:layout_width="-1" android:layout_height="45dp">
+		<TextView android:textSize="14sp" android:textColor="333333" android:ellipsize="3" android:gravity="0x10" android:layout_gravity="0x10" android:layout_width="0dp" android:layout_height="-2" android:layout_marginLeft="15dp" android:text="Rotate" android:lines="1" android:layout_weight="{4:1065353216}" />
+		<TextView android:textSize="14sp" android:textColor="666666" android:ellipsize="3" android:gravity="0x5" android:layout_gravity="0x10" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="10dp" android:maxWidth="200dp" android:text="Normal" android:lines="1" />
+		<ImageView android:layout_gravity="0x10" android:layout_width="12dp" android:layout_height="6dp" android:layout_marginRight="15dp" android:src="res/drawable-xxhdpi-v4/font_arrow.png" android:rotation="{4:1127481344}" />
+	</LinearLayout>
+</LinearLayout>

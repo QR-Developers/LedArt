@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="false" android:layout_width="-1" android:layout_height="-1">
+	<RelativeLayout android:id="false" android:background="3399ff" android:layout_width="-1" android:layout_height="75dp">
+		<FrameLayout android:id="false" android:focusable="true" android:clickable="true" android:layout_width="50dp" android:layout_height="50dp" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true">
+			<ImageView android:layout_gravity="0x11" android:background="res/drawable/cloud_base_setting_left_angle.png" android:layout_width="24dp" android:layout_height="24dp" android:contentDescription="resourceId:0x0" />
+		</FrameLayout>
+		<TextView android:textSize="15sp" android:textColor="ffffff" android:gravity="0x11" android:id="false" android:layout_width="-1" android:layout_height="50dp" android:layout_marginLeft="120dp" android:layout_marginRight="120dp" android:text="Firmware upgrade" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+	</RelativeLayout>
+	<Button android:textSize="14sp" android:textColor="ffffff" android:id="false" android:background="res/drawable/bg_round_20_rectangle_solid_3399ff.xml" android:layout_width="200dp" android:layout_height="40dp" android:layout_marginTop="20dp" android:layout_marginBottom="20dp" android:text="Upgrade" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+	<FrameLayout android:layout_width="-1" android:layout_height="-1" android:layout_above="false" android:layout_below="false">
+		<com.scwang.smart.refresh.layout.SmartRefreshLayout android:id="false" android:layout_width="-1" android:layout_height="-1">
+			<androidx.recyclerview.widget.RecyclerView android:id="false" android:visibility="0" android:layout_width="-1" android:layout_height="-1" android:overScrollMode="2" />
+		</com.scwang.smart.refresh.layout.SmartRefreshLayout>
+		<LinearLayout android:layout_gravity="0x11" android:orientation="1" android:id="false" android:visibility="2" android:layout_width="-2" android:layout_height="-2">
+			<TextView android:textSize="15sp" android:textColor="999999" android:layout_width="-2" android:layout_height="-2" android:text="No data" />
+		</LinearLayout>
+	</FrameLayout>
+</RelativeLayout>

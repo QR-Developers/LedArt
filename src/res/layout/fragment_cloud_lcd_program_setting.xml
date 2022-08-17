@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="-1" android:layout_height="-1">
+	<FrameLayout android:id="false" android:visibility="1" android:layout_width="-1" android:layout_height="-1">
+		<LinearLayout android:orientation="1" android:id="false" android:layout_width="-1" android:layout_height="-1">
+			<FrameLayout android:id="false" android:layout_width="-1" android:layout_height="-1">
+				<cn.huidu.view.dateview.MaterialCalendarView android:id="false" android:layout_width="-1" android:layout_height="-1" android:layout_marginBottom="20dp" app:mcv_selectionColor="3399ff" app:mcv_showOtherDates="0x1" app:mcv_tileWidth="0dp" app:mcv_top_bar_visible="false" />
+			</FrameLayout>
+			<LinearLayout android:gravity="0x11" android:orientation="0" android:id="false" android:paddingLeft="45dp" android:paddingTop="25dp" android:paddingRight="45dp" android:paddingBottom="25dp" android:layout_width="-1" android:layout_height="-1">
+				<cn.huidu.view.dateview.PickerView android:id="false" android:layout_width="0dp" android:layout_height="-1" android:layout_weight="{4:1084227584}" />
+				<TextView android:textSize="28sp" android:textColor="3366ff" android:gravity="0x11" android:layout_width="0dp" android:layout_height="-1" android:text=":" android:layout_weight="{4:1073741824}" />
+				<cn.huidu.view.dateview.PickerView android:id="false" android:layout_width="0dp" android:layout_height="-1" android:layout_weight="{4:1084227584}" />
+				<TextView android:textSize="28sp" android:textColor="3366ff" android:gravity="0x11" android:layout_width="0dp" android:layout_height="-1" android:text=":" android:layout_weight="{4:1073741824}" />
+				<cn.huidu.view.dateview.PickerView android:id="false" android:layout_width="0dp" android:layout_height="-1" android:layout_weight="{4:1084227584}" />
+			</LinearLayout>
+		</LinearLayout>
+		<LinearLayout android:orientation="0" android:id="false" android:background="ffffff" android:visibility="2" android:layout_width="-1" android:layout_height="-1">
+			<include layout="res/layout/view_cloud_detail_setting_right_menu.xml" />
+		</LinearLayout>
+	</FrameLayout>
+	<androidx.core.widget.NestedScrollView android:id="false" android:layout_width="-1" android:layout_height="-1">
+		<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2">
+			<RelativeLayout android:background="res/drawable/bg_rectangle_top_bottom_ff_stroke_e4.xml" android:layout_width="-1" android:layout_height="40dp" android:layout_marginTop="10dp">
+				<TextView android:textSize="13sp" android:textColor="333333" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="15dp" android:layout_marginRight="15dp" android:text="Specify date" android:lines="1" android:layout_centerVertical="true" />
+				<cn.huidu.view.CustomSwitch android:id="false" android:layout_width="36dp" android:layout_height="20dp" android:layout_marginRight="15dp" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+			</RelativeLayout>
+			<LinearLayout android:orientation="0" android:id="false" android:background="res/drawable/bg_rectangle_only_bottom_ff_stroke_e4.xml" android:layout_width="-1" android:layout_height="40dp">
+				<TextView android:textSize="13sp" android:textColor="999999" android:layout_gravity="0x10" android:layout_width="0dp" android:layout_height="-2" android:layout_marginLeft="15dp" android:text="Start date" android:lines="1" android:layout_weight="{4:1065353216}" />
+				<TextView android:textSize="14sp" android:textColor="333333" android:layout_gravity="0x11" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="15dp" android:layout_marginRight="15dp" android:text="2019/01/31" android:lines="1" />
+				<ImageView android:layout_gravity="0x11" android:layout_width="16dp" android:layout_height="16dp" android:layout_marginRight="15dp" android:src="res/drawable-xhdpi-v4/angle_right.png" android:alpha="{4:1058642330}" />
+			</LinearLayout>
+			<LinearLayout android:orientation="0" android:id="false" android:background="res/drawable/bg_rectangle_only_bottom_ff_stroke_e4.xml" android:layout_width="-1" android:layout_height="40dp">
+				<TextView android:textSize="13sp" android:textColor="999999" android:layout_gravity="0x10" android:layout_width="0dp" android:layout_height="-2" android:layout_marginLeft="15dp" android:text="End date" android:lines="1" android:layout_weight="{4:1065353216}" />
+				<TextView android:textSize="14sp" android:textColor="333333" android:layout_gravity="0x11" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="15dp" android:layout_marginRight="15dp" android:text="2019/01/31" android:lines="1" />
+				<ImageView android:layout_gravity="0x11" android:layout_width="16dp" android:layout_height="16dp" android:layout_marginRight="15dp" android:src="res/drawable-xhdpi-v4/angle_right.png" android:alpha="{4:1058642330}" />
+			</LinearLayout>
+			<RelativeLayout android:background="res/drawable/bg_rectangle_only_bottom_ff_stroke_e4.xml" android:layout_width="-1" android:layout_height="40dp">
+				<TextView android:textSize="13sp" android:textColor="333333" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="15dp" android:layout_marginRight="15dp" android:text="Specify time" android:lines="1" android:layout_centerVertical="true" />
+				<cn.huidu.view.CustomSwitch android:id="false" android:layout_width="36dp" android:layout_height="20dp" android:layout_marginRight="15dp" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+			</RelativeLayout>
+			<LinearLayout android:orientation="0" android:id="false" android:background="res/drawable/bg_rectangle_only_bottom_ff_stroke_e4.xml" android:layout_width="-1" android:layout_height="40dp">
+				<TextView android:textSize="13sp" android:textColor="999999" android:layout_gravity="0x10" android:layout_width="0dp" android:layout_height="-2" android:layout_marginLeft="15dp" android:text="Start time" android:lines="1" android:layout_weight="{4:1065353216}" />
+				<TextView android:textSize="14sp" android:textColor="333333" android:layout_gravity="0x11" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="15dp" android:layout_marginRight="15dp" android:text="00:00:00" android:lines="1" />
+				<ImageView android:layout_gravity="0x11" android:layout_width="16dp" android:layout_height="16dp" android:layout_marginRight="15dp" android:src="res/drawable-xhdpi-v4/angle_right.png" android:alpha="{4:1058642330}" />
+			</LinearLayout>
+			<LinearLayout android:orientation="0" android:id="false" android:background="res/drawable/bg_rectangle_only_bottom_ff_stroke_e4.xml" android:layout_width="-1" android:layout_height="40dp">
+				<TextView android:textSize="13sp" android:textColor="999999" android:layout_gravity="0x10" android:layout_width="0dp" android:layout_height="-2" android:layout_marginLeft="15dp" android:text="End time" android:lines="1" android:layout_weight="{4:1065353216}" />
+				<TextView android:textSize="14sp" android:textColor="333333" android:layout_gravity="0x11" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="15dp" android:layout_marginRight="15dp" android:text="23:59:59" android:lines="1" />
+				<ImageView android:layout_gravity="0x11" android:layout_width="16dp" android:layout_height="16dp" android:layout_marginRight="15dp" android:src="res/drawable-xhdpi-v4/angle_right.png" android:alpha="{4:1058642330}" />
+			</LinearLayout>
+			<LinearLayout android:orientation="0" android:id="false" android:background="res/drawable/bg_rectangle_top_bottom_ff_stroke_e4.xml" android:layout_width="-1" android:layout_height="40dp">
+				<TextView android:textSize="13sp" android:textColor="333333" android:layout_gravity="0x10" android:layout_width="0dp" android:layout_height="-2" android:layout_marginLeft="15dp" android:text="Specify week" android:lines="1" android:layout_weight="{4:1065353216}" android:layout_marginStart="15dp" />
+				<TextView android:textSize="13sp" android:textColor="333333" android:ellipsize="3" android:layout_gravity="0x11" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="15dp" android:layout_marginRight="15dp" android:maxWidth="200dp" android:lines="1" />
+				<ImageView android:layout_gravity="0x11" android:layout_width="16dp" android:layout_height="16dp" android:layout_marginRight="15dp" android:src="res/drawable-xhdpi-v4/angle_right.png" android:alpha="{4:1058642330}" />
+			</LinearLayout>
+			<RelativeLayout android:background="res/drawable/bg_rectangle_only_bottom_ff_stroke_e4.xml" android:layout_width="-1" android:layout_height="40dp">
+				<TextView android:textSize="13sp" android:textColor="333333" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="15dp" android:layout_marginRight="15dp" android:text="Specify the playing time" android:lines="1" android:layout_centerVertical="true" />
+				<cn.huidu.view.CustomSwitch android:id="false" android:layout_width="36dp" android:layout_height="20dp" android:layout_marginRight="15dp" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+			</RelativeLayout>
+			<LinearLayout android:orientation="0" android:id="false" android:background="res/drawable/bg_rectangle_only_bottom_ff_stroke_e4.xml" android:layout_width="-1" android:layout_height="40dp">
+				<TextView android:textSize="13sp" android:textColor="999999" android:layout_gravity="0x10" android:layout_width="0dp" android:layout_height="-2" android:layout_marginLeft="15dp" android:text="Play duration" android:lines="1" android:layout_weight="{4:1065353216}" />
+				<TextView android:textSize="14sp" android:textColor="333333" android:layout_gravity="0x11" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="15dp" android:layout_marginRight="15dp" android:text="00:00:00" android:lines="1" />
+				<ImageView android:layout_gravity="0x11" android:layout_width="16dp" android:layout_height="16dp" android:layout_marginRight="15dp" android:src="res/drawable-xhdpi-v4/angle_right.png" android:alpha="{4:1058642330}" />
+			</LinearLayout>
+		</LinearLayout>
+	</androidx.core.widget.NestedScrollView>
+</FrameLayout>

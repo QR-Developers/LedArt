@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+	<cn.huidu.view.KeywordSearchView android:id="false" android:background="res/drawable/cloud_bg_rectangle_top_bottom_ff_stroke_e4.xml" android:layout_width="-1" android:layout_height="46dp" app:hint_txt="Device ID, device name" />
+	<com.scwang.smart.refresh.layout.SmartRefreshLayout android:id="false" android:layout_width="-1" android:layout_height="0dp" android:layout_weight="{4:1065353216}">
+		<androidx.recyclerview.widget.RecyclerView android:id="false" android:layout_width="-1" android:layout_height="-1" />
+	</com.scwang.smart.refresh.layout.SmartRefreshLayout>
+</LinearLayout>

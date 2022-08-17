@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="-1" android:layout_height="50dp">
+	<TextView android:textSize="14sp" android:textColor="666666" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="16dp" android:text="Offline editing" android:layout_toRightOf="false" android:layout_centerInParent="true" />
+</RelativeLayout>

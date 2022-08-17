@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="res/drawable/bg_rectangle_only_bottom_f2_stroke_e4.xml" android:layout_width="-1" android:layout_height="40dp">
+	<TextView android:textSize="14sp" android:textColor="666666" android:layout_gravity="0x53" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="20dp" android:layout_marginBottom="10dp" />
+</FrameLayout>

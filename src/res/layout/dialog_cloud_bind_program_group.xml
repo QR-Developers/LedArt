@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="-1" android:layout_height="-1">
+	<FrameLayout android:layout_width="-1" android:layout_height="200dp">
+		<androidx.recyclerview.widget.RecyclerView android:id="false" android:visibility="0" android:layout_width="-1" android:layout_height="-1" android:overScrollMode="2" />
+		<LinearLayout android:layout_gravity="0x11" android:orientation="1" android:id="false" android:visibility="2" android:layout_width="-2" android:layout_height="-2">
+			<TextView android:textSize="15sp" android:textColor="999999" android:layout_width="-2" android:layout_height="-2" android:text="No data" />
+		</LinearLayout>
+	</FrameLayout>
+</LinearLayout>

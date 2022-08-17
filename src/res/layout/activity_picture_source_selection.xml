@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:background="resourceId:0x106000d" android:layout_width="-1" android:layout_height="-1">
+	<FrameLayout android:id="false" android:background="res/drawable-xhdpi-v4/header_bg.png" android:fitsSystemWindows="true" android:layout_width="-1" android:layout_height="75dp">
+		<ImageView android:layout_gravity="0x10" android:id="false" android:padding="10dp" android:layout_width="44dp" android:layout_height="44dp" android:src="res/drawable-xhdpi-v4/base_setting_left_angle.png" />
+		<LinearLayout android:layout_gravity="0x10" android:orientation="0" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="70dp" android:layout_marginRight="70dp">
+			<TextView android:textSize="15sp" android:textColor="ffffff" android:ellipsize="4" android:gravity="0x5" android:layout_gravity="0x10" android:id="false" android:visibility="2" android:layout_width="0dp" android:layout_height="-2" android:text="Local" android:singleLine="true" android:layout_weight="{4:1065353216}" />
+			<TextView android:textSize="15sp" android:textColor="e4e4e4" android:ellipsize="4" android:gravity="0x11" android:id="false" android:layout_width="0dp" android:layout_height="-2" android:layout_marginLeft="20dp" android:text="Downloaded" android:singleLine="true" android:layout_weight="{4:1065353216}" />
+		</LinearLayout>
+		<TextView android:textSize="15sp" android:textColor="ffffff" android:gravity="0x15" android:layout_gravity="0x15" android:id="false" android:layout_width="50dp" android:layout_height="40dp" android:layout_marginRight="20dp" android:text="OK" android:lines="1" />
+	</FrameLayout>
+	<View android:background="ffc0c0c0" android:layout_width="-1" android:layout_height="1px" />
+	<cn.huidu.view.CustomViewPager android:orientation="1" android:id="false" android:paddingLeft="2dp" android:paddingTop="2dp" android:paddingRight="2dp" android:layout_width="-1" android:layout_height="0dp" android:layout_weight="{4:1065353216}" />
+</LinearLayout>

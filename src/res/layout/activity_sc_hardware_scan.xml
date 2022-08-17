@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="-1" android:layout_height="-1">
+	<cn.huidu.view.recycleview.swipe.SwipeMenuRecyclerView android:id="false" android:layout_width="-1" android:layout_height="-1" />
+	<LinearLayout android:gravity="0x11" android:orientation="1" android:id="false" android:background="88000" android:visibility="2" android:layout_width="-1" android:layout_height="-1">
+		<ProgressBar android:layout_width="35dp" android:layout_height="35dp" android:indeterminateDrawable="res/drawable/progressbar.xml" />
+		<TextView android:textSize="14sp" android:textColor="ffffff" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="10dp" android:text="Loading…" />
+	</LinearLayout>
+</FrameLayout>

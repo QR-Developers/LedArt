@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+	<LinearLayout android:orientation="0" android:id="false" android:layout_width="-1" android:layout_height="0dp" android:layout_weight="{4:1065353216}" android:alpha="{4:1061997773}" />
+	<LinearLayout android:orientation="1" android:background="fcfcfc" android:layout_width="-1" android:layout_height="-2">
+		<LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="-2">
+			<TextView android:gravity="0x11" android:layout_width="0dp" android:layout_height="60dp" android:text="Module width" android:layout_weight="{4:1065353216}" style="resourceId:0x7f1202f9" />
+			<TextView android:background="dddddd" android:layout_width="1px" android:layout_height="-1" />
+			<TextView android:gravity="0x11" android:layout_width="0dp" android:layout_height="60dp" android:text="Module height" android:layout_weight="{4:1065353216}" style="resourceId:0x7f1202f9" />
+		</LinearLayout>
+		<View style="resourceId:0x7f120330" />
+		<LinearLayout android:gravity="0x10" android:orientation="0" android:layout_width="-1" android:layout_height="-2">
+			<FrameLayout android:layout_width="0dp" android:layout_height="-2" android:layout_weight="{4:1065353216}">
+				<cn.huidu.view.MyNumberPicker android:id="false" android:layout_width="-1" android:layout_height="-1" />
+				<TextView android:layout_gravity="0x11" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="35dp" android:text="Point" />
+			</FrameLayout>
+			<TextView android:background="dddddd" android:layout_width="1px" android:layout_height="-1" />
+			<FrameLayout android:layout_width="0dp" android:layout_height="-2" android:layout_weight="{4:1065353216}">
+				<cn.huidu.view.MyNumberPicker android:id="false" android:layout_width="-1" android:layout_height="-1" />
+				<TextView android:layout_gravity="0x11" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="35dp" android:text="Point" />
+			</FrameLayout>
+		</LinearLayout>
+	</LinearLayout>
+</LinearLayout>

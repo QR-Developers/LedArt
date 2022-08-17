@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="-1" android:layout_height="-1">
+	<LinearLayout android:layout_gravity="0x11" android:orientation="1" android:layout_width="-2" android:layout_height="-2">
+		<RelativeLayout android:id="false" android:background="res/drawable/bg_round_10_rectangle_79_f2.xml" android:layout_width="280dp" android:layout_height="-2">
+			<LinearLayout android:orientation="0" android:id="false" android:background="res/drawable/bg_round_top_right_10_rectangle_79_f2.xml" android:layout_width="-1" android:layout_height="50dp">
+				<TextView android:textSize="14sp" android:textStyle="0x1" android:layout_gravity="0x11" android:layout_width="0dp" android:layout_height="-2" android:text="Parameter sync" android:layout_weight="{4:1065353216}" android:layout_marginStart="14dp" />
+				<ImageView android:layout_gravity="0x11" android:id="false" android:layout_width="12dp" android:layout_height="12dp" android:src="res/drawable-xxhdpi-v4/bottom_b.png" android:layout_marginEnd="20dp" />
+			</LinearLayout>
+			<View android:id="false" android:background="d7d7d7" android:layout_width="-1" android:layout_height="1dp" android:layout_below="false" />
+			<FrameLayout android:id="false" android:paddingLeft="10dp" android:paddingTop="19dp" android:paddingRight="10dp" android:paddingBottom="19dp" android:layout_width="-1" android:layout_height="-2" android:layout_below="false">
+				<LinearLayout android:layout_gravity="0x11" android:orientation="0" android:id="false" android:visibility="1" android:layout_width="220dp" android:layout_height="36dp">
+					<Button android:textSize="14sp" android:textColor="ffffff" android:gravity="0x11" android:id="false" android:background="res/drawable/shape_round_rect_corner_25_solid_ff9900.xml" android:layout_width="90dp" android:layout_height="-1" android:text="Read back program" android:lines="1" />
+					<Button android:textSize="14sp" android:textColor="ffffff" android:gravity="0x11" android:id="false" android:background="res/drawable-xxhdpi-v4/shape_round_rect_corner_25_solid_3399ff.xml" android:layout_width="90dp" android:layout_height="-1" android:text="Add" android:lines="1" android:layout_marginStart="40dp" />
+				</LinearLayout>
+				<Button android:textSize="14sp" android:textColor="ffffff" android:gravity="0x11" android:layout_gravity="0x11" android:id="false" android:background="res/drawable-xxhdpi-v4/shape_round_rect_corner_25_solid_3399ff.xml" android:visibility="0" android:layout_width="160dp" android:layout_height="36dp" android:text="Add" android:lines="1" />
+			</FrameLayout>
+			<FrameLayout android:id="false" android:visibility="0" android:layout_width="-1" android:layout_height="210dp" android:layout_below="false">
+				<LinearLayout android:gravity="0x1" android:orientation="1" android:id="false" android:visibility="0" android:layout_width="-1" android:layout_height="-2">
+					<ImageView android:layout_width="48dp" android:layout_height="48dp" android:layout_marginTop="46dp" android:src="res/drawable-xxhdpi-v4/null_program.png" android:contentDescription="resourceId:0x0" />
+					<TextView android:textSize="12sp" android:textColor="999999" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="12dp" android:text="No device" />
+					<TextView android:textSize="14sp" android:textColor="3366ff" android:gravity="0x11" android:id="false" android:background="res/drawable/bg_round_rect_stroke_3366ff.xml" android:layout_width="80dp" android:layout_height="24dp" android:layout_marginTop="25dp" android:text="Find device" />
+					<TextView android:textSize="12sp" android:textColor="999999" android:id="false" android:padding="3dp" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="8dp" android:text="Offline editing" />
+				</LinearLayout>
+				<androidx.recyclerview.widget.RecyclerView android:id="false" android:layout_width="-1" android:layout_height="-2" />
+				<FrameLayout android:id="false" android:visibility="1" android:layout_width="-1" android:layout_height="-1">
+					<LinearLayout android:layout_gravity="0x11" android:orientation="1" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="5dp" android:layout_marginRight="5dp">
+						<ProgressBar android:layout_gravity="0x11" android:layout_width="50dp" android:layout_height="50dp" />
+						<TextView android:layout_gravity="0x1" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="10dp" android:text="Reading back …" />
+					</LinearLayout>
+				</FrameLayout>
+			</FrameLayout>
+			<LinearLayout android:orientation="0" android:id="false" android:background="res/drawable/bg_round_bottom_right_10_rectangle_79_f2.xml" android:layout_width="-1" android:layout_height="50dp" android:layout_below="false">
+				<TextView android:textSize="14sp" android:textStyle="0x1" android:layout_gravity="0x11" android:layout_width="0dp" android:layout_height="-2" android:text="Soft stitching" android:layout_weight="{4:1065353216}" android:layout_marginStart="14dp" />
+				<ImageView android:layout_gravity="0x11" android:id="false" android:layout_width="12dp" android:layout_height="12dp" android:src="res/drawable-xxhdpi-v4/right_b.png" android:layout_marginEnd="20dp" />
+			</LinearLayout>
+			<RelativeLayout android:id="false" android:visibility="2" android:layout_width="-1" android:layout_height="244dp" android:layout_below="false">
+				<ImageView android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="40dp" android:src="resourceId:0x7f0803d6" android:layout_centerHorizontal="true" />
+				<TextView android:ellipsize="3" android:gravity="0x11" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="15dp" android:text="You can bind multiple devices to create a soft splicing screen" android:lines="2" android:layout_below="false" android:layout_centerInParent="true" />
+				<Button android:textSize="14sp" android:textColor="ffffff" android:layout_gravity="0x11" android:id="false" android:background="res/drawable-xxhdpi-v4/shape_round_rect_corner_25_solid_3399ff.xml" android:visibility="0" android:layout_width="160dp" android:layout_height="36dp" android:layout_marginTop="10dp" android:layout_marginBottom="30dp" android:text="Add" android:lines="1" android:layout_alignParentBottom="true" android:layout_centerInParent="true" />
+			</RelativeLayout>
+		</RelativeLayout>
+		<RelativeLayout android:id="false" android:background="res/drawable/bg_round_10_rectangle_79_f2.xml" android:visibility="2" android:layout_width="280dp" android:layout_height="380dp">
+			<RelativeLayout android:id="false" android:background="res/drawable/bg_round_top_right_10_rectangle_79_f2.xml" android:layout_width="-1" android:layout_height="50dp">
+				<ImageView android:id="false" android:padding="8dp" android:visibility="0" android:layout_width="36dp" android:layout_height="36dp" android:src="res/drawable-xxhdpi-v4/left_b.png" android:layout_centerVertical="true" android:layout_marginStart="4dp" />
+				<TextView android:textSize="14sp" android:textStyle="0x1" android:textColor="333333" android:layout_gravity="0x11" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="Select device model" android:singleLine="true" android:layout_centerInParent="true" />
+			</RelativeLayout>
+			<FrameLayout android:id="false" android:visibility="2" android:layout_width="-1" android:layout_height="-1" android:layout_below="false">
+				<androidx.recyclerview.widget.RecyclerView android:id="false" android:layout_width="-1" android:layout_height="-1" />
+			</FrameLayout>
+			<FrameLayout android:id="false" android:paddingLeft="10dp" android:paddingTop="19dp" android:paddingRight="10dp" android:paddingBottom="19dp" android:layout_width="-1" android:layout_height="-2" android:layout_alignParentBottom="true">
+				<Button android:textSize="14sp" android:textColor="ffffff" android:gravity="0x11" android:layout_gravity="0x11" android:id="false" android:background="res/drawable-xxhdpi-v4/shape_round_rect_corner_25_solid_3399ff.xml" android:visibility="0" android:layout_width="160dp" android:layout_height="36dp" android:text="Add" android:lines="1" />
+			</FrameLayout>
+		</RelativeLayout>
+		<FrameLayout android:layout_gravity="0x50" android:id="false" android:layout_width="-1" android:layout_height="50dp">
+			<ImageView android:layout_gravity="0x51" android:layout_width="30dp" android:layout_height="30dp" android:src="res/drawable-xhdpi-v4/close_w.png" android:contentDescription="resourceId:0x0" />
+		</FrameLayout>
+	</LinearLayout>
+</FrameLayout>

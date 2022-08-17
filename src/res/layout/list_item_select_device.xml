@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="-1" android:layout_height="50dp">
+	<View android:background="d7d7d7" android:layout_width="-1" android:layout_height="1px" android:layout_alignParentBottom="true" />
+	<ImageView android:id="false" android:layout_width="16dp" android:layout_height="16dp" android:layout_marginLeft="18dp" android:src="res/drawable-xxhdpi-v4/device_deactive.png" android:layout_centerVertical="true" />
+	<LinearLayout android:orientation="1" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="16dp" android:layout_toRightOf="false" android:layout_centerVertical="true">
+		<LinearLayout android:orientation="0" android:layout_width="-2" android:layout_height="-2">
+			<TextView android:textSize="14sp" android:textColor="333333" android:ellipsize="3" android:id="false" android:layout_width="-2" android:layout_height="-2" android:maxWidth="200dp" android:lines="1" />
+			<ImageView android:layout_gravity="0x11" android:id="false" android:visibility="2" android:layout_width="11dp" android:layout_height="11dp" android:src="resourceId:0x7f08006b" android:scaleType="3" android:layout_marginStart="8dp" />
+		</LinearLayout>
+		<LinearLayout android:orientation="0" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="1dp">
+			<TextView android:textSize="12sp" android:textColor="999999" android:id="false" android:layout_width="-2" android:layout_height="-2" />
+			<TextView android:textSize="12sp" android:textColor="999999" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="8dp" />
+		</LinearLayout>
+	</LinearLayout>
+	<ImageView android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="15dp" android:src="res/drawable-xxhdpi-v4/checkbox_checked.png" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+</RelativeLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+	<RelativeLayout android:background="ffffff" android:layout_width="-1" android:layout_height="45dp">
+		<TextView android:textSize="15sp" android:textColor="333333" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="15dp" android:text="Use new architecture" android:layout_centerVertical="true" />
+		<cn.huidu.view.CustomSwitch android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="15dp" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+		<View android:background="e8e8e8" android:layout_width="-1" android:layout_height="1px" android:layout_alignParentBottom="true" />
+	</RelativeLayout>
+	<androidx.recyclerview.widget.RecyclerView android:id="false" android:background="ffffff" android:layout_width="-1" android:layout_height="-1" />
+</LinearLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="84dp" android:layout_height="45dp">
+	<TextView android:textSize="14sp" android:textColor="333333" android:gravity="0x11" android:layout_gravity="0x11" android:id="false" android:paddingLeft="8dp" android:paddingRight="8dp" android:layout_width="-1" android:layout_height="-2" android:lines="1" />
+	<ImageView android:layout_gravity="0x35" android:id="false" android:padding="3dp" android:layout_width="22dp" android:layout_height="22dp" android:src="res/drawable-xxhdpi-v4/sc_widget_delete.png" android:alpha="{4:1053609165}" />
+	<View android:layout_gravity="0x15" android:id="false" android:background="e4e4e4" android:layout_width="1px" android:layout_height="20dp" />
+	<View android:layout_gravity="0x50" android:id="false" android:background="66066ff" android:layout_width="-1" android:layout_height="2dp" />
+</FrameLayout>

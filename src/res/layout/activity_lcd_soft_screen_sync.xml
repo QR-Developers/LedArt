@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:custom="http://schemas.android.com/apk/res-auto" android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+	<androidx.core.widget.NestedScrollView android:scrollbars="0x0" android:layout_width="-1" android:layout_height="-1" android:layout_marginBottom="80dp">
+		<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+			<RelativeLayout android:layout_width="-1" android:layout_height="-2" android:layout_marginStart="20dp" android:layout_marginEnd="20dp">
+				<TextView android:textSize="15sp" android:textColor="999999" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="15dp" android:text="Device Information" android:layout_marginStart="10dp" />
+				<RelativeLayout android:id="false" android:background="res/drawable/shape_rect_with_corner_stroke_d7.xml" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="10dp" android:layout_below="false">
+					<androidx.recyclerview.widget.RecyclerView android:id="false" android:layout_width="-1" android:layout_height="-2" />
+					<LinearLayout android:gravity="0x11" android:orientation="1" android:id="false" android:visibility="1" android:layout_width="-1" android:layout_height="-2">
+						<ImageView android:layout_width="48dp" android:layout_height="48dp" android:layout_marginTop="55dp" android:src="res/drawable-xxhdpi-v4/null_program.png" android:contentDescription="resourceId:0x0" />
+						<TextView android:textColor="bfbfbf" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="20dp" android:layout_marginBottom="55dp" android:text="No device" />
+					</LinearLayout>
+				</RelativeLayout>
+				<LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="10dp" android:layout_below="false" android:layout_marginStart="10dp">
+					<ImageView android:layout_gravity="0x11" android:layout_width="15dp" android:layout_height="16dp" android:src="resourceId:0x7f080429" android:scaleType="3" />
+					<TextView android:textSize="12sp" android:textColor="999999" android:layout_gravity="0x11" android:layout_width="-2" android:layout_height="-2" android:text="Versions lower than 1.8.0.0 do not support soft splicing and automatic networking functions!" android:layout_marginStart="5dp" />
+				</LinearLayout>
+			</RelativeLayout>
+			<RelativeLayout android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="30dp" android:layout_marginStart="20dp" android:layout_marginEnd="20dp">
+				<TextView android:textSize="15sp" android:textColor="999999" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="Auto calibration mode" android:layout_marginStart="10dp" />
+				<LinearLayout android:orientation="1" android:id="false" android:background="res/drawable/shape_rect_with_corner_stroke_d7.xml" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="5dp" android:layout_below="false">
+					<RelativeLayout android:id="false" android:visibility="0" android:layout_width="-1" android:layout_height="45dp">
+						<TextView android:textSize="15sp" android:textColor="333333" android:layout_width="-2" android:layout_height="-2" android:text="Automatic networking" android:layout_centerVertical="true" android:layout_marginStart="20dp" />
+						<ImageView android:id="false" android:layout_width="16dp" android:layout_height="16dp" android:src="res/drawable-xxhdpi-v4/circle_radio_checked.png" android:layout_centerVertical="true" android:layout_marginEnd="20dp" android:layout_alignParentEnd="true" />
+					</RelativeLayout>
+					<View android:background="res/drawable/bg_dashed_line_e4.xml" android:layout_width="-1" android:layout_height="1dp" android:layerType="1" />
+					<RelativeLayout android:id="false" android:visibility="0" android:layout_width="-1" android:layout_height="45dp">
+						<TextView android:textSize="15sp" android:textColor="333333" android:layout_width="-2" android:layout_height="-2" android:text="manual setting" android:layout_centerVertical="true" android:layout_marginStart="20dp" />
+						<ImageView android:id="false" android:layout_width="16dp" android:layout_height="16dp" android:src="res/drawable-xxhdpi-v4/circle_radio_unchecked.png" android:layout_centerVertical="true" android:layout_marginEnd="20dp" android:layout_alignParentEnd="true" />
+					</RelativeLayout>
+				</LinearLayout>
+				<TextView android:textSize="12sp" android:textColor="999999" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="10dp" android:text="If you turn on Automatic Networking, you can set the main device" android:layout_below="false" android:layout_marginStart="10dp" />
+			</RelativeLayout>
+			<RelativeLayout android:id="false" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="30dp" android:layout_marginStart="20dp" android:layout_marginEnd="20dp">
+				<TextView android:textSize="15sp" android:textColor="999999" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="NTP service address" android:layout_marginStart="10dp" />
+				<EditText android:textSize="14sp" android:textColor="333333" android:id="false" android:background="res/drawable/shape_rect_with_corner_stroke_d7.xml" android:layout_width="-1" android:layout_height="40dp" android:layout_marginTop="5dp" android:hint="Please enter ip or url address" android:maxLength="256" android:digits="0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ-/:;()$@\.,?!&apos;_。|、+~#%=*^" android:layout_below="false" android:layout_centerInParent="true" android:imeOptions="0x6" android:paddingStart="20dp" />
+				<TextView android:textSize="12sp" android:textColor="409eff" android:id="false" android:paddingTop="10dp" android:paddingBottom="10dp" android:layout_width="-2" android:layout_height="-2" android:text="Click to fill default address" android:layout_below="false" android:paddingStart="10dp" android:paddingEnd="10dp" />
+			</RelativeLayout>
+		</LinearLayout>
+	</androidx.core.widget.NestedScrollView>
+	<ViewFlipper android:layout_gravity="0x50" android:id="false" android:padding="20dp" android:visibility="0" android:layout_width="-1" android:layout_height="80dp" android:layout_alignParentBottom="true">
+		<cn.huidu.view.ButtonGroup android:id="false" android:layout_width="-1" android:layout_height="-2" custom:height="40dp" custom:ischangebackgroud="false" custom:names="Cancel, one-click setting" custom:type="0" />
+		<cn.huidu.view.ButtonGroup android:layout_width="-1" android:layout_height="-2" custom:disable="true" custom:height="40dp" custom:ischangebackgroud="false" custom:names="Setting …" custom:type="0" />
+	</ViewFlipper>
+</RelativeLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+	<RelativeLayout android:id="false" android:background="res/drawable-xhdpi-v4/header_bg.png" android:layout_width="-1" android:layout_height="75dp">
+		<FrameLayout android:id="false" android:focusable="true" android:clickable="true" android:layout_width="50dp" android:layout_height="50dp" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true">
+			<ImageView android:layout_gravity="0x11" android:background="res/drawable-xhdpi-v4/base_setting_left_angle.png" android:layout_width="24dp" android:layout_height="24dp" android:contentDescription="resourceId:0x0" />
+		</FrameLayout>
+		<TextView android:textSize="16sp" android:textColor="ffffff" android:gravity="0x11" android:layout_width="200dp" android:layout_height="50dp" android:text="Monochrome screen parameters" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+	</RelativeLayout>
+	<FrameLayout android:background="ffffff" android:layout_width="-1" android:layout_height="0dp" android:layout_weight="{4:1065353216}">
+		<androidx.recyclerview.widget.RecyclerView android:id="false" android:layout_width="-1" android:layout_height="-1" android:layout_marginLeft="10dp" android:layout_marginRight="10dp" />
+		<LinearLayout android:layout_gravity="0x11" android:orientation="1" android:id="false" android:visibility="2" android:layout_width="-2" android:layout_height="-2">
+			<ProgressBar android:layout_gravity="0x11" android:id="false" android:layout_width="50dp" android:layout_height="50dp" />
+			<TextView android:layout_gravity="0x11" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="5dp" android:text="Loading…" />
+		</LinearLayout>
+	</FrameLayout>
+	<FrameLayout android:layout_width="-1" android:layout_height="80dp">
+		<Button android:textSize="16sp" android:textColor="ffffff" android:layout_gravity="0x11" android:id="false" android:background="res/drawable/bg_round_20_rectangle_solid_3399ff.xml" android:layout_width="160dp" android:layout_height="40dp" android:text="Check for updates" />
+	</FrameLayout>
+</LinearLayout>

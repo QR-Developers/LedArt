@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:background="ffffff" android:paddingTop="12dp" android:paddingBottom="12dp" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="10dp">
+	<RelativeLayout android:layout_width="-1" android:layout_height="-2">
+		<TextView android:textSize="18sp" android:textColor="333333" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="15dp" />
+		<TextView android:textSize="12sp" android:textColor="ff660" android:id="false" android:background="res/drawable/bg_rectangle_corner_stroke_ff9900.xml" android:paddingLeft="5dp" android:paddingRight="5dp" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="20dp" android:layout_toRightOf="false" android:layout_centerVertical="true" />
+		<FrameLayout android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="15dp" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+			<ProgressBar android:layout_gravity="0x5" android:id="false" android:visibility="1" android:layout_width="20dp" android:layout_height="20dp" />
+			<ImageView android:layout_gravity="0x5" android:id="false" android:layout_width="18dp" android:layout_height="18dp" android:src="res/drawable-xxhdpi-v4/font_download_iv_normal_2.png" />
+			<ImageView android:layout_gravity="0x5" android:id="false" android:layout_width="16dp" android:layout_height="16dp" android:src="res/drawable-xxhdpi-v4/circle_radio_checked.png" />
+		</FrameLayout>
+	</RelativeLayout>
+	<TextView android:textSize="14sp" android:textColor="999999" android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="15dp" android:layout_marginTop="12dp" android:layout_marginRight="15dp" />
+</LinearLayout>

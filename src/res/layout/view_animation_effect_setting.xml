@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+	<ScrollView android:orientation="1" android:paddingLeft="15dp" android:paddingRight="15dp" android:layout_width="-1" android:layout_height="-2">
+		<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2">
+			<LinearLayout android:gravity="0x13" android:orientation="0" android:id="false" android:background="res/drawable/list_bottom_line.xml" android:layout_width="-1" android:layout_height="50dp">
+				<ImageView android:layout_width="-2" android:layout_height="-2" android:src="res/drawable-xxhdpi-v4/animation_text_style.png" />
+				<TextView android:textColor="333333" android:gravity="0x3" android:paddingLeft="15dp" android:layout_width="0dp" android:layout_height="-2" android:text="Animated style" android:layout_weight="{4:1056964608}" />
+				<ImageView android:id="false" android:layout_width="30dp" android:layout_height="20dp" android:layout_marginRight="10dp" />
+				<ImageView android:layout_width="-2" android:layout_height="-2" android:src="res/drawable-xhdpi-v4/angle_right.png" android:alpha="{4:1053609165}" />
+			</LinearLayout>
+			<LinearLayout android:gravity="0x13" android:orientation="0" android:id="false" android:background="res/drawable/list_bottom_line.xml" android:layout_width="-1" android:layout_height="50dp">
+				<ImageView android:layout_width="-2" android:layout_height="-2" android:src="res/drawable-xxhdpi-v4/neon_backgroud.png" />
+				<TextView android:textColor="333333" android:gravity="0x3" android:paddingLeft="15dp" android:layout_width="0dp" android:layout_height="-2" android:text="Neon background" android:layout_weight="{4:1056964608}" />
+				<FrameLayout android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="10dp">
+					<ImageView android:layout_gravity="0x15" android:id="false" android:visibility="1" android:layout_width="30dp" android:layout_height="20dp" />
+					<TextView android:ellipsize="3" android:layout_gravity="0x15" android:id="false" android:visibility="1" android:layout_width="-2" android:layout_height="-2" android:maxWidth="100dp" android:text="No effect" />
+				</FrameLayout>
+				<ImageView android:layout_width="-2" android:layout_height="-2" android:src="res/drawable-xhdpi-v4/angle_right.png" android:alpha="{4:1053609165}" />
+			</LinearLayout>
+			<LinearLayout android:gravity="0x13" android:orientation="0" android:id="false" android:background="res/drawable/list_bottom_line.xml" android:layout_width="-1" android:layout_height="50dp">
+				<ImageView android:layout_width="-2" android:layout_height="-2" android:src="res/drawable-xxhdpi-v4/colorsful_style.png" />
+				<TextView android:textColor="333333" android:gravity="0x3" android:paddingLeft="15dp" android:layout_width="0dp" android:layout_height="-2" android:text="Colorful style" android:layout_weight="{4:1056964608}" />
+				<FrameLayout android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="10dp">
+					<ImageView android:layout_gravity="0x15" android:id="false" android:visibility="1" android:layout_width="30dp" android:layout_height="20dp" />
+					<TextView android:ellipsize="3" android:layout_gravity="0x15" android:id="false" android:visibility="1" android:layout_width="-2" android:layout_height="-2" android:maxWidth="100dp" android:text="No effect" />
+				</FrameLayout>
+				<ImageView android:layout_width="-2" android:layout_height="-2" android:src="res/drawable-xhdpi-v4/angle_right.png" android:alpha="{4:1053609165}" />
+			</LinearLayout>
+			<LinearLayout android:gravity="0x13" android:orientation="0" android:background="res/drawable/list_bottom_line.xml" android:layout_width="-1" android:layout_height="50dp">
+				<ImageView android:layout_width="25dp" android:layout_height="25dp" android:src="res/drawable-xxhdpi-v4/hollow_icon.png" />
+				<TextView android:textColor="333333" android:gravity="0x3" android:paddingLeft="15dp" android:layout_width="0dp" android:layout_height="-2" android:text="Enable hollow" android:layout_weight="{4:1056964608}" />
+				<cn.huidu.view.CustomSwitch android:id="false" android:layout_width="-2" android:layout_height="-2" />
+			</LinearLayout>
+			<LinearLayout android:gravity="0x13" android:orientation="0" android:id="false" android:background="res/drawable/list_bottom_line.xml" android:layout_width="-1" android:layout_height="50dp">
+				<ImageView android:layout_width="-2" android:layout_height="-2" android:src="res/drawable-xxhdpi-v4/speed.png" />
+				<TextView android:textColor="333333" android:gravity="0x3" android:paddingLeft="15dp" android:layout_width="0dp" android:layout_height="-2" android:text="Speed" android:layout_weight="{4:1056964608}" />
+				<TextView android:textColor="999999" android:gravity="0x5" android:id="false" android:paddingRight="10dp" android:layout_width="0dp" android:layout_height="-2" android:layout_weight="{4:1056964608}" />
+				<ImageView android:layout_width="-2" android:layout_height="-2" android:src="res/drawable-xhdpi-v4/angle_right.png" android:alpha="{4:1053609165}" />
+			</LinearLayout>
+			<LinearLayout android:gravity="0x13" android:orientation="0" android:id="false" android:background="res/drawable/list_bottom_line.xml" android:layout_width="-1" android:layout_height="50dp">
+				<ImageView android:layout_width="-2" android:layout_height="-2" android:src="res/drawable-xxhdpi-v4/hold.png" />
+				<TextView android:textColor="333333" android:gravity="0x3" android:paddingLeft="15dp" android:layout_width="0dp" android:layout_height="-2" android:text="Hold" android:layout_weight="{4:1056964608}" />
+				<TextView android:textColor="999999" android:gravity="0x5" android:id="false" android:paddingRight="10dp" android:layout_width="0dp" android:layout_height="-2" android:layout_weight="{4:1056964608}" />
+				<ImageView android:layout_width="-2" android:layout_height="-2" android:src="res/drawable-xhdpi-v4/angle_right.png" android:alpha="{4:1053609165}" />
+			</LinearLayout>
+			<LinearLayout android:gravity="0x13" android:orientation="0" android:id="false" android:background="res/drawable/list_bottom_line.xml" android:layout_width="-1" android:layout_height="50dp">
+				<ImageView android:layout_width="-2" android:layout_height="-2" android:src="res/drawable-xxhdpi-v4/speed.png" />
+				<TextView android:textColor="333333" android:gravity="0x3" android:paddingLeft="15dp" android:layout_width="0dp" android:layout_height="-2" android:text="Correction" android:layout_weight="{4:1056964608}" />
+				<TextView android:textColor="999999" android:gravity="0x5" android:id="false" android:paddingRight="10dp" android:layout_width="0dp" android:layout_height="-2" android:layout_weight="{4:1056964608}" />
+				<ImageView android:layout_width="-2" android:layout_height="-2" android:src="res/drawable-xhdpi-v4/angle_right.png" android:alpha="{4:1053609165}" />
+			</LinearLayout>
+			<LinearLayout android:gravity="0x13" android:orientation="0" android:id="false" android:background="res/drawable/list_bottom_line.xml" android:layout_width="-1" android:layout_height="50dp">
+				<TextView android:textColor="333333" android:gravity="0x3" android:layout_width="0dp" android:layout_height="-2" android:text="Head close to tail" android:layout_weight="{4:1065353216}" />
+				<cn.huidu.view.CustomSwitch android:id="false" android:layout_width="-2" android:layout_height="-2" />
+			</LinearLayout>
+		</LinearLayout>
+	</ScrollView>
+</LinearLayout>

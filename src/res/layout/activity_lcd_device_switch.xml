@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:custom="http://schemas.android.com/apk/res-auto" android:background="f2f2f2" android:layout_width="-1" android:layout_height="-1">
+	<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+		<RelativeLayout android:background="res/drawable-xhdpi-v4/header_bg.png" android:layout_width="-1" android:layout_height="70dp">
+			<ImageView android:id="false" android:padding="15dp" android:layout_width="50dp" android:layout_height="50dp" android:src="res/drawable-xhdpi-v4/base_setting_left_angle.png" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true" android:alpha="{4:1061997773}" />
+			<TextView android:textSize="15sp" android:textColor="ffffff" android:layout_width="-2" android:layout_height="-2" android:layout_marginBottom="15dp" android:text="Switch screen" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+			<ImageView android:id="false" android:padding="15dp" android:layout_width="50dp" android:layout_height="50dp" android:src="res/drawable-xxhdpi-v4/white_add.png" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" android:alpha="{4:1061997773}" />
+		</RelativeLayout>
+		<FrameLayout android:layout_width="-1" android:layout_height="0dp" android:layout_weight="{4:1065353216}">
+			<androidx.recyclerview.widget.RecyclerView android:id="false" android:layout_width="-1" android:layout_height="-1" />
+			<LinearLayout android:gravity="0x11" android:layout_gravity="0x11" android:orientation="1" android:id="false" android:visibility="2" android:layout_width="-1" android:layout_height="-2">
+				<ImageView android:layout_width="48dp" android:layout_height="48dp" android:layout_marginTop="34dp" android:src="res/drawable-xxhdpi-v4/null_program.png" />
+				<TextView android:textColor="999999" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="20dp" android:text="No data" />
+			</LinearLayout>
+		</FrameLayout>
+		<ViewFlipper android:padding="20dp" android:layout_width="-1" android:layout_height="80dp">
+			<cn.huidu.view.ButtonGroup android:id="false" android:layout_width="-1" android:layout_height="-2" custom:height="40dp" custom:ischangebackgroud="false" custom:names="Cancel,OK" custom:type="0" />
+		</ViewFlipper>
+	</LinearLayout>
+	<LinearLayout android:gravity="0x11" android:orientation="1" android:id="false" android:background="ffffff" android:layout_width="-1" android:layout_height="-1">
+		<ProgressBar android:layout_width="-2" android:layout_height="-2" android:layout_marginBottom="10dp" android:indeterminateDrawable="res/drawable/progressbar.xml" />
+		<TextView android:textSize="18sp" android:textColor="c0000" android:id="false" android:paddingTop="15dp" android:layout_width="-2" android:layout_height="-2" android:text="Loading…" />
+	</LinearLayout>
+</FrameLayout>

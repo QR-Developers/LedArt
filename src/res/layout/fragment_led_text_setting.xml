@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="-1" android:layout_height="-1">
+	<androidx.core.widget.NestedScrollView android:id="false" android:layout_width="-1" android:layout_height="-1" android:fillViewport="true">
+		<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2">
+			<FrameLayout android:layout_width="-1" android:layout_height="70dp">
+				<TextView android:textSize="13sp" android:textColor="333333" android:gravity="0x33" android:id="false" android:background="res/drawable/bg_sc_edit_text_preview.xml" android:padding="5dp" android:layout_width="-1" android:layout_height="-1" android:layout_margin="8dp" android:singleLine="false" />
+			</FrameLayout>
+			<FrameLayout android:background="res/drawable/bg_rectangle_top_bottom_ff_stroke_e4.xml" android:layout_width="-1" android:layout_height="36dp">
+				<cn.huidu.view.CustomHorizontalScrollView android:orientation="1" android:id="false" android:scrollbars="0x0" android:layout_width="-1" android:layout_height="-1" android:layout_marginRight="46dp">
+					<LinearLayout android:orientation="0" android:layout_width="-2" android:layout_height="-1">
+						<FrameLayout android:id="false" android:layout_width="120dp" android:layout_height="-1">
+							<TextView android:textSize="14sp" android:textColor="333333" android:ellipsize="3" android:layout_gravity="0x10" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="10dp" android:layout_marginRight="23dp" android:text="宋体" android:singleLine="true" />
+							<ImageView android:layout_gravity="0x15" android:id="false" android:layout_width="12dp" android:layout_height="6dp" android:layout_marginRight="10dp" android:src="res/drawable-xxhdpi-v4/font_arrow.png" android:rotation="{4:1127481344}" />
+							<View android:layout_gravity="0x15" android:background="e4e4e4" android:layout_width="1px" android:layout_height="20dp" />
+						</FrameLayout>
+						<FrameLayout android:id="false" android:layout_width="56dp" android:layout_height="-1">
+							<TextView android:textSize="14sp" android:textColor="333333" android:layout_gravity="0x10" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="10dp" android:text="14" android:singleLine="true" />
+							<ImageView android:layout_gravity="0x15" android:id="false" android:layout_width="12dp" android:layout_height="6dp" android:layout_marginRight="10dp" android:src="res/drawable-xxhdpi-v4/font_arrow.png" android:rotation="{4:1127481344}" />
+							<View android:layout_gravity="0x15" android:background="e4e4e4" android:layout_width="1px" android:layout_height="20dp" />
+						</FrameLayout>
+						<LinearLayout android:orientation="0" android:layout_width="-2" android:layout_height="-1" android:layout_marginTop="1px" android:layout_marginBottom="1px">
+							<LinearLayout android:gravity="0x11" android:orientation="0" android:id="false" android:layout_width="36dp" android:layout_height="-1">
+								<View android:layout_width="20dp" android:layout_height="16dp" />
+							</LinearLayout>
+							<LinearLayout android:gravity="0x11" android:orientation="0" android:id="false" android:layout_width="36dp" android:layout_height="-1">
+								<ImageView android:padding="5dp" android:layout_width="30dp" android:layout_height="30dp" android:src="res/drawable-xxhdpi-v4/font_bold.png" />
+							</LinearLayout>
+							<LinearLayout android:gravity="0x11" android:orientation="0" android:id="false" android:layout_width="36dp" android:layout_height="-1">
+								<ImageView android:padding="5dp" android:layout_width="30dp" android:layout_height="30dp" android:src="res/drawable-xxhdpi-v4/font_italic.png" />
+							</LinearLayout>
+							<LinearLayout android:gravity="0x11" android:orientation="0" android:id="false" android:layout_width="36dp" android:layout_height="-1">
+								<ImageView android:padding="5dp" android:layout_width="30dp" android:layout_height="30dp" android:src="res/drawable-xxhdpi-v4/font_under_line.png" />
+							</LinearLayout>
+							<LinearLayout android:gravity="0x11" android:orientation="0" android:id="false" android:layout_width="36dp" android:layout_height="-1">
+								<ImageView android:padding="5dp" android:layout_width="30dp" android:layout_height="30dp" android:src="res/drawable-xxhdpi-v4/font_align_left.png" />
+							</LinearLayout>
+							<LinearLayout android:gravity="0x11" android:orientation="0" android:id="false" android:layout_width="36dp" android:layout_height="-1">
+								<ImageView android:padding="5dp" android:layout_width="30dp" android:layout_height="30dp" android:src="res/drawable-xxhdpi-v4/font_align_center.png" />
+							</LinearLayout>
+							<LinearLayout android:gravity="0x11" android:orientation="0" android:id="false" android:layout_width="36dp" android:layout_height="-1">
+								<ImageView android:padding="5dp" android:layout_width="30dp" android:layout_height="30dp" android:src="res/drawable-xxhdpi-v4/font_align_right.png" />
+							</LinearLayout>
+							<LinearLayout android:gravity="0x11" android:orientation="0" android:id="false" android:layout_width="36dp" android:layout_height="-1">
+								<ImageView android:padding="5dp" android:layout_width="30dp" android:layout_height="30dp" android:src="res/drawable-xxhdpi-v4/font_align_top.png" />
+							</LinearLayout>
+							<LinearLayout android:gravity="0x11" android:orientation="0" android:id="false" android:layout_width="36dp" android:layout_height="-1">
+								<ImageView android:padding="5dp" android:layout_width="30dp" android:layout_height="30dp" android:src="res/drawable-xxhdpi-v4/font_align_middle.png" />
+							</LinearLayout>
+							<LinearLayout android:gravity="0x11" android:orientation="0" android:id="false" android:layout_width="36dp" android:layout_height="-1">
+								<ImageView android:padding="5dp" android:layout_width="30dp" android:layout_height="30dp" android:src="res/drawable-xxhdpi-v4/font_align_bottom.png" />
+							</LinearLayout>
+						</LinearLayout>
+					</LinearLayout>
+				</cn.huidu.view.CustomHorizontalScrollView>
+				<FrameLayout android:layout_gravity="0x5" android:id="false" android:layout_width="46dp" android:layout_height="-1">
+					<ImageView android:layout_gravity="0x15" android:id="false" android:layout_width="16dp" android:layout_height="16dp" android:layout_marginRight="15dp" android:src="res/drawable-xhdpi-v4/angle_right.png" android:alpha="{4:1058642330}" />
+				</FrameLayout>
+			</FrameLayout>
+			<LinearLayout android:orientation="0" android:background="res/drawable/bg_rectangle_top_bottom_ff_stroke_e4.xml" android:layout_width="-1" android:layout_height="40dp" android:layout_marginTop="10dp">
+				<TextView android:textSize="13sp" android:textColor="333333" android:layout_gravity="0x10" android:layout_width="0dp" android:layout_height="-2" android:layout_marginLeft="15dp" android:text="Display time" android:lines="1" android:layout_weight="{4:1065353216}" />
+				<LinearLayout android:layout_gravity="0x10" android:layout_width="-2" android:layout_height="28dp" android:layout_marginLeft="0dp" android:layout_marginRight="15dp">
+					<ImageButton android:id="false" android:background="f2f2f2" android:layout_width="28dp" android:layout_height="-1" android:layout_marginRight="3dp" android:src="res/drawable-xxhdpi-v4/remote_count_subtract.png" android:scaleType="7" />
+					<LinearLayout android:gravity="0x11" android:layout_gravity="0x11" android:orientation="0" android:id="false" android:background="f2f2f2" android:layout_width="55dp" android:layout_height="-1">
+						<TextView android:textSize="13sp" android:textColor="333333" android:gravity="0x11" android:id="false" android:layout_width="-2" android:layout_height="-1" android:maxWidth="55dp" android:text="10s" android:lines="1" android:alpha="{4:1063675494}" />
+					</LinearLayout>
+					<ImageButton android:id="false" android:background="f2f2f2" android:layout_width="28dp" android:layout_height="-1" android:layout_marginLeft="3dp" android:src="res/drawable-xxhdpi-v4/remote_count_add.png" android:scaleType="7" />
+				</LinearLayout>
+			</LinearLayout>
+			<LinearLayout android:orientation="0" android:id="false" android:background="res/drawable/bg_rectangle_top_bottom_ff_stroke_e4.xml" android:layout_width="-1" android:layout_height="40dp">
+				<TextView android:textSize="13sp" android:textColor="333333" android:layout_gravity="0x10" android:layout_width="0dp" android:layout_height="-2" android:layout_marginLeft="15dp" android:text="Animation effects" android:lines="1" android:layout_weight="{4:1065353216}" />
+				<TextView android:textSize="13sp" android:textColor="066ff" android:layout_gravity="0x10" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="5dp" android:layout_marginRight="10dp" android:text="静止显示" android:lines="1" />
+				<ImageView android:layout_gravity="0x10" android:layout_width="12dp" android:layout_height="6dp" android:layout_marginRight="15dp" android:src="res/drawable-xxhdpi-v4/font_arrow.png" android:rotation="{4:1127481344}" />
+			</LinearLayout>
+			<LinearLayout android:orientation="0" android:id="false" android:background="res/drawable/bg_rectangle_top_bottom_ff_stroke_e4.xml" android:layout_width="-1" android:layout_height="40dp">
+				<TextView android:textSize="13sp" android:textColor="333333" android:layout_gravity="0x10" android:layout_width="0dp" android:layout_height="-2" android:layout_marginLeft="15dp" android:text="Admission time" android:lines="1" android:layout_weight="{4:1065353216}" />
+				<TextView android:textSize="13sp" android:textColor="333333" android:layout_gravity="0x10" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="5dp" android:layout_marginRight="10dp" android:text="5秒" android:lines="1" />
+				<ImageView android:layout_gravity="0x10" android:layout_width="12dp" android:layout_height="6dp" android:layout_marginRight="15dp" android:src="res/drawable-xxhdpi-v4/font_arrow.png" android:rotation="{4:1127481344}" />
+			</LinearLayout>
+			<LinearLayout android:orientation="0" android:id="false" android:background="res/drawable/bg_rectangle_top_bottom_ff_stroke_e4.xml" android:visibility="2" android:layout_width="-1" android:layout_height="40dp">
+				<TextView android:textSize="13sp" android:textColor="333333" android:layout_gravity="0x10" android:layout_width="0dp" android:layout_height="-2" android:layout_marginLeft="15dp" android:text="Speed" android:lines="1" android:layout_weight="{4:1065353216}" />
+				<TextView android:textSize="13sp" android:textColor="333333" android:layout_gravity="0x10" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="5dp" android:layout_marginRight="10dp" android:text="5" android:lines="1" />
+				<ImageView android:layout_gravity="0x10" android:layout_width="12dp" android:layout_height="6dp" android:layout_marginRight="15dp" android:src="res/drawable-xxhdpi-v4/font_arrow.png" android:rotation="{4:1127481344}" />
+			</LinearLayout>
+			<RelativeLayout android:background="res/drawable/bg_rectangle_only_bottom_ff_stroke_e4.xml" android:layout_width="-1" android:layout_height="40dp">
+				<TextView android:textSize="14sp" android:textColor="333333" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="15dp" android:text="Clear immediately" android:layout_centerVertical="true" />
+				<cn.huidu.view.CustomSwitch android:id="false" android:layout_width="36dp" android:layout_height="20dp" android:layout_marginRight="15dp" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+			</RelativeLayout>
+			<RelativeLayout android:id="false" android:background="res/drawable/bg_rectangle_only_bottom_ff_stroke_e4.xml" android:layout_width="-1" android:layout_height="40dp">
+				<TextView android:textSize="14sp" android:textColor="333333" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="15dp" android:text="Head close to tail" android:layout_centerVertical="true" />
+				<cn.huidu.view.CustomSwitch android:id="false" android:layout_width="36dp" android:layout_height="20dp" android:layout_marginRight="15dp" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+			</RelativeLayout>
+			<LinearLayout android:orientation="0" android:id="false" android:background="res/drawable/bg_rectangle_only_top_ff_stroke_e4.xml" android:layout_width="-1" android:layout_height="40dp">
+				<TextView android:textSize="13sp" android:textColor="333333" android:layout_gravity="0x10" android:layout_width="0dp" android:layout_height="-2" android:text="Background color" android:lines="1" android:layout_weight="{4:1065353216}" android:layout_marginStart="15dp" />
+				<View android:layout_gravity="0x10" android:id="false" android:background="ff00" android:layout_width="24dp" android:layout_height="18dp" android:layout_marginLeft="10dp" android:layout_marginRight="10dp" />
+				<ImageView android:layout_gravity="0x11" android:layout_width="16dp" android:layout_height="16dp" android:layout_marginRight="15dp" android:src="res/drawable-xhdpi-v4/angle_right.png" android:alpha="{4:1058642330}" />
+			</LinearLayout>
+			<RelativeLayout android:id="false" android:background="res/drawable/bg_rectangle_only_bottom_ff_stroke_e4.xml" android:visibility="2" android:layout_width="-1" android:layout_height="40dp">
+				<TextView android:textSize="14sp" android:textColor="333333" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="15dp" android:text="Swipe to switch documents" android:layout_centerVertical="true" />
+				<cn.huidu.view.CustomSwitch android:id="false" android:layout_width="36dp" android:layout_height="20dp" android:layout_marginRight="15dp" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+			</RelativeLayout>
+		</LinearLayout>
+	</androidx.core.widget.NestedScrollView>
+</FrameLayout>

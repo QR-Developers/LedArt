@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="-1" android:layout_height="-1">
+	<LinearLayout android:orientation="1" android:id="false" android:background="res/drawable-xhdpi-v4/me_title_background.png" android:fitsSystemWindows="true" android:layout_width="-1" android:layout_height="75dp">
+		<FrameLayout android:layout_width="-1" android:layout_height="-1">
+			<FrameLayout android:id="false" android:layout_width="40dp" android:layout_height="-1">
+				<ImageView android:layout_gravity="0x11" android:layout_width="10dp" android:layout_height="20dp" android:src="res/drawable-xhdpi-v4/model_selection_left.png" />
+			</FrameLayout>
+			<TextView android:textSize="16sp" android:textColor="ffffff" android:gravity="0x11" android:id="false" android:layout_width="-1" android:layout_height="-1" android:text="Share app" />
+			<ViewStub android:layout_gravity="0x5" android:id="false" android:layout_width="48dp" android:layout_height="-1" />
+		</FrameLayout>
+	</LinearLayout>
+	<RelativeLayout android:layout_width="-1" android:layout_height="0dp" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintTop_toBottomOf="false">
+		<ImageView android:layout_width="180dp" android:layout_height="180dp" android:src="res/drawable-xhdpi-v4/shared_qr_code.png" android:layout_centerInParent="true" />
+	</RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

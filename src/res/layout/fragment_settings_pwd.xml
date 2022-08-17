@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:id="false" android:background="ffffff" android:layout_width="-1" android:layout_height="-1">
+	<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="70dp">
+		<TextView android:textSize="20sp" android:textColor="333333" android:ellipsize="3" android:layout_gravity="0x11" android:layout_width="-2" android:layout_height="-2" android:text="Please enter password" android:lines="1" />
+		<LinearLayout android:layout_gravity="0x11" android:orientation="0" android:layout_width="-2" android:layout_height="13dp" android:layout_marginTop="30dp">
+			<Button android:id="false" android:background="res/drawable/oval_bg_cccccc.xml" android:layout_width="12dp" android:layout_height="12dp" style="{2:16843563}" />
+			<Button android:id="false" android:background="res/drawable/oval_bg_cccccc.xml" android:layout_width="12dp" android:layout_height="12dp" android:layout_marginLeft="18dp" style="{2:16843563}" />
+			<Button android:id="false" android:background="res/drawable/oval_bg_cccccc.xml" android:layout_width="12dp" android:layout_height="12dp" android:layout_marginLeft="20dp" style="{2:16843563}" />
+		</LinearLayout>
+	</LinearLayout>
+	<LinearLayout android:layout_gravity="0x11" android:orientation="1" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="60dp" android:layout_marginTop="50dp" android:layout_marginRight="60dp">
+		<LinearLayout android:orientation="0" android:layout_width="-2" android:layout_height="80dp">
+			<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:layout_width="80dp" android:layout_height="80dp">
+				<Button android:textSize="20sp" android:textColor="333333" android:id="false" android:background="res/drawable/screen_pwd_item_selector.xml" android:layout_width="-1" android:layout_height="-1" android:layout_margin="10dp" android:text="1" style="{2:16843563}" />
+			</LinearLayout>
+			<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:layout_width="80dp" android:layout_height="80dp">
+				<Button android:textSize="20sp" android:textColor="333333" android:id="false" android:background="res/drawable/screen_pwd_item_selector.xml" android:layout_width="-1" android:layout_height="-1" android:layout_margin="10dp" android:text="2" style="{2:16843563}" />
+			</LinearLayout>
+			<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:layout_width="80dp" android:layout_height="80dp">
+				<Button android:textSize="20sp" android:textColor="333333" android:id="false" android:background="res/drawable/screen_pwd_item_selector.xml" android:layout_width="-1" android:layout_height="-1" android:layout_margin="10dp" android:text="3" style="{2:16843563}" />
+			</LinearLayout>
+		</LinearLayout>
+		<LinearLayout android:orientation="0" android:layout_width="-2" android:layout_height="80dp">
+			<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:layout_width="80dp" android:layout_height="80dp">
+				<Button android:textSize="20sp" android:textColor="333333" android:id="false" android:background="res/drawable/screen_pwd_item_selector.xml" android:layout_width="-1" android:layout_height="-1" android:layout_margin="10dp" android:text="4" style="{2:16843563}" />
+			</LinearLayout>
+			<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:layout_width="80dp" android:layout_height="80dp">
+				<Button android:textSize="20sp" android:textColor="333333" android:id="false" android:background="res/drawable/screen_pwd_item_selector.xml" android:layout_width="-1" android:layout_height="-1" android:layout_margin="10dp" android:text="5" style="{2:16843563}" />
+			</LinearLayout>
+			<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:layout_width="80dp" android:layout_height="80dp">
+				<Button android:textSize="20sp" android:textColor="333333" android:id="false" android:background="res/drawable/screen_pwd_item_selector.xml" android:layout_width="-1" android:layout_height="-1" android:layout_margin="10dp" android:text="6" style="{2:16843563}" />
+			</LinearLayout>
+		</LinearLayout>
+		<LinearLayout android:orientation="0" android:layout_width="-2" android:layout_height="80dp">
+			<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:layout_width="80dp" android:layout_height="80dp">
+				<Button android:textSize="20sp" android:textColor="333333" android:id="false" android:background="res/drawable/screen_pwd_item_selector.xml" android:layout_width="-1" android:layout_height="-1" android:layout_margin="10dp" android:text="7" style="{2:16843563}" />
+			</LinearLayout>
+			<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:layout_width="80dp" android:layout_height="80dp">
+				<Button android:textSize="20sp" android:textColor="333333" android:id="false" android:background="res/drawable/screen_pwd_item_selector.xml" android:layout_width="-1" android:layout_height="-1" android:layout_margin="10dp" android:text="8" style="{2:16843563}" />
+			</LinearLayout>
+			<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:layout_width="80dp" android:layout_height="80dp">
+				<Button android:textSize="20sp" android:textColor="333333" android:id="false" android:background="res/drawable/oval_bg_ffffff_stroke_cccccc.xml" android:layout_width="-1" android:layout_height="-1" android:layout_margin="10dp" android:text="9" style="{2:16843563}" />
+			</LinearLayout>
+		</LinearLayout>
+		<LinearLayout android:orientation="0" android:layout_width="-2" android:layout_height="80dp">
+			<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:layout_width="80dp" android:layout_height="80dp">
+				<Button android:id="false" android:background="res/drawable/oval_bg_f4f4c4.xml" android:visibility="1" android:clickable="false" android:layout_width="-1" android:layout_height="-1" android:layout_margin="10dp" />
+			</LinearLayout>
+			<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:layout_width="80dp" android:layout_height="80dp">
+				<Button android:textSize="20sp" android:textColor="333333" android:id="false" android:background="res/drawable/screen_pwd_item_selector.xml" android:layout_width="-1" android:layout_height="-1" android:layout_margin="10dp" android:text="0" style="{2:16843563}" />
+			</LinearLayout>
+			<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:layout_width="80dp" android:layout_height="80dp">
+				<Button android:id="false" android:background="res/drawable/oval_bg_f4f4c4.xml" android:visibility="1" android:clickable="false" android:layout_width="-1" android:layout_height="-1" android:layout_margin="10dp" />
+			</LinearLayout>
+		</LinearLayout>
+	</LinearLayout>
+</LinearLayout>

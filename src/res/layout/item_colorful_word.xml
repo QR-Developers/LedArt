@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="-1" android:layout_height="-2" android:layout_margin="5dp">
+	<FrameLayout android:id="false" android:background="000" android:padding="1px" android:layout_width="-1" android:layout_height="-2">
+		<ImageView android:id="false" android:layout_width="90dp" android:layout_height="60dp" android:scaleType="1" />
+		<ImageView android:layout_gravity="0x35" android:id="false" android:visibility="1" android:layout_width="24dp" android:layout_height="24dp" android:layout_marginTop="3dp" android:layout_marginRight="3dp" android:src="res/drawable-xxhdpi-v4/green_selected.png" />
+	</FrameLayout>
+</FrameLayout>

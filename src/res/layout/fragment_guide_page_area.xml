@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="res/drawable-xxhdpi-v4/guide_page_area.jpg" android:layout_width="-1" android:layout_height="-1">
+	<ImageView android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="160dp" android:layout_marginBottom="65dp" android:src="res/drawable-xxhdpi-v4/guide_page_arrow.png" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" android:rotation="{4:1127481344}" />
+	<LinearLayout android:orientation="0" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="-70dp" android:layout_above="false" android:layout_alignLeft="false">
+		<TextView android:textSize="15sp" android:textColor="cccccc" android:layout_gravity="0x10" android:background="res/drawable/bg_rectangle_corner_stroke_cccccc.xml" android:padding="8dp" android:layout_width="200dp" android:layout_height="-2" android:text="Area management is here, long press and drag to sort it" />
+		<FrameLayout android:layout_gravity="0x10" android:id="false" android:background="res/drawable-xxhdpi-v4/guide_page_query.png" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="10dp">
+			<TextView android:textSize="15sp" android:textColor="cccccc" android:layout_gravity="0x11" android:layout_width="-2" android:layout_height="-2" android:text="I know" />
+		</FrameLayout>
+	</LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="-1" android:layout_height="-1">
+	<com.scwang.smart.refresh.layout.SmartRefreshLayout android:id="false" android:layout_width="-1" android:layout_height="-1">
+		<ScrollView android:layout_width="-1" android:layout_height="-1">
+			<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2">
+				<LinearLayout android:orientation="0" android:background="res/drawable/cloud_bg_rectangle_only_bottom_ff_stroke_e4.xml" android:layout_width="-1" android:layout_height="40dp">
+					<TextView android:textSize="14sp" android:textColor="666666" android:layout_gravity="0x10" android:layout_width="0dp" android:layout_height="-2" android:layout_marginLeft="10dp" android:text="Device ID" android:lines="1" android:layout_weight="{4:1065353216}" />
+					<TextView android:textSize="14sp" android:textColor="333333" android:layout_gravity="0x10" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="10dp" android:lines="1" />
+				</LinearLayout>
+				<LinearLayout android:orientation="0" android:background="res/drawable/cloud_bg_rectangle_only_bottom_ff_stroke_e4.xml" android:layout_width="-1" android:layout_height="40dp">
+					<TextView android:textSize="14sp" android:textColor="666666" android:layout_gravity="0x10" android:layout_width="0dp" android:layout_height="-2" android:layout_marginLeft="10dp" android:text="Name" android:lines="1" android:layout_weight="{4:1065353216}" />
+					<TextView android:textSize="14sp" android:textColor="333333" android:layout_gravity="0x10" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="10dp" android:lines="1" />
+				</LinearLayout>
+				<LinearLayout android:orientation="0" android:background="res/drawable/cloud_bg_rectangle_only_bottom_ff_stroke_e4.xml" android:layout_width="-1" android:layout_height="40dp">
+					<TextView android:textSize="14sp" android:textColor="666666" android:layout_gravity="0x10" android:layout_width="0dp" android:layout_height="-2" android:layout_marginLeft="10dp" android:text="Online status" android:lines="1" android:layout_weight="{4:1065353216}" />
+					<TextView android:textSize="14sp" android:textColor="333333" android:layout_gravity="0x10" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="10dp" android:lines="1" />
+				</LinearLayout>
+				<LinearLayout android:orientation="0" android:background="res/drawable/cloud_bg_rectangle_only_bottom_ff_stroke_e4.xml" android:layout_width="-1" android:layout_height="40dp">
+					<TextView android:textSize="14sp" android:textColor="666666" android:layout_gravity="0x10" android:layout_width="0dp" android:layout_height="-2" android:layout_marginLeft="10dp" android:text="Player version number" android:lines="1" android:layout_weight="{4:1065353216}" />
+					<TextView android:textSize="14sp" android:textColor="333333" android:layout_gravity="0x10" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="10dp" android:lines="1" />
+				</LinearLayout>
+				<LinearLayout android:orientation="0" android:background="res/drawable/cloud_bg_rectangle_only_bottom_ff_stroke_e4.xml" android:layout_width="-1" android:layout_height="40dp">
+					<TextView android:textSize="14sp" android:textColor="666666" android:layout_gravity="0x10" android:layout_width="0dp" android:layout_height="-2" android:layout_marginLeft="10dp" android:text="Locked state" android:lines="1" android:layout_weight="{4:1065353216}" />
+					<TextView android:textSize="14sp" android:textColor="333333" android:layout_gravity="0x10" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="10dp" android:lines="1" />
+				</LinearLayout>
+				<LinearLayout android:orientation="0" android:background="res/drawable/cloud_bg_rectangle_only_bottom_ff_stroke_e4.xml" android:layout_width="-1" android:layout_height="40dp">
+					<TextView android:textSize="14sp" android:textColor="666666" android:layout_gravity="0x10" android:layout_width="0dp" android:layout_height="-2" android:layout_marginLeft="10dp" android:text="Volume" android:lines="1" android:layout_weight="{4:1065353216}" />
+					<TextView android:textSize="14sp" android:textColor="333333" android:layout_gravity="0x10" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="10dp" android:lines="1" />
+				</LinearLayout>
+				<LinearLayout android:orientation="0" android:background="res/drawable/cloud_bg_rectangle_only_bottom_ff_stroke_e4.xml" android:layout_width="-1" android:layout_height="40dp">
+					<TextView android:textSize="14sp" android:textColor="666666" android:layout_gravity="0x10" android:layout_width="0dp" android:layout_height="-2" android:layout_marginLeft="10dp" android:text="Remaining space" android:lines="1" android:layout_weight="{4:1065353216}" />
+					<TextView android:textSize="14sp" android:textColor="333333" android:layout_gravity="0x10" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="10dp" android:lines="1" />
+				</LinearLayout>
+				<LinearLayout android:orientation="0" android:background="res/drawable/cloud_bg_rectangle_only_bottom_ff_stroke_e4.xml" android:layout_width="-1" android:layout_height="40dp">
+					<TextView android:textSize="14sp" android:textColor="666666" android:layout_gravity="0x10" android:layout_width="0dp" android:layout_height="-2" android:layout_marginLeft="10dp" android:text="Playing state" android:lines="1" android:layout_weight="{4:1065353216}" />
+					<TextView android:textSize="14sp" android:textColor="333333" android:layout_gravity="0x10" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="10dp" android:lines="1" />
+				</LinearLayout>
+				<LinearLayout android:orientation="0" android:background="res/drawable/cloud_bg_rectangle_only_bottom_ff_stroke_e4.xml" android:layout_width="-1" android:layout_height="40dp">
+					<TextView android:textSize="14sp" android:textColor="666666" android:layout_gravity="0x10" android:layout_width="0dp" android:layout_height="-2" android:layout_marginLeft="10dp" android:text="Multi-screen synchronization" android:lines="1" android:layout_weight="{4:1065353216}" />
+					<TextView android:textSize="14sp" android:textColor="333333" android:layout_gravity="0x10" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="10dp" android:lines="1" />
+				</LinearLayout>
+				<LinearLayout android:orientation="0" android:background="res/drawable/cloud_bg_rectangle_only_bottom_ff_stroke_e4.xml" android:layout_width="-1" android:layout_height="40dp">
+					<TextView android:textSize="14sp" android:textColor="666666" android:layout_gravity="0x10" android:layout_width="0dp" android:layout_height="-2" android:layout_marginLeft="10dp" android:text="Screen rotation" android:lines="1" android:layout_weight="{4:1065353216}" />
+					<TextView android:textSize="14sp" android:textColor="333333" android:layout_gravity="0x10" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="10dp" android:lines="1" />
+				</LinearLayout>
+				<LinearLayout android:orientation="0" android:background="res/drawable/cloud_bg_rectangle_only_bottom_ff_stroke_e4.xml" android:layout_width="-1" android:layout_height="40dp">
+					<TextView android:textSize="14sp" android:textColor="666666" android:layout_gravity="0x10" android:layout_width="0dp" android:layout_height="-2" android:layout_marginLeft="10dp" android:text="Configuration" android:lines="1" android:layout_weight="{4:1065353216}" />
+					<TextView android:textSize="14sp" android:textColor="333333" android:layout_gravity="0x10" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="10dp" android:lines="1" />
+				</LinearLayout>
+				<LinearLayout android:orientation="0" android:background="res/drawable/cloud_bg_rectangle_only_bottom_ff_stroke_e4.xml" android:layout_width="-1" android:layout_height="40dp">
+					<TextView android:textSize="14sp" android:textColor="666666" android:layout_gravity="0x10" android:layout_width="0dp" android:layout_height="-2" android:layout_marginLeft="10dp" android:text="Start Time" android:lines="1" android:layout_weight="{4:1065353216}" />
+					<TextView android:textSize="14sp" android:textColor="333333" android:layout_gravity="0x10" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="10dp" android:lines="1" />
+				</LinearLayout>
+				<LinearLayout android:orientation="0" android:background="res/drawable/cloud_bg_rectangle_only_bottom_ff_stroke_e4.xml" android:layout_width="-1" android:layout_height="40dp">
+					<TextView android:textSize="14sp" android:textColor="666666" android:layout_gravity="0x10" android:layout_width="0dp" android:layout_height="-2" android:layout_marginLeft="10dp" android:text="Android version number" android:lines="1" android:layout_weight="{4:1065353216}" />
+					<TextView android:textSize="14sp" android:textColor="333333" android:layout_gravity="0x10" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="10dp" android:lines="1" />
+				</LinearLayout>
+				<LinearLayout android:orientation="0" android:background="res/drawable/cloud_bg_rectangle_only_bottom_ff_stroke_e4.xml" android:layout_width="-1" android:layout_height="40dp">
+					<TextView android:textSize="14sp" android:textColor="666666" android:layout_gravity="0x10" android:layout_width="0dp" android:layout_height="-2" android:layout_marginLeft="10dp" android:text="Kernel version number" android:lines="1" android:layout_weight="{4:1065353216}" />
+					<TextView android:textSize="14sp" android:textColor="333333" android:layout_gravity="0x10" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="10dp" android:lines="1" />
+				</LinearLayout>
+				<LinearLayout android:orientation="0" android:background="res/drawable/cloud_bg_rectangle_only_bottom_ff_stroke_e4.xml" android:layout_width="-1" android:layout_height="40dp">
+					<TextView android:textSize="14sp" android:textColor="666666" android:layout_gravity="0x10" android:layout_width="0dp" android:layout_height="-2" android:layout_marginLeft="10dp" android:text="Compiled version" android:lines="1" android:layout_weight="{4:1065353216}" />
+					<TextView android:textSize="14sp" android:textColor="333333" android:layout_gravity="0x10" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="10dp" android:lines="1" />
+				</LinearLayout>
+				<LinearLayout android:orientation="0" android:background="res/drawable/cloud_bg_rectangle_only_bottom_ff_stroke_e4.xml" android:layout_width="-1" android:layout_height="40dp">
+					<TextView android:textSize="14sp" android:textColor="666666" android:layout_gravity="0x10" android:layout_width="0dp" android:layout_height="-2" android:layout_marginLeft="10dp" android:text="Screenshots" android:lines="1" android:layout_weight="{4:1065353216}" />
+					<TextView android:textSize="14sp" android:textColor="3399ff" android:layout_gravity="0x10" android:id="false" android:padding="5dp" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="10dp" android:text="View" android:lines="1" />
+					<TextView android:textSize="14sp" android:textColor="3399ff" android:layout_gravity="0x10" android:id="false" android:padding="5dp" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="5dp" android:text="Carried out" android:lines="1" />
+				</LinearLayout>
+				<LinearLayout android:orientation="0" android:id="false" android:background="res/drawable/cloud_bg_rectangle_only_bottom_ff_stroke_e4.xml" android:layout_width="-1" android:layout_height="40dp">
+					<TextView android:textSize="14sp" android:textColor="666666" android:layout_gravity="0x10" android:layout_width="0dp" android:layout_height="-2" android:layout_marginLeft="10dp" android:text="Time" android:lines="1" android:layout_weight="{4:1065353216}" />
+					<ImageView android:layout_gravity="0x10" android:layout_width="23dp" android:layout_height="23dp" android:layout_marginRight="5dp" android:src="res/drawable-xxhdpi-v4/down_gray.png" android:rotation="{4:1132920832}" />
+				</LinearLayout>
+				<LinearLayout android:orientation="0" android:id="false" android:background="res/drawable/cloud_bg_rectangle_only_bottom_ff_stroke_e4.xml" android:layout_width="-1" android:layout_height="40dp">
+					<TextView android:textSize="14sp" android:textColor="666666" android:layout_gravity="0x10" android:layout_width="0dp" android:layout_height="-2" android:layout_marginLeft="10dp" android:text="Brightness" android:lines="1" android:layout_weight="{4:1065353216}" />
+					<ImageView android:layout_gravity="0x10" android:layout_width="23dp" android:layout_height="23dp" android:layout_marginRight="5dp" android:src="res/drawable-xxhdpi-v4/down_gray.png" android:rotation="{4:1132920832}" />
+				</LinearLayout>
+				<LinearLayout android:orientation="0" android:id="false" android:background="res/drawable/cloud_bg_rectangle_only_bottom_ff_stroke_e4.xml" android:layout_width="-1" android:layout_height="40dp">
+					<TextView android:textSize="14sp" android:textColor="666666" android:layout_gravity="0x10" android:layout_width="0dp" android:layout_height="-2" android:layout_marginLeft="10dp" android:text="Switch machine" android:lines="1" android:layout_weight="{4:1065353216}" />
+					<ImageView android:layout_gravity="0x10" android:layout_width="23dp" android:layout_height="23dp" android:layout_marginRight="5dp" android:src="res/drawable-xxhdpi-v4/down_gray.png" android:rotation="{4:1132920832}" />
+				</LinearLayout>
+				<LinearLayout android:orientation="0" android:id="false" android:background="res/drawable/cloud_bg_rectangle_only_bottom_ff_stroke_e4.xml" android:layout_width="-1" android:layout_height="40dp">
+					<TextView android:textSize="14sp" android:textColor="666666" android:layout_gravity="0x10" android:layout_width="0dp" android:layout_height="-2" android:layout_marginLeft="10dp" android:text="Networking information" android:lines="1" android:layout_weight="{4:1065353216}" />
+					<TextView android:textSize="14sp" android:textColor="333333" android:layout_gravity="0x10" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="10dp" android:lines="1" />
+					<ImageView android:layout_gravity="0x10" android:id="false" android:layout_width="23dp" android:layout_height="23dp" android:layout_marginRight="5dp" android:src="res/drawable-xxhdpi-v4/down_gray.png" android:rotation="{4:1132920832}" />
+				</LinearLayout>
+				<LinearLayout android:orientation="0" android:id="false" android:background="res/drawable/cloud_bg_rectangle_only_bottom_ff_stroke_e4.xml" android:layout_width="-1" android:layout_height="40dp">
+					<TextView android:textSize="14sp" android:textColor="666666" android:layout_gravity="0x10" android:layout_width="0dp" android:layout_height="-2" android:layout_marginLeft="10dp" android:text="Release record" android:lines="1" android:layout_weight="{4:1065353216}" />
+					<ImageView android:layout_gravity="0x10" android:layout_width="23dp" android:layout_height="23dp" android:layout_marginRight="5dp" android:src="res/drawable-xxhdpi-v4/down_gray.png" android:rotation="{4:1132920832}" />
+				</LinearLayout>
+				<LinearLayout android:orientation="0" android:id="false" android:background="res/drawable/cloud_bg_rectangle_only_bottom_ff_stroke_e4.xml" android:layout_width="-1" android:layout_height="40dp">
+					<TextView android:textSize="14sp" android:textColor="666666" android:layout_gravity="0x10" android:layout_width="0dp" android:layout_height="-2" android:layout_marginLeft="10dp" android:text="Program information" android:lines="1" android:layout_weight="{4:1065353216}" />
+					<ImageView android:layout_gravity="0x10" android:layout_width="23dp" android:layout_height="23dp" android:layout_marginRight="5dp" android:src="res/drawable-xxhdpi-v4/down_gray.png" android:rotation="{4:1132920832}" />
+				</LinearLayout>
+				<LinearLayout android:orientation="0" android:id="false" android:background="res/drawable/cloud_bg_rectangle_only_bottom_ff_stroke_e4.xml" android:layout_width="-1" android:layout_height="40dp">
+					<TextView android:textSize="14sp" android:textColor="666666" android:layout_gravity="0x10" android:layout_width="0dp" android:layout_height="-2" android:layout_marginLeft="10dp" android:text="Online and offline records" android:lines="1" android:layout_weight="{4:1065353216}" />
+					<ImageView android:layout_gravity="0x10" android:layout_width="23dp" android:layout_height="23dp" android:layout_marginRight="5dp" android:src="res/drawable-xxhdpi-v4/down_gray.png" android:rotation="{4:1132920832}" />
+				</LinearLayout>
+			</LinearLayout>
+		</ScrollView>
+	</com.scwang.smart.refresh.layout.SmartRefreshLayout>
+</LinearLayout>

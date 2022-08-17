@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="0x10" android:orientation="0" android:layout_width="-1" android:layout_height="-1">
+	<androidx.appcompat.widget.AppCompatCheckBox android:theme="resourceId:0x7f1200fe" android:layout_gravity="0x10" android:id="false" android:layout_width="30dp" android:layout_height="30dp" android:layout_marginLeft="15dp" android:checked="true" />
+	<TextView android:textColor="333333" android:gravity="0x3" android:id="false" android:layout_width="0dp" android:layout_height="-2" android:layout_marginLeft="10dp" android:text="城市" android:layout_weight="{4:1065353216}" />
+	<View android:id="false" android:background="ff00" android:layout_width="30dp" android:layout_height="20dp" android:layout_marginRight="15dp" />
+	<ImageView android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="15dp" android:src="res/drawable-xhdpi-v4/angle_right.png" android:alpha="{4:1058642330}" />
+</LinearLayout>

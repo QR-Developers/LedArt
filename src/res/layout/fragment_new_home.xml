@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+	<RelativeLayout android:orientation="1" android:background="res/drawable-xhdpi-v4/header_bg.png" android:layout_width="-1" android:layout_height="0dp" android:layout_weight="{4:1084227584}">
+		<RelativeLayout android:id="false" android:layout_width="-1" android:layout_height="70dp">
+			<FrameLayout android:id="false" android:layout_width="50dp" android:layout_height="50dp" android:layout_marginLeft="5dp" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true">
+				<TextView android:textSize="12sp" android:textColor="ffffff" android:gravity="0x11" android:layout_gravity="0x10" android:id="false" android:background="res/drawable/bg_rectangle_corner_ffffff.xml" android:visibility="1" android:layout_width="40dp" android:layout_height="20dp" android:layout_marginLeft="10dp" android:maxWidth="90dp" android:text="列表" android:lines="1" />
+				<ImageView android:layout_gravity="0x11" android:id="false" android:visibility="0" android:layout_width="20dp" android:layout_height="20dp" android:layout_marginRight="4dp" android:src="res/drawable/device_list_btn.png" />
+			</FrameLayout>
+			<TextView android:textSize="15sp" android:textColor="ffffff" android:gravity="0x11" android:id="false" android:layout_width="-1" android:layout_height="50dp" android:layout_marginLeft="120dp" android:layout_marginRight="120dp" android:text="My device" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+			<FrameLayout android:id="false" android:layout_width="50dp" android:layout_height="50dp" android:layout_marginRight="5dp" android:layout_alignParentRight="true" android:layout_alignParentBottom="true">
+				<TextView android:textSize="12sp" android:textColor="ffffff" android:gravity="0x11" android:layout_gravity="0x10" android:id="false" android:background="res/drawable/bg_rectangle_corner_ffffff.xml" android:visibility="1" android:layout_width="40dp" android:layout_height="20dp" android:maxWidth="90dp" android:text="Find device" android:lines="1" />
+				<ImageView android:layout_gravity="0x11" android:id="false" android:visibility="0" android:layout_width="20dp" android:layout_height="20dp" android:layout_marginLeft="4dp" android:src="res/drawable-xxhdpi-v4/search_device.png" />
+			</FrameLayout>
+		</RelativeLayout>
+		<FrameLayout android:layout_width="-1" android:layout_height="-1" android:layout_below="false">
+			<LinearLayout android:layout_gravity="0x11" android:orientation="1" android:id="false" android:background="res/drawable/bg_rectangle_corner_000000.xml" android:visibility="1" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="20dp" android:layout_marginRight="20dp">
+				<LinearLayout android:layout_width="-1" android:layout_height="66dp">
+					<FrameLayout android:layout_gravity="0x10" android:layout_width="48dp" android:layout_height="66dp" android:layout_marginLeft="15dp">
+						<TextView android:textSize="12sp" android:textColor="ffffff" android:gravity="0x11" android:layout_gravity="0x10" android:id="false" android:background="res/drawable/bg_rectangle_corner_0099ff.xml" android:layout_width="36dp" android:layout_height="36dp" android:text="A603" android:maxLines="2" />
+						<FrameLayout android:layout_gravity="0x35" android:id="false" android:visibility="1" android:layout_width="30dp" android:layout_height="30dp" android:layout_marginTop="9dp">
+							<Button android:layout_gravity="0x35" android:background="res/drawable-xxhdpi-v4/yellow_warning.png" android:clickable="false" android:layout_width="20dp" android:layout_height="20dp" />
+						</FrameLayout>
+					</FrameLayout>
+					<LinearLayout android:orientation="1" android:layout_width="0dp" android:layout_height="-2" android:layout_marginLeft="3dp" android:layout_marginTop="15dp" android:layout_weight="{4:1065353216}">
+						<TextView android:textSize="18sp" android:textColor="ffffff" android:ellipsize="3" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="BoxPlayer" android:lines="1" />
+						<TextView android:textSize="12sp" android:textColor="80ffffff" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="1dp" android:text="A603-19-0230" />
+					</LinearLayout>
+					<ImageView android:id="false" android:padding="8dp" android:layout_width="32dp" android:layout_height="32dp" android:layout_marginTop="12dp" android:layout_marginRight="12dp" android:src="res/drawable-xxhdpi-v4/edit_devcie_name.png" android:scaleType="1" />
+				</LinearLayout>
+				<View android:background="4dd7d7d7" android:layout_width="-1" android:layout_height="1px" android:layout_marginTop="1dp" />
+				<LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="62dp">
+					<LinearLayout android:orientation="1" android:layout_width="0dp" android:layout_height="-2" android:layout_marginLeft="15dp" android:layout_marginTop="20dp" android:layout_weight="{4:1065353216}">
+						<TextView android:textSize="12sp" android:textColor="80ffffff" android:layout_width="-2" android:layout_height="-2" android:text="Equipment status" android:lines="1" />
+						<TextView android:textSize="14sp" android:textColor="ffffff" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="正常播放" />
+					</LinearLayout>
+					<View android:layout_gravity="0x50" android:background="resourceId:0x7f060065" android:layout_width="1px" android:layout_height="-1" />
+					<LinearLayout android:orientation="1" android:layout_width="0dp" android:layout_height="-2" android:layout_marginLeft="15dp" android:layout_marginTop="20dp" android:layout_weight="{4:1065353216}">
+						<TextView android:textSize="12sp" android:textColor="80ffffff" android:layout_width="-2" android:layout_height="-2" android:text="Screen" android:lines="1" />
+						<TextView android:textSize="14sp" android:textColor="ffffff" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="1920x1080" />
+					</LinearLayout>
+				</LinearLayout>
+				<View android:background="resourceId:0x7f060065" android:layout_width="-1" android:layout_height="1px" />
+				<LinearLayout android:layout_width="-1" android:layout_height="62dp">
+					<LinearLayout android:orientation="1" android:layout_width="0dp" android:layout_height="-2" android:layout_marginLeft="15dp" android:layout_marginTop="15dp" android:layout_weight="{4:1065353216}">
+						<TextView android:textSize="12sp" android:textColor="80ffffff" android:layout_width="-2" android:layout_height="-2" android:text="Firmware version" android:lines="1" />
+						<TextView android:textSize="14sp" android:textColor="ffffff" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="6.4.8.0" />
+					</LinearLayout>
+					<View android:layout_gravity="0x50" android:background="resourceId:0x7f060065" android:layout_width="1px" android:layout_height="-1" />
+					<LinearLayout android:orientation="1" android:layout_width="0dp" android:layout_height="-2" android:layout_marginLeft="15dp" android:layout_marginTop="15dp" android:layout_weight="{4:1065353216}">
+						<TextView android:textSize="12sp" android:textColor="80ffffff" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="容量" android:lines="1" />
+						<TextView android:textSize="14sp" android:textColor="ffffff" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="8.0" />
+					</LinearLayout>
+				</LinearLayout>
+			</LinearLayout>
+			<LinearLayout android:gravity="0x11" android:orientation="1" android:id="false" android:visibility="0" android:layout_width="-1" android:layout_height="-1">
+				<TextView android:textSize="14sp" android:textColor="ffffff" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="No devices found on the current network!" android:alpha="{4:1060320051}" />
+				<TextView android:textSize="14sp" android:textColor="ffffff" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="10dp" android:text="Forgot the device password?" android:alpha="{4:1060320051}" />
+				<Button android:textSize="13sp" android:textColor="ffffff" android:id="false" android:background="res/drawable/round_rectangle_transparent.xml" android:layout_width="160dp" android:layout_height="30dp" android:layout_marginTop="20dp" android:text="Find device" />
+			</LinearLayout>
+		</FrameLayout>
+		<View android:layout_gravity="0x50" android:background="66333333" android:layout_width="-1" android:layout_height="49152unknown unit:0x21" />
+	</RelativeLayout>
+	<FrameLayout android:orientation="0" android:id="false" android:layout_width="-1" android:layout_height="320dp">
+		<LinearLayout android:gravity="0x1" android:orientation="1" android:id="false" android:background="res/drawable/shape_rect_stroke_gray.xml" android:layout_width="-1" android:layout_height="-1">
+			<ImageView android:layout_width="48dp" android:layout_height="48dp" android:layout_marginTop="100dp" android:src="res/drawable-xxhdpi-v4/null_program.png" />
+			<TextView android:textSize="14sp" android:textColor="999999" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="20dp" android:text="Unselected device" />
+		</LinearLayout>
+	</FrameLayout>
+</LinearLayout>

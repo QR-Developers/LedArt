@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_gravity="0x11" android:id="false" android:layout_width="-2" android:layout_height="-2">
+	<TextView android:textSize="14px" android:textColor="ffffff" android:layout_gravity="0x11" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="等待数据" />
+	<LinearLayout android:gravity="0x11" android:layout_gravity="0x11" android:orientation="1" android:id="false" android:layout_width="-2" android:layout_height="-2">
+		<ImageView android:id="false" android:layout_width="25px" android:layout_height="25px" android:layout_marginTop="5px" android:src="res/drawable-xxhdpi-v4/sunny_day_small.png" android:scaleType="3" android:contentDescription="Weather" />
+		<TextView android:textSize="12px" android:textColor="ffffff" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="5px" android:text="未知" />
+		<TextView android:textSize="28px" android:textColor="ffffff" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="-5px" android:text="0℃" />
+	</LinearLayout>
+</FrameLayout>

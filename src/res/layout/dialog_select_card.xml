@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="-1" android:layout_height="-1">
+	<LinearLayout android:layout_gravity="0x11" android:orientation="1" android:layout_width="-2" android:layout_height="-2">
+		<RelativeLayout android:background="res/drawable/bg_round_10_rectangle_f2_79.xml" android:layout_width="280dp" android:layout_height="360dp">
+			<FrameLayout android:id="false" android:layout_width="-1" android:layout_height="50dp">
+				<TextView android:textSize="14sp" android:textStyle="0x1" android:textColor="333333" android:gravity="0x11" android:layout_gravity="0x11" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="60dp" android:layout_marginRight="60dp" android:text="Parameter sync" android:singleLine="true" />
+				<FrameLayout android:layout_gravity="0x5" android:id="false" android:layout_width="50dp" android:layout_height="-1">
+					<cn.huidu.view.RotateImageView android:layout_gravity="0x11" android:id="false" android:layout_width="-2" android:layout_height="-2" android:src="res/drawable-xxhdpi-v4/sync.png" />
+				</FrameLayout>
+				<ImageView android:layout_gravity="0x800013" android:id="false" android:layout_width="36dp" android:layout_height="36dp" android:layout_marginLeft="14dp" android:src="res/drawable-xxhdpi-v4/wifi_blue.png" />
+			</FrameLayout>
+			<FrameLayout android:id="false" android:paddingLeft="10dp" android:paddingTop="19dp" android:paddingRight="10dp" android:paddingBottom="19dp" android:layout_width="-1" android:layout_height="-2" android:layout_alignParentBottom="true">
+				<Button android:textSize="14sp" android:textColor="ffffff" android:gravity="0x11" android:layout_gravity="0x11" android:id="false" android:background="res/drawable-xxhdpi-v4/shape_round_rect_corner_25_solid_3399ff.xml" android:layout_width="160dp" android:layout_height="36dp" android:text="Confirm" android:lines="1" />
+			</FrameLayout>
+			<FrameLayout android:id="false" android:layout_width="-1" android:layout_height="-1" android:layout_above="false" android:layout_below="false">
+				<androidx.recyclerview.widget.RecyclerView android:id="false" android:background="ffffff" android:layout_width="-1" android:layout_height="236dp" />
+				<LinearLayout android:gravity="0x1" android:orientation="1" android:id="false" android:background="ffffff" android:visibility="0" android:layout_width="-1" android:layout_height="236dp">
+					<ImageView android:layout_width="48dp" android:layout_height="48dp" android:layout_marginTop="55dp" android:src="res/drawable-xxhdpi-v4/null_program.png" android:contentDescription="resourceId:0x0" />
+					<TextView android:textColor="bfbfbf" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="20dp" android:text="No device" />
+					<TextView android:textColor="066ff" android:id="false" android:padding="10dp" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="15dp" android:text="Find device" />
+				</LinearLayout>
+			</FrameLayout>
+		</RelativeLayout>
+		<FrameLayout android:layout_gravity="0x50" android:id="false" android:layout_width="-1" android:layout_height="50dp">
+			<ImageView android:layout_gravity="0x51" android:layout_width="30dp" android:layout_height="30dp" android:src="res/drawable-xhdpi-v4/close_w.png" android:contentDescription="resourceId:0x0" />
+		</FrameLayout>
+	</LinearLayout>
+</FrameLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:gravity="0x50" android:orientation="1" android:background="resourceId:0x106000b" android:padding="20dp" android:layout_width="-1" android:layout_height="-1">
+	<cn.huidu.view.SettingRow android:layout_width="-1" android:layout_height="-2" app:show_angle_right="false">
+		<LinearLayout android:orientation="0" android:paddingTop="15dp" android:paddingBottom="15dp" android:layout_width="-1" android:layout_height="-2">
+			<TextView android:textSize="15sp" android:textColor="666666" android:id="false" android:layout_width="-2" android:layout_height="-2" />
+			<TextView android:textSize="15sp" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="15dp" android:text="50%" style="resourceId:0x7f1202df" />
+		</LinearLayout>
+	</cn.huidu.view.SettingRow>
+	<cn.huidu.view.SettingRow android:layout_width="-1" android:layout_height="-2" app:show_angle_right="false">
+		<SeekBar android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="10dp" android:layout_marginBottom="10dp" android:progress="100" />
+	</cn.huidu.view.SettingRow>
+</LinearLayout>

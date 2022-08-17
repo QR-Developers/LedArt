@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="1" android:background="f2f2f2" android:layout_width="-1" android:layout_height="-1">
+	<cn.huidu.huiduapp.ledart.ui.view.HardwareItemColorChannel android:id="false" android:background="res/drawable/bg_rectangle_only_bottom_ff_stroke_d7.xml" android:layout_width="-1" android:layout_height="45dp" app:title="State A" />
+	<cn.huidu.huiduapp.ledart.ui.view.HardwareItemColorChannel android:id="false" android:background="res/drawable/bg_rectangle_only_bottom_ff_stroke_d7.xml" android:layout_width="-1" android:layout_height="45dp" app:title="State B" />
+	<cn.huidu.huiduapp.ledart.ui.view.HardwareItemColorChannel android:id="false" android:background="res/drawable/bg_rectangle_only_bottom_ff_stroke_d7.xml" android:layout_width="-1" android:layout_height="45dp" app:title="State C" />
+	<cn.huidu.huiduapp.ledart.ui.view.HardwareItemColorChannel android:id="false" android:background="res/drawable/bg_rectangle_only_bottom_ff_stroke_d7.xml" android:layout_width="-1" android:layout_height="45dp" app:title="State D" />
+</LinearLayout>

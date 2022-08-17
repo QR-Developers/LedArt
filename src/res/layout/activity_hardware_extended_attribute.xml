@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:background="f2f2f2" android:layout_width="-1" android:layout_height="-1">
+	<LinearLayout android:gravity="0x10" android:orientation="0" android:id="false" android:background="res/drawable/bg_rectangle_only_bottom_ff_stroke_e4.xml" android:paddingLeft="20dp" android:paddingRight="20dp" android:visibility="0" android:layout_width="-1" android:layout_height="46dp" android:layout_marginBottom="10dp">
+		<TextView android:textSize="14sp" android:textColor="333333" android:gravity="0x3" android:layout_width="0dp" android:layout_height="-2" android:text="Advanced settings" android:lines="1" android:layout_weight="{4:1065353216}" />
+		<cn.huidu.view.CustomSwitch android:id="false" android:layout_width="36dp" android:layout_height="20dp" />
+	</LinearLayout>
+	<FrameLayout android:layout_width="-1" android:layout_height="0dp" android:layout_weight="{4:1065353216}">
+		<androidx.core.widget.NestedScrollView android:id="false" android:visibility="0" android:layout_width="-1" android:layout_height="-1" android:fillViewport="true">
+			<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2">
+				<LinearLayout android:gravity="0x10" android:orientation="0" android:background="res/drawable/bg_rectangle_only_bottom_ff_stroke_e4.xml" android:paddingLeft="20dp" android:paddingRight="20dp" android:layout_width="-1" android:layout_height="46dp">
+					<TextView android:textSize="14sp" android:textColor="333333" android:gravity="0x3" android:layout_width="0dp" android:layout_height="-2" android:text="Linkage" android:lines="1" android:layout_weight="{4:1065353216}" />
+					<cn.huidu.view.CustomSwitch android:id="false" android:layout_width="36dp" android:layout_height="20dp" />
+				</LinearLayout>
+				<LinearLayout android:gravity="0x10" android:orientation="0" android:id="false" android:background="res/drawable/bg_rectangle_only_bottom_ff_stroke_e4.xml" android:paddingLeft="20dp" android:paddingRight="20dp" android:layout_width="-1" android:layout_height="46dp">
+					<TextView android:textSize="13sp" android:textColor="333333" android:layout_width="0dp" android:layout_height="-2" android:text="Red current" android:lines="1" android:layout_weight="{4:1065353216}" />
+					<TextView android:textSize="13sp" android:textColor="333333" android:layout_gravity="0x11" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="5dp" android:layout_marginRight="10dp" android:lines="1" />
+					<ImageView android:layout_gravity="0x11" android:layout_width="16dp" android:layout_height="16dp" android:src="res/drawable-xhdpi-v4/angle_right.png" android:alpha="{4:1058642330}" />
+				</LinearLayout>
+				<LinearLayout android:gravity="0x10" android:orientation="0" android:id="false" android:background="res/drawable/bg_rectangle_only_bottom_ff_stroke_e4.xml" android:paddingLeft="20dp" android:paddingRight="20dp" android:layout_width="-1" android:layout_height="46dp">
+					<TextView android:textSize="13sp" android:textColor="333333" android:layout_width="0dp" android:layout_height="-2" android:text="Green current" android:lines="1" android:layout_weight="{4:1065353216}" />
+					<TextView android:textSize="13sp" android:textColor="333333" android:layout_gravity="0x11" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="5dp" android:layout_marginRight="10dp" android:lines="1" />
+					<ImageView android:layout_gravity="0x11" android:layout_width="16dp" android:layout_height="16dp" android:src="res/drawable-xhdpi-v4/angle_right.png" android:alpha="{4:1058642330}" />
+				</LinearLayout>
+				<LinearLayout android:gravity="0x10" android:orientation="0" android:id="false" android:background="res/drawable/bg_rectangle_only_bottom_ff_stroke_e4.xml" android:paddingLeft="20dp" android:paddingRight="20dp" android:layout_width="-1" android:layout_height="46dp">
+					<TextView android:textSize="13sp" android:textColor="333333" android:layout_width="0dp" android:layout_height="-2" android:text="Blue current" android:lines="1" android:layout_weight="{4:1065353216}" />
+					<TextView android:textSize="13sp" android:textColor="333333" android:layout_gravity="0x11" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="5dp" android:layout_marginRight="10dp" android:lines="1" />
+					<ImageView android:layout_gravity="0x11" android:layout_width="16dp" android:layout_height="16dp" android:src="res/drawable-xhdpi-v4/angle_right.png" android:alpha="{4:1058642330}" />
+				</LinearLayout>
+				<FrameLayout android:background="res/drawable/bg_rectangle_only_bottom_ff_stroke_e4.xml" android:layout_width="-1" android:layout_height="55dp">
+					<TextView android:textSize="13sp" android:textColor="ffffff" android:gravity="0x11" android:layout_gravity="0x15" android:id="false" android:background="res/drawable/bg_round_5_rectangle_3399ff.xml" android:layout_width="75dp" android:layout_height="32dp" android:layout_marginRight="20dp" android:text="Default setting" />
+				</FrameLayout>
+				<LinearLayout android:gravity="0x10" android:orientation="0" android:id="false" android:background="res/drawable/bg_rectangle_top_bottom_ff_stroke_e4.xml" android:paddingLeft="20dp" android:paddingRight="20dp" android:layout_width="-1" android:layout_height="46dp" android:layout_marginTop="10dp">
+					<TextView android:textSize="13sp" android:textColor="333333" android:id="false" android:layout_width="0dp" android:layout_height="-2" android:text="SPWM mode" android:lines="1" android:layout_weight="{4:1065353216}" />
+					<TextView android:textSize="13sp" android:textColor="333333" android:layout_gravity="0x11" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="5dp" android:layout_marginRight="10dp" android:lines="1" />
+					<ImageView android:layout_gravity="0x11" android:layout_width="16dp" android:layout_height="16dp" android:src="res/drawable-xhdpi-v4/angle_right.png" android:alpha="{4:1058642330}" />
+				</LinearLayout>
+				<LinearLayout android:gravity="0x10" android:orientation="0" android:id="false" android:background="res/drawable/bg_rectangle_only_bottom_ff_stroke_e4.xml" android:paddingLeft="20dp" android:paddingRight="20dp" android:layout_width="-1" android:layout_height="46dp">
+					<TextView android:textSize="13sp" android:textColor="333333" android:id="false" android:layout_width="0dp" android:layout_height="-2" android:text="FMPWM ratio" android:lines="1" android:layout_weight="{4:1065353216}" />
+					<TextView android:textSize="13sp" android:textColor="333333" android:layout_gravity="0x11" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="5dp" android:layout_marginRight="10dp" android:lines="1" />
+					<ImageView android:layout_gravity="0x11" android:layout_width="16dp" android:layout_height="16dp" android:src="res/drawable-xhdpi-v4/angle_right.png" android:alpha="{4:1058642330}" />
+				</LinearLayout>
+				<LinearLayout android:gravity="0x10" android:orientation="0" android:background="res/drawable/bg_rectangle_only_bottom_ff_stroke_e4.xml" android:paddingLeft="20dp" android:paddingRight="20dp" android:layout_width="-1" android:layout_height="46dp">
+					<TextView android:textSize="14sp" android:textColor="333333" android:gravity="0x3" android:layout_width="0dp" android:layout_height="-2" android:text="Double refresh rate" android:lines="1" android:layout_weight="{4:1065353216}" />
+					<cn.huidu.view.CustomSwitch android:id="false" android:layout_width="36dp" android:layout_height="20dp" />
+				</LinearLayout>
+				<LinearLayout android:gravity="0x10" android:orientation="0" android:background="res/drawable/bg_rectangle_only_bottom_ff_stroke_e4.xml" android:paddingLeft="20dp" android:paddingRight="20dp" android:layout_width="-1" android:layout_height="46dp">
+					<TextView android:textSize="14sp" android:textColor="333333" android:gravity="0x3" android:layout_width="0dp" android:layout_height="-2" android:text="GCLK rate" android:lines="1" android:layout_weight="{4:1065353216}" />
+					<cn.huidu.view.CustomSwitch android:id="false" android:layout_width="36dp" android:layout_height="20dp" />
+				</LinearLayout>
+			</LinearLayout>
+		</androidx.core.widget.NestedScrollView>
+		<LinearLayout android:orientation="1" android:id="false" android:visibility="2" android:layout_width="-1" android:layout_height="-1">
+			<FrameLayout android:background="res/drawable/bg_rectangle_only_bottom_ff_stroke_e4.xml" android:layout_width="-1" android:layout_height="55dp">
+				<TextView android:textSize="13sp" android:textColor="ffffff" android:gravity="0x11" android:layout_gravity="0x15" android:id="false" android:background="res/drawable/bg_round_5_rectangle_3399ff.xml" android:layout_width="75dp" android:layout_height="32dp" android:layout_marginRight="20dp" android:text="Default setting" />
+			</FrameLayout>
+			<androidx.recyclerview.widget.RecyclerView android:id="false" android:layout_width="-1" android:layout_height="0dp" android:layout_weight="{4:1065353216}" />
+		</LinearLayout>
+	</FrameLayout>
+</LinearLayout>

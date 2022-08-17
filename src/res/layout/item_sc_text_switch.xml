@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="-1" android:layout_height="40dp">
+	<TextView android:textSize="14sp" android:textColor="333333" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="15dp" android:text="" android:layout_centerVertical="true" />
+	<cn.huidu.view.CustomSwitch android:id="false" android:layout_width="36dp" android:layout_height="20dp" android:layout_marginRight="15dp" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+	<View android:id="false" android:background="res/drawable/bg_dashed_line_e4.xml" android:layout_width="-1" android:layout_height="2dp" android:layout_alignParentBottom="true" android:layerType="1" />
+	<View android:id="false" android:background="res/drawable/bg_line_e4.xml" android:visibility="2" android:layout_width="-1" android:layout_height="2dp" android:layout_alignParentBottom="true" />
+</RelativeLayout>

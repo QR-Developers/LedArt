@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="ffffff" android:layout_width="-1" android:layout_height="152dp">
+	<View android:background="d7d7d7" android:layout_width="-1" android:layout_height="1px" />
+	<ListView android:id="false" android:paddingLeft="16dp" android:paddingRight="16dp" android:layout_width="-1" android:layout_height="-1" android:divider="d7d7d7" android:dividerHeight="1px" />
+	<View android:background="d7d7d7" android:layout_width="-1" android:layout_height="1px" android:layout_alignParentBottom="true" />
+</RelativeLayout>

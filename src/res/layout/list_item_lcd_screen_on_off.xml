@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="res/drawable/bg_rectangle_only_bottom_ff_stroke_e4.xml" android:layout_width="-1" android:layout_height="-2">
+	<LinearLayout android:gravity="0x10" android:orientation="0" android:paddingLeft="15dp" android:paddingTop="15dp" android:paddingBottom="15dp" android:layout_width="-2" android:layout_height="-2">
+		<LinearLayout android:orientation="1" android:layout_width="-2" android:layout_height="-2">
+			<TextView android:textSize="12sp" android:textColor="999999" android:layout_width="-2" android:layout_height="-2" android:text="Open screen time" />
+			<TextView android:textSize="16sp" android:textColor="333333" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="00:00:00" />
+		</LinearLayout>
+		<View android:background="dddddd" android:layout_width="1px" android:layout_height="-1" android:layout_marginLeft="20dp" android:layout_marginRight="20dp" />
+		<LinearLayout android:orientation="1" android:layout_width="-2" android:layout_height="-2">
+			<TextView android:textSize="12sp" android:textColor="999999" android:layout_width="-2" android:layout_height="-2" android:text="Screen off time" />
+			<TextView android:textSize="16sp" android:textColor="333333" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="23:59:00" />
+		</LinearLayout>
+	</LinearLayout>
+	<ImageView android:id="false" android:padding="15dp" android:layout_width="50dp" android:layout_height="50dp" android:src="res/drawable-xxhdpi-v4/delete_keg.png" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:alpha="{4:1061997773}" />
+</RelativeLayout>

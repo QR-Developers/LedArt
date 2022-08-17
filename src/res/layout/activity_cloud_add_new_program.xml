@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="false" android:layout_width="-1" android:layout_height="-1">
+	<RelativeLayout android:id="false" android:background="3399ff" android:layout_width="-1" android:layout_height="75dp">
+		<FrameLayout android:id="false" android:focusable="true" android:clickable="true" android:layout_width="50dp" android:layout_height="50dp" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true">
+			<ImageView android:layout_gravity="0x11" android:background="res/drawable/cloud_base_setting_left_angle.png" android:layout_width="24dp" android:layout_height="24dp" android:contentDescription="resourceId:0x0" />
+		</FrameLayout>
+		<TextView android:textSize="15sp" android:textColor="ffffff" android:gravity="0x11" android:id="false" android:layout_width="-1" android:layout_height="50dp" android:layout_marginLeft="120dp" android:layout_marginRight="120dp" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+	</RelativeLayout>
+	<Button android:textSize="14sp" android:textColor="ffffff" android:id="false" android:background="res/drawable/bg_round_20_rectangle_solid_3399ff.xml" android:layout_width="200dp" android:layout_height="40dp" android:layout_marginTop="20dp" android:layout_marginBottom="20dp" android:text="OK" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+	<FrameLayout android:layout_width="-1" android:layout_height="-1" android:layout_above="false" android:layout_below="false">
+		<ScrollView android:id="false" android:layout_width="-1" android:layout_height="-1">
+			<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2">
+				<TextView android:textSize="14sp" android:textColor="999999" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="30dp" android:layout_marginTop="15dp" />
+				<EditText android:textSize="14dp" android:textColor="333333" android:gravity="0x13" android:id="false" android:background="res/drawable/bg_round_5_rectangle_stroke_d7d7d7.xml" android:paddingLeft="20dp" android:layout_width="-1" android:layout_height="40dp" android:layout_marginLeft="20dp" android:layout_marginTop="5dp" android:layout_marginRight="20dp" android:maxLength="32" android:inputType="0x1" android:imeOptions="0x5" />
+				<TextView android:textSize="14sp" android:textColor="999999" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="30dp" android:layout_marginTop="15dp" android:text="Resolution" />
+				<LinearLayout android:orientation="1" android:background="res/drawable/bg_round_5_rectangle_stroke_d7d7d7.xml" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="20dp" android:layout_marginTop="5dp" android:layout_marginRight="20dp">
+					<FrameLayout android:id="false" android:layout_width="-1" android:layout_height="40dp">
+						<TextView android:textSize="14sp" android:textColor="333333" android:layout_gravity="0x13" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="20dp" android:text="Width" />
+						<EditText android:textSize="14sp" android:textStyle="0x1" android:textColor="3366ff" android:gravity="0x15" android:layout_gravity="0x5" android:id="false" android:background="resourceId:0x0" android:paddingRight="20dp" android:layout_width="100dp" android:layout_height="-1" android:text="128" android:maxLength="6" android:inputType="0x2" android:imeOptions="0x5" />
+					</FrameLayout>
+					<View android:background="res/drawable/bg_dashed_line_e4.xml" android:layout_width="-1" android:layout_height="1dp" android:layerType="1" />
+					<FrameLayout android:id="false" android:layout_width="-1" android:layout_height="40dp">
+						<TextView android:textSize="14sp" android:textColor="333333" android:layout_gravity="0x13" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="20dp" android:text="Height" />
+						<EditText android:textSize="14sp" android:textStyle="0x1" android:textColor="3366ff" android:gravity="0x15" android:layout_gravity="0x5" android:id="false" android:background="resourceId:0x0" android:paddingRight="20dp" android:layout_width="100dp" android:layout_height="-1" android:text="32" android:maxLength="6" android:inputType="0x2" android:imeOptions="0x5" />
+					</FrameLayout>
+				</LinearLayout>
+				<FrameLayout android:id="false" android:background="res/drawable/bg_round_5_rectangle_stroke_d7d7d7.xml" android:layout_width="-1" android:layout_height="40dp" android:layout_marginLeft="20dp" android:layout_marginTop="15dp" android:layout_marginRight="20dp">
+					<TextView android:textSize="14sp" android:textColor="333333" android:layout_gravity="0x13" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="20dp" android:text="Choose device" />
+					<ImageView android:layout_gravity="0x15" android:layout_width="16dp" android:layout_height="16dp" android:layout_marginRight="16dp" android:src="res/drawable-xxhdpi-v4/right_b.png" android:alpha="{4:1060320051}" />
+				</FrameLayout>
+				<LinearLayout android:id="false" android:background="res/drawable/bg_round_5_rectangle_stroke_d7d7d7.xml" android:layout_width="-1" android:layout_height="40dp" android:layout_marginLeft="20dp" android:layout_marginTop="15dp" android:layout_marginRight="20dp">
+					<TextView android:textSize="14sp" android:textColor="333333" android:layout_gravity="0x13" android:layout_width="0dp" android:layout_height="-2" android:layout_marginLeft="20dp" android:text="Equipment type" android:layout_weight="{4:1065353216}" />
+					<TextView android:textSize="14sp" android:textColor="666666" android:layout_gravity="0x10" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="全彩" />
+					<ImageView android:layout_gravity="0x15" android:layout_width="16dp" android:layout_height="16dp" android:layout_marginLeft="10dp" android:layout_marginRight="16dp" android:src="res/drawable-xxhdpi-v4/font_arrow.png" android:rotation="{4:1127481344}" />
+				</LinearLayout>
+				<LinearLayout android:orientation="1" android:id="false" android:visibility="0" android:layout_width="-1" android:layout_height="-2">
+					<TextView android:textSize="14sp" android:textColor="999999" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="30dp" android:layout_marginTop="15dp" android:text="Color level" />
+					<LinearLayout android:orientation="1" android:background="res/drawable/bg_round_5_rectangle_stroke_d7d7d7.xml" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="20dp" android:layout_marginTop="5dp" android:layout_marginRight="20dp">
+						<FrameLayout android:id="false" android:layout_width="-1" android:layout_height="40dp">
+							<TextView android:textSize="14sp" android:textColor="333333" android:layout_gravity="0x13" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="20dp" android:text="Single color" />
+							<FrameLayout android:layout_gravity="0x5" android:layout_width="50dp" android:layout_height="-1">
+								<ImageView android:layout_gravity="0x15" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="20dp" android:src="res/drawable-xxhdpi-v4/circle_radio_checked.png" android:contentDescription="resourceId:0x0" />
+							</FrameLayout>
+						</FrameLayout>
+						<View android:background="res/drawable/bg_dashed_line_e4.xml" android:layout_width="-1" android:layout_height="1dp" android:layerType="1" />
+						<FrameLayout android:id="false" android:layout_width="-1" android:layout_height="40dp">
+							<TextView android:textSize="14sp" android:textColor="333333" android:layout_gravity="0x13" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="20dp" android:text="Dual color" />
+							<FrameLayout android:layout_gravity="0x5" android:layout_width="50dp" android:layout_height="-1">
+								<ImageView android:layout_gravity="0x15" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="20dp" android:src="res/drawable-xxhdpi-v4/circle_radio_unchecked.png" android:contentDescription="resourceId:0x0" />
+							</FrameLayout>
+						</FrameLayout>
+						<View android:background="res/drawable/bg_dashed_line_e4.xml" android:layout_width="-1" android:layout_height="1dp" android:layerType="1" />
+						<FrameLayout android:id="false" android:layout_width="-1" android:layout_height="40dp">
+							<TextView android:textSize="14sp" android:textColor="333333" android:layout_gravity="0x13" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="20dp" android:text="Full color" />
+							<FrameLayout android:layout_gravity="0x5" android:layout_width="50dp" android:layout_height="-1">
+								<ImageView android:layout_gravity="0x15" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="20dp" android:src="res/drawable-xxhdpi-v4/circle_radio_unchecked.png" android:contentDescription="resourceId:0x0" />
+							</FrameLayout>
+						</FrameLayout>
+					</LinearLayout>
+				</LinearLayout>
+				<LinearLayout android:orientation="1" android:id="false" android:visibility="0" android:layout_width="-1" android:layout_height="-2">
+					<TextView android:textSize="14sp" android:textColor="999999" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="30dp" android:layout_marginTop="15dp" android:text="Gray level" />
+					<FrameLayout android:background="res/drawable/bg_round_5_rectangle_stroke_d7d7d7.xml" android:layout_width="-1" android:layout_height="40dp" android:layout_marginLeft="20dp" android:layout_marginTop="5dp" android:layout_marginRight="20dp">
+						<cn.huidu.view.common.HDNumberPicker android:id="false" android:layout_width="-1" android:layout_height="-1" />
+					</FrameLayout>
+				</LinearLayout>
+			</LinearLayout>
+		</ScrollView>
+	</FrameLayout>
+</RelativeLayout>

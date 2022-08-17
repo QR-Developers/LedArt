@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="-1" android:layout_height="60dp">
+	<FrameLayout android:id="false" android:background="res/drawable/shape_device_list_item_bg.xml" android:layout_width="-1" android:layout_height="-1" android:layout_marginTop="3dp" android:layout_marginBottom="3dp">
+		<LinearLayout android:orientation="0" android:layout_width="-2" android:layout_height="-1">
+			<TextView android:textSize="14sp" android:textColor="ffffff" android:ellipsize="3" android:layout_gravity="0x13" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="20dp" android:maxWidth="165dp" android:text="Hello World!" android:singleLine="true" />
+			<ImageView android:layout_gravity="0x11" android:id="false" android:layout_width="24dp" android:layout_height="16dp" android:layout_marginLeft="8dp" android:src="res/drawable-xxhdpi-v4/hd_wifi_logo.png" android:scaleType="1" android:contentDescription="resourceId:0x0" />
+		</LinearLayout>
+		<ImageView android:layout_gravity="0x15" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="20dp" android:src="res/drawable-xxhdpi-v4/wifi_level0.png" android:contentDescription="resourceId:0x0" android:alpha="{4:1061997773}" />
+	</FrameLayout>
+</FrameLayout>

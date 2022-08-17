@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="-1" android:layout_height="-1">
+	<FrameLayout android:id="false" android:background="res/drawable/screen_bg_repeat.xml" android:layout_width="-1" android:layout_height="-1">
+		<FrameLayout android:layout_gravity="0x11" android:id="false" android:background="res/drawable/screen_outside_border.xml" android:layout_width="-2" android:layout_height="-2" />
+		<RelativeLayout android:id="false" android:layout_width="-1" android:layout_height="-1">
+			<LinearLayout android:orientation="0" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="15dp" android:layout_marginRight="15dp" android:layout_alignParentRight="true">
+				<FrameLayout android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="15dp">
+					<LinearLayout android:layout_gravity="0x11" android:background="res/drawable-xxhdpi-v4/round_bg.9.png" android:layout_width="86dp" android:layout_height="-2" />
+					<ImageView android:layout_gravity="0x13" android:id="false" android:paddingLeft="15dp" android:paddingTop="10dp" android:paddingRight="10dp" android:paddingBottom="10dp" android:clickable="true" android:layout_width="-2" android:layout_height="-2" android:src="res/drawable-xxhdpi-v4/magnify.png" />
+					<ImageView android:layout_gravity="0x15" android:id="false" android:paddingLeft="10dp" android:paddingTop="10dp" android:paddingRight="15dp" android:paddingBottom="10dp" android:clickable="true" android:layout_width="-2" android:layout_height="-2" android:src="res/drawable-xxhdpi-v4/shrink.png" />
+				</FrameLayout>
+				<RelativeLayout android:id="false" android:background="res/drawable-xxhdpi-v4/round_bg.9.png" android:visibility="2" android:clickable="true" android:layout_width="40dp" android:layout_height="40dp" android:layout_marginRight="15dp">
+					<RelativeLayout android:layout_width="-2" android:layout_height="-2" android:layout_centerInParent="true">
+						<ImageView android:id="false" android:layout_width="8dp" android:layout_height="8dp" android:src="res/drawable/shape_gray.xml" android:alpha="{4:1060320051}" />
+						<ImageView android:id="false" android:layout_width="8dp" android:layout_height="8dp" android:layout_marginLeft="4dp" android:src="res/drawable/shape_gray.xml" android:layout_toRightOf="false" android:alpha="{4:1060320051}" />
+						<ImageView android:id="false" android:layout_width="8dp" android:layout_height="8dp" android:layout_marginTop="4dp" android:src="res/drawable/shape_gray.xml" android:layout_below="false" android:alpha="{4:1060320051}" />
+						<ImageView android:id="false" android:layout_width="8dp" android:layout_height="8dp" android:layout_marginLeft="4dp" android:layout_marginTop="4dp" android:src="res/drawable/shape_gray.xml" android:layout_toRightOf="false" android:layout_below="false" android:alpha="{4:1060320051}" />
+					</RelativeLayout>
+				</RelativeLayout>
+				<ImageButton android:id="false" android:background="res/drawable-xxhdpi-v4/round_bg.9.png" android:clickable="true" android:layout_width="40dp" android:layout_height="40dp" android:layout_marginRight="15dp" android:src="res/drawable-xxhdpi-v4/setting.png" />
+				<ImageButton android:id="false" android:background="resourceId:0x0" android:clickable="true" android:layout_width="40dp" android:layout_height="40dp" android:src="res/drawable-xxhdpi-v4/send_small.png" />
+			</LinearLayout>
+			<TextView android:textColor="50000" android:id="false" android:background="res/drawable-xxhdpi-v4/scale.9.png" android:paddingLeft="5dp" android:paddingRight="5dp" android:layout_width="-2" android:layout_height="-2" android:layout_margin="15dp" android:layout_alignParentBottom="true" />
+			<ImageView android:id="false" android:layout_width="48dp" android:layout_height="48dp" android:layout_marginTop="20dp" android:layout_marginBottom="20dp" android:src="res/drawable-xxhdpi-v4/add_area.png" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" android:layout_marginStart="20dp" android:layout_marginEnd="20dp" />
+			<androidx.recyclerview.widget.RecyclerView android:id="false" android:paddingTop="20dp" android:clipToPadding="false" android:layout_width="250dp" android:layout_height="80dp" android:layout_toLeftOf="false" android:layout_alignParentBottom="true" />
+			<ImageView android:id="false" android:focusable="true" android:clickable="true" android:layout_width="40dp" android:layout_height="40dp" android:layout_marginLeft="15dp" android:layout_marginTop="15dp" android:src="res/drawable-xhdpi-v4/program_edit_back.png" android:layout_alignParentTop="true" />
+		</RelativeLayout>
+	</FrameLayout>
+	<TextView android:textSize="12sp" android:textColor="50000" android:id="false" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="10dp" android:layout_marginTop="10dp" />
+	<LinearLayout android:layout_gravity="0x11" android:orientation="1" android:id="false" android:visibility="2" android:layout_width="-2" android:layout_height="-2">
+		<cn.huidu.view.RotateImageView android:layout_gravity="0x11" android:id="false" android:layout_width="50dp" android:layout_height="50dp" android:src="res/drawable-xxhdpi-v4/loading_white.png" android:scaleType="1" />
+		<TextView android:textSize="16sp" android:textColor="09688" android:gravity="0x11" android:layout_gravity="0x11" android:id="false" android:layout_width="200dp" android:layout_height="20dp" android:text="Loading…" />
+	</LinearLayout>
+	<FrameLayout android:id="false" android:layout_width="-1" android:layout_height="-1" />
+	<LinearLayout android:orientation="0" android:id="false" android:layout_width="-1" android:layout_height="-1">
+		<FrameLayout android:id="false" android:layout_width="0dp" android:layout_height="-1" android:layout_weight="{4:1065353216}" />
+		<com.coship.fullcolorprogram.view.StackPageView android:id="false" android:background="ffffff" android:visibility="2" android:layout_width="0dp" android:layout_height="-1" android:layout_weight="{4:1065353216}" />
+	</LinearLayout>
+</FrameLayout>

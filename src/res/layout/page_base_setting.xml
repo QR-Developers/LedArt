@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="0" android:background="fcfcfc" android:layout_width="-1" android:layout_height="-1">
+	<LinearLayout android:orientation="1" android:id="false" android:layout_width="-1" android:layout_height="-1">
+		<com.coship.fullcolorprogram.view.PagerSlidingTabStrip android:textSize="18sp" android:textStyle="0x0" android:textColor="666666" android:id="false" android:background="f0f0f0" android:layout_width="-1" android:layout_height="50dp" app:pstsDividerColor="resourceId:0x106000d" app:pstsIndicatorColor="099ff" app:pstsIndicatorHeight="2dp" app:pstsSelectedColor="099ff" app:pstsUnderlineColor="cccccc" app:pstsUnderlineHeight="1px" />
+		<androidx.viewpager.widget.ViewPager android:layout_gravity="0x11" android:id="false" android:layout_width="-2" android:layout_height="-2" />
+	</LinearLayout>
+	<LinearLayout android:orientation="1" android:id="false" android:visibility="2" android:layout_width="-1" android:layout_height="-1">
+		<RelativeLayout android:background="f0f0f0" android:layout_width="-1" android:layout_height="51dp">
+			<TextView android:textSize="16sp" android:textColor="333333" android:gravity="0x11" android:id="false" android:layout_width="-1" android:layout_height="-1" android:text="asdfasdf" />
+			<ImageView android:id="false" android:layout_width="50dp" android:layout_height="50dp" android:src="res/drawable-xxhdpi-v4/left_b.png" android:scaleType="5" />
+			<View android:background="cccccc" android:layout_width="-1" android:layout_height="1px" android:layout_alignParentBottom="true" />
+		</RelativeLayout>
+		<ViewFlipper android:id="false" android:background="fcfcfc" android:clickable="true" android:layout_width="-1" android:layout_height="-1" />
+	</LinearLayout>
+</LinearLayout>

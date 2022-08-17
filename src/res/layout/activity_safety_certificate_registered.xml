@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="res/drawable-en-rUS-xxhdpi-v4/welcome.png" android:layout_width="-1" android:layout_height="-1">
+	<LinearLayout android:orientation="1" android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="130dp">
+		<TextView android:textSize="18sp" android:textColor="333333" android:layout_gravity="0x1" android:layout_width="-2" android:layout_height="-2" android:text="Login" />
+		<LinearLayout android:background="res/drawable/bg_rectangle_stroke_d7d7d7.xml" android:layout_width="-1" android:layout_height="36dp" android:layout_marginLeft="30dp" android:layout_marginTop="20dp" android:layout_marginRight="30dp">
+			<EditText android:textSize="13sp" android:textColor="333333" android:textColorHint="999999" android:id="false" android:background="resourceId:0x0" android:layout_width="-1" android:layout_height="-1" android:layout_marginLeft="10dp" android:hint="Phone number" android:inputType="0x2" />
+		</LinearLayout>
+		<LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="36dp" android:layout_marginLeft="30dp" android:layout_marginTop="10dp" android:layout_marginRight="30dp">
+			<LinearLayout android:background="res/drawable/bg_rectangle_stroke_d7d7d7.xml" android:layout_width="0dp" android:layout_height="-1" android:layout_weight="{4:1065353216}">
+				<EditText android:textSize="13sp" android:textColor="333333" android:textColorHint="999999" android:id="false" android:background="resourceId:0x0" android:layout_width="-1" android:layout_height="-1" android:layout_marginLeft="10dp" android:hint="SMS verification code" android:inputType="0x2" />
+			</LinearLayout>
+			<TextView android:textSize="13sp" android:textColor="333333" android:gravity="0x11" android:id="false" android:background="res/drawable/bg_rectangle_f2f2f2_stroke_d7d7d7.xml" android:layout_width="94dp" android:layout_height="-1" android:layout_marginLeft="10dp" android:text="Get" />
+		</LinearLayout>
+		<LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="28dp" android:layout_marginTop="20dp" android:layout_marginRight="28dp">
+			<androidx.appcompat.widget.AppCompatCheckBox android:theme="resourceId:0x7f1200fe" android:layout_gravity="0x10" android:id="false" android:layout_width="-2" android:layout_height="-2" android:checked="false" />
+			<TextView android:textSize="12sp" android:textColor="333333" android:layout_gravity="0x10" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="-1dp" android:text="Read and accept" />
+		</LinearLayout>
+		<TextView android:textSize="13sp" android:textColor="ffffff" android:gravity="0x11" android:id="false" android:background="3399ff" android:layout_width="-1" android:layout_height="36dp" android:layout_marginLeft="30dp" android:layout_marginTop="35dp" android:layout_marginRight="30dp" android:text="OK" />
+	</LinearLayout>
+	<RelativeLayout android:id="false" android:background="b3000" android:visibility="2" android:layout_width="-1" android:layout_height="-1">
+		<ProgressBar android:id="false" android:layout_width="32dp" android:layout_height="32dp" android:layout_centerInParent="true" />
+		<TextView android:textColor="ffffff" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="22dp" android:text="Signing in, please wait…" android:layout_below="false" android:layout_centerHorizontal="true" />
+	</RelativeLayout>
+</FrameLayout>

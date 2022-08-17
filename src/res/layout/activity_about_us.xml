@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+	<FrameLayout android:background="3399ff" android:fitsSystemWindows="true" android:layout_width="-1" android:layout_height="75dp">
+		<ImageView android:layout_gravity="0x10" android:id="false" android:padding="10dp" android:layout_width="44dp" android:layout_height="44dp" android:src="res/drawable-xhdpi-v4/base_setting_left_angle.png" />
+		<TextView android:textSize="16sp" android:textColor="ffffff" android:ellipsize="4" android:gravity="0x11" android:layout_gravity="0x10" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="70dp" android:layout_marginRight="70dp" android:text="About us" android:singleLine="true" />
+	</FrameLayout>
+	<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+		<RelativeLayout android:id="false" android:background="ffffff" android:layout_width="-1" android:layout_height="45dp">
+			<TextView android:textSize="15sp" android:textColor="333333" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="15dp" android:text="Version" android:layout_centerVertical="true" />
+			<TextView android:textSize="15sp" android:textColor="333333" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="15dp" android:text="v1.0.0" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+			<View android:background="e8e8e8" android:layout_width="-1" android:layout_height="1px" android:layout_alignParentBottom="true" />
+		</RelativeLayout>
+		<RelativeLayout android:id="false" android:background="ffffff" android:layout_width="-1" android:layout_height="45dp">
+			<TextView android:textSize="15sp" android:textColor="333333" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="15dp" android:text="Feedback" android:layout_centerVertical="true" />
+			<ImageView android:layout_width="10dp" android:layout_height="18dp" android:layout_marginRight="15dp" android:src="res/drawable-xxhdpi-v4/angle_right_black.png" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:contentDescription="resourceId:0x0" android:alpha="{4:1058642330}" />
+			<View android:background="e8e8e8" android:layout_width="-1" android:layout_height="1px" android:layout_alignParentBottom="true" />
+		</RelativeLayout>
+		<RelativeLayout android:id="false" android:background="ffffff" android:layout_width="-1" android:layout_height="45dp">
+			<TextView android:textSize="15sp" android:textColor="333333" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="15dp" android:text="Terms of Service" android:layout_centerVertical="true" />
+			<ImageView android:layout_width="10dp" android:layout_height="18dp" android:layout_marginRight="15dp" android:src="res/drawable-xxhdpi-v4/angle_right_black.png" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:contentDescription="resourceId:0x0" android:alpha="{4:1058642330}" />
+			<View android:background="e8e8e8" android:layout_width="-1" android:layout_height="1px" android:layout_alignParentBottom="true" />
+		</RelativeLayout>
+		<RelativeLayout android:id="false" android:background="ffffff" android:layout_width="-1" android:layout_height="45dp">
+			<TextView android:textSize="15sp" android:textColor="333333" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="15dp" android:text="Privacy policy" android:layout_centerVertical="true" />
+			<ImageView android:layout_width="10dp" android:layout_height="18dp" android:layout_marginRight="15dp" android:src="res/drawable-xxhdpi-v4/angle_right_black.png" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:contentDescription="resourceId:0x0" android:alpha="{4:1058642330}" />
+			<View android:background="e8e8e8" android:layout_width="-1" android:layout_height="1px" android:layout_alignParentBottom="true" />
+		</RelativeLayout>
+		<RelativeLayout android:background="ffffff" android:visibility="2" android:layout_width="-1" android:layout_height="45dp">
+			<TextView android:textSize="15sp" android:textColor="333333" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="15dp" android:text="Consumer hotline" android:layout_centerVertical="true" />
+			<TextView android:textSize="15sp" android:textColor="3399ff" android:gravity="0x10" android:id="false" android:layout_width="-2" android:layout_height="-1" android:layout_marginRight="15dp" android:layout_alignParentRight="true" />
+			<View android:background="e8e8e8" android:layout_width="-1" android:layout_height="1px" android:layout_alignParentBottom="true" />
+		</RelativeLayout>
+	</LinearLayout>
+</LinearLayout>

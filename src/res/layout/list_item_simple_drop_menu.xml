@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:layout_width="-1" android:layout_height="35dp">
+	<FrameLayout android:id="false" android:layout_width="-1" android:layout_height="0dp" android:layout_weight="{4:1065353216}">
+		<ImageButton android:id="false" android:background="res/drawable/font_bg_repeat.xml" android:layout_width="-1" android:layout_height="-1" android:layout_margin="1dp" />
+		<TextView android:textSize="14sp" android:textColor="333333" android:ellipsize="3" android:layout_gravity="0x13" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="10dp" android:layout_marginRight="10dp" android:text="Hello World!" android:lines="1" />
+		<View android:id="false" android:layout_width="-1" android:layout_height="-1" android:layout_margin="1dp" />
+	</FrameLayout>
+	<View android:background="d7d7d7" android:layout_width="-1" android:layout_height="1px" />
+</LinearLayout>

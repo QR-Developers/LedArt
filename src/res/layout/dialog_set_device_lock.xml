@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="0000" android:layout_width="-1" android:layout_height="-1">
+	<LinearLayout android:layout_gravity="0x11" android:orientation="1" android:background="res/drawable/bg_round_10_rectangle_f2_79.xml" android:layout_width="300dp" android:layout_height="-2" android:minHeight="200dp">
+		<FrameLayout android:paddingLeft="10dp" android:paddingRight="10dp" android:layout_width="-1" android:layout_height="50dp">
+			<TextView android:textSize="14sp" android:textStyle="0x1" android:textColor="333333" android:gravity="0x11" android:layout_gravity="0x11" android:id="false" android:layout_width="-2" android:layout_height="-2" android:lines="1" />
+		</FrameLayout>
+		<View android:background="d7d7d7" android:layout_width="-1" android:layout_height="1px" />
+		<FrameLayout android:layout_width="-1" android:layout_height="0dp" android:layout_weight="{4:1065353216}">
+			<LinearLayout android:orientation="1" android:id="false" android:background="ffffff" android:layout_width="-1" android:layout_height="-2">
+				<TextView android:textSize="14sp" android:textColor="ff00" android:gravity="0x10" android:layout_width="-1" android:layout_height="60dp" android:layout_marginLeft="30dp" android:layout_marginRight="30dp" android:text="The device is not locked. There is a security risk. Please turn on the device lock." android:lines="2" />
+				<View android:background="d7d7d7" android:layout_width="-1" android:layout_height="1px" />
+				<TextView android:textSize="14sp" android:textStyle="0x1" android:textColor="333333" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="30dp" android:layout_marginTop="20dp" android:text="Turn on device lock" />
+				<EditText android:textSize="13sp" android:textColor="333333" android:textColorHint="999999" android:id="false" android:background="res/drawable/bg_rectangle_stroke_e4e4e4.xml" android:paddingLeft="10dp" android:paddingRight="10dp" android:layout_width="-1" android:layout_height="36dp" android:layout_marginLeft="30dp" android:layout_marginTop="10dp" android:layout_marginRight="30dp" android:hint="Enter password" android:inputType="0x81" />
+				<EditText android:textSize="13sp" android:textColor="333333" android:textColorHint="999999" android:id="false" android:background="res/drawable/bg_rectangle_stroke_e4e4e4.xml" android:paddingLeft="10dp" android:paddingRight="10dp" android:layout_width="-1" android:layout_height="36dp" android:layout_marginLeft="30dp" android:layout_marginTop="10dp" android:layout_marginRight="30dp" android:layout_marginBottom="20dp" android:hint="Confirm password" android:inputType="0x81" />
+			</LinearLayout>
+			<FrameLayout android:id="false" android:layout_width="-1" android:layout_height="180dp">
+				<ProgressBar android:layout_gravity="0x11" android:layout_width="50dp" android:layout_height="50dp" />
+			</FrameLayout>
+		</FrameLayout>
+		<View android:background="d7d7d7" android:layout_width="-1" android:layout_height="1px" />
+		<LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="50dp">
+			<View android:background="d7d7d7" android:visibility="1" android:layout_width="0dp" android:layout_height="-1" android:layout_weight="{4:1065353216}" />
+			<Button android:textSize="14sp" android:textColor="666666" android:layout_gravity="0x10" android:id="false" android:background="0000" android:visibility="0" android:layout_width="54dp" android:layout_height="28dp" android:text="Cancel" android:singleLine="true" android:textAllCaps="false" />
+			<Button android:textSize="14sp" android:textColor="ffffff" android:layout_gravity="0x10" android:id="false" android:background="res/drawable/bg_round_5_rectangle_3399ff.xml" android:layout_width="54dp" android:layout_height="28dp" android:layout_marginRight="10dp" android:text="OK" android:singleLine="true" android:textAllCaps="false" />
+		</LinearLayout>
+	</LinearLayout>
+</FrameLayout>

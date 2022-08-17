@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+	<RelativeLayout android:orientation="1" android:background="res/drawable-xhdpi-v4/header_bg.png" android:fitsSystemWindows="true" android:layout_width="-1" android:layout_height="0dp" android:layout_weight="{4:1084227584}">
+		<RelativeLayout android:id="false" android:layout_width="-1" android:layout_height="70dp">
+			<TextView android:textSize="15sp" android:textColor="ffffff" android:gravity="0x11" android:id="false" android:layout_width="-1" android:layout_height="50dp" android:layout_marginLeft="120dp" android:layout_marginRight="120dp" android:text="Device list" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+			<TextView android:textSize="14sp" android:textColor="ffffff" android:gravity="0x10" android:id="false" android:paddingLeft="8dp" android:paddingRight="8dp" android:layout_width="-2" android:layout_height="50dp" android:layout_marginRight="5dp" android:maxWidth="90dp" android:text="Find device" android:lines="1" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+		</RelativeLayout>
+		<androidx.swiperefreshlayout.widget.SwipeRefreshLayout android:id="false" android:layout_width="-1" android:layout_height="-1" android:layout_below="false">
+			<FrameLayout android:layout_width="-1" android:layout_height="-1">
+				<androidx.recyclerview.widget.RecyclerView android:layout_gravity="0x11" android:id="false" android:visibility="2" android:layout_width="-1" android:layout_height="-2" />
+				<LinearLayout android:gravity="0x11" android:orientation="1" android:id="false" android:layout_width="-1" android:layout_height="-1">
+					<TextView android:textSize="14sp" android:textColor="ffffff" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="No devices found on the current network!" android:alpha="{4:1060320051}" />
+					<Button android:textSize="13sp" android:textColor="ffffff" android:id="false" android:background="res/drawable/round_rectangle_transparent.xml" android:layout_width="160dp" android:layout_height="30dp" android:layout_marginTop="25dp" android:text="Find device" />
+				</LinearLayout>
+			</FrameLayout>
+		</androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+		<View android:layout_gravity="0x50" android:background="66333333" android:layout_width="-1" android:layout_height="49152unknown unit:0x21" />
+	</RelativeLayout>
+	<FrameLayout android:orientation="0" android:id="false" android:layout_width="-1" android:layout_height="260dp">
+		<LinearLayout android:gravity="0x1" android:orientation="1" android:id="false" android:background="res/drawable/shape_rect_stroke_gray.xml" android:layout_width="-1" android:layout_height="-1">
+			<ImageView android:layout_width="48dp" android:layout_height="48dp" android:layout_marginTop="80dp" android:src="res/drawable-xxhdpi-v4/null_program.png" />
+			<TextView android:textSize="14sp" android:textColor="999999" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="20dp" android:text="Unselected device" />
+		</LinearLayout>
+	</FrameLayout>
+</LinearLayout>

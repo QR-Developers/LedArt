@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+	<LinearLayout android:gravity="0x10" android:orientation="0" android:id="false" android:background="res/drawable/cloud_bg_rectangle_only_bottom_ff_stroke_e4.xml" android:layout_width="-1" android:layout_height="50dp">
+		<ImageView android:layout_width="25dp" android:layout_height="25dp" android:layout_marginLeft="15dp" android:src="res/drawable-xxhdpi-v4/animation.png" />
+		<TextView android:textColor="333333" android:gravity="0x3" android:layout_width="0dp" android:layout_height="-2" android:layout_marginLeft="10dp" android:text="City" android:layout_weight="{4:1056964608}" />
+		<TextView android:textColor="999999" android:gravity="0x5" android:id="false" android:paddingRight="10dp" android:layout_width="0dp" android:layout_height="-2" android:layout_weight="{4:1056964608}" />
+		<ImageView android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="15dp" android:src="res/drawable-xhdpi-v4/angle_right.png" android:alpha="{4:1058642330}" />
+	</LinearLayout>
+	<LinearLayout android:gravity="0x10" android:orientation="0" android:id="false" android:background="res/drawable/cloud_bg_rectangle_only_bottom_ff_stroke_e4.xml" android:layout_width="-1" android:layout_height="50dp">
+		<ImageView android:layout_width="25dp" android:layout_height="25dp" android:layout_marginLeft="15dp" android:src="res/drawable-xxhdpi-v4/font.png" />
+		<TextView android:textColor="333333" android:gravity="0x3" android:layout_width="0dp" android:layout_height="-2" android:layout_marginLeft="10dp" android:text="Font" android:layout_weight="{4:1056964608}" />
+		<TextView android:textColor="999999" android:gravity="0x5" android:id="false" android:paddingRight="10dp" android:layout_width="0dp" android:layout_height="-2" android:layout_weight="{4:1056964608}" />
+		<ImageView android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="15dp" android:src="res/drawable-xhdpi-v4/angle_right.png" android:alpha="{4:1058642330}" />
+	</LinearLayout>
+	<LinearLayout android:gravity="0x10" android:orientation="0" android:id="false" android:background="res/drawable/cloud_bg_rectangle_only_bottom_ff_stroke_e4.xml" android:layout_width="-1" android:layout_height="50dp">
+		<ImageView android:layout_width="25dp" android:layout_height="25dp" android:layout_marginLeft="15dp" android:src="res/drawable-xxhdpi-v4/font.png" />
+		<TextView android:textColor="333333" android:gravity="0x3" android:layout_width="0dp" android:layout_height="-2" android:layout_marginLeft="10dp" android:text="Font size" android:layout_weight="{4:1056964608}" />
+		<TextView android:textColor="999999" android:gravity="0x5" android:id="false" android:paddingRight="10dp" android:layout_width="0dp" android:layout_height="-2" android:text="12" android:layout_weight="{4:1056964608}" />
+		<ImageView android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="15dp" android:src="res/drawable-xhdpi-v4/angle_right.png" android:alpha="{4:1058642330}" />
+	</LinearLayout>
+	<LinearLayout android:gravity="0x13" android:orientation="0" android:id="false" android:background="res/drawable/cloud_bg_rectangle_only_bottom_ff_stroke_e4.xml" android:layout_width="-1" android:layout_height="50dp">
+		<ImageView android:layout_width="25dp" android:layout_height="25dp" android:layout_marginLeft="15dp" android:src="res/drawable-xxhdpi-v4/hold.png" />
+		<TextView android:textColor="333333" android:gravity="0x3" android:layout_width="0dp" android:layout_height="-2" android:layout_marginLeft="10dp" android:text="Hold" android:layout_weight="{4:1056964608}" />
+		<TextView android:textColor="999999" android:gravity="0x5" android:id="false" android:paddingRight="10dp" android:layout_width="0dp" android:layout_height="-2" android:text="5.0" android:layout_weight="{4:1056964608}" />
+		<ImageView android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="15dp" android:src="res/drawable-xhdpi-v4/angle_right.png" android:alpha="{4:1058642330}" />
+	</LinearLayout>
+	<LinearLayout android:gravity="0x10" android:orientation="0" android:id="false" android:background="res/drawable/cloud_bg_rectangle_only_bottom_ff_stroke_e4.xml" android:layout_width="-1" android:layout_height="50dp">
+		<ImageView android:layout_width="25dp" android:layout_height="25dp" android:layout_marginLeft="15dp" android:src="res/drawable-hdpi-v4/interval.png" />
+		<TextView android:textColor="333333" android:gravity="0x3" android:layout_width="0dp" android:layout_height="-2" android:layout_marginLeft="10dp" android:text="Interval" android:layout_weight="{4:1056964608}" />
+		<TextView android:textColor="999999" android:gravity="0x5" android:id="false" android:paddingRight="10dp" android:layout_width="0dp" android:layout_height="-2" android:text="1" android:layout_weight="{4:1056964608}" />
+		<ImageView android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="15dp" android:src="res/drawable-xhdpi-v4/angle_right.png" android:alpha="{4:1058642330}" />
+	</LinearLayout>
+</LinearLayout>

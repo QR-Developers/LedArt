@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:background="f2f2f2" android:layout_width="-1" android:layout_height="-1">
+	<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+		<androidx.core.widget.NestedScrollView android:layout_width="-1" android:layout_height="0dp" android:layout_weight="{4:1065353216}">
+			<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2">
+				<TextView android:textSize="13sp" android:textColor="999999" android:ellipsize="3" android:gravity="0x10" android:paddingTop="10dp" android:layout_width="-2" android:layout_height="40dp" android:layout_marginLeft="30dp" android:layout_marginRight="30dp" android:text="Smart settings file" android:lines="1" />
+				<cn.huidu.huiduapp.ledart.ui.view.HardwareItemRadioGroup android:orientation="0" android:id="false" android:background="res/drawable/bg_rectangle_top_bottom_ff_stroke_d7.xml" android:layout_width="-1" android:layout_height="46dp" />
+				<LinearLayout android:gravity="0x10" android:orientation="0" android:id="false" android:background="res/drawable/bg_rectangle_only_bottom_ff_stroke_d7.xml" android:layout_width="-1" android:layout_height="46dp">
+					<TextView android:textSize="13sp" android:textColor="333333" android:layout_width="0dp" android:layout_height="-2" android:layout_marginLeft="25dp" android:text="Scan group" android:layout_weight="{4:1065353216}" />
+					<TextView android:textSize="13sp" android:textColor="333333" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="15dp" android:text="All" />
+					<ImageView android:layout_width="8dp" android:layout_height="16dp" android:layout_marginRight="30dp" android:src="res/drawable-xhdpi-v4/angle_right.png" android:alpha="{4:1058642330}" />
+				</LinearLayout>
+				<cn.huidu.huiduapp.ledart.ui.view.HardwareItemMore android:orientation="0" android:id="false" android:background="res/drawable/bg_rectangle_only_bottom_ff_stroke_d7.xml" android:layout_width="-1" android:layout_height="46dp" app:title="" />
+				<cn.huidu.huiduapp.ledart.ui.view.HardwareItemSwitch android:orientation="0" android:id="false" android:background="res/drawable/bg_rectangle_top_bottom_ff_stroke_d7.xml" android:layout_width="-1" android:layout_height="46dp" android:layout_marginTop="10dp" app:title="Data polarity" />
+				<cn.huidu.huiduapp.ledart.ui.view.HardwareItemSwitch android:orientation="0" android:id="false" android:background="res/drawable/bg_rectangle_only_bottom_ff_stroke_d7.xml" android:layout_width="-1" android:layout_height="46dp" app:title="OE polarity" />
+				<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="0dp" android:layout_marginTop="10dp" android:layout_weight="{4:1065353216}">
+					<LinearLayout android:gravity="0x10" android:orientation="0" android:background="res/drawable/bg_rectangle_only_bottom_ff_stroke_d7.xml" android:layout_width="-1" android:layout_height="46dp">
+						<TextView android:textSize="13sp" android:textColor="333333" android:ellipsize="3" android:layout_width="0dp" android:layout_height="-2" android:layout_marginLeft="25dp" android:text="Advanced settings" android:lines="1" android:layout_weight="{4:1065353216}" />
+						<cn.huidu.view.CustomSwitch android:id="false" android:layout_width="36dp" android:layout_height="20dp" android:layout_marginRight="30dp" />
+					</LinearLayout>
+					<LinearLayout android:orientation="1" android:id="false" android:visibility="0" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="10dp">
+						<cn.huidu.huiduapp.ledart.ui.view.HardwareItemSwitch android:orientation="0" android:id="false" android:background="res/drawable/bg_rectangle_only_bottom_ff_stroke_d7.xml" android:layout_width="-1" android:layout_height="46dp" app:title="Latch polarity" />
+						<cn.huidu.huiduapp.ledart.ui.view.HardwareItemSwitch android:orientation="0" android:id="false" android:background="res/drawable/bg_rectangle_only_bottom_ff_stroke_d7.xml" android:layout_width="-1" android:layout_height="46dp" app:title="Clock polarity" />
+						<cn.huidu.huiduapp.ledart.ui.view.HardwareItemSwitch android:orientation="0" android:id="false" android:background="res/drawable/bg_rectangle_only_bottom_ff_stroke_d7.xml" android:layout_width="-1" android:layout_height="46dp" app:title="Data mirror" />
+						<TextView android:textSize="13sp" android:textColor="999999" android:ellipsize="3" android:gravity="0x10" android:paddingTop="10dp" android:layout_width="-2" android:layout_height="35dp" android:layout_marginLeft="30dp" android:layout_marginRight="30dp" android:text="Line blanking" android:lines="1" />
+						<cn.huidu.view.common.HDNumberPicker android:id="false" android:background="res/drawable/bg_rectangle_top_bottom_ff_stroke_d7.xml" android:layout_width="-1" android:layout_height="46dp" />
+						<TextView android:textSize="13sp" android:textColor="999999" android:ellipsize="3" android:gravity="0x10" android:paddingTop="10dp" android:layout_width="-2" android:layout_height="35dp" android:layout_marginLeft="30dp" android:layout_marginRight="30dp" android:text="Clock frequency (MHz)" android:lines="1" />
+						<cn.huidu.view.common.HDNumberPicker android:id="false" android:background="res/drawable/bg_rectangle_top_bottom_ff_stroke_d7.xml" android:layout_width="-1" android:layout_height="46dp" />
+						<TextView android:textSize="13sp" android:textColor="999999" android:ellipsize="3" android:gravity="0x10" android:paddingTop="10dp" android:layout_width="-2" android:layout_height="35dp" android:layout_marginLeft="30dp" android:layout_marginRight="30dp" android:text="Sweep frequency (Hz)" android:lines="1" />
+						<cn.huidu.view.common.HDNumberPicker android:id="false" android:background="res/drawable/bg_rectangle_top_bottom_ff_stroke_d7.xml" android:layout_width="-1" android:layout_height="46dp" />
+						<TextView android:textSize="13sp" android:textColor="999999" android:ellipsize="3" android:gravity="0x10" android:paddingTop="10dp" android:layout_width="-2" android:layout_height="35dp" android:layout_marginLeft="30dp" android:layout_marginRight="30dp" android:text="Priority mode" android:lines="1" />
+						<cn.huidu.view.HardwareItemSelect android:orientation="0" android:id="false" android:background="res/drawable/bg_rectangle_top_bottom_ff_stroke_d7.xml" android:layout_width="-1" android:layout_height="46dp" app:title="Balanced" />
+						<cn.huidu.view.HardwareItemSelect android:orientation="0" android:id="false" android:background="res/drawable/bg_rectangle_only_bottom_ff_stroke_d7.xml" android:layout_width="-1" android:layout_height="46dp" app:title="Brightness priority" />
+						<cn.huidu.view.HardwareItemSelect android:orientation="0" android:id="false" android:background="res/drawable/bg_rectangle_only_bottom_ff_stroke_d7.xml" android:layout_width="-1" android:layout_height="46dp" app:title="Speed priority" />
+						<TextView android:textSize="13sp" android:textColor="999999" android:ellipsize="3" android:gravity="0x10" android:paddingTop="10dp" android:visibility="2" android:layout_width="-2" android:layout_height="35dp" android:layout_marginLeft="30dp" android:layout_marginRight="30dp" android:text="IC" android:lines="1" />
+						<cn.huidu.view.HardwareItemSelect android:orientation="0" android:id="false" android:background="res/drawable/bg_rectangle_top_bottom_ff_stroke_d7.xml" android:visibility="2" android:layout_width="-1" android:layout_height="46dp" app:title="Default" />
+						<cn.huidu.view.HardwareItemSelect android:orientation="0" android:id="false" android:background="res/drawable/bg_rectangle_only_bottom_ff_stroke_d7.xml" android:visibility="2" android:layout_width="-1" android:layout_height="46dp" app:title="ICN2038S" />
+						<TextView android:textSize="13sp" android:textColor="999999" android:ellipsize="3" android:gravity="0x10" android:paddingTop="10dp" android:layout_width="-2" android:layout_height="35dp" android:layout_marginLeft="30dp" android:layout_marginRight="30dp" android:text="Other" android:lines="1" />
+						<RelativeLayout android:background="res/drawable/bg_rectangle_top_bottom_ff_stroke_d7.xml" android:layout_width="-1" android:layout_height="46dp">
+							<TextView android:textSize="13sp" android:textColor="333333" android:ellipsize="3" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="25dp" android:layout_marginRight="25dp" android:text="Use 138 decoder" android:lines="1" android:layout_centerVertical="true" />
+							<cn.huidu.view.CustomSwitch android:id="false" android:layout_width="36dp" android:layout_height="20dp" android:layout_marginRight="25dp" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+						</RelativeLayout>
+					</LinearLayout>
+				</LinearLayout>
+			</LinearLayout>
+		</androidx.core.widget.NestedScrollView>
+		<Button android:textSize="13sp" android:textColor="333333" android:id="false" android:background="d7d7d7" android:layout_width="-1" android:layout_height="46dp" android:layout_marginLeft="30dp" android:layout_marginTop="30dp" android:layout_marginRight="30dp" android:layout_marginBottom="15dp" android:text="Auto recognition" />
+		<Button android:textSize="13sp" android:textColor="ffffff" android:id="false" android:background="3399ff" android:layout_width="-1" android:layout_height="46dp" android:layout_marginLeft="30dp" android:layout_marginRight="30dp" android:layout_marginBottom="30dp" android:text="Manual confirmation" />
+	</LinearLayout>
+	<RelativeLayout android:id="false" android:background="99ffffff" android:visibility="2" android:layout_width="-1" android:layout_height="-1">
+		<Button android:textSize="13sp" android:textColor="333333" android:id="false" android:background="d7d7d7" android:layout_width="-1" android:layout_height="48dp" android:layout_marginLeft="30dp" android:layout_marginRight="30dp" android:layout_marginBottom="20dp" android:layout_above="false" />
+		<TextView android:textSize="14sp" android:textColor="666666" android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="30dp" android:layout_marginRight="30dp" android:layout_marginBottom="60dp" android:text="Observe the display, when the display is normal, click the stop button" android:layout_alignParentBottom="true" />
+	</RelativeLayout>
+</FrameLayout>

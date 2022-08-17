@@ -1,0 +1,826 @@
+[
+  {
+    "tag": "[C1]φ4.75(φ3.75)1R1G  1/16S HUB08 64*32",
+    "file": "FPGA-01-00_fpga.hds",
+    "file2": "FPGA-01-00_nofpga.hds",
+    "img": "indoor",
+    "extra": "φ4.75(φ3.75)",
+    "group": "单双色,Single Color"
+  },
+  {
+    "tag": "[C2]Φ3.75(Φ5)1R 1/16S HUB08 64*32",
+    "file": "FPGA-02-01_fpga.hds",
+    "file2": "FPGA-02-01_nofpga.hds",
+    "img": "indoor",
+    "extra": "",
+    "group": "单双色,Single Color"
+  },
+  {
+    "tag": "[C3]P5 1R1G1B  1/16S HUB08 32*32",
+    "file": "FPGA-03-02_fpga.hds",
+    "file2": "FPGA-03-02_nofpga.hds",
+    "img": "",
+    "extra": "",
+    "group": "三基色(16S),Full Color(16S)"
+  },
+  {
+    "tag": "[C4]P5 1R1G 1/8S HUB08 32*16",
+    "file": "FPGA-04-03_fpga.hds",
+    "file2": "FPGA-04-03_nofpga.hds",
+    "img": "car",
+    "extra": "",
+    "group": "单双色,Single Color"
+  },
+  {
+    "tag": "[C5]P5/P4 1R1G1B 1/16S HUB75 32*32",
+    "file": "FPGA-05-04_fpga.hds",
+    "file2": "FPGA-05-04_nofpga.hds",
+    "img": "indoor",
+    "extra": "",
+    "group": "三基色(16S),Full Color(16S)"
+  },
+  {
+    "tag": "[C6]P10 1R/(1R1G) 1/4S HUB12 32*16(P10)",
+    "file": "FPGA-06-05_fpga.hds",
+    "file2": "FPGA-06-05_nofpga.hds",
+    "img": "",
+    "extra": "P10",
+    "group": "单双色,Single Color"
+  },
+  {
+    "tag": "[C7]P10 1R 1/4S HUB08 32*16",
+    "file": "FPGA-07-06_fpga.hds",
+    "file2": "FPGA-07-06_nofpga.hds",
+    "img": "",
+    "extra": "",
+    "group": "单双色,Single Color"
+  },
+  {
+    "tag": "[C8]P10 1R 1/1S HUB08 32*16",
+    "file": "FPGA-08-07_fpga.hds",
+    "file2": "FPGA-08-07_nofpga.hds",
+    "img": "",
+    "extra": "",
+    "group": "单双色,Single Color"
+  },
+  {
+    "tag": "[C9]P10 1R1G 1/4S HUB08 NO 138 32*16",
+    "file": "FPGA-09-08_fpga.hds",
+    "file2": "FPGA-09-08_nofpga.hds",
+    "img": "",
+    "extra": "",
+    "group": "单双色,Single Color"
+  },
+  {
+    "tag": "[C10]P10 1R1G 1/4S HUB12 32*16",
+    "file": "FPGA-10-09_fpga.hds",
+    "file2": "FPGA-10-09_nofpga.hds",
+    "img": "",
+    "extra": "",
+    "group": "单双色,Single Color"
+  },
+  {
+    "tag": "[C11]P10 1R1G1B 1/8S HUB08 32*16 HLL",
+    "file": "FPGA-11-10_fpga.hds",
+    "file2": "FPGA-11-10_nofpga.hds",
+    "img": "",
+    "extra": "",
+    "group": "三基色(8S),Full Color(8S)"
+  },
+  {
+    "tag": "[C12]P10 1R1G1B 1/4S HUB75 32*16",
+    "file": "FPGA-12-11_fpga.hds",
+    "file2": "FPGA-12-11_nofpga.hds",
+    "img": "",
+    "extra": "",
+    "group": "三基色(4S),Full Color(4S)"
+  },
+  {
+    "tag": "[C13]P8 1R1G1B 1/5S HUB75 40*20 JHG",
+    "file": "FPGA-13-12_fpga.hds",
+    "file2": "FPGA-13-12_nofpga.hds",
+    "img": "",
+    "extra": "",
+    "group": "三基色(5S),Full Color(5S)"
+  },
+  {
+    "tag": "[C14]P8 1R1G1B 1/4S HUB08 32*16",
+    "file": "FPGA-14-13_fpga.hds",
+    "file2": "FPGA-14-13_nofpga.hds",
+    "img": "",
+    "extra": "",
+    "group": "三基色(4S),Full Color(4S)"
+  },
+  {
+    "tag": "[C15]P12/P16 2R1G 1/4S HUB12 16*8(P16)",
+    "file": "FPGA-15-14_fpga.hds",
+    "file2": "FPGA-15-14_nofpga.hds",
+    "img": "",
+    "extra": "",
+    "group": "单双色,Single Color"
+  },
+  {
+    "tag": "[C16]P13.33 1R1G1B 1/3S HUB08 24*12 HLL",
+    "file": "FPGA-16-15_fpga.hds",
+    "file2": "FPGA-16-15_nofpga.hds",
+    "img": "",
+    "extra": "",
+    "group": "三基色(3S),Full Color(3S)"
+  },
+  {
+    "tag": "[C17]P13.33  1R1G1B 1/3S HUBO8 24X12 JHG",
+    "file": "FPGA-17-16_fpga.hds",
+    "file2": "FPGA-17-16_nofpga.hds",
+    "img": "",
+    "extra": "",
+    "group": "三基色(3S),Full Color(3S)"
+  },
+  {
+    "tag": "[C18]P16 1R1G1B 1/5S HUBO8 20X10HLL",
+    "file": "FPGA-18-17_fpga.hds",
+    "file2": "FPGA-18-17_nofpga.hds",
+    "img": "",
+    "extra": "",
+    "group": "三基色(5S),Full Color(5S)"
+  },
+  {
+    "tag": "[C19]P16 1R1G1B 1/1S HUB40 16X8",
+    "file": "FPGA-19-18_fpga.hds",
+    "file2": "FPGA-19-18_nofpga.hds",
+    "img": "",
+    "extra": "",
+    "group": "三基色(1S),Full Color(1S)"
+  },
+  {
+    "tag": "[C20]P10 1R1G1B 1/4S HUB75 32X16(P20 1R1G1B 1/4S HUBO8 16X8)",
+    "file": "FPGA-20-19_fpga.hds",
+    "file2": "FPGA-20-19_nofpga.hds",
+    "img": "",
+    "extra": "",
+    "group": "三基色(4S),Full Color(4S)"
+  },
+  {
+    "tag": "[C21]P25 2R1G1B 1/1S HUB40 16X8",
+    "file": "FPGA-21-20_fpga.hds",
+    "file2": "FPGA-21-20_nofpga.hds",
+    "img": "",
+    "extra": "",
+    "group": "三基色(1S),Full Color(1S)"
+  },
+  {
+    "tag": "[C22]P10&20 1G2R1B 1/4S HUB12 16X8",
+    "file": "FPGA-22-21_fpga.hds",
+    "file2": "FPGA-22-21_nofpga.hds",
+    "img": "",
+    "extra": "",
+    "group": "单双色,Single Color"
+  },
+  {
+    "tag": "[C23]P10&20 2R1G1B 1/4S HUB12 16X8",
+    "file": "FPGA-23-22_fpga.hds",
+    "file2": "FPGA-23-22_nofpga.hds",
+    "img": "",
+    "extra": "",
+    "group": "单双色,Single Color"
+  },
+  {
+    "tag": "[C24]P13.33&26.66 2R1G1B 1/4S HUB12 12X6",
+    "file": "FPGA-24-23_fpga.hds",
+    "file2": "FPGA-24-23_nofpga.hds",
+    "img": "",
+    "extra": "",
+    "group": "单双色,Single Color"
+  },
+  {
+    "tag": "[C25]P20 1R1G 1/4S HUB26 16X16 (ZHGD)",
+    "file": "FPGA-25-24_fpga.hds",
+    "file2": "FPGA-25-24_nofpga.hds",
+    "img": "",
+    "extra": "",
+    "group": "单双色,Single Color"
+  },
+  {
+    "tag": "[C26]P13.33 1R1G1B 1/6S HUB08 24X12(HLL)",
+    "file": "FPGA-26-25_fpga.hds",
+    "file2": "FPGA-26-25_nofpga.hds",
+    "img": "",
+    "extra": "",
+    "group": "三基色(6S),Full Color(6S)"
+  },
+  {
+    "tag": "[C27]P10 1R 1/4S HUB12 32X16 (QL)",
+    "file": "FPGA-27-26_fpga.hds",
+    "file2": "FPGA-27-26_nofpga.hds",
+    "img": "",
+    "extra": "",
+    "group": "单双色,Single Color"
+  },
+  {
+    "tag": "[C28]P10 1R1G1B 1/2S HUB75 16X16",
+    "file": "FPGA-28-27_fpga.hds",
+    "file2": "FPGA-28-27_nofpga.hds",
+    "img": "",
+    "extra": "",
+    "group": "三基色(2S),Full Color(2S)"
+  },
+  {
+    "tag": "[C29]P6 1R1G1B 1/8S HUB75 32X16",
+    "file": "FPGA-29-28_fpga.hds",
+    "file2": "FPGA-29-28_nofpga.hds",
+    "img": "",
+    "extra": "",
+    "group": "三基色(8S),Full Color(8S)"
+  },
+  {
+    "tag": "[C30]P6 1R1G1B 1/8S HUB75 32X32",
+    "file": "FPGA-30-29_fpga.hds",
+    "file2": "FPGA-30-29_nofpga.hds",
+    "img": "",
+    "extra": "",
+    "group": "三基色(8S),Full Color(8S)"
+  },
+  {
+    "tag": "[C31]P10 1R1G1B 1/4S HUB75 16X16",
+    "file": "FPGA-31-30_fpga.hds",
+    "file2": "FPGA-31-30_nofpga.hds",
+    "img": "",
+    "extra": "",
+    "group": "三基色(4S),Full Color(4S)"
+  },
+  {
+    "tag": "[C32]P20 1R1G1B 1/1S HUB75 16X8",
+    "file": "FPGA-32-31_fpga.hds",
+    "file2": "FPGA-32-31_nofpga.hds",
+    "img": "",
+    "extra": "",
+    "group": "三基色(1S),Full Color(1S)"
+  },
+  {
+    "tag": "[C33]P25 2R1G1B 1/1S HUB75 8X8",
+    "file": "FPGA-33-32_fpga.hds",
+    "file2": "FPGA-33-32_nofpga.hds",
+    "img": "",
+    "extra": "",
+    "group": "三基色(1S),Full Color(1S)"
+  },
+  {
+    "tag": "[C34]P13.33 1R 1/4S HUB12 24X12",
+    "file": "FPGA-34-33_fpga.hds",
+    "file2": "FPGA-34-33_nofpga.hds",
+    "img": "",
+    "extra": "",
+    "group": "单双色,Single Color"
+  },
+  {
+    "tag": "[C35]P10 1R1G 1/4S HUB12 32X16",
+    "file": "FPGA-35-34_fpga.hds",
+    "file2": "FPGA-35-34_nofpga.hds",
+    "img": "",
+    "extra": "",
+    "group": "单双色,Single Color"
+  },
+  {
+    "tag": "[C36]P10    1R1G1B 1/4S HUB75 16X16",
+    "file": "FPGA-36-35_fpga.hds",
+    "file2": "FPGA-36-35_nofpga.hds",
+    "img": "",
+    "extra": "",
+    "group": "三基色(4S),Full Color(4S)"
+  },
+  {
+    "tag": "[C37]P10 1R 1/4S HUB12 32X16",
+    "file": "FPGA-37-36_fpga.hds",
+    "file2": "FPGA-37-36_nofpga.hds",
+    "img": "",
+    "extra": "",
+    "group": "单双色,Single Color"
+  },
+  {
+    "tag": "[C38]P7.62 1R1G1B 1/8S HUB08 32X16",
+    "file": "FPGA-38-37_fpga.hds",
+    "file2": "FPGA-38-37_nofpga.hds",
+    "img": "",
+    "extra": "",
+    "group": "三基色(8S),Full Color(8S)"
+  },
+  {
+    "tag": "[C39]P5 1R1G1B 1/8S HUB75 32X16",
+    "file": "FPGA-39-38_fpga.hds",
+    "file2": "FPGA-39-38_nofpga.hds",
+    "img": "",
+    "extra": "",
+    "group": "三基色(8S),Full Color(8S)"
+  },
+  {
+    "tag": "[C40]P10 1R1G1B 1/4S HUB75 32X16",
+    "file": "FPGA-40-39_fpga.hds",
+    "file2": "FPGA-40-39_nofpga.hds",
+    "img": "",
+    "extra": "",
+    "group": "三基色(4S),Full Color(4S)"
+  },
+  {
+    "tag": "[C41]P10 1R1G1B 1/4S HUB75 32X16",
+    "file": "FPGA-41-40_fpga.hds",
+    "file2": "FPGA-41-40_nofpga.hds",
+    "img": "",
+    "extra": "",
+    "group": "三基色(4S),Full Color(4S)"
+  },
+  {
+    "tag": "[C42]P10 1R1G1B 1/2S HUB75 32X16",
+    "file": "FPGA-42-41_fpga.hds",
+    "file2": "FPGA-42-41_nofpga.hds",
+    "img": "",
+    "extra": "",
+    "group": "三基色(2S),Full Color(2S)"
+  },
+  {
+    "tag": "[C43]P3 1R1G1B 1/16S HUB75 64X64",
+    "file": "FPGA-43-42_fpga.hds",
+    "file2": "FPGA-43-42_nofpga.hds",
+    "img": "",
+    "extra": "",
+    "group": "三基色(16S),Full Color(16S)"
+  },
+  {
+    "tag": "[C44]P8 1R1G 1/8S HUB08 32X32 (WQS)",
+    "file": "FPGA-44-43_fpga.hds",
+    "file2": "FPGA-44-43_nofpga.hds",
+    "img": "",
+    "extra": "",
+    "group": "单双色,Single Color"
+  },
+  {
+    "tag": "[C45]P5 1R1G1B 1/8S HUB75 32X32 (CXH)",
+    "file": "FPGA-45-44_fpga.hds",
+    "file2": "FPGA-45-44_nofpga.hds",
+    "img": "",
+    "extra": "",
+    "group": "三基色(8S),Full Color(8S)"
+  },
+  {
+    "tag": "[C46]P10 1R 1/4S HUB12 32X16",
+    "file": "FPGA-46-45_fpga.hds",
+    "file2": "FPGA-46-45_nofpga.hds",
+    "img": "",
+    "extra": "P10 16188B",
+    "group": "单双色,Single Color"
+  },
+  {
+    "tag": "[C50]P10 1R 1/1S HUB08 RXP",
+    "file": "FPGA-50-49_fpga.hds",
+    "file2": "FPGA-50-49_nofpga.hds",
+    "img": "",
+    "extra": "",
+    "group": "单双色,Single Color"
+  },
+  {
+    "tag": "[C51]P6 1R1G1B 1/5S HUB75 32X20",
+    "file": "FPGA-51-50_fpga.hds",
+    "file2": "FPGA-51-50_nofpga.hds",
+    "img": "",
+    "extra": "",
+    "group": "三基色(5S),Full Color(5S)"
+  },
+  {
+    "tag": "[C52] 1R1G 1/8 KR",
+    "file": "FPGA-52-51_fpga.hds",
+    "file2": "FPGA-52-51_nofpga.hds",
+    "img": "",
+    "extra": "",
+    "group": "单双色,Single Color"
+  },
+  {
+    "tag": "[C53] 1R1G1B 1/4S ICN2038s",
+    "file": "FPGA-53-52_fpga.hds",
+    "file2": "FPGA-53-52_nofpga.hds",
+    "img": "",
+    "extra": "",
+    "group": "三基色(4S),Full Color(4S)"
+  },
+  {
+    "tag": "[C54] P10 1R1G 1/4S HUB12 32x16(YLR)",
+    "file": "FPGA-54-53_fpga.hds",
+    "file2": "FPGA-54-53_nofpga.hds",
+    "img": "",
+    "extra": "",
+    "group": "单双色,Single Color"
+  },
+  {
+    "tag": "[C55] P8 1R1G1B 1/5S HUB75 40X20",
+    "file": "FPGA-55-54_fpga.hds",
+    "file2": "FPGA-55-54_nofpga.hds",
+    "img": "",
+    "extra": "",
+    "group": "三基色(5S),Full Color(5S)"
+  },
+  {
+    "tag": "[C56] P10 1/4S No 138 MCGD",
+    "file": "FPGA-56-55_fpga.hds",
+    "file2": "FPGA-56-55_nofpga.hds",
+    "img": "",
+    "extra": "",
+    "group": "三基色(4S),Full Color(4S)"
+  },
+  {
+    "tag": "[C57] P8 1R1G1B 1/4S HUB75(JJY)",
+    "file": "FPGA-57-56_fpga.hds",
+    "file2": "FPGA-57-56_nofpga.hds",
+    "img": "",
+    "extra": "",
+    "group": "三基色(4S),Full Color(4S)"
+  },
+  {
+    "tag": "[C58] P13.33 1R1G1B 1/3S HUB75(LLR)",
+    "file": "FPGA-58-57_fpga.hds",
+    "file2": "FPGA-58-57_nofpga.hds",
+    "img": "",
+    "extra": "",
+    "group": "三基色(3S),Full Color(3S)"
+  },
+  {
+    "tag": "[C59] P3 1R1G1B 1/32S HUB75E(RBG)",
+    "file": "FPGA-59-58_fpga.hds",
+    "file2": "FPGA-59-58_nofpga.hds",
+    "img": "",
+    "extra": "",
+    "group": "三基色(32S),Full Color(32S)"
+  },
+  {
+    "tag": "[C60] P3 1R1G1B 1/32S HUB75E(RGB)",
+    "file": "FPGA-60-59_fpga.hds",
+    "file2": "FPGA-60-59_nofpga.hds",
+    "img": "",
+    "extra": "",
+    "group": "三基色(32S),Full Color(32S)"
+  },
+  {
+    "tag": "[C61] P6 1/8S HUB75(BGR)",
+    "file": "FPGA-61-60_fpga.hds",
+    "file2": "FPGA-61-60_nofpga.hds",
+    "img": "",
+    "extra": "",
+    "group": "三基色(8S),Full Color(8S)"
+  },
+  {
+    "tag": "[C62] P6 1/8S HUB75 GK",
+    "file": "FPGA-62-61_fpga.hds",
+    "file2": "FPGA-62-61_nofpga.hds",
+    "img": "",
+    "extra": "",
+    "group": "三基色(8S),Full Color(8S)"
+  },
+  {
+    "tag": "[C63] P6 1/8S HUB75(HJ)",
+    "file": "FPGA-63-62_fpga.hds",
+    "file2": "FPGA-63-62_nofpga.hds",
+    "img": "",
+    "extra": "",
+    "group": "三基色(8S),Full Color(8S)"
+  },
+  {
+    "tag": "[C64] P6 1R1G1B 1/8S HUB75",
+    "file": "FPGA-64-63_fpga.hds",
+    "file2": "FPGA-64-63_nofpga.hds",
+    "img": "",
+    "extra": "",
+    "group": "三基色(8S),Full Color(8S)"
+  },
+  {
+    "tag": "[C65] P10 1R 1/4s(YLR)",
+    "file": "FPGA-65-64_fpga.hds",
+    "file2": "FPGA-65-64_nofpga.hds",
+    "img": "",
+    "extra": "",
+    "group": "单双色,Single Color"
+  },
+  {
+    "tag": "[C66] P10 1R 1/4S HUB12",
+    "file": "FPGA-66-65_fpga.hds",
+    "file2": "FPGA-66-65_nofpga.hds",
+    "img": "",
+    "extra": "",
+    "group": "单双色,Single Color"
+  },
+  {
+    "tag": "[C67] P10 1R1G1B 1/2S HUB75(HJ)",
+    "file": "FPGA-67-66_fpga.hds",
+    "file2": "FPGA-67-66_nofpga.hds",
+    "img": "",
+    "extra": "",
+    "group": "三基色(2S),Full Color(2S)"
+  },
+  {
+    "tag": "[C68]  P10 1R1G1B 1/2S HUB75",
+    "file": "FPGA-68-67_fpga.hds",
+    "file2": "FPGA-68-67_nofpga.hds",
+    "img": "",
+    "extra": "",
+    "group": "三基色(2S),Full Color(2S)"
+  },
+  {
+    "tag": "[C69] P10 1R1G1B 1/3S HUB73A 24X24(KSZ)",
+    "file": "FPGA-69-68_fpga.hds",
+    "file2": "FPGA-69-68_nofpga.hds",
+    "img": "",
+    "extra": "",
+    "group": "三基色(3S),Full Color(3S)"
+  },
+  {
+    "tag": "[C70] P10 1R1G1B 1/4S No 138 HUB75",
+    "file": "FPGA-70-69_fpga.hds",
+    "file2": "FPGA-70-69_nofpga.hds",
+    "img": "",
+    "extra": "",
+    "group": "三基色(4S),Full Color(4S)"
+  },
+  {
+    "tag": "[C71] P13.33 1R1G1B 1/3S 24x12",
+    "file": "FPGA-71-70_fpga.hds",
+    "file2": "FPGA-71-70_nofpga.hds",
+    "img": "",
+    "extra": "",
+    "group": "三基色(3S),Full Color(3S)"
+  },
+  {
+    "tag": "[C72] P16 1R1G 1/4S HUB08",
+    "file": "FPGA-72-71_fpga.hds",
+    "file2": "FPGA-72-71_nofpga.hds",
+    "img": "",
+    "extra": "",
+    "group": "单双色,Single Color"
+  },
+  {
+    "tag": "[C73] P20 1R1G1B 1S",
+    "file": "FPGA-73-72_fpga.hds",
+    "file2": "FPGA-73-72_nofpga.hds",
+    "img": "",
+    "extra": "",
+    "group": "三基色(1S),Full Color(1S)"
+  },
+  {
+    "tag": "[C74] P10 1R1G1B 1/4S HUB75(KT)",
+    "file": "FPGA-74-73_fpga.hds",
+    "file2": "FPGA-74-73_nofpga.hds",
+    "img": "",
+    "extra": "",
+    "group": "三基色(4S),Full Color(4S)"
+  },
+  {
+    "tag": "[C75]  P8  1R1G1B 1/4S HUB75 32x16 No138",
+    "file": "FPGA-75-74_fpga.hds",
+    "file2": "FPGA-75-74_nofpga.hds",
+    "img": "",
+    "extra": "",
+    "group": "三基色(4S),Full Color(4S)"
+  },
+  {
+    "tag": "[C76]  P8  1R1G1B 1/4S HUB75 32x16 (HJ)",
+    "file": "FPGA-76-75_fpga.hds",
+    "file2": "FPGA-76-75_nofpga.hds",
+    "img": "",
+    "extra": "",
+    "group": "三基色(4S),Full Color(4S)"
+  },
+  {
+    "tag": "[C77]  P10 1R1G1B 1/4S HUB75 32x16 No138",
+    "file": "FPGA-77-76_fpga.hds",
+    "file2": "FPGA-77-76_nofpga.hds",
+    "img": "",
+    "extra": "",
+    "group": "三基色(4S),Full Color(4S)"
+  },
+  {
+    "tag": "[C78]  P10 1R1G1B 1/2S HUB75 32x16",
+    "file": "FPGA-78-77_fpga.hds",
+    "file2": "FPGA-78-77_nofpga.hds",
+    "img": "",
+    "extra": "",
+    "group": "三基色(2S),Full Color(2S)"
+  },
+  {
+    "tag": "[C79]  P10 1R 1/4S HUB08 32x16",
+    "file": "FPGA-79-78_fpga.hds",
+    "file2": "FPGA-79-78_nofpga.hds",
+    "img": "",
+    "extra": "",
+    "group": "单双色,Single Color"
+  },
+  {
+    "tag": "[C80]  P10 1R1G1B 1/2S HUB75 32x16 (GK)",
+    "file": "FPGA-80-79_fpga.hds",
+    "file2": "FPGA-80-79_nofpga.hds",
+    "img": "",
+    "extra": "",
+    "group": "三基色(2S),Full Color(2S)"
+  },
+  {
+    "tag": "[C81]  P10 1R1G1B 1/2S HUB75 32x16 (QL)",
+    "file": "FPGA-81-80_fpga.hds",
+    "file2": "FPGA-81-80_nofpga.hds",
+    "img": "",
+    "extra": "",
+    "group": "三基色(2S),Full Color(2S)"
+  },
+  {
+    "tag": "[C82]  P16 1R1G 1/1S HUB12 16x8",
+    "file": "FPGA-82-81_fpga.hds",
+    "file2": "FPGA-82-81_nofpga.hds",
+    "img": "",
+    "extra": "",
+    "group": "单双色,Single Color"
+  },
+  {
+    "tag": "[C83]  P10 1R 1/4S HUB12 32x16 (KT)",
+    "file": "FPGA-83-82_fpga.hds",
+    "file2": "FPGA-83-82_nofpga.hds",
+    "img": "",
+    "extra": "",
+    "group": "单双色,Single Color"
+  },
+  {
+    "tag": "[C84]  P10 1R 1/4S HUB12 32x16 (GK)",
+    "file": "FPGA-84-83_fpga.hds",
+    "file2": "FPGA-84-83_nofpga.hds",
+    "img": "",
+    "extra": "",
+    "group": "单双色,Single Color"
+  },
+  {
+    "tag": "[C85]  P5  1R1G1B 1/8S HUB75 64x32",
+    "file": "FPGA-85-84_fpga.hds",
+    "file2": "FPGA-85-84_nofpga.hds",
+    "img": "",
+    "extra": "",
+    "group": "三基色(8S),Full Color(8S)"
+  },
+  {
+    "tag": "[C86]  P10 1R1G1B 1/4S HUB75 32x16 No138 (HJCL)",
+    "file": "FPGA-86-85_fpga.hds",
+    "file2": "FPGA-86-85_nofpga.hds",
+    "img": "",
+    "extra": "",
+    "group": "三基色(4S),Full Color(4S)"
+  },
+  {
+    "tag": "[C87]  P10 1R1G1B 1/2S HUB75E 32x16 No138 (HLL)",
+    "file": "FPGA-87-86_fpga.hds",
+    "file2": "FPGA-87-86_nofpga.hds",
+    "img": "",
+    "extra": "",
+    "group": "三基色(2S),Full Color(2S)"
+  },
+  {
+    "tag": "[C88]  P10 1R1G1B 1/2S HUB75 32x16 No138",
+    "file": "FPGA-88-87_fpga.hds",
+    "file2": "FPGA-88-87_nofpga.hds",
+    "img": "",
+    "extra": "",
+    "group": "强力,QL"
+  },
+  {
+    "tag": "[C89]  P6.66 1R1G1B 1/6S HUB75 48x24",
+    "file": "FPGA-89-88_fpga.hds",
+    "file2": "FPGA-89-88_nofpga.hds",
+    "img": "",
+    "extra": "",
+    "group": "强力,QL"
+  },
+  {
+    "tag": "[C90]  P8  1R1G1B 1/5S HUB75 40x20",
+    "file": "FPGA-90-89_fpga.hds",
+    "file2": "FPGA-90-89_nofpga.hds",
+    "img": "",
+    "extra": "",
+    "group": "强力,QL"
+  },
+  {
+    "tag": "[C91]  P4 1R1G1B 1/10S HUB75 80x40 ICN2038s",
+    "file": "FPGA-91-90_fpga.hds",
+    "file2": "FPGA-91-90_nofpga.hds",
+    "img": "",
+    "extra": "",
+    "group": "强力,QL"
+  },
+  {
+    "tag": "[C92]  P4  1R1G1B 1/20S HUB75 80x40 ICN2038s",
+    "file": "FPGA-92-91_fpga.hds",
+    "file2": "FPGA-92-91_nofpga.hds",
+    "img": "",
+    "extra": "",
+    "group": "强力,QL"
+  },
+  {
+    "tag": "[C93]  P10 1R1G1B 1/4S HUB75 32x16 No138 ICN2038s",
+    "file": "FPGA-93-92_fpga.hds",
+    "file2": "FPGA-93-92_nofpga.hds",
+    "img": "",
+    "extra": "",
+    "group": "强力,QL"
+  },
+  {
+    "tag": "[C94]  P10 1R1G1B 1/2S  32x16 No138 ICN2038s",
+    "file": "FPGA-94-93_fpga.hds",
+    "file2": "FPGA-94-93_nofpga.hds",
+    "img": "",
+    "extra": "",
+    "group": "强力,QL"
+  },
+  {
+    "tag": "[C95]  P10 1R1G1B 1/5S HUB75 40x20 ICN2038S",
+    "file": "FPGA-95-94_fpga.hds",
+    "file2": "FPGA-95-94_nofpga.hds",
+    "img": "",
+    "extra": "",
+    "group": "三基色(5S),Full Color(5S)"
+  },
+  {
+    "tag": "[C96]  P10 1R1G1B 1/5S HUB75 40x20 SM16207S",
+    "file": "FPGA-96-95_fpga.hds",
+    "file2": "FPGA-96-95_nofpga.hds",
+    "img": "",
+    "extra": "",
+    "group": "三基色(5S),Full Color(5S)"
+  },
+  {
+    "tag": "[C97]  H10 1R1G1B 1/2S HUB75 32x16",
+    "file": "FPGA-97-96_fpga.hds",
+    "file2": "FPGA-97-96_nofpga.hds",
+    "img": "",
+    "extra": "",
+    "group": "三基色(2S),Full Color(2S)"
+  },
+  {
+    "tag": "[C98]  P8  1R1G1B 1/5S HUB75 40x20 ICN20378BP",
+    "file": "FPGA-98-97_fpga.hds",
+    "file2": "FPGA-98-97_nofpga.hds",
+    "img": "",
+    "extra": "",
+    "group": "三基色(5S),Full Color(5S)"
+  },
+  {
+    "tag": "[C99]  dz0228 1R1G1B 1/1S HUB75 16x16",
+    "file": "FPGA-99-98_fpga.hds",
+    "file2": "FPGA-99-98_nofpga.hds",
+    "img": "",
+    "extra": "",
+    "group": "三基色(1S),Full Color(1S)"
+  },
+  {
+    "tag": "hj_d4_80x40_10S_icn2037",
+    "file": "hj_d4_80x40_10S_icn2037.hds",
+    "file2": "hj_d4_80x40_10S_icn2037_nofpga.hds",
+    "img": "",
+    "extra": "",
+    "group": "海佳,HJ"
+  },
+  {
+    "tag": "hj_d5_64x32_16S_ICN2037",
+    "file": "hj_d5_64x32_16S_ICN2037.hds",
+    "file2": "hj_d5_64x32_16S_ICN2037_nofpga.hds",
+    "img": "",
+    "extra": "",
+    "group": "海佳,HJ"
+  },
+  {
+    "tag": "hj_p2.5_128x64_32S_SMI16207",
+    "file": "hj_p2.5_128x64_32S_SMI16207.hds",
+    "file2": "hj_p2.5_128x64_32S_SMI16207_nofpga.hds",
+    "img": "",
+    "extra": "",
+    "group": "海佳,HJ"
+  },
+  {
+    "tag": "hj_p3_64x64_32S_SMI16207",
+    "file": "hj_p3_64x64_32S_SMI16207.hds",
+    "file2": "hj_p3_64x64_32S_SMI16207_nofpga.hds",
+    "img": "",
+    "extra": "",
+    "group": "海佳,HJ"
+  },
+  {
+    "tag": "hj_p4_64x32_16S_ICN2037",
+    "file": "hj_p4_64x32_16S_ICN2037.hds",
+    "file2": "hj_p4_64x32_16S_ICN2037_nofpga.hds",
+    "img": "",
+    "extra": "",
+    "group": "海佳,HJ"
+  },
+  {
+    "tag": "hj_p5_64x32_16S_TC5020",
+    "file": "hj_p5_64x32_16S_TC5020.hds",
+    "file2": "hj_p5_64x32_16S_TC5020_nofpga.hds",
+    "img": "",
+    "extra": "",
+    "group": "海佳,HJ"
+  },
+  {
+    "tag": "P10_32x16_4S_CAN_BGR",
+    "file": "FPGA-1616643038.hds",
+    "file2": "FPGA-1616643038_nofpga.hds",
+    "img": "",
+    "extra": "",
+    "group": "三基色(4S),Full Color(4S)"
+  }
+]

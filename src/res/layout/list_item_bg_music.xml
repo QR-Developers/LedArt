@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="fdfdfd" android:layout_width="-1" android:layout_height="50dp">
+	<FrameLayout android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="15dp" android:layout_toLeftOf="false" android:layout_centerVertical="true">
+		<LinearLayout android:orientation="1" android:id="false" android:visibility="1" android:layout_width="-1" android:layout_height="-2">
+			<TextView android:textSize="13sp" android:textColor="333333" android:ellipsize="3" android:id="false" android:layout_width="-1" android:layout_height="-2" android:text="test.mp3" android:lines="1" />
+			<TextView android:textSize="13sp" android:textColor="999999" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="3.04M  3:00:00" />
+		</LinearLayout>
+		<TextView android:textSize="13sp" android:textColor="333333" android:layout_gravity="0x13" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="N/A" />
+	</FrameLayout>
+	<ImageView android:id="false" android:layout_width="16dp" android:layout_height="16dp" android:layout_marginRight="15dp" android:src="res/drawable-xxhdpi-v4/circle_radio_checked.png" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+	<View android:background="e0e0e0" android:layout_width="-1" android:layout_height="1px" android:layout_alignParentBottom="true" />
+</RelativeLayout>

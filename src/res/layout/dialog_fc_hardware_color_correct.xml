@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="false" android:layout_width="-1" android:layout_height="-1">
+	<LinearLayout android:orientation="1" android:id="false" android:background="res/drawable/shape_rect_with_corner_stroke_d7.xml" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="10dp" android:layout_marginRight="10dp" android:layout_marginBottom="10dp" android:layout_alignParentBottom="true">
+		<TextView android:textSize="14sp" android:textColor="333333" android:gravity="0x11" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="20dp" android:layout_marginBottom="20dp" android:text="Color correction" />
+		<LinearLayout android:gravity="0x10" android:orientation="0" android:background="res/drawable/cloud_bg_rectangle_top_bottom_ff_stroke_e4.xml" android:layout_width="-1" android:layout_height="45dp">
+			<TextView android:textSize="13sp" android:textColor="666666" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="15dp" android:text="Red" />
+			<SeekBar android:id="false" android:layout_width="0dp" android:layout_height="-2" android:progress="50" android:layout_weight="{4:1065353216}" />
+			<TextView android:textSize="13sp" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="15dp" style="resourceId:0x7f1202df" />
+		</LinearLayout>
+		<LinearLayout android:gravity="0x10" android:orientation="0" android:background="res/drawable/cloud_bg_rectangle_only_bottom_ff_stroke_e4.xml" android:layout_width="-1" android:layout_height="45dp">
+			<TextView android:textSize="13sp" android:textColor="666666" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="15dp" android:text="Green" />
+			<SeekBar android:id="false" android:layout_width="0dp" android:layout_height="-2" android:progress="50" android:layout_weight="{4:1065353216}" />
+			<TextView android:textSize="13sp" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="15dp" style="resourceId:0x7f1202df" />
+		</LinearLayout>
+		<LinearLayout android:gravity="0x10" android:orientation="0" android:layout_width="-1" android:layout_height="45dp" android:layout_marginBottom="10dp">
+			<TextView android:textSize="13sp" android:textColor="666666" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="15dp" android:text="Blue" />
+			<SeekBar android:id="false" android:layout_width="0dp" android:layout_height="-2" android:progress="50" android:layout_weight="{4:1065353216}" />
+			<TextView android:textSize="13sp" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="15dp" style="resourceId:0x7f1202df" />
+		</LinearLayout>
+	</LinearLayout>
+</RelativeLayout>

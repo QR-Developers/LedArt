@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:background="res/drawable/cloud_bg_rectangle_top_bottom_ff_stroke_e4.xml" android:layout_width="-1" android:layout_height="-2">
+	<cn.huidu.cloud.ui.view.CloudBrightnessAutoItem android:id="false" android:layout_width="-1" android:layout_height="-2" />
+	<View style="resourceId:0x7f1202e4" />
+	<cn.huidu.cloud.ui.view.CloudBrightnessAutoItem android:id="false" android:layout_width="-1" android:layout_height="-2" />
+	<View style="resourceId:0x7f1202e4" />
+	<cn.huidu.cloud.ui.view.CloudBrightnessAutoItem android:id="false" android:layout_width="-1" android:layout_height="-2" />
+</LinearLayout>

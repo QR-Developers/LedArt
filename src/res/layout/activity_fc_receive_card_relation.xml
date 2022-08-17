@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:background="f2f2f2" android:layout_width="-1" android:layout_height="-1">
+	<androidx.core.widget.NestedScrollView android:id="false" android:layout_width="-1" android:layout_height="-1" android:fillViewport="true">
+		<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2">
+			<LinearLayout android:gravity="0x10" android:orientation="0" android:id="false" android:background="res/drawable/bg_rectangle_only_bottom_ff_stroke_e4.xml" android:paddingLeft="15dp" android:paddingRight="15dp" android:layout_width="-1" android:layout_height="50dp">
+				<LinearLayout android:orientation="1" android:layout_width="0dp" android:layout_height="-2" android:layout_weight="{4:1065353216}">
+					<TextView android:textSize="14sp" android:textColor="333333" android:layout_width="-2" android:layout_height="-2" android:text="Copy mode" android:lines="1" />
+					<TextView android:textSize="12sp" android:textColor="999999" android:layout_width="-2" android:layout_height="-2" android:text="Unified settings for all network ports" android:lines="1" />
+				</LinearLayout>
+				<cn.huidu.view.CustomSwitch android:id="false" android:layout_width="36dp" android:layout_height="20dp" />
+			</LinearLayout>
+			<TextView android:textSize="14sp" android:textColor="999999" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="20dp" android:layout_marginTop="15dp" android:layout_marginBottom="5dp" android:text="Ethernet port" android:lines="1" />
+			<androidx.recyclerview.widget.RecyclerView android:id="false" android:background="res/drawable/cloud_bg_rectangle_top_bottom_ff_stroke_e4.xml" android:padding="10dp" android:layout_width="-1" android:layout_height="-2" />
+			<LinearLayout android:gravity="0x10" android:orientation="0" android:id="false" android:background="res/drawable/bg_rectangle_top_bottom_ff_stroke_e4.xml" android:layout_width="-1" android:layout_height="50dp" android:layout_marginTop="10dp">
+				<LinearLayout android:orientation="1" android:layout_width="0dp" android:layout_height="-2" android:layout_marginLeft="15dp" android:layout_weight="{4:1065353216}">
+					<TextView android:textSize="14sp" android:textColor="333333" android:layout_width="-2" android:layout_height="-2" android:text="Quick settings" android:lines="1" />
+				</LinearLayout>
+				<ImageView android:id="false" android:padding="14dp" android:layout_width="48dp" android:layout_height="48dp" android:layout_marginRight="2dp" android:src="res/drawable-xxhdpi-v4/down_gray.png" />
+			</LinearLayout>
+			<LinearLayout android:orientation="1" android:id="false" android:visibility="2" android:layout_width="-1" android:layout_height="-2">
+				<LinearLayout android:gravity="0x10" android:orientation="0" android:id="false" android:background="res/drawable/bg_rectangle_only_bottom_fc_stroke_e4.xml" android:paddingLeft="15dp" android:paddingRight="15dp" android:layout_width="-1" android:layout_height="45dp">
+					<LinearLayout android:orientation="1" android:layout_width="0dp" android:layout_height="-2" android:layout_weight="{4:1065353216}">
+						<TextView android:textSize="14sp" android:textColor="666666" android:layout_width="-2" android:layout_height="-2" android:text="Quantity" android:lines="1" />
+						<TextView android:textSize="12sp" android:textColor="999999" android:layout_width="-2" android:layout_height="-2" android:text="Number of receiving cards" android:lines="1" />
+					</LinearLayout>
+					<TextView android:textSize="14sp" android:textColor="555555" android:layout_gravity="0x11" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="5dp" android:layout_marginRight="10dp" android:lines="1" />
+					<ImageView android:layout_gravity="0x11" android:layout_width="16dp" android:layout_height="16dp" android:src="res/drawable-xhdpi-v4/angle_right.png" android:alpha="{4:1058642330}" />
+				</LinearLayout>
+				<LinearLayout android:gravity="0x10" android:orientation="0" android:id="false" android:background="res/drawable/bg_rectangle_only_bottom_fc_stroke_e4.xml" android:paddingLeft="15dp" android:paddingRight="15dp" android:layout_width="-1" android:layout_height="45dp">
+					<LinearLayout android:orientation="1" android:layout_width="0dp" android:layout_height="-2" android:layout_weight="{4:1065353216}">
+						<TextView android:textSize="14sp" android:textColor="666666" android:layout_width="-2" android:layout_height="-2" android:text="Width Height" android:lines="1" />
+						<TextView android:textSize="12sp" android:textColor="999999" android:layout_width="-2" android:layout_height="-2" android:text="Single box width and height" android:lines="1" />
+					</LinearLayout>
+					<TextView android:textSize="14sp" android:textColor="555555" android:layout_gravity="0x11" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="5dp" android:layout_marginRight="10dp" android:lines="1" />
+					<ImageView android:layout_gravity="0x11" android:layout_width="16dp" android:layout_height="16dp" android:src="res/drawable-xhdpi-v4/angle_right.png" android:alpha="{4:1058642330}" />
+				</LinearLayout>
+				<cn.huidu.view.RelationTypeView android:layout_gravity="0x1" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="10dp" android:layout_marginBottom="10dp" />
+			</LinearLayout>
+			<LinearLayout android:gravity="0x10" android:orientation="0" android:id="false" android:background="res/drawable/bg_rectangle_only_bottom_ff_stroke_e4.xml" android:paddingLeft="15dp" android:paddingRight="15dp" android:layout_width="-1" android:layout_height="50dp">
+				<TextView android:textSize="14sp" android:textColor="333333" android:layout_width="0dp" android:layout_height="-2" android:text="Number of cabinets" android:lines="1" android:layout_weight="{4:1065353216}" />
+				<TextView android:textSize="14sp" android:textColor="555555" android:layout_gravity="0x11" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="5dp" android:layout_marginRight="10dp" android:lines="1" />
+				<ImageView android:layout_gravity="0x11" android:layout_width="16dp" android:layout_height="16dp" android:src="res/drawable-xhdpi-v4/angle_right.png" android:alpha="{4:1058642330}" />
+			</LinearLayout>
+			<LinearLayout android:gravity="0x10" android:orientation="0" android:id="false" android:background="res/drawable/bg_rectangle_only_bottom_ff_stroke_e4.xml" android:layout_width="-1" android:layout_height="50dp">
+				<LinearLayout android:orientation="1" android:layout_width="0dp" android:layout_height="-2" android:layout_marginLeft="15dp" android:layout_weight="{4:1065353216}">
+					<TextView android:textSize="14sp" android:textColor="333333" android:layout_width="-2" android:layout_height="-2" android:text="Receiving card information" android:lines="1" />
+				</LinearLayout>
+				<ImageView android:id="false" android:padding="14dp" android:layout_width="48dp" android:layout_height="48dp" android:layout_marginRight="2dp" android:src="res/drawable-xxhdpi-v4/down_gray.png" />
+			</LinearLayout>
+			<androidx.recyclerview.widget.RecyclerView android:id="false" android:background="ffffff" android:visibility="2" android:layout_width="-1" android:layout_height="-2" />
+			<LinearLayout android:gravity="0x10" android:orientation="0" android:id="false" android:background="res/drawable/bg_rectangle_top_bottom_ff_stroke_e4.xml" android:paddingLeft="15dp" android:paddingRight="15dp" android:layout_width="-1" android:layout_height="50dp" android:layout_marginTop="10dp">
+				<LinearLayout android:orientation="1" android:layout_width="0dp" android:layout_height="-2" android:layout_weight="{4:1065353216}">
+					<TextView android:textSize="14sp" android:textColor="333333" android:layout_width="-2" android:layout_height="-2" android:text="Connection diagram" android:lines="1" />
+				</LinearLayout>
+				<ImageView android:layout_gravity="0x11" android:layout_width="16dp" android:layout_height="16dp" android:src="res/drawable-xhdpi-v4/angle_right.png" android:alpha="{4:1058642330}" />
+			</LinearLayout>
+		</LinearLayout>
+	</androidx.core.widget.NestedScrollView>
+</LinearLayout>

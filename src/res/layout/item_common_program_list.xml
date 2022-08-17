@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:background="res/drawable/selector_item_bg.xml" android:layout_width="-1" android:layout_height="-2">
+	<RelativeLayout android:layout_width="-1" android:layout_height="-2">
+		<ImageView android:id="false" android:layout_width="12dp" android:layout_height="12dp" android:layout_marginLeft="15dp" android:src="res/drawable/shape_circle_00cc99.xml" android:layout_centerVertical="true" android:contentDescription="resourceId:0x0" />
+		<FrameLayout android:orientation="1" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+			<TextView android:textSize="12sp" android:textColor="55000" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="15dp" android:text="01/14" />
+		</FrameLayout>
+		<TextView android:textSize="16sp" android:textColor="cc000" android:ellipsize="3" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="14dp" android:layout_marginTop="15dp" android:layout_marginRight="14dp" android:text="" android:singleLine="true" android:layout_toLeftOf="false" android:layout_toRightOf="false" />
+		<LinearLayout android:gravity="0x10" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="14dp" android:layout_marginTop="3dp" android:layout_marginBottom="15dp" android:layout_toRightOf="false" android:layout_below="false">
+			<TextView android:textSize="12sp" android:textColor="88000" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="1256*1128" />
+			<TextView android:textSize="12sp" android:textColor="33ccff" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="10dp" android:text="No gray" />
+			<TextView android:textSize="12sp" android:textColor="ff990" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="10dp" android:text="Single color" />
+			<TextView android:textSize="12sp" android:textColor="ff66cc" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="10dp" android:text="Ax0" />
+		</LinearLayout>
+	</RelativeLayout>
+	<View android:background="d8d8d8" android:layout_width="-1" android:layout_height="1px" />
+</LinearLayout>

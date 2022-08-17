@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="3399ff" android:layout_width="-1" android:layout_height="-1">
+	<ImageView android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="80dp" android:src="res/drawable-xxhdpi-v4/wifi_white_big.png" android:layout_centerHorizontal="true" />
+	<FrameLayout android:id="false" android:layout_width="-1" android:layout_height="-1" android:layout_marginTop="18dp" android:layout_below="false">
+		<RelativeLayout android:id="false" android:layout_width="-1" android:layout_height="-1">
+			<TextView android:textSize="20sp" android:textColor="ffffff" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="40dp" android:layout_marginRight="40dp" android:text="The device restarted successfully." android:layout_centerHorizontal="true" />
+			<RelativeLayout android:layout_width="280dp" android:layout_height="-1" android:layout_below="false" android:layout_centerHorizontal="true">
+				<TextView android:textSize="15sp" android:textColor="ffffff" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="50dp" android:text="Go to the Wi-Fi settings page of the mobile phone system and reconnect the hotspot named ##SSID. After the connection is successful, return to the APP and click Next to continue the firmware upgrade." />
+				<TextView android:textSize="15sp" android:textColor="ffffff" android:id="false" android:padding="5dp" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="30dp" android:text="Click on the machine" android:layout_below="false" android:layout_alignParentRight="true" />
+			</RelativeLayout>
+		</RelativeLayout>
+		<LinearLayout android:gravity="0x11" android:orientation="1" android:id="false" android:visibility="2" android:layout_width="-1" android:layout_height="-1" android:layout_marginBottom="120dp">
+			<TextView android:textColor="ffffff" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="20dp" />
+			<cn.huidu.view.common.HDLoadingView android:layout_width="50dp" android:layout_height="50dp" android:src="res/drawable-xxhdpi-v4/common_loading_white.png" />
+		</LinearLayout>
+	</FrameLayout>
+	<Button android:textSize="16sp" android:textColor="ffffff" android:id="false" android:background="res/drawable/shape_circle_e17a38.xml" android:layout_width="240dp" android:layout_height="40dp" android:layout_marginTop="10dp" android:layout_marginBottom="20dp" android:text="Next" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+</RelativeLayout>

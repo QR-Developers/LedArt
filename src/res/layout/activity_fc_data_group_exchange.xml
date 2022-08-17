@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:background="f2f2f2" android:layout_width="-1" android:layout_height="-1">
+	<androidx.core.widget.NestedScrollView android:id="false" android:layout_width="-1" android:layout_height="-1" android:fillViewport="true">
+		<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2">
+			<LinearLayout android:orientation="0" android:background="res/drawable/bg_rectangle_only_bottom_ff_stroke_e4.xml" android:layout_width="-1" android:layout_height="40dp">
+				<TextView android:textSize="14sp" android:textColor="333333" android:layout_gravity="0x10" android:layout_width="0dp" android:layout_height="-2" android:layout_marginLeft="15dp" android:layout_marginRight="5dp" android:text="Enable data exchange" android:lines="1" android:layout_weight="{4:1065353216}" />
+				<cn.huidu.view.CustomSwitch android:layout_gravity="0x10" android:id="false" android:layout_width="36dp" android:layout_height="20dp" android:layout_marginRight="15dp" />
+			</LinearLayout>
+			<RelativeLayout android:layout_width="-1" android:layout_height="40dp">
+				<TextView android:textSize="14sp" android:textColor="999999" android:layout_gravity="0x50" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="15dp" android:layout_marginBottom="5dp" android:text="Pin" android:lines="1" android:layout_alignParentBottom="true" />
+			</RelativeLayout>
+			<LinearLayout android:background="res/drawable/cloud_bg_rectangle_top_bottom_ff_stroke_e4.xml" android:layout_width="-1" android:layout_height="-2">
+				<androidx.recyclerview.widget.RecyclerView android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="10dp" android:layout_marginRight="10dp" />
+			</LinearLayout>
+			<RelativeLayout android:layout_width="-1" android:layout_height="40dp">
+				<TextView android:textSize="14sp" android:textColor="999999" android:layout_gravity="0x50" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="15dp" android:layout_marginBottom="5dp" android:text="Quick settings" android:lines="1" android:layout_alignParentBottom="true" />
+			</RelativeLayout>
+			<LinearLayout android:orientation="0" android:id="false" android:background="res/drawable/bg_rectangle_top_bottom_ff_stroke_e4.xml" android:layout_width="-1" android:layout_height="68dp">
+				<RelativeLayout android:id="false" android:layout_width="0dp" android:layout_height="-1" android:layout_weight="{4:1065353216}">
+					<ImageView android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="10dp" android:src="res/drawable-xhdpi-v4/data_no_swap.png" android:layout_centerHorizontal="true" android:rotation="{4:0}" />
+					<TextView android:textSize="14sp" android:textColor="333333" android:layout_width="-2" android:layout_height="-2" android:layout_marginBottom="10dp" android:text="No exchange" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+				</RelativeLayout>
+				<View android:background="e4e4e4" android:layout_width="1px" android:layout_height="-1" />
+				<RelativeLayout android:id="false" android:layout_width="0dp" android:layout_height="-1" android:layout_weight="{4:1065353216}">
+					<ImageView android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="10dp" android:src="res/drawable-xhdpi-v4/data_parity_swap.png" android:layout_centerHorizontal="true" android:rotation="{4:0}" />
+					<TextView android:textSize="14sp" android:textColor="333333" android:layout_width="-2" android:layout_height="-2" android:layout_marginBottom="10dp" android:text="Parity swap" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+				</RelativeLayout>
+				<View android:background="e4e4e4" android:layout_width="1px" android:layout_height="-1" />
+				<RelativeLayout android:id="false" android:layout_width="0dp" android:layout_height="-1" android:layout_weight="{4:1065353216}">
+					<ImageView android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="10dp" android:src="res/drawable-xhdpi-v4/reverse_swap.png" android:layout_centerHorizontal="true" android:rotation="{4:0}" />
+					<TextView android:textSize="14sp" android:textColor="333333" android:layout_width="-2" android:layout_height="-2" android:layout_marginBottom="10dp" android:text="Reverse exchange" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+				</RelativeLayout>
+			</LinearLayout>
+		</LinearLayout>
+	</androidx.core.widget.NestedScrollView>
+</LinearLayout>

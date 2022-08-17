@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="-1" android:layout_height="30dp">
+	<TextView android:textSize="13sp" android:textColor="999999" android:ellipsize="3" android:layout_gravity="0x13" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="16dp" android:text="宋体" android:lines="1" android:layout_marginEnd="16dp" />
+	<cn.huidu.view.PercentProgressView android:layout_gravity="0x15" android:id="false" android:visibility="1" android:layout_width="16dp" android:layout_height="16dp" />
+	<ImageView android:layout_gravity="0x15" android:id="false" android:layout_width="16dp" android:layout_height="16dp" android:src="res/drawable-xxhdpi-v4/sc_text_font_type_selected.png" />
+</FrameLayout>
